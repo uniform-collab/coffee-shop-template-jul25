@@ -1,0 +1,1324 @@
+created: '2025-01-29T11:10:24.46778+00:00'
+modified: '2025-06-25T14:22:03.528436+00:00'
+pattern: false
+entry:
+  _id: 5a050b78-7beb-4792-ba16-ef873018e4f0
+  _name: 'A Proper Cuppa: How to Brew Tea Right'
+  _slug: a-proper-cuppa-how-to-brew-tea-right
+  _thumbnail: >-
+    https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/HtaK34vKQSOZ9raD3yVNcQ-a-proper-cuppa-how-to-brew-tea-right.jpg
+  type: article
+  fields:
+    title:
+      type: text
+      value: 'A Proper Cuppa: How to Brew Tea Right'
+    author:
+      type: contentReference
+      value: ${#jptr:/ref-5a050b78-7beb-4792-ba16-ef873018e4f0-author/entries/0}
+    content:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Tea is a beloved drink worldwide, cherished for its
+                    versatility, variety, and soothing qualities. But to get the
+                    full experience, tea needs to be brewed correctly,
+                    respecting the unique qualities of each type. Whether you’re
+                    a fan of a brisk black tea, a delicate green, or a fragrant
+                    herbal blend, the secret to a satisfying cup is in the
+                    brewing. So, if you’ve ever thought tea was “just okay,”
+                    it’s time to learn how to brew a proper cuppa. Let’s dive in
+                    and discover how to avoid common mistakes and create a cup
+                    that celebrates the essence of each tea.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: quote
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    A great cup of tea doesn’t just happen; it’s crafted with
+                    care and attention to detail.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Why Brewing Temperature and Time Matter
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Each type of tea leaf has specific needs for temperature and
+                    steeping time. Brewing tea with water that’s too hot can
+                    result in bitterness, while using water that’s too cool can
+                    lead to a weak, flavorless cup. The steeping time also
+                    matters—leave the leaves in too long, and you risk
+                    over-extraction, which can create a harsh taste.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - tag: h4
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Tea Types and Brewing Guidelines
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: table
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: tablerow
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Tea Type
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 167
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Water Temperature
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 141
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Steep Time
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Flavor Profile
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                  direction: ltr
+                - type: tablerow
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Green Tea
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 167
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 70-80°C (158-176°F)
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 141
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 1-3 minutes
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Fresh, grassy, slightly sweet
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                  direction: ltr
+                - type: tablerow
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Black Tea
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 167
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 90-100°C (194-212°F)
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 141
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 3-5 minutes
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Bold, robust, sometimes malty
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                  direction: ltr
+                - type: tablerow
+                  format: ''
+                  height: 89
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: White Tea
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 167
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 75-85°C (167-185°F)
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 141
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 2-4 minutes
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Delicate, light, with subtle floral notes
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                  direction: ltr
+                - type: tablerow
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Oolong Tea
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 167
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 80-90°C (176-194°F)
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 141
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 3-5 minutes
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Complex, floral, sometimes fruity
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                  direction: ltr
+                - type: tablerow
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Herbal Tea
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 167
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 95-100°C (203-212°F)
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 141
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 5-7 minutes
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Varies widely, often fragrant and soothing
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                  direction: ltr
+              direction: ltr
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Brewing Tips for Each Tea Type
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: asset
+              __asset:
+                _id: a7646f66-7e7f-4d0c-83b4-9bb489abb78c
+                type: image
+                fields:
+                  id:
+                    type: text
+                    value: 68efee09-55b0-49ba-ba11-6386b556092d
+                  url:
+                    value: >-
+                      https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/bIohpy8nS_yjzMv_vyiOpQ-why-brewing-temperature-and-time-matter.jpg
+                    type: text
+                  file:
+                    type: file
+                    value: 8db0a153-a953-4ca8-aa3e-c1408858ecd1
+                  size:
+                    value: 1268619
+                    type: number
+                  title:
+                    type: text
+                    value: why-brewing-temperature-and-time-matter.jpg
+                  width:
+                    value: 4017
+                    type: number
+                  height:
+                    value: 2661
+                    type: number
+                  mediaType:
+                    value: image/jpeg
+                    type: text
+                _source: uniform-assets
+              version: 1
+            - tag: h4
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Green Tea
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Green tea requires a lower water temperature to preserve its
+                    delicate flavors.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: Water that’s too hot can make it taste bitter and harsh
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: >-
+                    . Steep for 1-3 minutes, tasting as you go to find the right
+                    balance of flavor and strength.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - tag: h4
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Black Tea
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Black tea is more forgiving when it comes to water
+                    temperature and steeping time, but to avoid bitterness,
+                    stick within the recommended range. For an extra robust
+                    flavor, steep closer to 5 minutes.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - tag: h4
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: White Tea
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    White tea is delicate and requires a gentle touch. Use
+                    slightly cooler water and a shorter steep time to enjoy its
+                    subtle, floral notes. This tea is best appreciated without
+                    milk or sugar to let its natural flavor shine.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - tag: h4
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Oolong Tea
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Oolong is a partially fermented tea, sitting somewhere
+                    between green and black tea. It benefits from a slightly
+                    longer steep time to bring out its layered flavors. Steep
+                    for 3-5 minutes, and you’ll experience a cup with floral,
+                    fruity, and sometimes earthy notes.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - tag: h4
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Herbal Tea
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Herbal teas aren’t technically “tea” (since they don’t come
+                    from the tea plant), but they follow their own rules. These
+                    blends are often brewed at boiling temperatures, and a
+                    longer steep time is needed to release the herbal flavors
+                    fully.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Expert Tips for the Perfect Cuppa
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - tag: ol
+              type: list
+              start: 1
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: listitem
+                  value: 1
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Use Fresh, Filtered Water
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: >-
+                        : Tap water can contain minerals that affect tea’s
+                        taste. Opt for filtered water to bring out the best in
+                        each type.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 2
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Measure Your Tea Leaves
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: >-
+                        : Too much or too little tea can throw off the balance.
+                        Generally, use
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                    - mode: normal
+                      text: one teaspoon per cup
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' for loose-leaf teas, or follow the instructions for tea bags.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 3
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Pre-Warm Your Teapot or Cup
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: >-
+                        : Pour a little hot water into your teapot or cup before
+                        brewing. This keeps the tea from cooling down too
+                        quickly, allowing for a more consistent brewing
+                        temperature.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 4
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Experiment with Milk and Sweeteners Carefully
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: >-
+                        : For some teas, milk and sugar can enhance the flavor,
+                        while others are best enjoyed plain. Black teas are
+                        often complemented by milk, while green and white teas
+                        are typically enjoyed without any additions.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+              listType: number
+              direction: ltr
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Final Thoughts
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Brewing tea is an art form, one that requires just a bit of
+                    attention to unlock its full potential. By adjusting the
+                    water temperature and steep time based on the type of tea,
+                    you’ll elevate your tea experience from “meh” to marvelous.
+                    Remember, each type of tea has its own personality, and
+                    learning how to bring out its best qualities can make all
+                    the difference.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: quote
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    A proper cup of tea is a simple pleasure, yet a masterpiece
+                    of patience and care.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    So, whether you’re starting your morning with a bold black
+                    tea or winding down with a calming herbal blend, take a
+                    moment to honor the ritual of brewing. With a bit of
+                    practice, you’ll soon master the art of the perfect
+                    cuppa—and never settle for a subpar brew again.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Enjoy your tea time!
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 1
+          direction: ltr
+    ogImage:
+      type: asset
+      locales:
+        en:
+          - _id: ee5e5d87-14c6-4363-81ed-e3f18525d7e2
+            type: image
+            fields:
+              id:
+                type: text
+                value: ed66c8bd-781a-4287-992c-4cc72b2dd05f
+              url:
+                value: >-
+                  https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/HtaK34vKQSOZ9raD3yVNcQ-a-proper-cuppa-how-to-brew-tea-right.jpg
+                type: text
+              file:
+                type: file
+                value: aa13ba9e-d1eb-4ae3-9e31-b5c921d2f883
+              size:
+                value: 3906323
+                type: number
+              title:
+                type: text
+                value: a-proper-cuppa-how-to-brew-tea-right.jpg
+              width:
+                value: 7008
+                type: number
+              height:
+                value: 4672
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+            _source: uniform-assets
+    category:
+      type: contentReference
+      value: ${#jptr:/ref-5a050b78-7beb-4792-ba16-ef873018e4f0-category/entries/0}
+    metaTitle:
+      type: text
+      locales:
+        en: 'A Proper Cuppa: How to Brew Tea Right'
+    thumbnail:
+      type: asset
+      locales:
+        en:
+          - _id: c1ee2d09-4b75-4f43-96f4-f8132f5449c5
+            type: image
+            fields:
+              id:
+                type: text
+                value: ed66c8bd-781a-4287-992c-4cc72b2dd05f
+              url:
+                value: >-
+                  https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/HtaK34vKQSOZ9raD3yVNcQ-a-proper-cuppa-how-to-brew-tea-right.jpg
+                type: text
+              file:
+                type: file
+                value: 718e598d-58b1-4f5f-a37d-d495b1a069f5
+              size:
+                value: 3906323
+                type: number
+              title:
+                type: text
+                value: a-proper-cuppa-how-to-brew-tea-right.jpg
+              width:
+                value: 7008
+                type: number
+              height:
+                value: 4672
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+            _source: uniform-assets
+    enrichments:
+      type: $enr
+      value:
+        - cat: topic
+          key: tea
+          str: 5
+    publishDate:
+      type: date
+      value: '2025-03-13'
+    metaDescription:
+      type: text
+      locales:
+        en: >-
+          Tea is awesome, but only if its properly brewed and made according to
+          the type of tea it is. Don’t mess it up.
+    shortDescription:
+      type: text
+      value: >-
+        Tea is awesome, but only if its properly brewed and made according to
+        the type of tea it is. Don’t mess it up.
+  _dataResources:
+    ref-5a050b78-7beb-4792-ba16-ef873018e4f0-author:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 3c1cdfc4-9e1f-40dc-bb27-b3d88492520d
+    ref-5a050b78-7beb-4792-ba16-ef873018e4f0-category:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: bec8d216-984a-48b9-867c-f7a38d9e7fa6
+  _locales:
+    - en

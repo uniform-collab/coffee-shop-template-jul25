@@ -1,0 +1,62 @@
+created: '2025-04-24T11:37:29.618755+00:00'
+modified: '2025-04-24T11:37:29.618755+00:00'
+pattern: false
+entry:
+  _id: 89ff9053-0c46-4c5d-be39-6d24907ba240
+  _name: Espresso
+  _slug: espresso
+  _thumbnail: >-
+    https://img.uniform.global/p/DCdo4LRJTZWl21CYeUJNPg/ZwbaTrvwRoS1bsXNsvOQ9Q-espresso.png
+  type: productCategory
+  fields:
+    logo:
+      type: asset
+      value: []
+      locales:
+        en:
+          - _id: d83c1f1a-a296-4598-8f50-b248252692bb
+            type: image
+            fields:
+              id:
+                type: text
+                value: 6fcaebdd-fc1e-4d95-b6b8-6baae692dd8f
+              url:
+                value: >-
+                  https://img.uniform.global/p/9VlMgIbZQQKI2wzV-L0jow/RtrcxNYhQ0yNiPz7rluNNA-espresso.png
+                type: text
+              file:
+                type: file
+                value: 1aedf6f8-1eac-42d1-b8cd-d494c4cc8c95
+              size:
+                value: 1044174
+                type: number
+              title:
+                type: text
+                value: espresso.png
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/png
+                type: text
+            _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en: Espresso
+    description:
+      type: text
+      locales:
+        en: >-
+          Dive into the world of rich, concentrated coffee with our premium
+          selection of espresso products. From high-quality espresso beans to
+          top-of-the-line machines, we provide everything you need to create the
+          perfect shot of espresso. Known for its intense flavor and velvety
+          crema, espresso is the heart of many beloved coffee beverages. Explore
+          our range and discover how you can enjoy café-quality espresso in the
+          comfort of your own home.
+  _locales:
+    - en

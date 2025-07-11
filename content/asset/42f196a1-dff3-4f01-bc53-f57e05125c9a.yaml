@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 42f196a1-dff3-4f01-bc53-f57e05125c9a
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: favourite-icon.svg
+    file:
+      type: file
+      value: 5b6bbc81-cd4f-4e8e-9b96-5a3bb9aa68af
+    mediaType:
+      value: image/svg+xml
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/DCdo4LRJTZWl21CYeUJNPg/WwDswOsuRqWSXiB5U1Qleg-favourite-icon.svg
+      type: text
+    size:
+      value: 690
+      type: number
+    width:
+      value: 24
+      type: number
+    height:
+      value: 24
+      type: number
+    custom: {}
+created: '2025-04-24T11:23:52.68909+00:00'
+modified: '2025-04-24T11:23:52.68909+00:00'

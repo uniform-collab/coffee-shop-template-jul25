@@ -1,0 +1,1492 @@
+composition:
+  _name: Cervello di Caffè Landing Page
+  _id: bc297e5f-25b7-46f3-9404-558a719fb9dd
+  _slug: landing-page
+  type: page
+  _overrides:
+    253a3bc8-43d3-4e32-936e-8999079d9ac4:
+      parameters:
+        displayName:
+          type: text
+          value: Recommended accessories for Cervello di Caffè
+    52c2c96a-ab48-4dc4-8cc4-f1d4b7fa26f0:
+      parameters:
+        link:
+          type: link
+          locales:
+            en:
+              path: /${locale}/coffee-makers
+              type: projectMapNode
+              nodeId: c9869cee-a65c-4064-b296-78c4a5ba4ffc
+              projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+              dynamicInputValues:
+                locale: ${locale}
+        text:
+          type: text
+          value: SHOP COFFEE MAKERS
+    bc297e5f-25b7-46f3-9404-558a719fb9dd:
+      parameters:
+        pageTitle:
+          type: text
+          value: Cervello di Caffè - The ultimate AI-powered espresso
+        openGraphType:
+          type: select
+          value: website
+        openGraphImage:
+          type: asset
+          value:
+            - _id: cb7cd05d-17e2-4dd4-a9e2-e083c4f97570
+              type: image
+              fields:
+                id:
+                  type: text
+                  value: 7f6474dd-2e56-4448-83ea-289f729472a2
+                url:
+                  value: >-
+                    https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/ALfnAC7-QlKI7yHwO5F7MQ-landing-page-og-image.png
+                  type: text
+                file:
+                  type: file
+                  value: 0a0caeb2-d2d3-4b64-8dce-a531c404b493
+                size:
+                  value: 757648
+                  type: number
+                title:
+                  type: text
+                  value: landing-page-og-image.png
+                width:
+                  value: 1808
+                  type: number
+                height:
+                  value: 908
+                  type: number
+                mediaType:
+                  value: image/png
+                  type: text
+              _source: uniform-assets
+        openGraphTitle:
+          type: text
+          value: Cervello di Caffè - The ultimate AI-powered espresso
+        pageDescription:
+          type: text
+          value: >-
+            Combining the greatest traditions with cutting edge technology, the
+            Cervello di Caffè puts decades of coffee experience at your
+            fingertips. By learning your tastes and assessing the beans, the
+            smart barista adjusts the grind, pressure and length of each
+            espresso shot to make sure it’s perfect every time.
+        openGraphDescription:
+          type: text
+          value: >-
+            Combining the greatest traditions with cutting edge technology, the
+            Cervello di Caffè puts decades of coffee experience at your
+            fingertips. By learning your tastes and assessing the beans, the
+            smart barista adjusts the grind, pressure and length of each
+            espresso shot to make sure it’s perfect every time.
+    253a3bc8-43d3-4e32-936e-8999079d9ac4|46da22a2-ba9a-4d15-b626-d893fe0fc748:
+      parameters:
+        text:
+          type: text
+          value: Recommended accessories for Cervello di Caffè
+    85e3b1e8-69c0-484c-9336-8406e14a2c3c|fa933a66-ceec-4443-bf4b-2ea8ddd1aba2:
+      parameters:
+        link:
+          type: link
+          locales:
+            en:
+              path: /${locale}/products/cervello-di-caffe-140
+              type: projectMapNode
+              nodeId: 702b0e0b-3858-4b5d-99e4-bdb98097ca0f
+              projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+              dynamicInputValues:
+                locale: ${locale}
+                product-slug: cervello-di-caffe-140
+        text:
+          type: text
+          value: SEE PRODUCT DETAILS
+    bc297e5f-25b7-46f3-9404-558a719fb9dd|dc2e95be-21b5-4476-a309-f8a34922f528:
+      slots:
+        $slotSectionItems:
+          - _id: c93c8f9f-4ff0-4ed9-85b1-dfd37f01fbc0
+            type: featuredSection
+            _pattern: d7181e81-f3d1-4e21-af6f-1e73c8dfa6b5
+            _overridability:
+              parameters:
+                displayName: 'yes'
+                contentBackgroundColor: 'yes'
+              hideLockedParameters: true
+          - _id: 85e3b1e8-69c0-484c-9336-8406e14a2c3c
+            type: section
+            slots:
+              sectionCTA:
+                - _id: >-
+                    85e3b1e8-69c0-484c-9336-8406e14a2c3c|fa933a66-ceec-4443-bf4b-2ea8ddd1aba2
+                  type: button
+                  _pattern: 646faee6-b476-43c6-a1a8-eebe85699889
+                  _overridability:
+                    variants: true
+                    parameters:
+                      link: 'yes'
+                      text: 'yes'
+                      fullWidth: 'yes'
+                      textColor: 'no'
+                    hideLockedParameters: true
+              sectionMedia:
+                - _id: >-
+                    85e3b1e8-69c0-484c-9336-8406e14a2c3c|3cef9a4a-f0c8-4eeb-a855-a28fd1335351
+                  type: image
+                  parameters:
+                    fill:
+                      type: checkbox
+                      value: true
+                    image:
+                      type: asset
+                      value:
+                        - _id: 29e49cf8-dc20-422f-850a-5a0d5a1ef813
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: c38a6695-b6bc-41cd-a6b3-33ae76b95c60
+                            url:
+                              value: >-
+                                https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/MG4eIkFbQYatOWgC5jujug-cervello-di-caffe-the-ultimate-ai-powered-espresso.png
+                              type: text
+                            file:
+                              type: file
+                              value: 2009c77a-f6d7-4a59-8f22-85401779f4cf
+                            size:
+                              value: 238075
+                              type: number
+                            title:
+                              type: text
+                              value: >-
+                                cervello-di-caffe-the-ultimate-ai-powered-espresso.png
+                            width:
+                              value: 1500
+                              type: number
+                            height:
+                              value: 1500
+                              type: number
+                            mediaType:
+                              value: image/png
+                              type: text
+                          _source: uniform-assets
+                    objectFit:
+                      type: dex-segmented-control-parameter
+                      value: cover
+                  _overridability:
+                    parameters:
+                      image: 'yes'
+                    hideLockedParameters: true
+              sectionContent:
+                - _id: >-
+                    85e3b1e8-69c0-484c-9336-8406e14a2c3c|5af03d0f-f208-4370-a77e-86dc0c60c0e1
+                  type: flex
+                  slots:
+                    flexItem:
+                      - _id: >-
+                          85e3b1e8-69c0-484c-9336-8406e14a2c3c|74170e2f-021f-4f8c-85dd-885af205a737
+                        type: text
+                        parameters:
+                          tag:
+                            type: dex-segmented-control-parameter
+                            value: span
+                          size:
+                            type: dex-segmented-control-parameter
+                            value:
+                              mobile: 3xl
+                              tablet: 4xl
+                              desktop: 4xl
+                          text:
+                            type: text
+                            value: "Cervello di Caffè - The ultimate\rAI-powered espresso"
+                          color:
+                            type: dex-color-palette-parameter
+                            value: text-primary
+                          weight:
+                            type: dex-segmented-control-parameter
+                            value: bold
+                          alignment:
+                            type: dex-segmented-control-parameter
+                            value: left
+                        _overridability:
+                          parameters:
+                            text: 'yes'
+                          hideLockedParameters: true
+                  parameters:
+                    gap:
+                      type: dex-slider-control-parameter
+                      value:
+                        mobile: '4'
+                        tablet: '4'
+                        desktop: '4'
+                    spacing:
+                      type: dex-space-control-parameter
+                      value:
+                        mobile: {}
+                        tablet:
+                          marginLeft: container-large
+                        desktop:
+                          marginLeft: container-large
+                    direction:
+                      type: dex-segmented-control-parameter
+                      value:
+                        mobile: col
+                        tablet: col
+                        desktop: col
+                    alignItems:
+                      type: dex-segmented-control-parameter
+                      value: {}
+                    displayName:
+                      type: text
+                      value: Content
+                    justifyContent:
+                      type: dex-segmented-control-parameter
+                      value: {}
+                  _overridability:
+                    hideLockedParameters: true
+            variant: columns
+            parameters:
+              spacing:
+                type: dex-space-control-parameter
+                value:
+                  paddingTop: container-large
+                  paddingBottom: container-small
+              displayName:
+                type: text
+                value: "Cervello di Caffè - The ultimate\rAI-powered espresso"
+              contentAlignment:
+                type: dex-segmented-control-parameter
+                value: center
+            _overridability:
+              parameters:
+                spacing: 'yes'
+                displayName: 'yes'
+                fluidContent: 'yes'
+              hideLockedParameters: true
+          - _id: 2a863c22-b40c-4bd3-bc2e-bbed3c2e07e5
+            type: container
+            slots:
+              containerContent:
+                - _id: 3304ab8b-8ef6-4479-925c-cc730efbf819
+                  type: divider
+                  parameters:
+                    color:
+                      type: dex-color-palette-parameter
+                      value: general-color-12
+                    width:
+                      type: dex-slider-control-parameter
+                      value: 100%
+                    alignment:
+                      type: dex-segmented-control-parameter
+                      value: center
+                    thickness:
+                      type: dex-slider-control-parameter
+                      value: 1px
+            parameters:
+              displayName:
+                type: text
+                value: Divider
+          - _id: fa639894-b804-45a5-ab45-578bb927e4ba
+            type: section
+            slots:
+              sectionContent:
+                - _id: 108425d0-b5c7-4fd4-91c8-722f609f01a2
+                  type: flex
+                  slots:
+                    flexItem:
+                      - _id: e719a3bd-8540-45dc-a4df-0b98c8a6d70b
+                        type: text
+                        parameters:
+                          tag:
+                            type: dex-segmented-control-parameter
+                            value: span
+                          size:
+                            type: dex-segmented-control-parameter
+                            value:
+                              mobile: 6xl
+                              tablet: 4xl
+                              desktop: 4xl
+                          text:
+                            type: text
+                            value: Taste the future
+                          weight:
+                            type: dex-segmented-control-parameter
+                            value: bold
+                      - _id: c6d0a9cc-1830-45bb-93db-78503dfe742f
+                        type: text
+                        parameters:
+                          tag:
+                            type: dex-segmented-control-parameter
+                            value: span
+                          size:
+                            type: dex-segmented-control-parameter
+                            value:
+                              mobile: sm
+                              tablet: lg
+                              desktop: xl
+                          text:
+                            type: text
+                            value: "Combining the greatest traditions with cutting edge technology, the Cervello di Caffè\rputs decades of coffee experience at your fingertips. By learning your tastes and assessing the beans, the smart barista adjusts the grind, pressure and length of each\respresso shot to make sure it’s perfect every time."
+                          weight:
+                            type: dex-segmented-control-parameter
+                            value: normal
+                          alignment:
+                            type: dex-segmented-control-parameter
+                            value: center
+                  parameters:
+                    gap:
+                      type: dex-slider-control-parameter
+                      value:
+                        mobile: '4'
+                    spacing:
+                      type: dex-space-control-parameter
+                      value:
+                        mobile: {}
+                        tablet: {}
+                        desktop: {}
+                    direction:
+                      type: dex-segmented-control-parameter
+                      value:
+                        mobile: col
+                        tablet: col
+                        desktop: col
+                    alignItems:
+                      type: dex-segmented-control-parameter
+                      value:
+                        mobile: center
+                    displayName:
+                      type: text
+                      locales:
+                        en: Container
+                    fluidContent:
+                      type: checkbox
+                      value: true
+                    justifyContent:
+                      type: dex-segmented-control-parameter
+                      value:
+                        mobile: center
+            parameters:
+              spacing:
+                type: dex-space-control-parameter
+                value:
+                  mobile:
+                    paddingTop: container-small
+                    paddingBottom: container-small
+                  tablet:
+                    paddingTop: container-medium
+                    paddingLeft: container-large
+                    paddingRight: container-large
+                    paddingBottom: container-small
+                  desktop:
+                    paddingTop: container-medium
+                    paddingLeft: container-large
+                    paddingRight: container-large
+                    paddingBottom: container-small
+              displayName:
+                type: text
+                value: Taste the future
+              contentAlignment:
+                type: dex-segmented-control-parameter
+                value: center
+          - _id: a21941fd-d910-417e-be16-8a3440b3d33c
+            type: section
+            slots:
+              sectionMedia:
+                - _id: a0d427e9-79b0-4fca-9a04-f0d348f7c581
+                  type: image
+                  parameters:
+                    fill:
+                      type: checkbox
+                      value: true
+                    image:
+                      type: asset
+                      value:
+                        - _id: 8662fef4-1acd-468e-93bc-4ea2e2a0f1e9
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: 9fb5731d-8860-4d47-805d-ef8ad3132c19
+                            url:
+                              value: >-
+                                https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/yL4BtHoOQz6TgFtvJu72pg-cervello-di-caffe-the-ultimate-ai-powered-espresso-01.png
+                              type: text
+                            file:
+                              type: file
+                              value: fa11a397-bc47-4f51-930c-6ec12b6de472
+                            size:
+                              value: 1191164
+                              type: number
+                            title:
+                              type: text
+                              value: >-
+                                cervello-di-caffe-the-ultimate-ai-powered-espresso-01.png
+                            width:
+                              value: 1600
+                              type: number
+                            height:
+                              value: 1067
+                              type: number
+                            mediaType:
+                              value: image/png
+                              type: text
+                          _source: uniform-assets
+                    objectFit:
+                      type: dex-segmented-control-parameter
+                      value: cover
+                  _overridability:
+                    parameters:
+                      image: 'yes'
+                    hideLockedParameters: true
+              sectionContent:
+                - _id: e5b9404c-4616-41c2-a836-0f8453523dee
+                  type: flex
+                  slots:
+                    flexItem:
+                      - _id: db58483d-7bb8-4406-9299-75f313cd689c
+                        type: text
+                        parameters:
+                          tag:
+                            type: dex-segmented-control-parameter
+                            value: span
+                          size:
+                            type: dex-segmented-control-parameter
+                            value:
+                              mobile: 3xl
+                              tablet: 4xl
+                              desktop: 4xl
+                          text:
+                            type: text
+                            value: >
+                              AI-optimized grinding and delivery ensures that
+                              every coffee is just how you like it
+                          color:
+                            type: dex-color-palette-parameter
+                            value: text-primary
+                          weight:
+                            type: dex-segmented-control-parameter
+                            value: bold
+                          alignment:
+                            type: dex-segmented-control-parameter
+                            value: center
+                        _overridability:
+                          parameters:
+                            text: 'yes'
+                          hideLockedParameters: true
+                      - _id: 42c84f80-22ef-4ffc-81fa-1329c2c95b0a
+                        type: text
+                        parameters:
+                          tag:
+                            type: dex-segmented-control-parameter
+                            value: span
+                          size:
+                            type: dex-segmented-control-parameter
+                            value: {}
+                          text:
+                            type: text
+                            value: >-
+                              Not everyone has decades of experience selecting,
+                              roasting and grinding coffee - but that doesn’t
+                              mean they don’t deserve a perfect espresso every
+                              time. That’s why we’ve worked with the industry’s
+                              top experts to create an AI system that gives you
+                              the coffee you deserve.
+                          weight:
+                            type: dex-segmented-control-parameter
+                            value: normal
+                  parameters:
+                    gap:
+                      type: dex-slider-control-parameter
+                      value:
+                        mobile: '4'
+                        tablet: '4'
+                        desktop: '8'
+                    spacing:
+                      type: dex-space-control-parameter
+                      value:
+                        mobile: {}
+                        tablet:
+                          marginLeft: container-large
+                        desktop:
+                          marginRight: container-large
+                    direction:
+                      type: dex-segmented-control-parameter
+                      value:
+                        mobile: col
+                        tablet: col
+                        desktop: col
+                    alignItems:
+                      type: dex-segmented-control-parameter
+                      value: {}
+                    displayName:
+                      type: text
+                      value: Content
+                    justifyContent:
+                      type: dex-segmented-control-parameter
+                      value: {}
+                  _overridability:
+                    hideLockedParameters: true
+            variant: columnsReverse
+            parameters:
+              spacing:
+                type: dex-space-control-parameter
+                value:
+                  paddingTop: container-medium
+                  paddingBottom: container-medium
+              displayName:
+                type: text
+                value: >-
+                  AI-optimized grinding and delivery ensures that every coffee
+                  is just how you like it
+              contentAlignment:
+                type: dex-segmented-control-parameter
+                value: center
+            _overridability:
+              parameters:
+                spacing: 'yes'
+                displayName: 'yes'
+                fluidContent: 'yes'
+              hideLockedParameters: true
+          - _id: 1e7adcb3-20ac-4e92-bf2b-a181430df51e
+            type: section
+            slots:
+              sectionMedia:
+                - _id: 86c750c7-69d2-4a8b-b30f-c6630d199bfe
+                  type: image
+                  parameters:
+                    fill:
+                      type: checkbox
+                      value: true
+                    image:
+                      type: asset
+                      value:
+                        - _id: 29e49cf8-dc20-422f-850a-5a0d5a1ef813
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: c38a6695-b6bc-41cd-a6b3-33ae76b95c60
+                            url:
+                              value: >-
+                                https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/MG4eIkFbQYatOWgC5jujug-cervello-di-caffe-the-ultimate-ai-powered-espresso.png
+                              type: text
+                            file:
+                              type: file
+                              value: 2009c77a-f6d7-4a59-8f22-85401779f4cf
+                            size:
+                              value: 238075
+                              type: number
+                            title:
+                              type: text
+                              value: >-
+                                cervello-di-caffe-the-ultimate-ai-powered-espresso.png
+                            width:
+                              value: 1500
+                              type: number
+                            height:
+                              value: 1500
+                              type: number
+                            mediaType:
+                              value: image/png
+                              type: text
+                          _source: uniform-assets
+                    objectFit:
+                      type: dex-segmented-control-parameter
+                      value: cover
+                  _overridability:
+                    parameters:
+                      image: 'yes'
+                    hideLockedParameters: true
+              sectionContent:
+                - _id: 0eee2eec-1b76-4a65-bd36-d712af568bd2
+                  type: flex
+                  slots:
+                    flexItem:
+                      - _id: a2444446-3139-42f1-8bb3-1962646b246f
+                        type: text
+                        parameters:
+                          tag:
+                            type: dex-segmented-control-parameter
+                            value: span
+                          size:
+                            type: dex-segmented-control-parameter
+                            value:
+                              mobile: 3xl
+                              tablet: 4xl
+                              desktop: 4xl
+                          text:
+                            type: text
+                            value: |
+                              Four user profiles for full taste customization
+                          color:
+                            type: dex-color-palette-parameter
+                            value: text-primary
+                          weight:
+                            type: dex-segmented-control-parameter
+                            value: bold
+                          alignment:
+                            type: dex-segmented-control-parameter
+                            value: center
+                        _overridability:
+                          parameters:
+                            text: 'yes'
+                          hideLockedParameters: true
+                      - _id: 1dba9e42-6439-4505-b94f-7c3a2cd74e9e
+                        type: text
+                        parameters:
+                          tag:
+                            type: dex-segmented-control-parameter
+                            value: span
+                          size:
+                            type: dex-segmented-control-parameter
+                            value:
+                              mobile: sm
+                              tablet: lg
+                              desktop: xl
+                          text:
+                            type: text
+                            value: >-
+                              You may love your family more than anything, but
+                              that doesn’t mean you love your coffee the same
+                              way. The Cervello di Caffè stores up to four taste
+                              profiles, which are applied automatically when you
+                              use your app or voice assistant to start the
+                              brewing process or can be set manually on the
+                              machine.
+                          color:
+                            type: dex-color-palette-parameter
+                            value: text-primary
+                          weight:
+                            type: dex-segmented-control-parameter
+                            value: normal
+                          alignment:
+                            type: dex-segmented-control-parameter
+                            value: center
+                  parameters:
+                    gap:
+                      type: dex-slider-control-parameter
+                      value:
+                        mobile: '4'
+                        tablet: '4'
+                        desktop: '4'
+                    spacing:
+                      type: dex-space-control-parameter
+                      value:
+                        mobile: {}
+                        tablet:
+                          marginLeft: container-large
+                        desktop:
+                          marginLeft: container-large
+                    direction:
+                      type: dex-segmented-control-parameter
+                      value:
+                        mobile: col
+                        tablet: col
+                        desktop: col
+                    alignItems:
+                      type: dex-segmented-control-parameter
+                      value:
+                        mobile: center
+                        tablet: center
+                        desktop: center
+                    displayName:
+                      type: text
+                      value: Content
+                    justifyContent:
+                      type: dex-segmented-control-parameter
+                      value: {}
+                  _overridability:
+                    hideLockedParameters: true
+            variant: columns
+            parameters:
+              spacing:
+                type: dex-space-control-parameter
+                value:
+                  paddingTop: container-medium
+                  paddingBottom: container-medium
+              displayName:
+                type: text
+                value: |
+                  Four user profiles for full taste customization
+              contentAlignment:
+                type: dex-segmented-control-parameter
+                value: center
+            _overridability:
+              parameters:
+                spacing: 'yes'
+                displayName: 'yes'
+                fluidContent: 'yes'
+              hideLockedParameters: true
+          - _id: 767761f0-e43d-4f62-b4a2-8d74db9bb9f9
+            type: section
+            slots:
+              sectionMedia:
+                - _id: b64ee010-e995-4125-8e9a-3e7a4051c01e
+                  type: image
+                  parameters:
+                    fill:
+                      type: checkbox
+                      value: true
+                    image:
+                      type: asset
+                      value:
+                        - _id: f63796db-2071-432f-9f1b-853196b4698c
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: d2ea8c51-5031-448b-866b-82920bb34406
+                            url:
+                              value: >-
+                                https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/Bh7ijl-RQjaiJq_RRqW55w-cervello-di-caffe-the-ultimate-ai-powered-espresso-02.png
+                              type: text
+                            file:
+                              type: file
+                              value: acb30b6b-2cff-4f59-b2cb-0460d4c829e7
+                            size:
+                              value: 2429811
+                              type: number
+                            title:
+                              type: text
+                              value: >-
+                                cervello-di-caffe-the-ultimate-ai-powered-espresso-02.png
+                            width:
+                              value: 1600
+                              type: number
+                            height:
+                              value: 1016
+                              type: number
+                            mediaType:
+                              value: image/png
+                              type: text
+                          _source: uniform-assets
+                    objectFit:
+                      type: dex-segmented-control-parameter
+                      value: cover
+                  _overridability:
+                    parameters:
+                      image: 'yes'
+                    hideLockedParameters: true
+              sectionContent:
+                - _id: 8d4bfc32-4472-4e77-b55d-5ddf546ed905
+                  type: flex
+                  slots:
+                    flexItem:
+                      - _id: 35029db7-2f1e-4b96-a16e-e9d18ba20c7e
+                        type: text
+                        parameters:
+                          tag:
+                            type: dex-segmented-control-parameter
+                            value: span
+                          size:
+                            type: dex-segmented-control-parameter
+                            value:
+                              mobile: 3xl
+                              tablet: 4xl
+                              desktop: 4xl
+                          text:
+                            type: text
+                            value: "12oz. bean hopper that grinds the\rexact amount needed, for optimum freshness\n\n"
+                          color:
+                            type: dex-color-palette-parameter
+                            value: text-primary
+                          weight:
+                            type: dex-segmented-control-parameter
+                            value: bold
+                          alignment:
+                            type: dex-segmented-control-parameter
+                            value: center
+                        _overridability:
+                          parameters:
+                            text: 'yes'
+                          hideLockedParameters: true
+                      - _id: 15fcfd32-24fe-437e-bfff-931892ae8a73
+                        type: text
+                        parameters:
+                          tag:
+                            type: dex-segmented-control-parameter
+                            value: span
+                          size:
+                            type: dex-segmented-control-parameter
+                            value:
+                              mobile: sm
+                              tablet: lg
+                              desktop: xl
+                          text:
+                            type: text
+                            value: >-
+                              Everyone knows that freshly-ground coffee gives
+                              you the ultimate experience, especially when
+                              combined with our AI-powered ceramic burr grinder.
+                              The hopper is big enough to keep a standard bag of
+                              beans vacuum-sealed for freshness, but not so big
+                              you need to worry about them going stale.
+                          weight:
+                            type: dex-segmented-control-parameter
+                            value: normal
+                          alignment:
+                            type: dex-segmented-control-parameter
+                            value: center
+                  parameters:
+                    gap:
+                      type: dex-slider-control-parameter
+                      value:
+                        mobile: '4'
+                        tablet: '4'
+                        desktop: '8'
+                    spacing:
+                      type: dex-space-control-parameter
+                      value:
+                        mobile: {}
+                        tablet:
+                          marginLeft: container-large
+                        desktop:
+                          marginRight: container-large
+                    direction:
+                      type: dex-segmented-control-parameter
+                      value:
+                        mobile: col
+                        tablet: col
+                        desktop: col
+                    alignItems:
+                      type: dex-segmented-control-parameter
+                      value: {}
+                    displayName:
+                      type: text
+                      value: Content
+                    justifyContent:
+                      type: dex-segmented-control-parameter
+                      value: {}
+                  _overridability:
+                    hideLockedParameters: true
+            variant: columnsReverse
+            parameters:
+              spacing:
+                type: dex-space-control-parameter
+                value:
+                  paddingTop: container-medium
+                  paddingBottom: container-medium
+              displayName:
+                type: text
+                value: >-
+                  AI-optimized grinding and delivery ensures that every coffee
+                  is just how you like it
+              contentAlignment:
+                type: dex-segmented-control-parameter
+                value: center
+            _overridability:
+              parameters:
+                spacing: 'yes'
+                displayName: 'yes'
+                fluidContent: 'yes'
+              hideLockedParameters: true
+          - _id: 00b1a1d1-6e43-4ed6-a10a-300d38b56e0e
+            type: section
+            slots:
+              sectionMedia:
+                - _id: d1ba6c88-5629-46cd-a587-a68932743ea9
+                  type: image
+                  parameters:
+                    fill:
+                      type: checkbox
+                      value: true
+                    image:
+                      type: asset
+                      value:
+                        - _id: 185bf64e-728b-4670-94bc-454aa20f52de
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: 6c591246-7f69-48fc-8155-992f24408d46
+                            url:
+                              value: >-
+                                https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/WH8e4D7fRUuHTigJPr-pRA-cervello-di-caffe-the-ultimate-ai-powered-espresso-03.jpeg
+                              type: text
+                            file:
+                              type: file
+                              value: 49af8d88-5a7e-4edf-9726-1477ed953cc0
+                            size:
+                              value: 131441
+                              type: number
+                            title:
+                              type: text
+                              value: >-
+                                cervello-di-caffe-the-ultimate-ai-powered-espresso-03.jpeg
+                            width:
+                              value: 1224
+                              type: number
+                            height:
+                              value: 872
+                              type: number
+                            mediaType:
+                              value: image/jpeg
+                              type: text
+                          _source: uniform-assets
+                    objectFit:
+                      type: dex-segmented-control-parameter
+                      value: cover
+                  _overridability:
+                    parameters:
+                      image: 'yes'
+                    hideLockedParameters: true
+              sectionContent:
+                - _id: 1da9748c-e4f2-4064-b28f-bbdc073dd2ea
+                  type: flex
+                  slots:
+                    flexItem:
+                      - _id: 50c32515-52ef-449a-92c0-a7473f1a7872
+                        type: text
+                        parameters:
+                          tag:
+                            type: dex-segmented-control-parameter
+                            value: span
+                          size:
+                            type: dex-segmented-control-parameter
+                            value:
+                              mobile: 3xl
+                              tablet: 4xl
+                              desktop: 4xl
+                          text:
+                            type: text
+                            value: |+
+                              Easy to clean modular design
+
+                          color:
+                            type: dex-color-palette-parameter
+                            value: text-primary
+                          weight:
+                            type: dex-segmented-control-parameter
+                            value: bold
+                          alignment:
+                            type: dex-segmented-control-parameter
+                            value: center
+                        _overridability:
+                          parameters:
+                            text: 'yes'
+                          hideLockedParameters: true
+                      - _id: 2d3f0f1f-ff49-49a6-b775-8e28d4bd75c9
+                        type: text
+                        parameters:
+                          tag:
+                            type: dex-segmented-control-parameter
+                            value: span
+                          size:
+                            type: dex-segmented-control-parameter
+                            value:
+                              desktop: base
+                          text:
+                            type: text
+                            value: >-
+                              Just because you want a better taste experience
+                              than pods, doesn’t mean you want coffee grinds all
+                              over your worktop. Our smart system keeps the
+                              whole process contained, avoiding the spills you
+                              get with a normal machine. By making the brewing
+                              components removable and machine-washable, it’s
+                              easy to keep your Cervello di Caffè looking and
+                              tasting new
+                          color:
+                            type: dex-color-palette-parameter
+                            value: text-primary
+                          weight:
+                            type: dex-segmented-control-parameter
+                            value: normal
+                          alignment:
+                            type: dex-segmented-control-parameter
+                            value: center
+                  parameters:
+                    gap:
+                      type: dex-slider-control-parameter
+                      value:
+                        mobile: '4'
+                        tablet: '4'
+                        desktop: '4'
+                    spacing:
+                      type: dex-space-control-parameter
+                      value:
+                        mobile: {}
+                        tablet:
+                          marginLeft: container-large
+                        desktop:
+                          marginLeft: container-large
+                    direction:
+                      type: dex-segmented-control-parameter
+                      value:
+                        mobile: col
+                        tablet: col
+                        desktop: col
+                    alignItems:
+                      type: dex-segmented-control-parameter
+                      value: {}
+                    displayName:
+                      type: text
+                      value: Content
+                    justifyContent:
+                      type: dex-segmented-control-parameter
+                      value: {}
+                  _overridability:
+                    hideLockedParameters: true
+            variant: columns
+            parameters:
+              spacing:
+                type: dex-space-control-parameter
+                value:
+                  paddingTop: container-medium
+                  paddingBottom: container-medium
+              displayName:
+                type: text
+                value: |
+                  Four user profiles for full taste customization
+              contentAlignment:
+                type: dex-segmented-control-parameter
+                value: center
+            _overridability:
+              parameters:
+                spacing: 'yes'
+                displayName: 'yes'
+                fluidContent: 'yes'
+              hideLockedParameters: true
+          - _id: 253a3bc8-43d3-4e32-936e-8999079d9ac4
+            type: container
+            _pattern: 00a7ebd9-8743-4158-aa06-bc671a05529b
+            _overridability:
+              parameters:
+                displayName: 'yes'
+                backgroundColor: 'no'
+              hideLockedParameters: true
+          - _id: c8673617-332a-4a85-a236-acd27153604e
+            type: accordion
+            slots:
+              accordionItems:
+                - _id: 8fa4da83-441d-470e-af67-245b74adf0ee
+                  type: accordionItem
+                  slots:
+                    accordionItemContent:
+                      - _id: d24ac468-2c44-429f-8caf-eb52473dc003
+                        type: container
+                        slots:
+                          containerContent:
+                            - _id: d6147912-57f0-40e9-a648-d3556e139d9d
+                              type: text
+                              parameters:
+                                tag:
+                                  type: dex-segmented-control-parameter
+                                  value: span
+                                size:
+                                  type: dex-segmented-control-parameter
+                                  value:
+                                    mobile: base
+                                    tablet: base
+                                    desktop: base
+                                text:
+                                  type: text
+                                  value: >-
+                                    The Cervello di Caffè is a next-generation
+                                    coffee maker designed with intelligence and
+                                    precision to elevate your coffee experience.
+                                    Its smart technology learns your brewing
+                                    preferences, adjusts water temperature and
+                                    brew strength based on your coffee type, and
+                                    offers customizable brewing schedules. With
+                                    features like app connectivity, voice
+                                    commands, and real-time diagnostics, the
+                                    Cervello di Caffè brings café-quality coffee
+                                    to your fingertips. Whether you’re an
+                                    espresso enthusiast or a pour-over
+                                    perfectionist, this coffee maker adapts to
+                                    ensure every cup is tailored to your taste.
+                                color:
+                                  type: dex-color-palette-parameter
+                                  value: text-primary
+                                weight:
+                                  type: dex-segmented-control-parameter
+                                  value: normal
+                        parameters:
+                          spacing:
+                            type: dex-space-control-parameter
+                            value:
+                              paddingTop: container-xsmall
+                              paddingLeft: container-xsmall
+                          displayName:
+                            type: text
+                            value: How smart is the Cervello di Caffè?
+                  parameters:
+                    tag:
+                      type: dex-segmented-control-parameter
+                      value: span
+                    size:
+                      type: dex-segmented-control-parameter
+                      value: 2xl
+                    text:
+                      type: text
+                      value: How smart is the Cervello di Caffè?
+                    color:
+                      type: dex-color-palette-parameter
+                      value: text-primary
+                    border:
+                      type: dex-token-selector-parameter
+                      value: border-product-card
+                    weight:
+                      type: dex-segmented-control-parameter
+                      value: bold
+                    spacing:
+                      type: dex-space-control-parameter
+                      value:
+                        paddingTop: container-small
+                        paddingLeft: container-medium
+                        paddingRight: container-medium
+                        paddingBottom: container-small
+                    backgroundColor:
+                      type: dex-color-palette-parameter
+                      value: general-color-11
+                - _id: fcc16d2f-f633-4204-a3d8-20e11da18bee
+                  type: accordionItem
+                  slots:
+                    accordionItemContent:
+                      - _id: 065cf0ea-1db6-43e7-b0ad-4f8f07c9a7d5
+                        type: container
+                        slots:
+                          containerContent:
+                            - _id: 33ef34cc-b648-473b-a2c8-1c0537f0ad60
+                              type: text
+                              parameters:
+                                tag:
+                                  type: dex-segmented-control-parameter
+                                  value: span
+                                size:
+                                  type: dex-segmented-control-parameter
+                                  value:
+                                    mobile: base
+                                    tablet: base
+                                    desktop: base
+                                text:
+                                  type: text
+                                  value: >-
+                                    Yes, the Cervello di Caffè comes with
+                                    comprehensive guides to help you get started
+                                    and make the most of its features. Our
+                                    user-friendly manual includes step-by-step
+                                    instructions for setup, brewing methods,
+                                    maintenance, and troubleshooting.
+                                    Additionally, we provide video tutorials and
+                                    tips on our website to guide you through
+                                    advanced features like app connectivity,
+                                    custom brewing profiles, and voice command
+                                    integration. Whether you’re a coffee novice
+                                    or an aficionado, our guides ensure you’ll
+                                    master the Cervello di Caffè in no time.
+                                color:
+                                  type: dex-color-palette-parameter
+                                  value: text-primary
+                                weight:
+                                  type: dex-segmented-control-parameter
+                                  value: normal
+                        parameters:
+                          spacing:
+                            type: dex-space-control-parameter
+                            value:
+                              paddingTop: container-xsmall
+                              paddingLeft: container-xsmall
+                          displayName:
+                            type: text
+                            value: >-
+                              Do you have guides on how to use the Cervello di
+                              Caffè?
+                  parameters:
+                    tag:
+                      type: dex-segmented-control-parameter
+                      value: span
+                    size:
+                      type: dex-segmented-control-parameter
+                      value: 2xl
+                    text:
+                      type: text
+                      value: Do you have guides on how to use the Cervello di Caffè?
+                    color:
+                      type: dex-color-palette-parameter
+                      value: text-primary
+                    border:
+                      type: dex-token-selector-parameter
+                      value: border-product-card
+                    weight:
+                      type: dex-segmented-control-parameter
+                      value: bold
+                    spacing:
+                      type: dex-space-control-parameter
+                      value:
+                        paddingTop: container-small
+                        paddingLeft: container-medium
+                        paddingRight: container-medium
+                        paddingBottom: container-small
+                    backgroundColor:
+                      type: dex-color-palette-parameter
+                      value: general-color-11
+                - _id: 65dac297-ad42-4474-a309-063c4c685efc
+                  type: accordionItem
+                  slots:
+                    accordionItemContent:
+                      - _id: f18fe97a-a69b-48f6-8866-de1272e89054
+                        type: container
+                        slots:
+                          containerContent:
+                            - _id: 58e4c7ca-076f-418d-84a2-c87bcfe1d575
+                              type: text
+                              parameters:
+                                tag:
+                                  type: dex-segmented-control-parameter
+                                  value: span
+                                size:
+                                  type: dex-segmented-control-parameter
+                                  value:
+                                    mobile: base
+                                    tablet: base
+                                    desktop: base
+                                text:
+                                  type: text
+                                  value: >-
+                                    At JavaDrip, your privacy is our top
+                                    priority. We use advanced encryption and
+                                    secure storage systems to safeguard your
+                                    personal information. Our devices, such as
+                                    the Cervello di Caffè, collect only the data
+                                    necessary to enhance your coffee experience,
+                                    like brewing preferences, and all data is
+                                    anonymized wherever possible. We never sell
+                                    your information to third parties and comply
+                                    with industry-leading privacy standards,
+                                    including GDPR and CCPA. You can review and
+                                    manage your data settings through the
+                                    JavaDrip app, ensuring full transparency and
+                                    control over your privacy.
+                                color:
+                                  type: dex-color-palette-parameter
+                                  value: text-primary
+                                weight:
+                                  type: dex-segmented-control-parameter
+                                  value: normal
+                        parameters:
+                          spacing:
+                            type: dex-space-control-parameter
+                            value:
+                              paddingTop: container-xsmall
+                              paddingLeft: container-xsmall
+                          displayName:
+                            type: text
+                            value: What is JavaDrip doing to protect my privacy?
+                  parameters:
+                    tag:
+                      type: dex-segmented-control-parameter
+                      value: span
+                    size:
+                      type: dex-segmented-control-parameter
+                      value: 2xl
+                    text:
+                      type: text
+                      value: What is JavaDrip doing to protect my privacy?
+                    color:
+                      type: dex-color-palette-parameter
+                      value: text-primary
+                    border:
+                      type: dex-token-selector-parameter
+                      value: border-product-card
+                    weight:
+                      type: dex-segmented-control-parameter
+                      value: bold
+                    spacing:
+                      type: dex-space-control-parameter
+                      value:
+                        paddingTop: container-small
+                        paddingLeft: container-medium
+                        paddingRight: container-medium
+                        paddingBottom: container-small
+                    backgroundColor:
+                      type: dex-color-palette-parameter
+                      value: general-color-11
+                - _id: 932dba17-03a8-4b43-a2d9-cd720a3be2e3
+                  type: accordionItem
+                  slots:
+                    accordionItemContent:
+                      - _id: 7bba08ab-9949-45da-8ad4-fcc697f18191
+                        type: container
+                        slots:
+                          containerContent:
+                            - _id: bffd34af-0a5d-4f6a-a76c-fb90576e9c4d
+                              type: text
+                              parameters:
+                                tag:
+                                  type: dex-segmented-control-parameter
+                                  value: span
+                                size:
+                                  type: dex-segmented-control-parameter
+                                  value:
+                                    mobile: base
+                                    tablet: base
+                                    desktop: base
+                                text:
+                                  type: text
+                                  value: >-
+                                    The Cervello di Caffè is complemented by a
+                                    range of premium accessories designed to
+                                    elevate your coffee experience. These
+                                    include a precision burr grinder for the
+                                    perfect grind, a frothing wand for
+                                    barista-quality foam, and custom-fit
+                                    reusable filters for eco-friendly brewing.
+                                    We also offer insulated carafes to keep your
+                                    coffee hot, cleaning kits to maintain peak
+                                    performance, and smart storage containers to
+                                    preserve bean freshness. All accessories are
+                                    designed to seamlessly integrate with your
+                                    Cervello di Caffè, ensuring every brew is
+                                    exceptional.
+                                color:
+                                  type: dex-color-palette-parameter
+                                  value: text-primary
+                                weight:
+                                  type: dex-segmented-control-parameter
+                                  value: normal
+                        parameters:
+                          spacing:
+                            type: dex-space-control-parameter
+                            value:
+                              paddingTop: container-xsmall
+                              paddingLeft: container-xsmall
+                          displayName:
+                            type: text
+                            value: >-
+                              What accessories do you offer for the Cervello di
+                              Caffè?
+                  parameters:
+                    tag:
+                      type: dex-segmented-control-parameter
+                      value: span
+                    size:
+                      type: dex-segmented-control-parameter
+                      value: 2xl
+                    text:
+                      type: text
+                      value: What accessories do you offer for the Cervello di Caffè?
+                    color:
+                      type: dex-color-palette-parameter
+                      value: text-primary
+                    border:
+                      type: dex-token-selector-parameter
+                      value: border-product-card
+                    weight:
+                      type: dex-segmented-control-parameter
+                      value: bold
+                    spacing:
+                      type: dex-space-control-parameter
+                      value:
+                        paddingTop: container-small
+                        paddingLeft: container-medium
+                        paddingRight: container-medium
+                        paddingBottom: container-small
+                    backgroundColor:
+                      type: dex-color-palette-parameter
+                      value: general-color-11
+              accordionContent:
+                - _id: 2225ae13-77a1-4411-bf80-67919a41f53e
+                  type: text
+                  parameters:
+                    tag:
+                      type: dex-segmented-control-parameter
+                      value: span
+                    size:
+                      type: dex-segmented-control-parameter
+                      value:
+                        mobile: 3xl
+                        tablet: 4xl
+                        desktop: 4xl
+                    text:
+                      type: text
+                      value: Frequently asked questions
+                    color:
+                      type: dex-color-palette-parameter
+                      value: text-primary
+                    weight:
+                      type: dex-segmented-control-parameter
+                      value: bold
+            parameters:
+              spacing:
+                type: dex-space-control-parameter
+                value:
+                  paddingTop: container-medium
+                  paddingBottom: container-medium
+              displayName:
+                type: text
+                value: Frequently asked questions
+          - _id: cbd508f0-466d-48f5-92cf-9f0abcabf17c
+            type: flex
+            _pattern: bc7c73d1-3a48-4290-b898-396eac1c398d
+            _overridability:
+              parameters:
+                fluidContent: 'yes'
+              hideLockedParameters: true
+    c93c8f9f-4ff0-4ed9-85b1-dfd37f01fbc0|5d86f5e9-47d6-4e77-a139-83228ec0be41:
+      slots:
+        $slotSectionItems:
+          - _id: 52c2c96a-ab48-4dc4-8cc4-f1d4b7fa26f0
+            type: button
+            _pattern: 53b59aed-e378-4fcb-9135-20247d92074e
+            _overridability:
+              variants: true
+              parameters:
+                link: 'yes'
+                text: 'yes'
+                fullWidth: 'yes'
+                textWeight: 'no'
+                buttonColor: 'yes'
+                iconPosition: 'yes'
+                textTransform: 'no'
+                hoverTextColor: 'no'
+                hoverButtonColor: 'no'
+              hideLockedParameters: true
+    c93c8f9f-4ff0-4ed9-85b1-dfd37f01fbc0|c50e99a6-1d91-4d6e-9a22-3154d4e4a8b7:
+      parameters:
+        text:
+          type: text
+          value: "Finally - the perfect barista coffee without\rleaving home."
+    c93c8f9f-4ff0-4ed9-85b1-dfd37f01fbc0|fcac6346-1864-4284-8715-a0e4fb4854f4:
+      parameters:
+        image:
+          type: asset
+          value:
+            - _id: 24bcf003-84ee-4bc4-a07f-3ec2de4fb391
+              type: image
+              fields:
+                id:
+                  type: text
+                  value: e8436f83-e4aa-4815-aeb6-5b32fad589d4
+                url:
+                  value: >-
+                    https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/5z0Hs3TJTcyHgbYHPz7Z2g-terra-kaffee.png
+                  type: text
+                file:
+                  type: file
+                  value: 2c51caac-43fd-49fb-aa3e-6da4a21a59cc
+                size:
+                  value: 1738386
+                  type: number
+                title:
+                  type: text
+                  value: terra-kaffee.png
+                width:
+                  value: 2880
+                  type: number
+                height:
+                  value: 1178
+                  type: number
+                mediaType:
+                  value: image/png
+                  type: text
+              _source: uniform-assets
+  _locales:
+    - en
+  _pattern: f9c058ea-c40d-4435-ac5a-53423cf654dc
+created: '2025-01-29T11:09:38.43112+00:00'
+modified: '2025-06-25T11:25:59.968905+00:00'
+pattern: false

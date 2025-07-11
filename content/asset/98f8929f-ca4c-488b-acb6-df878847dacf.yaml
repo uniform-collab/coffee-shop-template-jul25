@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 98f8929f-ca4c-488b-acb6-df878847dacf
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: holographic-interface.png
+    file:
+      type: file
+      value: 7b3293c5-e6cd-4d0b-a95d-07f364e0e8d4
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/b0JtaxSVQxmqWylG6vGC1Q/cA1AD4kYSn6yhrQY2KJU5A-holographic-interface.png
+      type: text
+    size:
+      value: 1520
+      type: number
+    width:
+      value: 60
+      type: number
+    height:
+      value: 54
+      type: number
+    custom: {}
+created: '2025-05-22T09:00:29.787269+00:00'
+modified: '2025-05-22T09:00:29.787269+00:00'

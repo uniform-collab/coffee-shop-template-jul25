@@ -1,0 +1,63 @@
+created: '2025-04-24T11:37:44.470358+00:00'
+modified: '2025-04-24T11:37:44.470358+00:00'
+pattern: false
+entry:
+  _id: 0c97e1ea-e717-4942-adb4-88f7a1aa2021
+  _name: French Press
+  _slug: french-press
+  _thumbnail: >-
+    https://img.uniform.global/p/DCdo4LRJTZWl21CYeUJNPg/YrEPa-EtQ2aQoagG2Y34YQ-french-press.png
+  type: productCategory
+  fields:
+    logo:
+      type: asset
+      value: []
+      locales:
+        en:
+          - _id: e44c608e-ca90-4037-a4f8-93081a449666
+            type: image
+            fields:
+              id:
+                type: text
+                value: f027f34f-c029-4684-ac25-0bde36dff2aa
+              url:
+                value: >-
+                  https://img.uniform.global/p/9VlMgIbZQQKI2wzV-L0jow/Ii2eIaurSAqDLBrp4jrWkQ-french-press.png
+                type: text
+              file:
+                type: file
+                value: ecdd668c-27e0-4879-be7f-9a6154736e5f
+              size:
+                value: 1119865
+                type: number
+              title:
+                type: text
+                value: french-press.png
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/png
+                type: text
+            _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en: French Press
+    description:
+      type: text
+      locales:
+        en: >-
+          Experience the rich, full-bodied flavor of coffee brewed in a French
+          press. Our selection of French presses includes various sizes and
+          designs, perfect for any coffee lover. Known for its ability to
+          extract the most flavorsome oils from your coffee grounds, the French
+          press offers a simple yet sophisticated brewing method. Enjoy the
+          ritual of pressing your coffee and savor the deep, aromatic brew that
+          results. Browse our collection and find the perfect French press to
+          elevate your coffee moments.
+  _locales:
+    - en

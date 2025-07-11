@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: e7c20d85-1187-4a55-8ecd-5c23aaf9e50b
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: royale-butte-camping-coffee-pot-1.png
+    file:
+      type: file
+      value: b76df87c-1fb2-4bd7-bd51-cbb22b3c1b88
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/N0QOqjXvSFeXY7i3yzY8ZQ/QayFq2oXS9qX4k1ejXR49w-royale-butte-camping-coffee-pot-1.png
+      type: text
+    size:
+      value: 22951
+      type: number
+    width:
+      value: 386
+      type: number
+    height:
+      value: 386
+      type: number
+    custom: {}
+created: '2025-01-29T11:09:00.802672+00:00'
+modified: '2025-01-29T11:09:00.802672+00:00'

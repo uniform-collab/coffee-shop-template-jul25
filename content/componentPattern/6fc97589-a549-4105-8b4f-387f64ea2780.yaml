@@ -1,5 +1,5 @@
 composition:
-  _name: Title+Text Container
+  _name: Titled Container
   _id: 6fc97589-a549-4105-8b4f-387f64ea2780
   type: flex
   parameters:
@@ -32,19 +32,19 @@ composition:
         parameters:
           tag:
             type: dex-segmented-control-parameter
-            value: h2
+            value: span
           size:
             type: dex-segmented-control-parameter
             value:
               mobile: 3xl
               tablet: 3xl
               desktop: 3xl
-          color:
-            type: dex-color-palette-parameter
-            value: text-tertiary
+          text:
+            type: text
+            value: Tilte
           weight:
             type: dex-segmented-control-parameter
-            value: bold
+            value: normal
         _overridability:
           parameters:
             tag: 'yes'
@@ -57,13 +57,16 @@ composition:
         parameters:
           tag:
             type: dex-segmented-control-parameter
-            value: p
+            value: span
           size:
             type: dex-segmented-control-parameter
             value:
               mobile: 3xl
               tablet: 3xl
-              desktop: base
+              desktop: xl
+          text:
+            type: text
+            value: 'Description '
           weight:
             type: dex-segmented-control-parameter
             value: normal
@@ -94,5 +97,5 @@ created: '2025-02-17T15:34:18.713733+00:00'
 modified: '2025-02-17T15:34:18.713733+00:00'
 pattern: true
 previewImageUrl: >-
-  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/titled-container.jpg
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/coffee-shop-template/preview-images/titled-container
 categoryId: ae15b0f6-4953-4ccb-9984-ad0525e77b01

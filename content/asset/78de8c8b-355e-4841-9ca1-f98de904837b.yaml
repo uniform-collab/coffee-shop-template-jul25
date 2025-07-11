@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 78de8c8b-355e-4841-9ca1-f98de904837b
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: impresso-pump-espresso-2.png
+    file:
+      type: file
+      value: cc977c0e-be95-44f2-bb4f-bfe0bcc92323
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/N0QOqjXvSFeXY7i3yzY8ZQ/QEucaDcdT9y4CZCzRy_2JQ-impresso-pump-espresso-2.png
+      type: text
+    size:
+      value: 307667
+      type: number
+    width:
+      value: 1280
+      type: number
+    height:
+      value: 1280
+      type: number
+    custom: {}
+created: '2025-01-29T11:08:53.842987+00:00'
+modified: '2025-01-29T11:08:53.842987+00:00'

@@ -1,0 +1,50 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: favorites
+name: Favorites
+icon: shopping-cart
+parameters:
+  - id: addToFavoritesIcon
+    name: Add To Favorites Icon
+    type: asset
+    typeConfig:
+      max: 1
+      allowedTypes:
+        - image
+    localizable: true
+  - id: removeFromFavoritesIcon
+    name: Remove From Favorites Icon
+    type: asset
+    typeConfig:
+      max: 1
+      allowedTypes:
+        - image
+    localizable: true
+  - id: 9997d65b-30fd-4887-9672-618110e9613d
+    name: Presentation Settings
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - primaryTextColor
+  - id: primaryTextColor
+    name: Primary Text Color
+    type: dex-color-palette-parameter
+    typeConfig:
+      allowColors: []
+      selectedGroup: text
+categoryId: adaebea8-ba58-494b-9c3b-9f82906d9415
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/coffee-shop-template/preview-images/favorites.jpg
+useTeamPermissions: true
+slots:
+  - id: emptyFavoritesContent
+    name: Empty Favorites Content
+    allowedComponents: []
+    allowAllComponents: true
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+thumbnailParameter: addToFavoritesIcon
+canBeComposition: false
+created: '2025-05-20T11:53:37.301048+00:00'
+updated: '2025-05-22T11:36:05.54271+00:00'

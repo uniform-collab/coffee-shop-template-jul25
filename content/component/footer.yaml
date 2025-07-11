@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
 $schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: footer
 name: Footer
@@ -32,6 +32,8 @@ parameters:
     name: Border
     type: dex-token-selector-parameter
     typeConfig:
+      allowTokens:
+        - border-footer
       selectedTokenType: border
   - id: fluidContent
     name: Fluid Content
@@ -39,7 +41,7 @@ parameters:
     typeConfig: null
 categoryId: b1163ce2-5ac7-4347-bc38-a42198180718
 previewImageUrl: >-
-  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/footer.jpg
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/coffee-shop-template/preview-images/footer.jpg
 useTeamPermissions: true
 slots:
   - id: footerLogo
@@ -67,5 +69,5 @@ slots:
     patternsInAllowedComponents: false
 titleParameter: displayName
 canBeComposition: false
-created: '2025-02-17T15:34:14.305535+00:00'
-updated: '2025-02-17T15:34:14.305535+00:00'
+created: '2025-02-27T10:44:56.22417+00:00'
+updated: '2025-05-22T08:20:50.156123+00:00'

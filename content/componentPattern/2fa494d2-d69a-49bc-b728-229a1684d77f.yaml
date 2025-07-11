@@ -1,0 +1,231 @@
+composition:
+  _name: How To Resources
+  _id: 2fa494d2-d69a-49bc-b728-229a1684d77f
+  type: grid
+  parameters:
+    gapX:
+      type: dex-slider-control-parameter
+      value:
+        desktop: '16'
+    gapY:
+      type: dex-slider-control-parameter
+      value:
+        mobile: '8'
+        tablet: '8'
+    spacing:
+      type: dex-space-control-parameter
+      value:
+        paddingTop: container-large
+        paddingBottom: container-large
+    displayName:
+      type: text
+      value: How to resources
+    columnsCount:
+      type: dex-slider-control-parameter
+      value:
+        mobile: '1'
+        tablet: '1'
+        desktop: '3'
+  slots:
+    gridInner:
+      - _id: 42cf745d-fc16-46b4-953a-6c440e8eef3f
+        type: gridItem
+        slots:
+          inner:
+            - _id: 451e9faf-2c2e-4ffc-a6d6-0999a9f1f446
+              type: flex
+              slots:
+                flexItem:
+                  - _id: e4651e6a-d3ce-489e-940d-b24792291c6f
+                    type: text
+                    parameters:
+                      tag:
+                        type: dex-segmented-control-parameter
+                        value: span
+                      size:
+                        type: dex-segmented-control-parameter
+                        value:
+                          mobile: xl
+                          tablet: 2xl
+                          desktop: 3xl
+                      text:
+                        type: text
+                        value: How to resources
+                      color:
+                        type: dex-color-palette-parameter
+                        value: text-primary
+                      weight:
+                        type: dex-segmented-control-parameter
+                        value: bold
+                    _overridability:
+                      parameters:
+                        text: 'yes'
+                      hideLockedParameters: true
+                  - _id: a9f2d0cf-ec16-4091-a6c9-5c3baf7fe66e
+                    type: text
+                    parameters:
+                      tag:
+                        type: dex-segmented-control-parameter
+                        value: span
+                      size:
+                        type: dex-segmented-control-parameter
+                        value:
+                          mobile: sm
+                          tablet: base
+                          desktop: base
+                      text:
+                        type: text
+                        value: >-
+                          Discover step-by-step guides designed to make complex
+                          tasks simple. Our ‘How to’ section offers clear,
+                          practical instructions on a wide range of topics,
+                          ensuring you have all the information needed to
+                          complete tasks efficiently and confidently. Whether
+                          you’re learning something new or just looking for a
+                          refresher, this section will provide you with the
+                          insights and tools you need to succeed.
+                      color:
+                        type: dex-color-palette-parameter
+                        value: text-primary
+                      weight:
+                        type: dex-segmented-control-parameter
+                        value: normal
+                    _overridability:
+                      parameters:
+                        text: 'yes'
+                      hideLockedParameters: true
+                  - _id: 088f579b-a38b-4ec9-8474-99d67793284d
+                    type: button
+                    _pattern: 646faee6-b476-43c6-a1a8-eebe85699889
+              parameters:
+                gap:
+                  type: dex-slider-control-parameter
+                  value:
+                    mobile: '4'
+                    tablet: '4'
+                    desktop: '4'
+                spacing:
+                  type: dex-space-control-parameter
+                  value:
+                    mobile: {}
+                    tablet: {}
+                    desktop: {}
+                direction:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: col
+                    tablet: col
+                    desktop: col
+                alignItems:
+                  type: dex-segmented-control-parameter
+                  value: {}
+                displayName:
+                  type: text
+                  value: Content
+                fluidContent:
+                  type: checkbox
+                  value: true
+                justifyContent:
+                  type: dex-segmented-control-parameter
+                  value: {}
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          rowSpan:
+            type: dex-slider-control-parameter
+            value: {}
+          rowStart:
+            type: dex-slider-control-parameter
+            value:
+              mobile: ''
+              tablet: ''
+              desktop: ''
+          columnSpan:
+            type: dex-slider-control-parameter
+            value:
+              mobile: ''
+              tablet: ''
+              desktop: ''
+          columnStart:
+            type: dex-slider-control-parameter
+            value:
+              mobile: ''
+              tablet: ''
+              desktop: ''
+          displayName:
+            type: text
+            value: Left Content
+        _overridability:
+          hideLockedParameters: true
+      - _id: 002d10af-6f48-4a50-9108-37791462235e
+        type: gridItem
+        slots:
+          inner:
+            - _id: 3090a8f6-e088-4d8f-a8f0-e6dff9ddb28a
+              type: $slotSection
+              parameters:
+                name:
+                  type: text
+                  value: Quick Picks
+                specific:
+                  type: array
+                  value:
+                    - $p:90cf0a21-78be-4cc6-b460-acb78b5c1f31
+                groupType:
+                  type: text
+                  value: specific
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          rowSpan:
+            type: dex-slider-control-parameter
+            value: {}
+          rowStart:
+            type: dex-slider-control-parameter
+            value:
+              mobile: ''
+              tablet: ''
+              desktop: '1'
+          columnSpan:
+            type: dex-slider-control-parameter
+            value:
+              desktop: span-2
+          columnStart:
+            type: dex-slider-control-parameter
+            value:
+              mobile: ''
+              tablet: ''
+              desktop: '2'
+          displayName:
+            type: text
+            value: Right Content
+        _overridability:
+          hideLockedParameters: true
+  _overrides:
+    088f579b-a38b-4ec9-8474-99d67793284d:
+      parameters:
+        link:
+          type: link
+          locales:
+            en:
+              path: /${locale}/articles
+              type: projectMapNode
+              nodeId: 078321b0-280e-409e-bd7e-bc6a6d0abeae
+              projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+              dynamicInputValues:
+                locale: ${locale}
+        text:
+          type: text
+          value: All articles
+  _overridability:
+    parameters:
+      displayName: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en
+created: '2025-03-18T13:02:27.411427+00:00'
+modified: '2025-05-22T10:55:57.203817+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/coffee-shop-template/preview-images/how-to-resources.jpg
+categoryId: 096fd5ed-5e2a-4bfa-834b-fb805d1d1ce9

@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: c2cfa75c-e3d8-41a1-9a13-693589c213ca
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: black-mountain-french-press-coffee-maker-1.png
+    file:
+      type: file
+      value: 08179096-a582-4d46-aeb4-13bd5ef293cb
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/N0QOqjXvSFeXY7i3yzY8ZQ/4Sk1AFLKS0ygVqex0U18ag-black-mountain-french-press-coffee-maker-1.png
+      type: text
+    size:
+      value: 298430
+      type: number
+    width:
+      value: 1280
+      type: number
+    height:
+      value: 1280
+      type: number
+    custom: {}
+created: '2025-01-29T11:08:57.808383+00:00'
+modified: '2025-01-29T11:08:57.808383+00:00'

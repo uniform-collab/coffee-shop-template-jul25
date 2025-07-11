@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 2401b17d-8910-4349-9776-ad6c97b6d272
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: javadrip-specialty-coffee-maker-2.png
+    file:
+      type: file
+      value: 5f35daa6-540b-4b95-bf3f-adfaf11a6e98
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/N0QOqjXvSFeXY7i3yzY8ZQ/K5xhCIM6QIyORahdoyijDQ-javadrip-specialty-coffee-maker-2.png
+      type: text
+    size:
+      value: 238959
+      type: number
+    width:
+      value: 1000
+      type: number
+    height:
+      value: 1000
+      type: number
+    custom: {}
+created: '2025-01-29T11:08:50.595442+00:00'
+modified: '2025-01-29T11:08:50.595442+00:00'

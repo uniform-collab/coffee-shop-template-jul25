@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 7f3cca02-b97e-434a-954b-9b05a4c628a3
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: cosmo-kramer.png
+    file:
+      type: file
+      value: 4ac79808-711c-4655-8cf5-b29fbd462659
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/N0QOqjXvSFeXY7i3yzY8ZQ/7ZyD0uXiRza0j4bYdw9E6w-cosmo-kramer.png
+      type: text
+    size:
+      value: 2566872
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1536
+      type: number
+    custom: {}
+created: '2025-06-06T09:37:09.505654+00:00'
+modified: '2025-06-06T09:37:09.505654+00:00'

@@ -1,0 +1,7 @@
+id: coffeeAficionado
+name: Coffee Aficionado
+description: ''
+type: 0
+inputs:
+  - dim: aficionado
+    sign: +

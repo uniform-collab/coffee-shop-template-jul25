@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: ab120c66-e998-45b9-b4ad-0e24851c0cd8
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: organic-blend-coffee-1.png
+    file:
+      type: file
+      value: a109ab5f-8a36-4736-91b1-04824f7e258e
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/N0QOqjXvSFeXY7i3yzY8ZQ/SZBaHPdcTOyvSXRSGI0dWw-organic-blend-coffee-1.png
+      type: text
+    size:
+      value: 183601
+      type: number
+    width:
+      value: 1280
+      type: number
+    height:
+      value: 1280
+      type: number
+    custom: {}
+created: '2025-01-29T11:08:57.844418+00:00'
+modified: '2025-01-29T11:08:57.844418+00:00'

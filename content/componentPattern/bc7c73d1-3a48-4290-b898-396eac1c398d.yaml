@@ -1,0 +1,130 @@
+composition:
+  _name: Content Spotlight
+  _id: bc7c73d1-3a48-4290-b898-396eac1c398d
+  type: flex
+  parameters:
+    gap:
+      type: dex-slider-control-parameter
+      value:
+        mobile: '8'
+        tablet: '8'
+        desktop: '8'
+    spacing:
+      type: dex-space-control-parameter
+      value:
+        paddingTop: container-large
+        paddingBottom: container-large
+    direction:
+      type: dex-segmented-control-parameter
+      value:
+        mobile: col
+        tablet: col
+        desktop: col
+    alignItems:
+      type: dex-segmented-control-parameter
+      value: {}
+    displayName:
+      type: text
+      value: Content Spotlight
+    justifyContent:
+      type: dex-segmented-control-parameter
+      value: {}
+  slots:
+    flexItem:
+      - _id: 3addeef4-4338-4637-b766-ee8598aec6b1
+        type: text
+        parameters:
+          tag:
+            type: dex-segmented-control-parameter
+            value: h2
+          size:
+            type: dex-segmented-control-parameter
+            value:
+              mobile: 3xl
+              tablet: 4xl
+              desktop: 4xl
+          text:
+            type: text
+            value: Related reading
+          color:
+            type: dex-color-palette-parameter
+            value: text-primary
+          weight:
+            type: dex-segmented-control-parameter
+            value: bold
+        _overridability:
+          parameters:
+            text: 'yes'
+          hideLockedParameters: true
+      - _id: c85b9755-180e-441f-ab49-287fd18a4abd
+        type: $loop
+        slots:
+          body:
+            - _id: 29db665e-51f4-44c9-b65a-716663cd012d
+              type: link
+              _pattern: d134b276-d042-4984-a8fd-6b2b9afa8e98
+        _dataResources:
+          Article List Content entries Loop Item:
+            type: sys-reserved-loop
+            variables:
+              connectedData: '#jptr:/Article List Content/entries:fa=c'
+        _overridability:
+          hideLockedParameters: true
+  _dataResources:
+    Article List Content:
+      type: articleList
+      variables:
+        limit: '2'
+        locale: ${locale}
+        search: ''
+        contentTypes: article
+      isPatternParameter: true
+      ignorePatternParameterDefault: false
+  _overrides:
+    29db665e-51f4-44c9-b65a-716663cd012d:
+      parameters:
+        link:
+          type: link
+          value:
+            path: >-
+              /${locale}/articles/${#jptr:/Article List Content entries Loop
+              Item/entry/_slug}
+            type: projectMapNode
+            nodeId: 0b2a6284-3d74-4ef6-a3de-b2617058c861
+            projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+            dynamicInputValues:
+              locale: ${locale}
+              article-slug: ${#jptr:/Article List Content entries Loop Item/entry/_slug}
+    29db665e-51f4-44c9-b65a-716663cd012d|807f2939-e3cd-476d-9e3e-a2a9df6b0f63|b18af6ae-5b94-434b-a836-6b279173eedf|4e7f1617-1524-4771-bad7-e871c177ef53:
+      parameters:
+        text:
+          type: text
+          value: >-
+            ${#jptr:/Article List Content entries Loop
+            Item/entry/fields/title/value}
+    29db665e-51f4-44c9-b65a-716663cd012d|807f2939-e3cd-476d-9e3e-a2a9df6b0f63|b18af6ae-5b94-434b-a836-6b279173eedf|84b8ca9c-90a0-4c34-bd96-a2391bf97f62:
+      parameters:
+        text:
+          type: text
+          value: >-
+            ${#jptr:/Article List Content entries Loop
+            Item/entry/fields/shortDescription/value}
+    29db665e-51f4-44c9-b65a-716663cd012d|807f2939-e3cd-476d-9e3e-a2a9df6b0f63|b18af6ae-5b94-434b-a836-6b279173eedf|9b4d01d3-e0f4-4f43-84b3-0f33dd7eeb5c:
+      parameters:
+        image:
+          type: asset
+          value: >-
+            ${#jptr:/Article List Content entries Loop
+            Item/entry/fields/thumbnail/value}
+  _overridability:
+    parameters:
+      fluidContent: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en
+created: '2025-01-29T11:09:28.483938+00:00'
+modified: '2025-06-25T10:24:29.049385+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/coffee-shop-template/preview-images/content-spotlight.jpg
+categoryId: 096fd5ed-5e2a-4bfa-834b-fb805d1d1ce9

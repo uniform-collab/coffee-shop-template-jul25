@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 1697b6ae-aa6f-4bd6-b844-c8fb3c86216c
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: chevron-down.svg
+    file:
+      type: file
+      value: 43d7012f-9d7e-4d6d-a411-5454ecb48c6c
+    mediaType:
+      value: image/svg+xml
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/N0QOqjXvSFeXY7i3yzY8ZQ/xUFa60f-TvuaWliqhCt07w-chevron-down.svg
+      type: text
+    size:
+      value: 190
+      type: number
+    width:
+      value: 24
+      type: number
+    height:
+      value: 24
+      type: number
+    custom: {}
+created: '2025-05-20T11:52:45.084371+00:00'
+modified: '2025-05-20T11:52:45.084371+00:00'

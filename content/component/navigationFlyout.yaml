@@ -149,18 +149,20 @@ parameters:
         - key: Underline
           value: underline
         - key: Brightness
-          value: opacity-75
+          value: contrast-[.1]
         - key: Scale
           value: scale-105
 categoryId: b1163ce2-5ac7-4347-bc38-a42198180718
 previewImageUrl: >-
-  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/navigation-flyout.jpg
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/coffee-shop-template/preview-images/navigation-flyout.jpg
 useTeamPermissions: true
 slots:
   - id: navigationFlyoutLeftContent
     name: Navigation Flyout Left Content
     allowedComponents:
       - navigationLink
+      - flex
+      - grid
     allowAllComponents: false
     inheritAllowedComponents: false
     patternsInAllowedComponents: false

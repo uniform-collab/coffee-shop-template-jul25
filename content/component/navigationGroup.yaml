@@ -150,12 +150,12 @@ parameters:
         - key: Underline
           value: underline
         - key: Brightness
-          value: opacity-75
+          value: contrast-[.1]
         - key: Scale
           value: scale-105
 categoryId: b1163ce2-5ac7-4347-bc38-a42198180718
 previewImageUrl: >-
-  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/navigation-group.jpg
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/coffee-shop-template/preview-images/navigation-group.jpg
 useTeamPermissions: true
 slots:
   - id: links

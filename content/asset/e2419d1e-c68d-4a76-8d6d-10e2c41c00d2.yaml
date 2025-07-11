@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: e2419d1e-c68d-4a76-8d6d-10e2c41c00d2
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: irish-blend-coffee-1.png
+    file:
+      type: file
+      value: cfc4c5cb-e4dd-40f6-b652-1c98ab03f2f3
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/N0QOqjXvSFeXY7i3yzY8ZQ/s1dDprPuSxSVih0E1GRQ4w-irish-blend-coffee-1.png
+      type: text
+    size:
+      value: 193583
+      type: number
+    width:
+      value: 1280
+      type: number
+    height:
+      value: 1280
+      type: number
+    custom: {}
+created: '2025-01-29T11:08:59.786314+00:00'
+modified: '2025-01-29T11:08:59.786314+00:00'

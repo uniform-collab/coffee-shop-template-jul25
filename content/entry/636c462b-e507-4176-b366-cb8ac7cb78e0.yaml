@@ -1,0 +1,1379 @@
+created: '2025-01-29T11:10:24.236507+00:00'
+modified: '2025-06-25T14:20:06.811615+00:00'
+pattern: false
+entry:
+  _id: 636c462b-e507-4176-b366-cb8ac7cb78e0
+  _name: 'Picking the Right Bean: A Guide to Coffee Selection'
+  _slug: picking-the-right-bean-a-guide-to-coffee-selection
+  _thumbnail: >-
+    https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/LAmCDsJLQDSgBp7KjbikoA-picking-the-right-bean-a-guide-to-coffee-selection.jpg
+  type: article
+  fields:
+    title:
+      type: text
+      value: 'Picking the Right Bean: A Guide to Coffee Selection'
+    author:
+      type: contentReference
+      value: ${#jptr:/ref-636c462b-e507-4176-b366-cb8ac7cb78e0-author/entries/0}
+    content:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    When it comes to coffee, many people view it as a simple
+                    morning ritual, a quick caffeine fix, or a moment of
+                    relaxation. But for those who truly appreciate the art of a
+                    good brew, coffee is so much more than just a beverage.
+                    Every cup tells a story of the bean’s journey, from the farm
+                    to the roaster, to your cup. In this article, we’ll explore
+                    how the type of coffee bean can drastically alter your
+                    coffee experience and help you discover which one is best
+                    suited to your taste.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: quote
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Coffee is more than just a drink; it’s a daily ritual, a
+                    personal experience, and an adventure in flavor.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 3
+                  version: 1
+                - mode: normal
+                  text: ' – Java Drip Coffee'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 'Understanding the Basics: Arabica vs. Robusta'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: asset
+              __asset:
+                _id: 35630208-cca6-4cdf-b21b-054d09e8881a
+                type: image
+                fields:
+                  id:
+                    type: text
+                    value: f7df46ef-3544-46e5-8105-7e926992988f
+                  url:
+                    value: >-
+                      https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/A5DInCPKTSefrcpK2v18iA-arabica-vs-robusta.jpg
+                    type: text
+                  file:
+                    type: file
+                    value: f086fc6d-aeb2-4035-95fd-b45063d2a21b
+                  size:
+                    value: 1166906
+                    type: number
+                  title:
+                    type: text
+                    value: arabica-vs-robusta.jpg
+                  width:
+                    value: 2400
+                    type: number
+                  height:
+                    value: 1600
+                    type: number
+                  mediaType:
+                    value: image/jpeg
+                    type: text
+                _source: uniform-assets
+              version: 1
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Most of the coffee you encounter falls into two main
+                    categories:
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: Arabica
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: ' and '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: Robusta
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: .
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - tag: h4
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Arabica
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Arabica
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: ' is known for its '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: smooth
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 2
+                  version: 1
+                - mode: normal
+                  text: ', '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: complex flavors
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 2
+                  version: 1
+                - mode: normal
+                  text: ' with a slight acidity and sweetness. It’s generally considered to be the higher quality of the two and is grown at higher elevations, often requiring more care. If you enjoy a refined and nuanced cup of coffee, Arabica may be the right choice for you.'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 1
+            - tag: h4
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Robusta
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 'Robusta, on the other hand, tends to have a '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: stronger
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 2
+                  version: 1
+                - mode: normal
+                  text: ', '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: earthier
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 2
+                  version: 1
+                - mode: normal
+                  text: >-
+                    , and sometimes more bitter taste. It’s more resistant to
+                    diseases and grows at lower altitudes, making it more
+                    affordable.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: Robusta beans
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: ' are often used in espresso blends to add body and crema due to their higher caffeine content.'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Exploring Flavor Profiles
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Coffee has diverse flavor notes that vary depending on the
+                    bean’s origin, processing method, and roast level. Here’s a
+                    quick breakdown to help you identify which profiles align
+                    with your taste:
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - tag: h4
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Fruity and Floral Notes
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 'Beans from African countries, like '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: Ethiopia
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: ' and '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: Kenya
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: >-
+                    , often have bright acidity and notes of berry, citrus, or
+                    even floral aromas. Perfect for those who enjoy a
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: lighter, tea-like coffee
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 2
+                  version: 1
+                - mode: normal
+                  text: .
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - tag: h4
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Nutty and Chocolaty Notes
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 'Beans from Central and South America, such as '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: Colombia
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: ', '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: Brazil
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: ', and '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: Costa Rica
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: ', are known for their '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: nutty and chocolaty flavors
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 2
+                  version: 1
+                - mode: normal
+                  text: >-
+                    . They tend to be well-balanced with a medium body, ideal
+                    for those who want a comforting, familiar taste.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - tag: h4
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Spicy and Earthy Notes
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 'Beans from countries like '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: Indonesia
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: ' ('
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: Sumatra
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 2
+                  version: 1
+                - mode: normal
+                  text: ') often have '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: bold, earthy, and spicy profiles
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 2
+                  version: 1
+                - mode: normal
+                  text: >-
+                    , with less acidity and a heavy body. This flavor profile
+                    suits those who appreciate a
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: darker, more robust cup
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 2
+                  version: 1
+                - mode: normal
+                  text: ..
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 'Roast Levels: Light, Medium, Dark'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Roasting is another essential factor that impacts your
+                    coffee’s flavor. Here’s how each roast level shapes the
+                    taste:
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: table
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: tablerow
+                  format: ''
+                  height: 65
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Roast Level
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 186
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Characteristics
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 256
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Ideal For
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                  direction: ltr
+                - type: tablerow
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Light
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 186
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                Delicate, bright flavors that highlight the
+                                bean’s origin, higher acidity
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 256
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Pour-over, French Press
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                  direction: ltr
+                - type: tablerow
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Medium
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 186
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                Well-rounded with a balance of origin flavors
+                                and roast characteristics, smooth and slightly
+                                sweet
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 256
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Drip Coffee, Espresso
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                  direction: ltr
+                - type: tablerow
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Dark
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 186
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                Bold, smoky flavor with low acidity; natural
+                                flavors are less pronounced
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 256
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Espresso, Stronger Brewed Coffee
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                  direction: ltr
+              direction: ltr
+            - tag: h4
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Light Roast
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    If you’re after delicate, bright flavors that highlight the
+                    bean’s origin, light roasts are for you. They retain much of
+                    the original coffee flavors and have higher acidity.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - tag: h4
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Medium Roast
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    These roasts are well-rounded, offering a balance of origin
+                    flavors and roast characteristics. They’re smooth, slightly
+                    sweet, and less acidic, making them an excellent choice for
+                    most coffee drinkers.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - tag: h4
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Dark Roast
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Dark roasts have a bold, smoky flavor, and the natural
+                    flavors of the bean are less pronounced. If you enjoy a
+                    strong, rich cup with lower acidity, dark roasts are likely
+                    your favorite.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: How to Choose the Right Bean for You
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - tag: ol
+              type: list
+              start: 1
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: listitem
+                  value: 1
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Consider Your Brewing Method
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: >-
+                        : Different beans and roasts work better with specific
+                        brewing methods. For instance, light roasts often shine
+                        in pour-over or French press methods, while medium to
+                        dark roasts are ideal for espresso or drip coffee.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 2
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Experiment with Origins and Roasts
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: >-
+                        : Don’t be afraid to try beans from different origins
+                        and roasts. Sampling various types will help you
+                        fine-tune your preferences and discover your ideal bean.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 3
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Evaluate Your Flavor Preferences
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: >-
+                        : Think about what flavors you enjoy outside of coffee.
+                        Do you prefer something fruity and floral, or do you
+                        lean towards chocolatey and nutty flavors? Understanding
+                        these preferences can help guide your bean selection.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+              listType: number
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children: []
+              direction: null
+              textStyle: ''
+              textFormat: 0
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Tips for Storing Your Beans
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Once you’ve found your ideal bean, proper storage is
+                    essential to maintain freshness and flavor. Store coffee
+                    beans in an airtight container in a cool, dark place. Avoid
+                    direct sunlight, moisture, and extreme temperatures to keep
+                    them at their best.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Final Thoughts
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Coffee is a journey of discovery. Each bean holds the
+                    potential to transport you to another part of the world and
+                    to experience the flavors and traditions of different
+                    regions. So, next time you sip your morning coffee, take a
+                    moment to appreciate the rich complexity that each bean
+                    brings to your cup. Whether you prefer the bright notes of
+                    an African single-origin or the comforting depth of a
+                    dark-roasted South American blend, the right bean can
+                    elevate your coffee experience to new heights.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: quote
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    The perfect cup of coffee isn’t found, it’s crafted. It’s in
+                    the choice of the bean, the roast, and the careful attention
+                    to detail in every step.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 3
+                  version: 1
+                - mode: normal
+                  text: ' – Java Drip Coffee'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Happy brewing!
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 1
+          direction: ltr
+    ogImage:
+      type: asset
+      locales:
+        en:
+          - _id: 075e189c-549a-49bd-b6d7-de038b408fdc
+            type: image
+            fields:
+              id:
+                type: text
+                value: 5bbc5b07-ed0c-4b99-b210-65d7010f94f5
+              url:
+                value: >-
+                  https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/LAmCDsJLQDSgBp7KjbikoA-picking-the-right-bean-a-guide-to-coffee-selection.jpg
+                type: text
+              file:
+                type: file
+                value: 810fb4b0-3b11-4ac4-a29c-75095408119a
+              size:
+                value: 9269401
+                type: number
+              title:
+                type: text
+                value: picking-the-right-bean-a-guide-to-coffee-selection.jpg
+              width:
+                value: 9453
+                type: number
+              height:
+                value: 7090
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+            _source: uniform-assets
+    category:
+      type: contentReference
+      value: ${#jptr:/ref-636c462b-e507-4176-b366-cb8ac7cb78e0-category/entries/0}
+    metaTitle:
+      type: text
+      locales:
+        en: 'Picking the Right Bean: A Guide to Coffee Selection'
+    thumbnail:
+      type: asset
+      locales:
+        en:
+          - _id: db8fff66-ec0d-4c7d-9453-1c1428809ca8
+            type: image
+            fields:
+              id:
+                type: text
+                value: 5bbc5b07-ed0c-4b99-b210-65d7010f94f5
+              url:
+                value: >-
+                  https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/LAmCDsJLQDSgBp7KjbikoA-picking-the-right-bean-a-guide-to-coffee-selection.jpg
+                type: text
+              file:
+                type: file
+                value: 82a322c4-31fd-458a-96b6-665d6744acb6
+              size:
+                value: 9269401
+                type: number
+              title:
+                type: text
+                value: picking-the-right-bean-a-guide-to-coffee-selection.jpg
+              width:
+                value: 9453
+                type: number
+              height:
+                value: 7090
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+            _source: uniform-assets
+    enrichments:
+      type: $enr
+      value:
+        - cat: topic
+          key: ingredients-and-preparation
+          str: 5
+    publishDate:
+      type: date
+      value: '2025-03-18'
+    metaDescription:
+      type: text
+      locales:
+        en: >-
+          Is it just a cup of coffee or is there more than meets the eye? See
+          what kind of coffee is best for your taste buds.
+    shortDescription:
+      type: text
+      value: >-
+        Is it just a cup of coffee or is there more than meets the eye? See what
+        kind of coffee is best for your taste buds.
+  _dataResources:
+    ref-636c462b-e507-4176-b366-cb8ac7cb78e0-author:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 2563e21e-3b39-439c-9eac-3294ce456a55
+    ref-636c462b-e507-4176-b366-cb8ac7cb78e0-category:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: fc7a50e2-9d37-47e8-89f2-46b1b453751a
+  _locales:
+    - en

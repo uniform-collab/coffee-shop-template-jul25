@@ -1,0 +1,110 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: quantitySelector
+name: Quantity Selector
+icon: screen
+parameters:
+  - id: border
+    name: Border
+    type: dex-token-selector-parameter
+    typeConfig:
+      selectedTokenType: border
+  - id: cac6fe12-5b1d-4ad1-8733-1d697c5f74f7
+    name: More Presentation Settings
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - spacing
+        - backgroundColor
+        - fluidContent
+        - height
+        - size
+        - color
+        - weight
+        - font
+        - transform
+        - decoration
+        - letterSpacing
+        - alignment
+  - id: spacing
+    name: Spacing
+    type: dex-space-control-parameter
+    typeConfig:
+      selectedGroup: container
+  - id: backgroundColor
+    name: Background Color
+    type: dex-color-palette-parameter
+    typeConfig: null
+  - id: fluidContent
+    name: Fluid Content
+    type: checkbox
+    typeConfig: null
+  - id: height
+    name: Height
+    type: dex-segmented-control-parameter
+    helpText: Parameter for setting the height of an element.
+    typeConfig:
+      options:
+        - key: Full
+          value: full
+        - key: Screen
+          value: screen
+      withViewPort: true
+  - id: size
+    name: Size
+    type: dex-segmented-control-parameter
+    typeConfig:
+      options:
+        - key: Base
+          value: base
+        - key: LG
+          value: lg
+        - key: XL
+          value: xl
+        - key: 2XL
+          value: 2xl
+        - key: 3XL
+          value: 3xl
+        - key: 4XL
+          value: 4xl
+        - key: 5XL
+          value: 5xl
+        - key: 6XL
+          value: 6xl
+        - key: 7XL
+          value: 7xl
+      defaultValue: {}
+      withViewPort: true
+  - id: color
+    name: Color
+    type: dex-color-palette-parameter
+    typeConfig:
+      allowColors: []
+      selectedGroup: text
+  - id: weight
+    name: Weight
+    type: dex-segmented-control-parameter
+    typeConfig:
+      options:
+        - key: Normal
+          value: normal
+        - key: Medium
+          value: medium
+        - key: Bold
+          value: bold
+        - key: Extrabold
+          value: extrabold
+  - id: font
+    name: Font
+    type: dex-token-selector-parameter
+    typeConfig:
+      selectedTokenType: font
+categoryId: adaebea8-ba58-494b-9c3b-9f82906d9415
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/coffee-shop-template/preview-images/quantity_selector.png
+useTeamPermissions: true
+slots: []
+canBeComposition: false
+created: '2025-01-29T11:09:18.409045+00:00'
+updated: '2025-06-25T09:52:54.863551+00:00'

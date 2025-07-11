@@ -1,0 +1,150 @@
+composition:
+  _name: Feature Card
+  _id: da893018-5bb0-49bd-8289-3f073b167c8d
+  type: flex
+  parameters:
+    gap:
+      type: dex-slider-control-parameter
+      value:
+        mobile: '8'
+        tablet: '8'
+        desktop: '8'
+    spacing:
+      type: dex-space-control-parameter
+      value:
+        mobile: {}
+        tablet: {}
+        desktop: {}
+    direction:
+      type: dex-segmented-control-parameter
+      value:
+        mobile: col
+        tablet: col
+        desktop: col
+    alignItems:
+      type: dex-segmented-control-parameter
+      value: {}
+    displayName:
+      type: text
+      locales:
+        en: "Quantum heating \Ltechnology"
+    fluidContent:
+      type: checkbox
+      value: true
+    justifyContent:
+      type: dex-segmented-control-parameter
+      value: {}
+  slots:
+    flexItem:
+      - _id: df99286b-2378-4646-a0a3-fc0921dd8940
+        type: image
+        parameters:
+          image:
+            type: asset
+            value:
+              - _id: 77c10bf4-af55-4c93-9195-96ec9d960894
+                type: image
+                fields:
+                  id:
+                    type: text
+                    value: 9a4c21ad-d697-4656-a529-ac9e5b87be60
+                  url:
+                    value: >-
+                      https://img.uniform.global/p/b0JtaxSVQxmqWylG6vGC1Q/sNI8HlaKRLazsBj2X8zwSg-quantum-heating-technology.png
+                    type: text
+                  file:
+                    type: file
+                    value: a874af90-6277-49c0-b1e6-397a6d21dab9
+                  size:
+                    value: 773
+                    type: number
+                  title:
+                    type: text
+                    value: quantum-heating-technology.png
+                  width:
+                    value: 60
+                    type: number
+                  height:
+                    value: 47
+                    type: number
+                  mediaType:
+                    value: image/png
+                    type: text
+                _source: uniform-assets
+          width:
+            type: number
+            value: '60'
+          height:
+            type: number
+            value: '50'
+          objectFit:
+            type: dex-segmented-control-parameter
+            value: contain
+        _overridability:
+          parameters:
+            image: 'yes'
+          hideLockedParameters: true
+      - _id: 93a8a0a2-d5df-4e82-97ed-2c1f2f29e907
+        type: text
+        parameters:
+          tag:
+            type: dex-segmented-control-parameter
+            value: span
+          font:
+            type: dex-token-selector-parameter
+            value: secondary
+          size:
+            type: dex-segmented-control-parameter
+            value:
+              mobile: xl
+          text:
+            type: text
+            locales:
+              en: "Quantum heating \Ltechnology"
+          color:
+            type: dex-color-palette-parameter
+            value: text-featured
+          weight:
+            type: dex-segmented-control-parameter
+            value: bold
+        _overridability:
+          parameters:
+            text: 'yes'
+          hideLockedParameters: true
+      - _id: 67e790c1-6421-4f15-acd2-40b91f832494
+        type: text
+        parameters:
+          tag:
+            type: dex-segmented-control-parameter
+            value: span
+          size:
+            type: dex-segmented-control-parameter
+            value:
+              mobile: lg
+          text:
+            type: text
+            locales:
+              en: >-
+                Say goodbye to waiting. The EspressoGPT harnesses quantum
+                mechanics to heat your water in a fraction of a second, ensuring
+                the perfect temperature for your espresso every time.
+          color:
+            type: dex-color-palette-parameter
+            value: text-secondary
+          weight:
+            type: dex-segmented-control-parameter
+            value: normal
+        _overridability:
+          parameters:
+            text: 'yes'
+          hideLockedParameters: true
+  _overridability:
+    parameters:
+      displayName: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en
+created: '2025-05-22T08:57:05.289074+00:00'
+modified: '2025-05-23T09:44:10.368363+00:00'
+pattern: true
+categoryId: 096fd5ed-5e2a-4bfa-834b-fb805d1d1ce9

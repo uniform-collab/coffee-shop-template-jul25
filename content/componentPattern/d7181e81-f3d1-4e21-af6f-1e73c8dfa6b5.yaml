@@ -1,0 +1,151 @@
+composition:
+  _name: Main Featured Hero
+  _id: d7181e81-f3d1-4e21-af6f-1e73c8dfa6b5
+  type: featuredSection
+  parameters:
+    spacing:
+      type: dex-space-control-parameter
+      value:
+        paddingTop: container-xxlarge
+        paddingBottom: container-xxlarge
+    displayName:
+      type: text
+      value: Welcome Hero
+    fluidContent:
+      type: checkbox
+      value: true
+    contentSpacing:
+      type: dex-space-control-parameter
+      value:
+        mobile:
+          paddingTop: container-medium
+          paddingLeft: container-small
+          paddingRight: container-small
+          paddingBottom: container-medium
+        tablet:
+          paddingTop: container-medium
+          paddingLeft: container-small
+          paddingRight: container-small
+          paddingBottom: container-medium
+        desktop:
+          marginTop: ''
+          marginLeft: ''
+          paddingTop: container-large
+          marginRight: ''
+          paddingLeft: container-large
+          marginBottom: ''
+          paddingRight: container-large
+          paddingBottom: container-large
+    contentAlignment:
+      type: dex-segmented-control-parameter
+      value: left
+    contentBackgroundColor:
+      type: dex-color-palette-parameter
+      value: general-color-2
+  slots:
+    sectionCTA:
+      - _id: 5d86f5e9-47d6-4e77-a139-83228ec0be41
+        type: $slotSection
+        parameters:
+          name:
+            type: text
+            value: Buttons
+        _overridability:
+          hideLockedParameters: true
+    sectionMedia:
+      - _id: fcac6346-1864-4284-8715-a0e4fb4854f4
+        type: image
+        parameters:
+          fill:
+            type: checkbox
+            value: true
+          image:
+            type: asset
+            value:
+              - _id: 0d62516b-be94-4273-9dbe-34c98b8b728d
+                type: image
+                fields:
+                  id:
+                    type: text
+                    value: c64606e3-4d79-40d2-9a52-1dacb84bf31d
+                  url:
+                    value: >-
+                      https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/SFI48U58QVqb_kTBN4tZsg-latte-art-pouring-coffee.jpeg
+                    type: text
+                  file:
+                    type: file
+                    value: 48b246f2-1f3d-410b-91d7-f0a2f0477e9f
+                  size:
+                    value: 237701
+                    type: number
+                  title:
+                    type: text
+                    value: latte-art-pouring-coffee.jpeg
+                  width:
+                    value: 2600
+                    type: number
+                  height:
+                    value: 1300
+                    type: number
+                  mediaType:
+                    value: image/jpeg
+                    type: text
+                _source: uniform-assets
+          priority:
+            type: checkbox
+            value: true
+          objectFit:
+            type: dex-segmented-control-parameter
+            value: cover
+          unoptimized:
+            type: checkbox
+            value: true
+        _overridability:
+          parameters:
+            image: 'yes'
+          hideLockedParameters: true
+    sectionContent:
+      - _id: c50e99a6-1d91-4d6e-9a22-3154d4e4a8b7
+        type: text
+        parameters:
+          tag:
+            type: dex-segmented-control-parameter
+            value: h1
+          size:
+            type: dex-segmented-control-parameter
+            value:
+              mobile: 3xl
+              tablet: 4xl
+              desktop: 4xl
+          text:
+            type: text
+            value: Find the perfect cup without leaving your home.
+          color:
+            type: dex-color-palette-parameter
+            value: text-secondary
+          weight:
+            type: dex-segmented-control-parameter
+            value: bold
+          alignment:
+            type: dex-segmented-control-parameter
+            value: left
+          letterSpacing:
+            type: dex-segmented-control-parameter
+            value: wide
+        _overridability:
+          parameters:
+            text: 'yes'
+          hideLockedParameters: true
+  _overridability:
+    parameters:
+      displayName: 'yes'
+      contentBackgroundColor: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en
+created: '2025-01-29T11:09:30.529814+00:00'
+modified: '2025-06-25T10:25:25.692109+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/coffee-shop-template/preview-images/main_featured_hero.png
+categoryId: f22b05f0-c4bf-4158-8ebc-4856e4d453af

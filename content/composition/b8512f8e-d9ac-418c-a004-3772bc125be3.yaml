@@ -1,0 +1,97 @@
+composition:
+  _name: Not Found
+  _id: b8512f8e-d9ac-418c-a004-3772bc125be3
+  _slug: not-found
+  type: page
+  _overrides:
+    b8512f8e-d9ac-418c-a004-3772bc125be3:
+      parameters:
+        pageTitle:
+          type: text
+          value: Page Not Found - Java Drip
+        pageKeywords:
+          type: text
+          value: >-
+            404 page, page not found, Java Drip coffee, missing page, coffee
+            shop error
+        openGraphImage:
+          type: asset
+          value:
+            - _id: d990fcc9-00c7-4b39-a3ed-894242daad70
+              type: image
+              fields:
+                id:
+                  type: text
+                  value: 255263c1-43ca-4cf9-8206-b8566df49614
+                url:
+                  value: >-
+                    https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/4DqOUTYhSTe6NcYJMVqBYg-not-found-og-image.png
+                  type: text
+                file:
+                  type: file
+                  value: 3c33b309-90e3-439e-a259-18b88f12e32f
+                size:
+                  value: 1827822
+                  type: number
+                title:
+                  type: text
+                  value: not-found-og-image.png
+                width:
+                  value: 1808
+                  type: number
+                height:
+                  value: 908
+                  type: number
+                mediaType:
+                  value: image/png
+                  type: text
+              _source: uniform-assets
+        openGraphTitle:
+          type: text
+          value: Page Not Found - Java Drip
+        pageDescription:
+          type: text
+          value: >-
+            Oops! The page you’re looking for doesn’t exist. Don’t worry,
+            explore Java Drip for the finest coffee makers, beans, and
+            accessories.
+        openGraphDescription:
+          type: text
+          value: >-
+            Oops! The page you’re looking for doesn’t exist. Don’t worry,
+            explore Java Drip for the finest coffee makers, beans, and
+            accessories.
+    3547d19f-61ac-4c6a-b7eb-963372fcedaa|fa933a66-ceec-4443-bf4b-2ea8ddd1aba2:
+      parameters:
+        link:
+          type: link
+          locales:
+            en:
+              path: /${locale}
+              type: projectMapNode
+              nodeId: e7206bd2-8ac2-4e25-937d-8f57292f006b
+              projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+              dynamicInputValues:
+                locale: ${locale}
+        text:
+          type: text
+          value: Go Home
+    b8512f8e-d9ac-418c-a004-3772bc125be3|dc2e95be-21b5-4476-a309-f8a34922f528:
+      slots:
+        $slotSectionItems:
+          - _id: 3547d19f-61ac-4c6a-b7eb-963372fcedaa
+            type: section
+            variant: columnsReverse
+            _pattern: e23064ac-00d3-4740-b62d-50d8b080c5a1
+            _overridability:
+              parameters:
+                spacing: 'yes'
+                displayName: 'yes'
+                fluidContent: 'yes'
+              hideLockedParameters: true
+  _locales:
+    - en
+  _pattern: f9c058ea-c40d-4435-ac5a-53423cf654dc
+created: '2025-03-18T13:02:32.583779+00:00'
+modified: '2025-06-05T08:51:44.664189+00:00'
+pattern: false

@@ -1,0 +1,32 @@
+composition:
+  _name: Segment Quirk Selector
+  _id: 0bc0e924-445c-47de-9217-3dc6f889f1e7
+  type: quirkSelector
+  parameters:
+    quirkId:
+      type: text
+      locales:
+        en: segment
+    variants:
+      type: text
+      locales:
+        en: aficionado,occasional,newb
+  slots:
+    quirkSelectorSaveButton:
+      - _id: f57a3162-0c07-4318-be4b-69050daa2629
+        type: button
+        _pattern: 53b59aed-e378-4fcb-9135-20247d92074e
+  _overrides:
+    f57a3162-0c07-4318-be4b-69050daa2629:
+      parameters:
+        text:
+          type: text
+          value: Save
+  _overridability:
+    hideLockedParameters: true
+  _locales:
+    - en
+created: '2025-03-11T09:22:09.883534+00:00'
+modified: '2025-06-24T13:07:12.402347+00:00'
+pattern: true
+categoryId: 3bab40a0-d52d-49b3-8780-b26f737b84a3

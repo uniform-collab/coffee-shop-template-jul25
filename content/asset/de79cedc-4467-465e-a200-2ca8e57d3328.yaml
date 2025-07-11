@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: de79cedc-4467-465e-a200-2ca8e57d3328
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: the-drip-on-display.png
+    file:
+      type: file
+      value: 27b13910-d35b-4008-8c65-0c7017dbcfb6
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/b0JtaxSVQxmqWylG6vGC1Q/e4UgH9vVTvGUyQCd9rpwmw-the-drip-on-display.png
+      type: text
+    size:
+      value: 535879
+      type: number
+    width:
+      value: 1076
+      type: number
+    height:
+      value: 748
+      type: number
+    custom: {}
+created: '2025-05-22T09:05:27.456915+00:00'
+modified: '2025-05-22T09:05:27.456915+00:00'

@@ -1,0 +1,236 @@
+created: '2025-01-29T11:10:22.22537+00:00'
+modified: '2025-06-26T06:30:07.651476+00:00'
+pattern: false
+entry:
+  _id: 42e91a5d-1821-4127-a924-81c0f5c8a36a
+  _name: Coffee Removable Filter Holder for Specialty Coffee Maker
+  _slug: coffee-removable-filter-holder
+  _thumbnail: >-
+    https://img.uniform.global/p/DCdo4LRJTZWl21CYeUJNPg/7yKrxbffSFG_WM00TyOsow-coffee-removable-filter-holder-1.png
+  type: product
+  fields:
+    body:
+      type: richText
+      locales:
+        en:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Upgrade your brewing setup with the Coffee Removable
+                      Filter Holder, specifically designed for specialty coffee
+                      makers. This practical and user-friendly accessory makes
+                      it simple to insert and remove coffee filters, allowing
+                      for a more seamless and efficient brewing process. Built
+                      to enhance your coffee-making routine, this filter holder
+                      ensures stability during brewing and helps maintain a
+                      clean, mess-free workspace.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Crafted from durable, high-quality materials, the Coffee
+                      Removable Filter Holder is built to withstand daily use
+                      while preserving the integrity of your coffee maker. Its
+                      design also allows for easy cleaning, promoting better
+                      hygiene and taste with every cup. Whether you're preparing
+                      your morning brew or serving guests, this filter holder
+                      adds convenience and reliability to your specialty coffee
+                      maker, making it an essential component for coffee
+                      enthusiasts.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+    name:
+      type: text
+      value: Coffee Removable Filter Holder for Specialty Coffee Maker
+    brand:
+      type: contentReference
+      value: ${#jptr:/ref-42e91a5d-1821-4127-a924-81c0f5c8a36a-brand/entries/0}
+    title:
+      type: text
+      value: Coffee Removable Filter Holder for Specialty Coffee Maker
+    rating:
+      type: number
+      value: '4.2'
+    ogImage:
+      type: asset
+      value:
+        - _id: 61c6397d-6746-4225-9adb-9841e84b6756
+          type: image
+          fields:
+            id:
+              type: text
+              value: 7b12c50f-be10-446f-899c-70bca80a7c55
+            url:
+              value: >-
+                https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/XW9wz9DzSeuKP4OU1vhl8Q-coffee-removable-filter-holder-1.png
+              type: text
+            file:
+              type: file
+              value: fa86ebbf-0771-474a-a717-b4c0fff8eb9b
+            size:
+              value: 61687
+              type: number
+            title:
+              type: text
+              value: coffee-removable-filter-holder-1.png
+            width:
+              value: 800
+              type: number
+            height:
+              value: 600
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+    category:
+      type: contentReference
+      value: ${#jptr:/ref-42e91a5d-1821-4127-a924-81c0f5c8a36a-category/entries/0}
+    variants:
+      type: $block
+      value:
+        - _id: 7af1be25-f4e5-4c11-b2fc-98db0b8c53bf
+          type: variant
+          fields:
+            code:
+              type: text
+              value: '148'
+            price:
+              type: number
+              locales:
+                en: '12.95'
+            title:
+              type: text
+              locales:
+                en: Coffee Removable Filter Holder for Specialty Coffee Maker
+            currency:
+              type: text
+              locales:
+                en: USD
+            imageGallery:
+              type: asset
+              value:
+                - _id: d6832117-3c84-4bda-a930-43d3bf35ede5
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: 7b12c50f-be10-446f-899c-70bca80a7c55
+                    url:
+                      value: >-
+                        https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/XW9wz9DzSeuKP4OU1vhl8Q-coffee-removable-filter-holder-1.png
+                      type: text
+                    file:
+                      type: file
+                      value: fa86ebbf-0771-474a-a717-b4c0fff8eb9b
+                    size:
+                      value: 61687
+                      type: number
+                    title:
+                      type: text
+                      value: coffee-removable-filter-holder-1.png
+                    width:
+                      value: 800
+                      type: number
+                    height:
+                      value: 600
+                      type: number
+                    mediaType:
+                      value: image/png
+                      type: text
+                  _source: uniform-assets
+    metaTitle:
+      type: text
+      value: Coffee Removable Filter Holder for Specialty Coffee Maker
+    enrichments:
+      type: $enr
+      value:
+        - cat: brand
+          key: javadrip
+          str: 5
+    primaryImage:
+      type: asset
+      value:
+        - _id: 61c6397d-6746-4225-9adb-9841e84b6756
+          type: image
+          fields:
+            id:
+              type: text
+              value: 7b12c50f-be10-446f-899c-70bca80a7c55
+            url:
+              value: >-
+                https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/XW9wz9DzSeuKP4OU1vhl8Q-coffee-removable-filter-holder-1.png
+              type: text
+            file:
+              type: file
+              value: fa86ebbf-0771-474a-a717-b4c0fff8eb9b
+            size:
+              value: 61687
+              type: number
+            title:
+              type: text
+              value: coffee-removable-filter-holder-1.png
+            width:
+              value: 800
+              type: number
+            height:
+              value: 600
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+    metaDescription:
+      type: text
+      locales:
+        en: >-
+          Effortless brewing with our Coffee Removable Filter Holder—perfect for
+          specialty coffee makers and easy cleaning.
+    shortDescription:
+      type: text
+      locales:
+        en: >-
+          The Coffee Removable Filter Holder is designed for specialty coffee
+          makers, offering easy insertion and removal for a seamless brewing
+          experience and simple cleaning.
+  _dataResources:
+    ref-42e91a5d-1821-4127-a924-81c0f5c8a36a-brand:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 725d0924-c684-49f1-ba91-b0dfd695823d
+    ref-42e91a5d-1821-4127-a924-81c0f5c8a36a-category:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 6b8b91ea-1922-4c2a-8233-4a4a20ab285b
+  _locales:
+    - en

@@ -1,0 +1,339 @@
+composition:
+  _name: Policy Card
+  _id: 27a48f0e-04a5-423e-95e4-d73bbed53e87
+  type: grid
+  parameters:
+    gapX:
+      type: dex-slider-control-parameter
+      value:
+        mobile: '4'
+        tablet: '16'
+        desktop: '16'
+    gapY:
+      type: dex-slider-control-parameter
+      value:
+        mobile: '4'
+        tablet: '4'
+        desktop: '4'
+    displayName:
+      type: text
+      value: Policy Card
+    columnsCount:
+      type: dex-slider-control-parameter
+      value:
+        mobile: '1'
+        tablet: '1'
+        desktop: '12'
+  slots:
+    gridInner:
+      - _id: 276b242b-8928-4294-a2bc-10effc160ff6
+        type: gridItem
+        slots:
+          inner:
+            - _id: 2e915f91-28e7-4fe1-9ee9-ee27ec76fdf4
+              type: flex
+              slots:
+                flexItem:
+                  - _id: a0e4a12e-0854-4bf8-903b-4bff1e9aa79a
+                    type: text
+                    parameters:
+                      tag:
+                        type: dex-segmented-control-parameter
+                        value: span
+                      size:
+                        type: dex-segmented-control-parameter
+                        value:
+                          mobile: 2xl
+                          tablet: 2xl
+                          desktop: 2xl
+                      text:
+                        type: text
+                        value: Help your machine to be better, every day
+                      color:
+                        type: dex-color-palette-parameter
+                        value: text-primary
+                      weight:
+                        type: dex-segmented-control-parameter
+                        value: bold
+                    _overridability:
+                      hideLockedParameters: true
+                  - _id: a3dc79a1-11d8-4236-877c-f65d716f6d0a
+                    type: text
+                    parameters:
+                      tag:
+                        type: dex-segmented-control-parameter
+                        value: span
+                      size:
+                        type: dex-segmented-control-parameter
+                        value:
+                          mobile: base
+                          tablet: base
+                          desktop: base
+                      text:
+                        type: text
+                        value: >-
+                          By accepting the terms and conditions, you enable your
+                          coffee machine to connect with JavaDrip Optimization
+                          Cloud, which allows us to provide you with the most
+                          relevant information here based on your machine use,
+                          will help our customer service to help you faster, and
+                          you getting continuous value from this purchase.
+                      color:
+                        type: dex-color-palette-parameter
+                        value: text-primary
+                      weight:
+                        type: dex-segmented-control-parameter
+                        value: normal
+                    _overridability:
+                      hideLockedParameters: true
+              parameters:
+                gap:
+                  type: dex-slider-control-parameter
+                  value:
+                    mobile: '4'
+                    tablet: '4'
+                    desktop: '4'
+                spacing:
+                  type: dex-space-control-parameter
+                  value:
+                    mobile: {}
+                    tablet: {}
+                    desktop: {}
+                direction:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: col
+                    tablet: col
+                    desktop: col
+                alignItems:
+                  type: dex-segmented-control-parameter
+                  value: {}
+                displayName:
+                  type: text
+                  value: Content
+                fluidContent:
+                  type: checkbox
+                  value: true
+                justifyContent:
+                  type: dex-segmented-control-parameter
+                  value: {}
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          rowSpan:
+            type: dex-slider-control-parameter
+            value: {}
+          rowStart:
+            type: dex-slider-control-parameter
+            value:
+              mobile: ''
+              tablet: ''
+              desktop: ''
+          columnSpan:
+            type: dex-slider-control-parameter
+            value:
+              desktop: span-8
+          columnStart:
+            type: dex-slider-control-parameter
+            value:
+              mobile: '1'
+              tablet: '1'
+              desktop: '1'
+          displayName:
+            type: text
+            value: Left Content
+        _overridability:
+          hideLockedParameters: true
+      - _id: 7d5e1978-8098-49fb-a9f5-cb8b0ee428fd
+        type: gridItem
+        slots:
+          inner:
+            - _id: a24c0836-2c83-43c7-8535-82e1ea2132ba
+              type: flex
+              slots:
+                flexItem:
+                  - _id: 107c63e3-db3d-48db-9cce-6ec7021ee372
+                    type: flex
+                    slots:
+                      flexItem:
+                        - _id: 0c3ca61d-740f-4f99-a1d1-8aed09e57a41
+                          type: button
+                          _pattern: 646faee6-b476-43c6-a1a8-eebe85699889
+                        - _id: abe5ce93-d5ca-4881-a9fd-d5c9e8a3edfc
+                          type: button
+                          _pattern: 646faee6-b476-43c6-a1a8-eebe85699889
+                    parameters:
+                      gap:
+                        type: dex-slider-control-parameter
+                        value:
+                          mobile: '8'
+                          tablet: '8'
+                          desktop: '8'
+                      spacing:
+                        type: dex-space-control-parameter
+                        value:
+                          mobile: {}
+                          tablet: {}
+                          desktop: {}
+                      direction:
+                        type: dex-segmented-control-parameter
+                        value:
+                          mobile: row
+                          tablet: row
+                          desktop: row
+                      alignItems:
+                        type: dex-segmented-control-parameter
+                        value: {}
+                      displayName:
+                        type: text
+                        value: Buttons
+                      fluidContent:
+                        type: checkbox
+                        value: true
+                      justifyContent:
+                        type: dex-segmented-control-parameter
+                        value:
+                          mobile: center
+                          tablet: end
+                          desktop: end
+                    _overridability:
+                      hideLockedParameters: true
+                  - _id: f6d2e0a5-f038-473c-a9b1-f861a8cbdf87
+                    type: flex
+                    slots:
+                      flexItem:
+                        - _id: efcc3bd5-6d2f-41a0-a152-65d748d775be
+                          type: button
+                          variant: link
+                          parameters:
+                            text:
+                              type: text
+                              value: Privacy and Terms and Conditions
+                            textSize:
+                              type: dex-segmented-control-parameter
+                              value:
+                                mobile: sm
+                                tablet: sm
+                                desktop: base
+                            textColor:
+                              type: dex-color-palette-parameter
+                              value: text-primary
+                            textWeight:
+                              type: dex-segmented-control-parameter
+                              value: normal
+                          _overridability:
+                            hideLockedParameters: true
+                    parameters:
+                      gap:
+                        type: dex-slider-control-parameter
+                        value: {}
+                      spacing:
+                        type: dex-space-control-parameter
+                        value:
+                          mobile: {}
+                          tablet: {}
+                          desktop: {}
+                      direction:
+                        type: dex-segmented-control-parameter
+                        value:
+                          mobile: row
+                          tablet: row
+                          desktop: row
+                      alignItems:
+                        type: dex-segmented-control-parameter
+                        value: {}
+                      displayName:
+                        type: text
+                        value: Privacy and Terms Link
+                      fluidContent:
+                        type: checkbox
+                        value: true
+                      justifyContent:
+                        type: dex-segmented-control-parameter
+                        value:
+                          mobile: end
+                          tablet: end
+                          desktop: end
+                    _overridability:
+                      hideLockedParameters: true
+              parameters:
+                gap:
+                  type: dex-slider-control-parameter
+                  value:
+                    mobile: '8'
+                    tablet: '8'
+                    desktop: '8'
+                spacing:
+                  type: dex-space-control-parameter
+                  value:
+                    mobile: {}
+                    tablet: {}
+                    desktop: {}
+                direction:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: col
+                    tablet: col
+                    desktop: col
+                alignItems:
+                  type: dex-segmented-control-parameter
+                  value: {}
+                displayName:
+                  type: text
+                  value: Content
+                fluidContent:
+                  type: checkbox
+                  value: true
+                justifyContent:
+                  type: dex-segmented-control-parameter
+                  value: {}
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          rowSpan:
+            type: dex-slider-control-parameter
+            value: {}
+          rowStart:
+            type: dex-slider-control-parameter
+            value:
+              mobile: ''
+              tablet: ''
+              desktop: ''
+          columnSpan:
+            type: dex-slider-control-parameter
+            value:
+              desktop: span-4
+          columnStart:
+            type: dex-slider-control-parameter
+            value:
+              mobile: '1'
+              tablet: '1'
+              desktop: '9'
+          displayName:
+            type: text
+            value: Right Content
+        _overridability:
+          hideLockedParameters: true
+  _overrides:
+    0c3ca61d-740f-4f99-a1d1-8aed09e57a41:
+      parameters:
+        text:
+          type: text
+          value: I ACCEPT
+    abe5ce93-d5ca-4881-a9fd-d5c9e8a3edfc:
+      parameters:
+        text:
+          type: text
+          value: DO NOT ACCEPT
+  _overridability:
+    parameters:
+      fluidContent: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en
+created: '2025-03-18T13:02:27.203236+00:00'
+modified: '2025-05-22T11:04:01.404062+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/coffee-shop-template/preview-images/policy-card.jpg
+categoryId: 096fd5ed-5e2a-4bfa-834b-fb805d1d1ce9

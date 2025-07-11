@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: e76bf04b-18f6-43bb-8135-4eda70acabcc
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: ember.png
+    file:
+      type: file
+      value: 97e7d076-e443-46e7-85cc-1a2b47af064e
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/N0QOqjXvSFeXY7i3yzY8ZQ/LRnbyun-Q9q9mhpwK7shGQ-ember.png
+      type: text
+    size:
+      value: 301691
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-01-29T11:09:00.017537+00:00'
+modified: '2025-01-29T11:09:00.017537+00:00'

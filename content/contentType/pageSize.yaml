@@ -1,0 +1,19 @@
+id: pageSize
+name: Page Size
+created: '2025-04-24T11:36:01.781575+00:00'
+updated: '2025-04-24T11:36:01.781575+00:00'
+slugSettings: {}
+useTeamPermissions: true
+fields:
+  - id: size
+    name: Size
+    type: number
+    typeConfig:
+      min: '1'
+      required: true
+entryName: size
+description: ''
+icon: arrows-merge-alt-h
+type: block
+permissions: []
+previewConfigurations: []

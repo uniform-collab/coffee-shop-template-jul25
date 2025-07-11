@@ -1,0 +1,227 @@
+composition:
+  _name: Article Card
+  _id: d4bbbede-ffc9-481f-ae83-2d5339f26ee0
+  type: flexCard
+  parameters:
+    border:
+      type: dex-token-selector-parameter
+      value: border-product-card
+    spacing:
+      type: dex-space-control-parameter
+      value:
+        paddingTop: container-xsmall
+        paddingLeft: container-xsmall
+        paddingRight: container-xsmall
+        paddingBottom: container-xsmall
+    displayName:
+      type: text
+      value: Article Card | ${#jptr:/Article/entry/_name}
+  slots:
+    cardMedia:
+      - _id: 1a083f8a-3c62-4534-80b0-f4b0974b3879
+        type: image
+        parameters:
+          image:
+            type: asset
+            value:
+              - _id: 2759397f-da75-4031-9d19-c5af8b179f76
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      ${#jptr:/Article/entry/fields/thumbnail/value/0/fields/url/value}
+                _source: custom-url
+          height:
+            type: number
+            value: '170'
+          objectFit:
+            type: dex-segmented-control-parameter
+            value: cover
+        _overridability:
+          parameters:
+            image: 'yes'
+          hideLockedParameters: true
+    cardContent:
+      - _id: 91073367-d80c-4d4c-82aa-6d69c2aff01a
+        type: flex
+        slots:
+          flexItem:
+            - _id: ae7909ec-a83b-4a6a-9966-5ca24b372679
+              type: text
+              parameters:
+                tag:
+                  type: dex-segmented-control-parameter
+                  value: h2
+                size:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: 2xl
+                    tablet: 2xl
+                    desktop: 2xl
+                text:
+                  type: text
+                  value: ${#jptr:/Article/entry/fields/title/value}
+                color:
+                  type: dex-color-palette-parameter
+                  value: text-primary
+                weight:
+                  type: dex-segmented-control-parameter
+                  value: bold
+              _overridability:
+                parameters:
+                  text: 'yes'
+                hideLockedParameters: true
+            - _id: e78908dc-dc95-40d7-9fd3-aea7a3fa1f4f
+              type: text
+              parameters:
+                tag:
+                  type: dex-segmented-control-parameter
+                  value: p
+                size:
+                  type: dex-segmented-control-parameter
+                  value: {}
+                text:
+                  type: text
+                  value: ${#jptr:/Article/entry/fields/shortDescription/value}
+                weight:
+                  type: dex-segmented-control-parameter
+                  value: normal
+              _overridability:
+                parameters:
+                  text: 'yes'
+                hideLockedParameters: true
+            - _id: 31496ca8-d0f1-47c2-a3e8-55c6515ada4d
+              type: text
+              parameters:
+                tag:
+                  type: dex-segmented-control-parameter
+                  value: p
+                size:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: base
+                    tablet: base
+                    desktop: base
+                text:
+                  type: text
+                  value: >-
+                    by
+                    ${#jptr:/Article/entry/fields/author/value/entry/fields/name/value}
+                color:
+                  type: dex-color-palette-parameter
+                  value: text-primary
+                weight:
+                  type: dex-segmented-control-parameter
+                  value: normal
+              _overridability:
+                parameters:
+                  text: 'yes'
+                hideLockedParameters: true
+        parameters:
+          gap:
+            type: dex-slider-control-parameter
+            value:
+              mobile: '4'
+              tablet: '4'
+              desktop: '4'
+          spacing:
+            type: dex-space-control-parameter
+            value:
+              mobile: {}
+              tablet: {}
+              desktop:
+                paddingTop: container-small
+                paddingBottom: container-small
+          direction:
+            type: dex-segmented-control-parameter
+            value:
+              mobile: col
+              tablet: col
+              desktop: col
+          alignItems:
+            type: dex-segmented-control-parameter
+            value: {}
+          displayName:
+            type: text
+            value: Content
+          fluidContent:
+            type: checkbox
+            value: true
+          justifyContent:
+            type: dex-segmented-control-parameter
+            value: {}
+        _overridability:
+          hideLockedParameters: true
+      - _id: 91a39649-d9d5-4f11-9090-203b4fea8a13
+        type: button
+        parameters:
+          link:
+            type: link
+            locales:
+              en:
+                path: /${locale}/articles/${#jptr:/Article/entry/_slug}
+                type: projectMapNode
+                nodeId: 0b2a6284-3d74-4ef6-a3de-b2617058c861
+                projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+                dynamicInputValues:
+                  locale: ${locale}
+                  article-slug: ${#jptr:/Article/entry/_slug}
+          size:
+            type: dex-token-selector-parameter
+            value: button-small
+          text:
+            type: text
+            value: Read Article
+          border:
+            type: dex-token-selector-parameter
+            value: border-button-secondary
+          textSize:
+            type: dex-segmented-control-parameter
+            value:
+              mobile: sm
+              tablet: sm
+              desktop: sm
+          textColor:
+            type: dex-color-palette-parameter
+            value: text-primary
+          textWeight:
+            type: dex-segmented-control-parameter
+            value: bold
+          buttonColor:
+            type: dex-color-palette-parameter
+            value: button-secondary
+          textTransform:
+            type: dex-segmented-control-parameter
+            value: uppercase
+          hoverTextColor:
+            type: dex-color-palette-parameter
+            value: text-secondary
+          hoverButtonColor:
+            type: dex-color-palette-parameter
+            value: button-primary
+        _overridability:
+          parameters:
+            link: 'yes'
+            text: 'no'
+          hideLockedParameters: true
+  _dataResources:
+    Article:
+      type: article
+      variables:
+        slug: the-golden-ratio-of-coffee
+        locale: ${locale}
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    parameters:
+      displayName: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en
+created: '2025-03-18T13:02:30.199703+00:00'
+modified: '2025-05-22T10:45:21.669963+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/coffee-shop-template/preview-images/article-card.jpg
+categoryId: 096fd5ed-5e2a-4bfa-834b-fb805d1d1ce9

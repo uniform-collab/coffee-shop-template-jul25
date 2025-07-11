@@ -1,0 +1,1219 @@
+created: '2025-01-29T11:10:23.519077+00:00'
+modified: '2025-06-25T14:23:56.072912+00:00'
+pattern: false
+entry:
+  _id: 4db3128b-5b2a-45fe-8c56-2271508fe091
+  _name: The Art of the Perfect Espresso
+  _slug: the-art-of-the-perfect-espresso
+  _thumbnail: >-
+    https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/sQZwlqnmTyKYSRsypQrP6A-the-art-of-the-perfect-espresso.jpg
+  type: article
+  fields:
+    title:
+      type: text
+      value: The Art of the Perfect Espresso
+    author:
+      type: contentReference
+      value: ${#jptr:/ref-4db3128b-5b2a-45fe-8c56-2271508fe091-author/entries/0}
+    content:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Espresso is the foundation of many beloved coffee drinks,
+                    from lattes to cappuccinos, but it’s also an art form in
+                    itself. When crafted correctly, a single shot of espresso
+                    offers a rich, complex experience in just a few sips.
+                    However, pulling the perfect espresso shot requires
+                    precision, patience, and a good understanding of technique.
+                    In this article, we’ll explore the key elements of creating
+                    a flawless espresso and some expert tips for home brewers
+                    looking to elevate their coffee game.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: quote
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Espresso is not just a coffee; it’s a concentrated
+                    experience, a burst of flavor crafted with precision and
+                    care.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - tag: h4
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: What Makes Espresso Different?
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Espresso isn’t just strong coffee—it’s a unique brewing
+                    process. By forcing hot water through finely ground coffee
+                    at high pressure, espresso extracts intense flavor and a
+                    rich, velvety crema. The perfect espresso balances a
+                    full-bodied taste with a slight sweetness, low acidity, and
+                    a lingering, satisfying finish.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Key Elements of a Great Espresso
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Achieving the ideal espresso shot depends on several
+                    critical factors, each of which can drastically impact the
+                    final taste and quality. Here’s a closer look:
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - tag: h4
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 1. Grind Size
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 'Espresso requires a '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: fine grind
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: >-
+                    , similar to powdered sugar, but not as fine as flour. This
+                    grind size allows for maximum extraction in a short amount
+                    of time. If the grind is too coarse, the water flows through
+                    too quickly, resulting in a weak shot. Too fine, and the
+                    water struggles to pass through, causing over-extraction and
+                    bitterness.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - tag: h4
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 2. Dose and Tamping
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 'A standard espresso shot requires about '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: 18–20 grams
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: ' of coffee. Tamping—pressing the coffee grounds evenly with a consistent amount of pressure—is essential for a balanced extraction. Use about 30 pounds of pressure when tamping to ensure a smooth, even surface, which helps water flow through uniformly.'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - tag: h4
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 3. Water Temperature and Pressure
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 'For the best results, water temperature should be between '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: 195°F and 205°F
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: >-
+                    . High pressure (around 9 bars) is needed to extract the
+                    flavors within a 25-30 second window. Too much pressure can
+                    lead to bitterness, while too little can make the shot taste
+                    sour or weak.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Step-by-Step Guide to Pulling the Perfect Shot
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Here’s a simple guide to getting the most out of your
+                    espresso machine at home.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - tag: ol
+              type: list
+              start: 1
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: listitem
+                  value: 1
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Preheat the Machine and Portafilter
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: >-
+                        : Let your espresso machine warm up for about 15-20
+                        minutes to ensure stable water temperature. Also,
+                        preheat the portafilter by running a shot of hot water
+                        through it.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 2
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Grind Fresh Beans
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: >-
+                        : Use freshly ground coffee to capture the most aroma
+                        and flavor. Remember to aim for a fine grind, similar to
+                        table salt or powdered sugar.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 3
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Dose and Tamp
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: >-
+                        : Measure 18-20 grams of ground coffee for a double
+                        shot. Evenly distribute the grounds in the portafilter,
+                        and use a tamper to press them down firmly.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 4
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Pull the Shot
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: >-
+                        : Insert the portafilter into the machine and start the
+                        extraction. Aim for a
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                    - mode: normal
+                      text: 25-30 second extraction time
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: >-
+                        . The espresso should flow in a slow, steady stream with
+                        a thick crema layer on top.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 5
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Observe and Adjust
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: >-
+                        : If the espresso pours too quickly, try a finer grind
+                        or firmer tamp. If it’s too slow, adjust to a coarser
+                        grind or lighter tamp. With practice, you’ll find the
+                        sweet spot.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+              listType: number
+              direction: ltr
+            - tag: h4
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Troubleshooting Common Issues
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Even with a solid method, espresso can be temperamental.
+                    Here are a few common issues and solutions:
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: table
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: tablerow
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Issue
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Cause
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Solution
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                  direction: ltr
+                - type: tablerow
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Bitter Taste
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Over-extraction, water too hot
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Use a coarser grind or lower water temp
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                  direction: ltr
+                - type: tablerow
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Sour Taste
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Under-extraction, water too cold
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Use a finer grind or increase water temp
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                  direction: ltr
+                - type: tablerow
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Weak or Watery
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Coarse grind, short extraction time
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Use a finer grind or extend extraction time
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                  direction: ltr
+                - type: tablerow
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Thin Crema
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Old beans, low pressure
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Use fresh beans and check machine pressure
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                  direction: ltr
+              direction: ltr
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Tips for the Perfect Espresso
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: asset
+              __asset:
+                _id: c533472c-f66c-47d5-98fc-3cafc9f88e26
+                type: image
+                fields:
+                  id:
+                    type: text
+                    value: d6db457c-9943-468a-bdca-ad24baeade41
+                  url:
+                    value: >-
+                      https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/qyx2wC0hT3OLau5bz9AdeQ-tips-for-the-perfect-espresso.jpg
+                    type: text
+                  file:
+                    type: file
+                    value: 88a73881-04a9-438d-a9d3-294eb61e76d3
+                  size:
+                    value: 984517
+                    type: number
+                  title:
+                    type: text
+                    value: tips-for-the-perfect-espresso.jpg
+                  width:
+                    value: 6185
+                    type: number
+                  height:
+                    value: 4123
+                    type: number
+                  mediaType:
+                    value: image/jpeg
+                    type: text
+                _source: uniform-assets
+              version: 1
+            - tag: ol
+              type: list
+              start: 1
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: listitem
+                  value: 1
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: ' '
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                    - mode: normal
+                      text: Use Fresh, Quality Beans
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: >-
+                        : Espresso shines best with high-quality, freshly
+                        roasted beans. Look for beans specifically roasted for
+                        espresso to ensure the richest flavors.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 2
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Experiment with Ratios
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: >-
+                        : The “Golden Ratio” for espresso is typically 1:2,
+                        meaning you extract about twice the weight of coffee
+                        grounds in liquid. However, feel free to adjust for a
+                        ristretto (1:1) or lungo (1:3) based on your taste.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 3
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Practice Consistency
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: >-
+                        : Espresso requires precision, so strive for consistency
+                        in each step, from grind size to tamping pressure. Over
+                        time, you’ll develop a routine that produces reliable
+                        results.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+              listType: number
+              direction: ltr
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Final Thoughts
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Espresso is a rewarding craft. While it may take some time
+                    to master, the perfect shot is well worth the effort. By
+                    paying attention to grind size, temperature, and timing, you
+                    can unlock a world of rich flavors in every cup. Whether
+                    enjoyed as a stand-alone shot or the base for a cappuccino,
+                    a well-made espresso is a testament to the beauty of
+                    simplicity and technique.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: quote
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    The perfect espresso is a balance of science and art—one
+                    shot, one moment, one unforgettable taste.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    So, next time you step up to your espresso machine,
+                    remember: a little care and attention go a long way. With
+                    patience and practice, you’ll be pulling café-quality shots
+                    right in your own kitchen.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Happy brewing!
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 1
+          direction: ltr
+    ogImage:
+      type: asset
+      locales:
+        en:
+          - _id: 409f201d-60bf-40b4-92c6-df9e79be791f
+            type: image
+            fields:
+              id:
+                type: text
+                value: ea01b62e-bb99-4346-801c-950f73bef567
+              url:
+                value: >-
+                  https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/sQZwlqnmTyKYSRsypQrP6A-the-art-of-the-perfect-espresso.jpg
+                type: text
+              file:
+                type: file
+                value: 2f838ca5-ae6c-40c0-854e-c046ce9c997b
+              size:
+                value: 2353234
+                type: number
+              title:
+                type: text
+                value: the-art-of-the-perfect-espresso.jpg
+              width:
+                value: 5837
+                type: number
+              height:
+                value: 3891
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+            _source: uniform-assets
+    category:
+      type: contentReference
+      value: ${#jptr:/ref-4db3128b-5b2a-45fe-8c56-2271508fe091-category/entries/0}
+    metaTitle:
+      type: text
+      locales:
+        en: The Art of the Perfect Espresso
+    thumbnail:
+      type: asset
+      locales:
+        en:
+          - _id: 62bd5740-a528-4670-ab94-4d1a44670d0f
+            type: image
+            fields:
+              id:
+                type: text
+                value: ea01b62e-bb99-4346-801c-950f73bef567
+              url:
+                value: >-
+                  https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/sQZwlqnmTyKYSRsypQrP6A-the-art-of-the-perfect-espresso.jpg
+                type: text
+              file:
+                type: file
+                value: 36f77c84-2047-4a1d-96a2-4f3014a90ac2
+              size:
+                value: 2353234
+                type: number
+              title:
+                type: text
+                value: the-art-of-the-perfect-espresso.jpg
+              width:
+                value: 5837
+                type: number
+              height:
+                value: 3891
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+            _source: uniform-assets
+    enrichments:
+      type: $enr
+      value:
+        - cat: topic
+          key: coffee
+          str: 5
+    publishDate:
+      type: date
+      value: '2025-03-20'
+    metaDescription:
+      type: text
+      locales:
+        en: >-
+          Espresso is the foundation of many beloved coffee drinks, from lattes
+          to cappuccinos, but it’s also an art form in itself
+    shortDescription:
+      type: text
+      value: >-
+        Espresso is the foundation of many beloved coffee drinks, from lattes to
+        cappuccinos, but it’s also an art form in itself
+  _dataResources:
+    ref-4db3128b-5b2a-45fe-8c56-2271508fe091-author:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 3c1cdfc4-9e1f-40dc-bb27-b3d88492520d
+    ref-4db3128b-5b2a-45fe-8c56-2271508fe091-category:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 8f126a53-19d3-46d9-a855-63be62ffca1d
+  _locales:
+    - en

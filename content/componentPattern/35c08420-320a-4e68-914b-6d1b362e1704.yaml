@@ -1,0 +1,139 @@
+composition:
+  _name: Global P13n CTA
+  _id: 35c08420-320a-4e68-914b-6d1b362e1704
+  type: container
+  parameters:
+    spacing:
+      type: dex-space-control-parameter
+      value:
+        mobile: {}
+        tablet: {}
+        desktop: {}
+    displayName:
+      type: text
+      locales:
+        en: Global P13n CtA
+  slots:
+    containerContent:
+      - _id: f60f174a-198a-427c-9e49-d847f0cf76cc
+        type: $personalization
+        slots:
+          pz:
+            - _id: 9e675a07-c9c2-4c79-a601-1654cbd4522d
+              type: fixedHero
+              variant: columns
+              parameters:
+                $pzCrit:
+                  type: $pzCrit
+                  value:
+                    crit:
+                      - l: int_beans
+                        r: 0
+                        op: ^
+                    name: fixedHero-9e67
+                titleTag:
+                  type: dex-segmented-control-parameter
+                  value: h2
+                titleText:
+                  type: text
+                  locales:
+                    en: Personalized
+                displayName:
+                  type: text
+                  locales:
+                    en: Beans interest
+                descriptionText:
+                  type: text
+                  locales:
+                    en: Interest is Beans
+            - _id: 24528a36-5c58-413d-80ee-ae8d1ea44569
+              type: fixedHero
+              variant: columns
+              parameters:
+                image:
+                  type: asset
+                  value:
+                    - _id: aeb6daf4-57fd-478d-ad98-131dd1d9892b
+                      type: image
+                      fields:
+                        id:
+                          type: text
+                          value: 75ebf11f-2f1d-4a4e-9062-cca926fe65c1
+                        url:
+                          value: >-
+                            https://img.uniform.global/p/6MJ1ELg6RE6-E2mQbcKLjg/jJh_4PdRR2Oxr6Tb9ZPGWQ-Beans_BG.png
+                          type: text
+                        file:
+                          type: file
+                          value: b76064f7-04ff-4299-bdc1-65cc1d9f67b9
+                        size:
+                          value: 3551148
+                          type: number
+                        title:
+                          type: text
+                          value: Beans_BG.png
+                        width:
+                          value: 1536
+                          type: number
+                        height:
+                          value: 1024
+                          type: number
+                        mediaType:
+                          value: image/png
+                          type: text
+                      _source: uniform-assets
+                $pzCrit:
+                  type: $pzCrit
+                  value:
+                    crit: []
+                    name: fixedHero-2452
+                titleTag:
+                  type: dex-segmented-control-parameter
+                  value: h1
+                titleText:
+                  type: text
+                  locales:
+                    en: Default Content
+                displayName:
+                  type: text
+                  locales:
+                    en: Main Home Hero
+                descriptionText:
+                  type: text
+                  locales:
+                    en: Handpicked by Hans Anderson
+                contentAlignment:
+                  type: dex-segmented-control-parameter
+                  value: left
+                eyebrowTitleText:
+                  type: text
+                  locales:
+                    en: Special offer
+                primaryButtonLink:
+                  type: link
+                  locales:
+                    en:
+                      path: /${locale}/beans-bundle
+                      type: projectMapNode
+                      nodeId: 77389775-4c2c-4114-b135-c66e53ccbda1
+                      projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+                      dynamicInputValues:
+                        locale: ${locale}
+                primaryButtonText:
+                  type: text
+                  locales:
+                    en: Explore the bundle
+        parameters:
+          trackingEventName:
+            type: text
+            value: Container pattern-Fixed Hero
+  _overridability:
+    hideLockedParameters: true
+  _locales:
+    - en
+created: '2025-05-20T11:53:42.779662+00:00'
+modified: '2025-05-22T10:54:59.91842+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/coffee-shop-template/preview-images/global_P13n_CTA.png
+categoryId: 3bab40a0-d52d-49b3-8780-b26f737b84a3

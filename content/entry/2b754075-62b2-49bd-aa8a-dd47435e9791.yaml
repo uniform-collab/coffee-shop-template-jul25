@@ -1,0 +1,64 @@
+created: '2025-04-24T11:39:42.63377+00:00'
+modified: '2025-04-24T11:39:42.63377+00:00'
+pattern: false
+entry:
+  _id: 2b754075-62b2-49bd-aa8a-dd47435e9791
+  _name: Robusta
+  _slug: robusta
+  _thumbnail: >-
+    https://img.uniform.global/p/DCdo4LRJTZWl21CYeUJNPg/25DnKyyZS-2uKwJY-x6mlg-robusta.png
+  type: productCategory
+  fields:
+    logo:
+      type: asset
+      value: []
+      locales:
+        en:
+          - _id: df7077b1-2f7d-4c78-8190-b926f74e4e1d
+            type: image
+            fields:
+              id:
+                type: text
+                value: 88593806-ae5f-4d40-b6d9-36803a1b755e
+              url:
+                value: >-
+                  https://img.uniform.global/p/9VlMgIbZQQKI2wzV-L0jow/aBEYnJdaRvaMWGsCj4Tzfw-robusta.png
+                type: text
+              file:
+                type: file
+                value: 57561e4e-e01f-490f-a5c2-55cd010ab167
+              size:
+                value: 2280450
+                type: number
+              title:
+                type: text
+                value: robusta.png
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/png
+                type: text
+            _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en: Robusta
+    description:
+      type: text
+      locales:
+        en: >-
+          Experience the bold and intense flavors of Robusta coffee beans. Known
+          for their high caffeine content and robust taste, Robusta beans offer
+          a deep, earthy flavor with a hint of bitterness, making them perfect
+          for espresso and strong coffee blends. Our selection of Robusta beans
+          is sourced from top coffee-growing regions, ensuring high quality and
+          exceptional taste. Whether you prefer a powerful morning brew or a
+          rich espresso, Robusta beans deliver a full-bodied coffee experience.
+          Explore our Robusta collection and enjoy the strength and character of
+          these distinguished beans.
+  _locales:
+    - en

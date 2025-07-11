@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: b77b49c8-9796-46d7-b96c-4a040bf5bb12
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: peruvian-blend-coffee-1.png
+    file:
+      type: file
+      value: 2b57a413-a353-4889-90af-02d62afcec03
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/N0QOqjXvSFeXY7i3yzY8ZQ/s2oOSRZhTFu6-eRWKjNl0w-peruvian-blend-coffee-1.png
+      type: text
+    size:
+      value: 194750
+      type: number
+    width:
+      value: 1280
+      type: number
+    height:
+      value: 1280
+      type: number
+    custom: {}
+created: '2025-01-29T11:08:56.772008+00:00'
+modified: '2025-01-29T11:08:56.772008+00:00'

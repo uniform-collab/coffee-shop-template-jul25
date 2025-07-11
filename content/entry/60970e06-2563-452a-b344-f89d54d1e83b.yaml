@@ -1,0 +1,62 @@
+created: '2025-04-24T11:39:38.634309+00:00'
+modified: '2025-04-24T11:39:38.634309+00:00'
+pattern: false
+entry:
+  _id: 60970e06-2563-452a-b344-f89d54d1e83b
+  _name: Pour-Over
+  _slug: pour-over
+  _thumbnail: >-
+    https://img.uniform.global/p/DCdo4LRJTZWl21CYeUJNPg/qtmAXfm7Rc6Z_FNKLJLIgA-pour-over.png
+  type: productCategory
+  fields:
+    logo:
+      type: asset
+      value: []
+      locales:
+        en:
+          - _id: 9d4b7256-853a-4ec2-9ccb-172d1f002e76
+            type: image
+            fields:
+              id:
+                type: text
+                value: c44f93ce-9770-494a-b4ff-c052aeafbe7e
+              url:
+                value: >-
+                  https://img.uniform.global/p/9VlMgIbZQQKI2wzV-L0jow/cqvdl2keSNCrT-lt5YVf1Q-pour-over.png
+                type: text
+              file:
+                type: file
+                value: 261696f6-b129-493e-ac2d-7a9e121076ac
+              size:
+                value: 456188
+                type: number
+              title:
+                type: text
+                value: pour-over.png
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/png
+                type: text
+            _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en: Pour-Over
+    description:
+      type: text
+      locales:
+        en: >-
+          Explore the art of manual coffee brewing with our selection of
+          pour-over coffee makers. Known for their precision and ability to
+          bring out the nuanced flavors of coffee, pour-over methods offer a
+          hands-on brewing experience. Our collection includes high-quality
+          drippers, filters, and carafes, perfect for any coffee enthusiast.
+          Enjoy the delicate and complex flavors that only a pour-over can
+          provide, and elevate your coffee routine to an art form.
+  _locales:
+    - en

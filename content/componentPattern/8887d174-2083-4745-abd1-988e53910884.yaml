@@ -17,7 +17,7 @@ composition:
           marginBottom: container-small
     displayName:
       type: text
-      value: Frequently Asked Questions
+      value: 'Bean There, Asked That:'
   slots:
     accordionItems:
       - _id: fc0685d7-4cc2-4157-aab6-34d82d451b21
@@ -46,46 +46,23 @@ composition:
             type: dex-segmented-control-parameter
             value:
               mobile: 2xl
-              tablet: 3xl
-              desktop: 4xl
+              tablet: ''
+              desktop: ''
           text:
             type: text
-            value: Frequently Asked Questions
+            value: 'Bean There, Asked That:'
           color:
             type: dex-color-palette-parameter
-            value: text-primary
-          weight:
-            type: dex-segmented-control-parameter
-            value: bold
-        _overridability:
-          parameters:
-            size: 'yes'
-            text: 'yes'
-            color: 'yes'
-          hideLockedParameters: true
-      - _id: c9fc04b4-854a-4ee2-885e-02d3f0f62ded
-        type: text
-        parameters:
-          tag:
-            type: dex-segmented-control-parameter
-            value: span
-          size:
-            type: dex-segmented-control-parameter
-            value:
-              mobile: ''
-              tablet: base
-              desktop: xl
-          text:
-            type: text
-            value: >-
-              Answer your customers possible questions here, it will increase
-              the conversion rate as well as support or chat requests.
-          color:
-            type: dex-color-palette-parameter
-            value: text-primary
+            value: text-secondary
           weight:
             type: dex-segmented-control-parameter
             value: normal
+          transform:
+            type: dex-segmented-control-parameter
+            value: uppercase
+          letterSpacing:
+            type: dex-segmented-control-parameter
+            value: wider
         _overridability:
           parameters:
             size: 'yes'
@@ -98,7 +75,7 @@ composition:
     hideLockedParameters: true
   _locales:
     - en
-created: '2025-03-20T13:08:16.441907+00:00'
-modified: '2025-05-22T11:54:55.335138+00:00'
+created: '2025-03-25T09:38:01.152319+00:00'
+modified: '2025-05-22T10:44:22.094271+00:00'
 pattern: true
 categoryId: 70d03350-bbf9-457d-abc0-cf7d7aa2a3a4

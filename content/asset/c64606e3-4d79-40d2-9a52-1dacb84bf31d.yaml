@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: c64606e3-4d79-40d2-9a52-1dacb84bf31d
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: latte-art-pouring-coffee.jpeg
+    file:
+      type: file
+      value: ca6a01ba-5de0-46e0-83df-69d86eddae5d
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/N0QOqjXvSFeXY7i3yzY8ZQ/1GekaPwkS2O7CPJZeCPGhw-latte-art-pouring-coffee.jpeg
+      type: text
+    size:
+      value: 237701
+      type: number
+    width:
+      value: 2600
+      type: number
+    height:
+      value: 1300
+      type: number
+    custom: {}
+created: '2025-01-29T11:08:58.766826+00:00'
+modified: '2025-01-29T11:08:58.766826+00:00'

@@ -1,0 +1,9 @@
+id: 50be580b-ba2a-48d0-bcea-25e2ede87060
+name: Cervello di Caffè Landing Page
+order: 50
+path: /:locale/landing-page
+type: composition
+pathSegment: landing-page
+data: {}
+compositionId: bc297e5f-25b7-46f3-9404-558a719fb9dd
+projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9

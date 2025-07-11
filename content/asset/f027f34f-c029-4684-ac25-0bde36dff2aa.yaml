@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: f027f34f-c029-4684-ac25-0bde36dff2aa
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: french-press.png
+    file:
+      type: file
+      value: 027e6b24-7dd6-4780-aade-72891b335c1f
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/N0QOqjXvSFeXY7i3yzY8ZQ/U6T23eMzQuOpFkBfjSOP4A-french-press.png
+      type: text
+    size:
+      value: 1119865
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-01-29T11:09:01.826447+00:00'
+modified: '2025-01-29T11:09:01.826447+00:00'

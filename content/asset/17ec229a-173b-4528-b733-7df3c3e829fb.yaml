@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 17ec229a-173b-4528-b733-7df3c3e829fb
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: favorites-og-image.png
+    file:
+      type: file
+      value: fa3493d6-a14f-4f80-bd53-ff43a436545b
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/N0QOqjXvSFeXY7i3yzY8ZQ/PR-zW2JGQpeZR7z6zCrxuA-favorites-og-image.png
+      type: text
+    size:
+      value: 1400671
+      type: number
+    width:
+      value: 1808
+      type: number
+    height:
+      value: 908
+      type: number
+    custom: {}
+created: '2025-01-29T11:08:51.184831+00:00'
+modified: '2025-01-29T11:08:51.184831+00:00'

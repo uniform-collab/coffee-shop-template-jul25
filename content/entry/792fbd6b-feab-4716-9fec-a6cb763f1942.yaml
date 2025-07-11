@@ -1,0 +1,1187 @@
+created: '2025-01-29T11:10:25.270961+00:00'
+modified: '2025-06-26T06:30:08.703736+00:00'
+pattern: false
+entry:
+  _id: 792fbd6b-feab-4716-9fec-a6cb763f1942
+  _name: Black Mountain Pour-Over Filtered Coffee Make
+  _slug: black-mountain-pour-over-filtered-coffee-make
+  _thumbnail: >-
+    https://img.uniform.global/p/DCdo4LRJTZWl21CYeUJNPg/h6DAibRlTq-co_hd59F1kw-black-mountain-pour-over-filtered-coffee-maker-1.png
+  type: product
+  fields:
+    body:
+      type: richText
+      locales:
+        en:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'The '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: Black Mountain Pour-Over Filtered Coffee Maker
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: ' is your key to brewing rich, aromatic coffee with precision and ease. Designed for those who prioritize quality and simplicity, this pour-over system features a reusable filter that captures the full range of flavors from your coffee grounds, producing a smooth, balanced cup with every brew. Its timeless design not only adds elegance to your kitchen or coffee station but also ensures practical use for daily coffee-making.'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Key Features:'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+              - type: table
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        width: 389
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Feature
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        width: 578
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Description
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        width: 389
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Reusable Filter
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        width: 578
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Extracts maximum flavor from your coffee
+                                  grounds, reducing waste and enhancing taste.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        width: 389
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Durable Build
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        width: 578
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Constructed from high-quality materials that
+                                  withstand regular use, ensuring long-lasting
+                                  performance.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        width: 389
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Timeless Design
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        width: 578
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Complements any kitchen aesthetic with its
+                                  sleek and elegant appearance.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        width: 389
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Easy-to-Clean System
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        width: 578
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  The filter system is simple to remove and
+                                  wash, making cleanup a breeze.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        width: 389
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Precision Pour-Over
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        width: 578
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Ensures optimal water flow for consistent
+                                  extraction and superior flavor in every cup.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                direction: null
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Why Choose the Black Mountain Pour-Over Filtered Coffee
+                      Maker?
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'The '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: Black Mountain Pour-Over Filtered Coffee Maker
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: ' is perfect for coffee enthusiasts who value both style and performance. Its reusable filter not only offers an eco-friendly alternative to paper filters but also maximizes the depth and complexity of your coffee''s flavor. The durable construction and thoughtfully designed pour-over system ensure reliable performance for single servings or larger batches. This coffee maker adapts seamlessly to your daily routine, allowing you to enjoy barista-quality coffee at home.'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Brewing Modes & Recommended Uses:'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+              - type: table
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Mode
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Ideal For
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        width: 428
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Description
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Single-Serve Brewing
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Quick Morning Cup
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        width: 428
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Perfect for making a single, rich cup of
+                                  coffee to start your day.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Multiple Servings
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Hosting Friends or Family
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        width: 428
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Easily adapts for brewing more than one cup
+                                  when needed.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Daily Use
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Consistent Routine
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        width: 428
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Reliable and durable for everyday
+                                  coffee-making.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Eco-Friendly Brewing
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Sustainability-Focused Users
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        width: 428
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Reduces waste with its reusable filter,
+                                  promoting an eco-conscious coffee ritual.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                direction: null
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Simplicity Meets Elegance in Your Coffee Routine
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'With the '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: Black Mountain Pour-Over Filtered Coffee Maker
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: >-
+                      , achieving the perfect cup is easy. Its design emphasizes
+                      precision, allowing you to control water flow and
+                      extraction effortlessly. Whether you're rushing through
+                      your morning or taking a moment to savor each sip, this
+                      coffee maker ensures that every cup meets your
+                      expectations for quality and flavor.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      For those who appreciate the harmony of elegance,
+                      simplicity, and outstanding coffee, the
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: Black Mountain Pour-Over Filtered Coffee Maker
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: ' is the ideal addition to your brewing arsenal. Enjoy the satisfaction of expertly brewed coffee, made your way, every day.'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+    name:
+      type: text
+      value: Black Mountain Pour-Over Filtered Coffee Make
+    brand:
+      type: contentReference
+      value: ${#jptr:/ref-792fbd6b-feab-4716-9fec-a6cb763f1942-brand/entries/0}
+    title:
+      type: text
+      value: Black Mountain Pour-Over Filtered Coffee Make
+    rating:
+      type: number
+      value: '3.8'
+    ogImage:
+      type: asset
+      value:
+        - _id: 0df720db-334f-4eac-8233-136d1359d522
+          type: image
+          fields:
+            id:
+              type: text
+              value: d0679a3d-bd9e-41f1-91a0-fd3e35579333
+            url:
+              value: >-
+                https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/mTOawssYSF2Ms7BrpthRsQ-black-mountain-pour-over-filtered-coffee-maker-1.png
+              type: text
+            file:
+              type: file
+              value: bd968d42-d245-4024-bb2a-21f4504bbcf7
+            size:
+              value: 25326
+              type: number
+            title:
+              type: text
+              value: black-mountain-pour-over-filtered-coffee-maker-1.png
+            width:
+              value: 386
+              type: number
+            height:
+              value: 386
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+    category:
+      type: contentReference
+      value: ${#jptr:/ref-792fbd6b-feab-4716-9fec-a6cb763f1942-category/entries/0}
+    variants:
+      type: $block
+      value:
+        - _id: 7b7e9478-c7e0-4789-87ec-8dd1c92c8837
+          type: variant
+          fields:
+            code:
+              type: text
+              value: '93'
+            price:
+              type: number
+              locales:
+                en: '111.66'
+            title:
+              type: text
+              locales:
+                en: Black Mountain Pour-Over Filtered Coffee Maker
+            currency:
+              type: text
+              locales:
+                en: USD
+            imageGallery:
+              type: asset
+              value:
+                - _id: 57d61ed5-de4b-44d9-961f-b694e73da8c5
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: d0679a3d-bd9e-41f1-91a0-fd3e35579333
+                    url:
+                      value: >-
+                        https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/mTOawssYSF2Ms7BrpthRsQ-black-mountain-pour-over-filtered-coffee-maker-1.png
+                      type: text
+                    file:
+                      type: file
+                      value: bd968d42-d245-4024-bb2a-21f4504bbcf7
+                    size:
+                      value: 25326
+                      type: number
+                    title:
+                      type: text
+                      value: black-mountain-pour-over-filtered-coffee-maker-1.png
+                    width:
+                      value: 386
+                      type: number
+                    height:
+                      value: 386
+                      type: number
+                    mediaType:
+                      value: image/png
+                      type: text
+                  _source: uniform-assets
+    metaTitle:
+      type: text
+      value: Black Mountain Pour-Over Filtered Coffee Make
+    enrichments:
+      type: $enr
+      value:
+        - cat: int
+          key: coffee-makers
+          str: 5
+        - cat: subCategory
+          key: pour-over
+          str: 5
+        - cat: brand
+          key: black-mountain
+          str: 5
+    subcategory:
+      type: contentReference
+      value: ${#jptr:/ref-792fbd6b-feab-4716-9fec-a6cb763f1942-subcategory/entries/0}
+    primaryImage:
+      type: asset
+      value:
+        - _id: 0df720db-334f-4eac-8233-136d1359d522
+          type: image
+          fields:
+            id:
+              type: text
+              value: d0679a3d-bd9e-41f1-91a0-fd3e35579333
+            url:
+              value: >-
+                https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/mTOawssYSF2Ms7BrpthRsQ-black-mountain-pour-over-filtered-coffee-maker-1.png
+              type: text
+            file:
+              type: file
+              value: bd968d42-d245-4024-bb2a-21f4504bbcf7
+            size:
+              value: 25326
+              type: number
+            title:
+              type: text
+              value: black-mountain-pour-over-filtered-coffee-maker-1.png
+            width:
+              value: 386
+              type: number
+            height:
+              value: 386
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+    metaDescription:
+      type: text
+      locales:
+        en: >-
+          Keep your harvest fresh with Le Parfait jars; perfect for canning,
+          storing grains, and freezing. Easy to clean, air-tight seal.
+    recommendations:
+      type: contentReference
+      value: >-
+        ${#jptr:/ref-792fbd6b-feab-4716-9fec-a6cb763f1942-recommendations/entries}
+    shortDescription:
+      type: text
+      locales:
+        en: >-
+          When translated Le Parfait means 'the perfect one' - and that's just
+          what this air-tight jar is. Designed for canning, these jars will
+          ensure your harvest does not spoil, but is kept well-preserved for
+          those cold winter months that lie ahead. Also can be used to store
+          grains, beans and spices. Lid easily removes for a thorough cleaning.
+          May be frozen - just be sure to leave enough room for expansion.
+  _dataResources:
+    ref-792fbd6b-feab-4716-9fec-a6cb763f1942-brand:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: dc637ce1-1bc5-4ced-8afd-74db22ff32a1
+    ref-792fbd6b-feab-4716-9fec-a6cb763f1942-category:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 2f6cc670-cdaa-4532-b70e-424206c8d0ba
+    ref-792fbd6b-feab-4716-9fec-a6cb763f1942-subcategory:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 60970e06-2563-452a-b344-f89d54d1e83b
+    ref-792fbd6b-feab-4716-9fec-a6cb763f1942-recommendations:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: >-
+          b897a717-bb41-4990-a25b-8f860d02700d,4435ccaf-103e-4b69-9138-7ec8196955fb,3e3af534-0999-4bcb-b479-3bd693173c83
+  _locales:
+    - en

@@ -60,33 +60,33 @@ composition:
           image:
             type: asset
             value:
-              - _id: e73613cf-e2f1-47ef-a5aa-a015bee46436
+              - _id: 732bdde7-8400-4a58-81c4-eda52f8b4d5b
                 type: image
                 fields:
                   id:
                     type: text
-                    value: 246a9113-763f-4330-b55e-dfa654743828
+                    value: e48a76d6-773f-4e3a-9b4e-409d77e8648a
                   url:
                     value: >-
-                      https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/HZCRULDRQAO-R-4OhEMqOQ-Rectangle-1-(2).svg
+                      https://img.uniform.global/p/zm-ftiPuRciHvgZTqv6KFA/uRjGFXyhSDaxys2Fdhz3hg-coffee.png
                     type: text
                   file:
                     type: file
-                    value: 5285bd5f-77fe-4950-b389-4a7a4da7f4a4
+                    value: 3ff76bc4-89d0-4b69-8c22-9312b68cf66f
                   size:
-                    value: 423
+                    value: 1206370
                     type: number
                   title:
                     type: text
-                    value: hero-bg-gradient-light.svg
+                    value: coffee.png
                   width:
-                    value: 1016
+                    value: 1920
                     type: number
                   height:
-                    value: 330
+                    value: 1280
                     type: number
                   mediaType:
-                    value: image/svg+xml
+                    value: image/png
                     type: text
                 _source: uniform-assets
           priority:
@@ -162,9 +162,9 @@ composition:
           size:
             type: dex-segmented-control-parameter
             value:
-              mobile: 5xl
-              tablet: 5xl
-              desktop: 7xl
+              mobile: 3xl
+              tablet: 4xl
+              desktop: 4xl
           color:
             type: dex-color-palette-parameter
             value: text-primary
@@ -229,8 +229,8 @@ composition:
     hideLockedParameters: true
   _locales:
     - en
-created: '2025-01-29T10:47:08.446904+00:00'
-modified: '2025-06-23T10:37:53.26818+00:00'
+created: '2025-06-23T13:44:51.248079+00:00'
+modified: '2025-06-25T11:09:16.426513+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/main-hero.jpg

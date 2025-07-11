@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 99596b4c-7827-4651-9d67-5cea454161b1
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: ai-powered-taste-customization.png
+    file:
+      type: file
+      value: 446af331-2b0e-47a2-a941-a78300ea84c0
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/b0JtaxSVQxmqWylG6vGC1Q/hx67De9kRDWi1m0a7ZlAbg-ai-powered-taste-customization.png
+      type: text
+    size:
+      value: 728
+      type: number
+    width:
+      value: 60
+      type: number
+    height:
+      value: 60
+      type: number
+    custom: {}
+created: '2025-05-22T08:58:33.180539+00:00'
+modified: '2025-05-22T08:58:33.180539+00:00'

@@ -88,7 +88,7 @@ parameters:
     typeConfig: null
 categoryId: 096fd5ed-5e2a-4bfa-834b-fb805d1d1ce9
 previewImageUrl: >-
-  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/image-gallery.jpg
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/coffee-shop-template/preview-images/image-gallery.jpg
 useTeamPermissions: true
 slots:
   - id: imageGalleryItems

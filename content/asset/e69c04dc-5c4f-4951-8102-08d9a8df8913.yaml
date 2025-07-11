@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: e69c04dc-5c4f-4951-8102-08d9a8df8913
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: github.svg
+    file:
+      type: file
+      value: 5dc97933-41b8-4b8c-8ad9-0da1ee098fa3
+    mediaType:
+      value: image/svg+xml
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/DCdo4LRJTZWl21CYeUJNPg/l0WXekecRVuThRw3SEVCeQ-github.svg
+      type: text
+    size:
+      value: 1326
+      type: number
+    width:
+      value: 35
+      type: number
+    height:
+      value: 34
+      type: number
+    custom: {}
+created: '2025-02-05T09:08:07.205461+00:00'
+modified: '2025-06-05T13:26:31.921082+00:00'

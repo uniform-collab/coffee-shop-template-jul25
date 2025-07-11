@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: f2c83a92-6062-4d4f-be1b-5acbc1f1d831
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: BB_EthiopianBlend.png
+    file:
+      type: file
+      value: 9e5c957e-932b-4211-a099-6927b6e06fed
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/DCdo4LRJTZWl21CYeUJNPg/N39mquNfTeW80a5l5pdJfw-BB_EthiopianBlend.png
+      type: text
+    size:
+      value: 1655026
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-04-24T11:32:04.418783+00:00'
+modified: '2025-04-24T11:32:04.418783+00:00'

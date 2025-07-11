@@ -1,0 +1,325 @@
+composition:
+  _name: Product Cart
+  _id: 1b9cb318-a532-4c1a-af19-c0ee1a66855f
+  type: link
+  slots:
+    linkContent:
+      - _id: 1af937fb-40ae-4938-b1a8-110b8ff73fc4
+        type: card
+        slots:
+          cardMedia:
+            - _id: >-
+                1af937fb-40ae-4938-b1a8-110b8ff73fc4|61dd629a-df37-4737-97b1-5a76dfca1d93
+              type: container
+              slots:
+                containerContent:
+                  - _id: >-
+                      1af937fb-40ae-4938-b1a8-110b8ff73fc4|b421ef45-f54a-4969-88fd-4d227891e73f
+                    type: container
+                    slots:
+                      containerContent:
+                        - _id: >-
+                            1af937fb-40ae-4938-b1a8-110b8ff73fc4|0952417a-061c-4634-91df-1341269e4054
+                          type: image
+                          parameters:
+                            image:
+                              type: asset
+                              value:
+                                - _id: 29f703a6-d2d9-4cb0-ad29-5c0b741a2fae
+                                  type: image
+                                  fields:
+                                    id:
+                                      type: text
+                                      value: 0189c43b-40d0-4cff-bfb5-761fcf87159d
+                                    url:
+                                      value: >-
+                                        https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/KUZmIsrwRJSDwwrBEL8qkA-royale-coffee-pour-over-vintage-drip-coffeemaker-1.png
+                                      type: text
+                                    file:
+                                      type: file
+                                      value: f2c4280f-501c-4422-961f-53d8eb10799f
+                                    size:
+                                      value: 222286
+                                      type: number
+                                    title:
+                                      type: text
+                                      value: >-
+                                        royale-coffee-pour-over-vintage-drip-coffeemaker-1.png
+                                    width:
+                                      value: 1280
+                                      type: number
+                                    height:
+                                      value: 1280
+                                      type: number
+                                    mediaType:
+                                      value: image/png
+                                      type: text
+                                  _source: uniform-assets
+                            height:
+                              type: number
+                              value: '329'
+                            objectFit:
+                              type: dex-segmented-control-parameter
+                              value: cover
+                          _overridability:
+                            parameters:
+                              image: 'yes'
+                            hideLockedParameters: true
+                        - _id: >-
+                            1af937fb-40ae-4938-b1a8-110b8ff73fc4|41f41812-74a8-48f1-9e2a-920dfff8ea04
+                          type: addToFavorites
+                          parameters:
+                            size:
+                              type: dex-segmented-control-parameter
+                              value: base
+                            addIcon:
+                              type: asset
+                              value:
+                                - _id: 34601215-5021-4d1f-99d1-0e11e843b3ef
+                                  type: image
+                                  fields:
+                                    id:
+                                      type: text
+                                      value: 42f196a1-dff3-4f01-bc53-f57e05125c9a
+                                    url:
+                                      value: >-
+                                        https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/P4eyKaxHR_mbvsWY2Js6ig-favourite-icon.svg
+                                      type: text
+                                    file:
+                                      type: file
+                                      value: 5b6bbc81-cd4f-4e8e-9b96-5a3bb9aa68af
+                                    size:
+                                      value: 690
+                                      type: number
+                                    title:
+                                      type: text
+                                      value: favourite-icon.svg
+                                    width:
+                                      value: 24
+                                      type: number
+                                    height:
+                                      value: 24
+                                      type: number
+                                    mediaType:
+                                      value: image/svg+xml
+                                      type: text
+                                  _source: uniform-assets
+                            spacing:
+                              type: dex-space-control-parameter
+                              value:
+                                paddingTop: container-xxsmall
+                                paddingLeft: container-xxsmall
+                                paddingRight: container-xxsmall
+                                paddingBottom: container-xxsmall
+                            position:
+                              type: dex-segmented-control-parameter
+                              value: top-right
+                            removeIcon:
+                              type: asset
+                              value:
+                                - _id: 0bbc8a60-c9f1-4c2e-b9b6-23f725484f12
+                                  type: image
+                                  fields:
+                                    id:
+                                      type: text
+                                      value: f118b73e-d427-4db0-960f-76b018aacc03
+                                    url:
+                                      value: >-
+                                        https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/9xX-8KCySTC5FhrWOBWWoA-favourite-icon-red.svg
+                                      type: text
+                                    file:
+                                      type: file
+                                      value: a8b111b7-62f0-4ae4-92ed-f8b6531e6df0
+                                    size:
+                                      value: 689
+                                      type: number
+                                    title:
+                                      type: text
+                                      value: favourite-icon-red.svg
+                                    width:
+                                      value: 24
+                                      type: number
+                                    height:
+                                      value: 24
+                                      type: number
+                                    mediaType:
+                                      value: image/svg+xml
+                                      type: text
+                                  _source: uniform-assets
+                            backgroundColor:
+                              type: dex-color-palette-parameter
+                              value: general-color-1
+                          _overridability:
+                            parameters:
+                              productSlug: 'yes'
+                            hideLockedParameters: true
+                    parameters:
+                      spacing:
+                        type: dex-space-control-parameter
+                        value:
+                          mobile: {}
+                          tablet: {}
+                          desktop: {}
+                      relative:
+                        type: checkbox
+                        value: true
+                      displayName:
+                        type: text
+                        value: Relative Container
+                      fluidContent:
+                        type: checkbox
+                        value: true
+                    _overridability:
+                      hideLockedParameters: true
+              parameters:
+                border:
+                  type: dex-token-selector-parameter
+                  value: border-product-card
+                spacing:
+                  type: dex-space-control-parameter
+                  value:
+                    mobile:
+                      paddingTop: container-small
+                      paddingLeft: container-small
+                      paddingRight: container-small
+                      paddingBottom: container-small
+                    tablet:
+                      paddingTop: container-small
+                      paddingLeft: container-small
+                      paddingRight: container-small
+                      paddingBottom: container-small
+                    desktop:
+                      paddingTop: container-small
+                      paddingLeft: container-small
+                      paddingRight: container-small
+                      paddingBottom: container-small
+                displayName:
+                  type: text
+                  value: Background Container
+                fluidContent:
+                  type: checkbox
+                  value: true
+                backgroundColor:
+                  type: dex-color-palette-parameter
+                  value: general-color-1
+              _overridability:
+                hideLockedParameters: true
+          cardContent:
+            - _id: >-
+                1af937fb-40ae-4938-b1a8-110b8ff73fc4|a8625927-9fe5-40ee-8832-22b979e09ea6
+              type: flex
+              slots:
+                flexItem:
+                  - _id: >-
+                      1af937fb-40ae-4938-b1a8-110b8ff73fc4|988f7805-9e0e-4b30-acaf-f97d7dd5099f
+                    type: text
+                    parameters:
+                      tag:
+                        type: dex-segmented-control-parameter
+                        value: span
+                      size:
+                        type: dex-segmented-control-parameter
+                        value:
+                          mobile: 2xl
+                          tablet: 2xl
+                          desktop: 2xl
+                      text:
+                        type: text
+                        value: Product Title
+                      color:
+                        type: dex-color-palette-parameter
+                        value: text-primary
+                      weight:
+                        type: dex-segmented-control-parameter
+                        value: bold
+                    _overridability:
+                      parameters:
+                        text: 'yes'
+                        color: 'yes'
+                      hideLockedParameters: true
+                  - _id: >-
+                      1af937fb-40ae-4938-b1a8-110b8ff73fc4|8bad3ddd-add0-43d3-a314-5836bf0c7a93
+                    type: text
+                    parameters:
+                      tag:
+                        type: dex-segmented-control-parameter
+                        value: span
+                      size:
+                        type: dex-segmented-control-parameter
+                        value:
+                          desktop: base
+                      text:
+                        type: text
+                        value: $55.5
+                      weight:
+                        type: dex-segmented-control-parameter
+                        value: normal
+                    _overridability:
+                      parameters:
+                        text: 'yes'
+                        color: 'yes'
+                      hideLockedParameters: true
+              parameters:
+                gap:
+                  type: dex-slider-control-parameter
+                  value:
+                    mobile: '2'
+                    tablet: '2'
+                    desktop: '2'
+                spacing:
+                  type: dex-space-control-parameter
+                  value:
+                    marginTop: container-small
+                direction:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: col
+                    tablet: col
+                    desktop: col
+                alignItems:
+                  type: dex-segmented-control-parameter
+                  value: {}
+                displayName:
+                  type: text
+                  value: Content Container
+                justifyContent:
+                  type: dex-segmented-control-parameter
+                  value: {}
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          spacing:
+            type: dex-space-control-parameter
+            value:
+              marginTop: ''
+              marginLeft: ''
+              paddingTop: ''
+              marginRight: ''
+              paddingLeft: ''
+              marginBottom: ''
+              paddingRight: ''
+              paddingBottom: ''
+          displayName:
+            type: text
+            value: Royale Coffee Pour-Over Vintage Drip Coffeemaker
+          fluidContent:
+            type: checkbox
+            value: true
+        _overridability:
+          parameters:
+            displayName: 'yes'
+            fluidContent: 'yes'
+          hideLockedParameters: true
+  _overridability:
+    parameters:
+      link: 'yes'
+      displayName: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en
+created: '2025-04-29T09:32:51.506061+00:00'
+modified: '2025-06-25T12:30:32.873944+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/coffee-shop-template/preview-images/product-card.jpg
+categoryId: adaebea8-ba58-494b-9c3b-9f82906d9415

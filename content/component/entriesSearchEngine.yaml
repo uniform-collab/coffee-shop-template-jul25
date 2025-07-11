@@ -1,0 +1,76 @@
+# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: entriesSearchEngine
+name: Entries Search Engine
+icon: search
+parameters:
+  - id: contentType
+    name: Content Type
+    type: select
+    typeConfig:
+      options:
+        - text: Article
+          value: article
+        - text: Product
+          value: product
+      required: true
+  - id: orderBy
+    name: Order By
+    type: $block
+    helpText: First item in the list is default
+    typeConfig:
+      required: false
+      allowedTypes:
+        - orderBy
+  - id: filterBy
+    name: Filter By
+    type: $block
+    helpText: If Base Filters are defined, values list will be filtered as well
+    typeConfig:
+      required: true
+      allowedTypes:
+        - filterBy
+  - id: baseFilters
+    name: Base Filters
+    type: $block
+    helpText: Filters, that will be applied additionally for each request
+    typeConfig:
+      allowedTypes:
+        - filterBy
+  - id: pageSizes
+    name: Page Sizes
+    type: $block
+    helpText: First is default
+    typeConfig:
+      min: 1
+      required: true
+      allowedTypes:
+        - pageSize
+  - id: boostEnrichments
+    name: Boost Enrichments
+    type: multi-select
+    helpText: >-
+      Value should be separated by a comma: the first item is the enrichment
+      key, and the second is the product field name.
+    typeConfig:
+      options:
+        - text: Сategory
+          value: int,category
+        - text: Sub Category
+          value: subCategory,subcategory
+        - text: Brand
+          value: brand,brand
+categoryId: 624b55ca-4671-46e2-8fd5-4a9b34b4c121
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/coffee-shop-template/preview-images/entries-search-engine.jpg
+useTeamPermissions: true
+slots:
+  - id: content
+    name: Content
+    allowedComponents: []
+    allowAllComponents: true
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+canBeComposition: false
+created: '2025-04-24T11:34:18.714187+00:00'
+updated: '2025-04-24T11:34:18.714187+00:00'

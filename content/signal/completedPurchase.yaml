@@ -1,0 +1,17 @@
+id: completedPurchase
+name: Completed Purchase
+cap: 100
+crit:
+  op: '&'
+  type: G
+  clauses:
+    - type: EVT
+      event:
+        cs: false
+        op: '='
+        rhs: purchase-complete
+dur: s
+description: ''
+str: 25
+conversion:
+  freq: O

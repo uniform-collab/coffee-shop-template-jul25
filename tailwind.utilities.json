@@ -1,4 +1,58 @@
 {
+  ".border-image-radius-small": {
+    "borderStyle": "var(--border-image-radius-small-style)",
+    "borderRadius": "var(--border-image-radius-small-radius)",
+    "borderWidth": "var(--border-image-radius-small-width)",
+    "borderColor": "var(--border-image-radius-small-color)"
+  },
+  ".border-button-secondary": {
+    "borderStyle": "var(--border-button-secondary-style)",
+    "borderRadius": "var(--border-button-secondary-radius)",
+    "borderWidth": "var(--border-button-secondary-width)",
+    "borderColor": "var(--border-button-secondary-color)"
+  },
+  ".border-button-primary": {
+    "borderStyle": "var(--border-button-primary-style)",
+    "borderRadius": "var(--border-button-primary-radius)",
+    "borderWidth": "var(--border-button-primary-width)",
+    "borderColor": "var(--border-button-primary-color)"
+  },
+  ".border-product-card": {
+    "borderStyle": "var(--border-product-card-style)",
+    "borderRadius": "var(--border-product-card-radius)",
+    "borderWidth": "var(--border-product-card-width)",
+    "borderColor": "var(--border-product-card-color)"
+  },
+  ".border-small-article-card": {
+    "borderStyle": "var(--border-small-article-card-style)",
+    "borderRadius": "var(--border-small-article-card-radius)",
+    "borderWidth": "var(--border-small-article-card-width)",
+    "borderColor": "var(--border-small-article-card-color)"
+  },
+  ".border-personalization-card": {
+    "borderStyle": "var(--border-personalization-card-style)",
+    "borderRadius": "var(--border-personalization-card-radius)",
+    "borderWidth": "var(--border-personalization-card-width)",
+    "borderColor": "var(--border-personalization-card-color)"
+  },
+  ".border-product-card-bottom": {
+    "borderStyle": "var(--border-product-card-bottom-style)",
+    "borderRadius": "var(--border-product-card-bottom-radius)",
+    "borderWidth": "var(--border-product-card-bottom-width)",
+    "borderColor": "var(--border-product-card-bottom-color)"
+  },
+  ".border-footer": {
+    "borderStyle": "var(--border-footer-style)",
+    "borderRadius": "var(--border-footer-radius)",
+    "borderWidth": "var(--border-footer-width)",
+    "borderColor": "var(--border-footer-color)"
+  },
+  ".border-bottom": {
+    "borderStyle": "var(--border-bottom-style)",
+    "borderRadius": "var(--border-bottom-radius)",
+    "borderWidth": "var(--border-bottom-width)",
+    "borderColor": "var(--border-bottom-color)"
+  },
   ".border-primary": {
     "borderStyle": "var(--border-primary-style)",
     "borderRadius": "var(--border-primary-radius)",
@@ -10,17 +64,5 @@
     "borderRadius": "var(--border-secondary-radius)",
     "borderWidth": "var(--border-secondary-width)",
     "borderColor": "var(--border-secondary-color)"
-  },
-  ".border-footer": {
-    "borderStyle": "var(--border-footer-style)",
-    "borderRadius": "var(--border-footer-radius)",
-    "borderWidth": "var(--border-footer-width)",
-    "borderColor": "var(--border-footer-color)"
-  },
-  ".border-image-radius-small": {
-    "borderStyle": "var(--border-image-radius-small-style)",
-    "borderRadius": "var(--border-image-radius-small-radius)",
-    "borderWidth": "var(--border-image-radius-small-width)",
-    "borderColor": "var(--border-image-radius-small-color)"
   }
 }

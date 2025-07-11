@@ -1,0 +1,1431 @@
+created: '2025-01-29T11:10:25.496363+00:00'
+modified: '2025-06-26T06:30:09.700074+00:00'
+pattern: false
+entry:
+  _id: 8b39f8cb-42bf-432b-9530-c26b5769362c
+  _name: Medium Roast Coffee
+  _slug: medium-roast-coffee
+  _thumbnail: >-
+    https://img.uniform.global/p/DCdo4LRJTZWl21CYeUJNPg/3Kkg7ID9TvyIYARffOKxDg-medium-roast-coffee-1.png
+  type: product
+  fields:
+    body:
+      type: richText
+      locales:
+        en:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Start your day with the rich and smooth taste of our '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: Medium Roast Coffee
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: >-
+                      , a carefully crafted blend perfect for your morning
+                      routine or an energizing afternoon break. Made from the
+                      finest quality Arabica beans sourced from the fertile
+                      regions of Central and South America, this coffee offers a
+                      harmonious profile that showcases the best characteristics
+                      of a medium roast. Each sip delivers a warm, well-rounded
+                      body with a gentle hint of sweetness and a pleasing
+                      finish.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Bean Characteristics
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+              - type: table
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Characteristic
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 1
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Description
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 1
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Premium Arabica Beans
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Finest quality Arabica beans known for their
+                                  superior flavor and aroma.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Medium Roast Profile
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Roasted to a medium level to balance
+                                  smoothness and depth, highlighting the beans'
+                                  natural flavors.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Ethically Sourced
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Beans are grown, sourced, and packaged
+                                  responsibly, supporting sustainable farming
+                                  practices and fair treatment of farmers in
+                                  Central and South America.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Freshly Roasted in USA
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Roasted fresh in Seattle, USA, ensuring
+                                  optimal flavor and aroma in every bag.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Versatile Brewing
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Ideal for various brewing methods including
+                                  drip coffee makers, pour-over setups, and
+                                  French presses.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                direction: null
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Why Choose Medium Roast Coffee?
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Our '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: Medium Roast Coffee
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: ' is perfect for coffee lovers seeking a classic, dependable roast that offers a perfect balance of smoothness and depth. By choosing this blend, you''re not only enjoying a delightful cup but also supporting ethical farming practices that benefit the environment and coffee-growing communities. The medium roast brings out the beans'' natural characteristics, offering a rich, satisfying flavor that''s neither too light nor too bold.'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Brewing Suggestions
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+              - type: table
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Brewing Method
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 1
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Ideal For
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 1
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Description
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 1
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Drip Coffee Maker
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Daily Convenience
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Provides a quick and easy brew with
+                                  consistent, balanced flavor.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Pour-Over Setup
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Flavor Precision
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Allows control over brewing variables to
+                                  highlight nuanced flavors and sweetness.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: French Press
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Richness & Body
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Enhances the coffee's natural oils for a
+                                  fuller-bodied, robust cup.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Espresso Machine
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Intense Flavor Experience
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Creates a rich, concentrated shot that
+                                  emphasizes depth and complexity.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Cold Brew
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Smooth & Refreshing
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Produces a low-acidity coffee with mellow
+                                  flavors, perfect for iced beverages.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: AeroPress
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Quick & Flavorful
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Combines immersion and pressure for a clean,
+                                  vibrant cup in minutes.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Moka Pot
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Stovetop Boldness
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Offers a strong, espresso-like coffee using
+                                  steam pressure on your stovetop.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                direction: null
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Experience the Perfect Balance
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Embrace the full-bodied, aromatic experience of our '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: Medium Roast Coffee
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: >-
+                      . Its versatility allows you to explore different brewing
+                      methods, ensuring a delightful and consistent cup every
+                      time. The freshness and quality of the beans guarantee
+                      that every sip is as enjoyable as the last, making it an
+                      essential part of your daily routine.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Make your coffee moments special with the rich flavors and
+                      ethical origins of our
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: Medium Roast Coffee
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: >-
+                      . Whether you're starting your day, taking a midday pause,
+                      or sharing with friends, this blend offers the perfect
+                      balance of taste and conscience.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+    name:
+      type: text
+      value: Medium Roast Coffee
+    brand:
+      type: contentReference
+      value: ${#jptr:/ref-8b39f8cb-42bf-432b-9530-c26b5769362c-brand/entries/0}
+    title:
+      type: text
+      value: Medium Roast Coffee
+    rating:
+      type: number
+      value: '5.0'
+    ogImage:
+      type: asset
+      value:
+        - _id: 4df1ccee-6060-4f93-979d-e3f2e280c41e
+          type: image
+          fields:
+            id:
+              type: text
+              value: 9b0a2aef-ad4e-457e-9f98-5f15ea8ca400
+            url:
+              value: >-
+                https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/O8Gfr1SWQNOqLk7npGNY5A-medium-roast-coffee-1.png
+              type: text
+            file:
+              type: file
+              value: d5669d8a-ce1c-40e0-a373-630c850f6c62
+            size:
+              value: 200970
+              type: number
+            title:
+              type: text
+              value: medium-roast-coffee-1.png
+            width:
+              value: 1280
+              type: number
+            height:
+              value: 1280
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+    category:
+      type: contentReference
+      value: ${#jptr:/ref-8b39f8cb-42bf-432b-9530-c26b5769362c-category/entries/0}
+    variants:
+      type: $block
+      value:
+        - _id: 8596505d-06f1-41d4-8401-bf7d83748069
+          type: variant
+          fields:
+            code:
+              type: text
+              value: '81'
+            price:
+              type: number
+              locales:
+                en: '12.99'
+            title:
+              type: text
+              locales:
+                en: Medium Roast Coffee
+            currency:
+              type: text
+              locales:
+                en: USD
+            imageGallery:
+              type: asset
+              value:
+                - _id: 2f5a2e0f-2db1-4423-8eae-f3000353c5a0
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: 9b0a2aef-ad4e-457e-9f98-5f15ea8ca400
+                    url:
+                      value: >-
+                        https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/O8Gfr1SWQNOqLk7npGNY5A-medium-roast-coffee-1.png
+                      type: text
+                    file:
+                      type: file
+                      value: d5669d8a-ce1c-40e0-a373-630c850f6c62
+                    size:
+                      value: 200970
+                      type: number
+                    title:
+                      type: text
+                      value: medium-roast-coffee-1.png
+                    width:
+                      value: 1280
+                      type: number
+                    height:
+                      value: 1280
+                      type: number
+                    mediaType:
+                      value: image/png
+                      type: text
+                  _source: uniform-assets
+    metaTitle:
+      type: text
+      value: Medium Roast Coffee
+    enrichments:
+      type: $enr
+      value:
+        - cat: int
+          key: beans
+          str: 5
+        - cat: subCategory
+          key: liberica
+          str: 5
+        - cat: brand
+          key: javadrip
+          str: 5
+    subcategory:
+      type: contentReference
+      value: ${#jptr:/ref-8b39f8cb-42bf-432b-9530-c26b5769362c-subcategory/entries/0}
+    primaryImage:
+      type: asset
+      value:
+        - _id: 4df1ccee-6060-4f93-979d-e3f2e280c41e
+          type: image
+          fields:
+            id:
+              type: text
+              value: 9b0a2aef-ad4e-457e-9f98-5f15ea8ca400
+            url:
+              value: >-
+                https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/O8Gfr1SWQNOqLk7npGNY5A-medium-roast-coffee-1.png
+              type: text
+            file:
+              type: file
+              value: d5669d8a-ce1c-40e0-a373-630c850f6c62
+            size:
+              value: 200970
+              type: number
+            title:
+              type: text
+              value: medium-roast-coffee-1.png
+            width:
+              value: 1280
+              type: number
+            height:
+              value: 1280
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+    metaDescription:
+      type: text
+      locales:
+        en: >-
+          Savor our Breakfast Blend: premium Arabica beans, sustainably sourced
+          from the Americas, roasted fresh in Seattle for a perfect morning
+          brew.
+    recommendations:
+      type: contentReference
+      value: >-
+        ${#jptr:/ref-8b39f8cb-42bf-432b-9530-c26b5769362c-recommendations/entries}
+    shortDescription:
+      type: text
+      locales:
+        en: >-
+          Medium Roast Coffee: Our Breakfast Blend light roast whole bean coffee
+          is the perfect morning coffee to ease you into your day. Sustainable
+          Light Roast Coffee Beans: Our coffee is made with premium quality
+          Arabica coffee beans from Central and South America. They are grown,
+          sourced and packaged responsibly, after being roasted fresh in
+          Seattle, USA.
+  _dataResources:
+    ref-8b39f8cb-42bf-432b-9530-c26b5769362c-brand:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 725d0924-c684-49f1-ba91-b0dfd695823d
+    ref-8b39f8cb-42bf-432b-9530-c26b5769362c-category:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: ae8e04c4-f20b-46f5-9eb4-7d8f82bbee38
+    ref-8b39f8cb-42bf-432b-9530-c26b5769362c-subcategory:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 4e8f00c8-a2da-4a73-8431-8888d88def25
+    ref-8b39f8cb-42bf-432b-9530-c26b5769362c-recommendations:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: >-
+          28bf4036-f588-4ee0-94bb-241d39270972,e79e0ce3-81ff-4431-803d-45c6ba75f077,368a700a-adfd-4304-9186-534f7cbac088
+  _locales:
+    - en

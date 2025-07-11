@@ -1,0 +1,18 @@
+id: addedToCart
+name: Added to Cart
+cap: 100
+crit:
+  op: '|'
+  type: G
+  clauses:
+    - key: isCartEmpty
+      type: QK
+      match:
+        cs: false
+        op: '='
+        rhs: 'false'
+dur: s
+description: ''
+str: 10
+conversion:
+  freq: O

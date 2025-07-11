@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 5d7fb5b1-627d-4f5c-bbcc-5483dc165aa0
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: breakfast-blend-coffee-1.png
+    file:
+      type: file
+      value: 263dab8e-3ff0-4116-a2ee-45ef4eb7a41a
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/N0QOqjXvSFeXY7i3yzY8ZQ/T-CDxCsrRJKta4PpzvgdMA-breakfast-blend-coffee-1.png
+      type: text
+    size:
+      value: 23562
+      type: number
+    width:
+      value: 386
+      type: number
+    height:
+      value: 386
+      type: number
+    custom: {}
+created: '2025-01-29T11:08:53.810256+00:00'
+modified: '2025-01-29T11:08:53.810256+00:00'

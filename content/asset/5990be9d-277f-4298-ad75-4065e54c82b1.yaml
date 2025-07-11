@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 5990be9d-277f-4298-ad75-4065e54c82b1
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: ember-luxury-ottoman-coffee-espresso-set-2.png
+    file:
+      type: file
+      value: 89ef535e-19cc-424f-a093-9102ecb29963
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/N0QOqjXvSFeXY7i3yzY8ZQ/IFUIJ2blSTKsch4EGAYabw-ember-luxury-ottoman-coffee-espresso-set-2.png
+      type: text
+    size:
+      value: 189023
+      type: number
+    width:
+      value: 1280
+      type: number
+    height:
+      value: 1280
+      type: number
+    custom: {}
+created: '2025-01-29T11:08:51.816163+00:00'
+modified: '2025-01-29T11:08:51.816163+00:00'

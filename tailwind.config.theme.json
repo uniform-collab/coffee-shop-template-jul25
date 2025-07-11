@@ -2,28 +2,43 @@
   "extend": {
     "colors": {
       "button-primary": "var(--button-primary)",
-      "button-primary-hover": "var(--button-primary-hover)",
       "button-secondary": "var(--button-secondary)",
-      "button-secondary-hover": "var(--button-secondary-hover)",
       "button-tertiary": "var(--button-tertiary)",
-      "button-tertiary-hover": "var(--button-tertiary-hover)",
       "text-primary": "var(--text-primary)",
       "text-secondary": "var(--text-secondary)",
       "text-tertiary": "var(--text-tertiary)",
       "text-light": "var(--text-light)",
-      "text-dark": "var(--text-dark)",
       "general-color-1": "var(--general-color-1)",
       "general-color-2": "var(--general-color-2)",
       "general-color-3": "var(--general-color-3)",
       "general-color-4": "var(--general-color-4)",
       "general-color-5": "var(--general-color-5)",
-      "page-background-primary": "var(--page-background-primary)"
+      "page-background-primary": "var(--page-background-primary)",
+      "button-primary-hover": "var(--button-primary-hover)",
+      "button-secondary-hover": "var(--button-secondary-hover)",
+      "button-tertiary-hover": "var(--button-tertiary-hover)",
+      "text-dark": "var(--text-dark)",
+      "general-color-6": "var(--general-color-6)",
+      "general-color-7": "var(--general-color-7)",
+      "text-link": "var(--text-link)",
+      "general-color-8": "var(--general-color-8)",
+      "general-color-9": "var(--general-color-9)",
+      "general-color-10": "var(--general-color-10)",
+      "text-active": "var(--text-active)",
+      "general-color-11": "var(--general-color-11)",
+      "general-color-12": "var(--general-color-12)",
+      "general-color-13": "var(--general-color-13)",
+      "text-featured": "var(--text-featured)",
+      "button-featured": "var(--button-featured)"
     },
     "spacing": {
+      "container-xxsmall": "var(--container-xxsmall)",
+      "container-xsmall": "var(--container-xsmall)",
       "container-small": "var(--container-small)",
       "container-medium": "var(--container-medium)",
       "container-large": "var(--container-large)",
       "container-xlarge": "var(--container-xlarge)",
+      "container-xxlarge": "var(--container-xxlarge)",
       "table-small": "var(--table-small)",
       "table-medium": "var(--table-medium)",
       "table-large": "var(--table-large)",
@@ -35,12 +50,15 @@
       "spacer-extra-small": "var(--spacer-extra-small)",
       "spacer-small": "var(--spacer-small)",
       "spacer-medium": "var(--spacer-medium)",
-      "spacer-large": "var(--spacer-large)"
+      "spacer-large": "var(--spacer-large)",
+      "input-small": "var(--input-small)",
+      "input-medium": "var(--input-medium)",
+      "input-large": "var(--input-large)"
     },
     "fontFamily": {
-      "dm-sans": "var(--dm-sans)",
-      "space-mono": "var(--space-mono)",
-      "default": "var(--dm-sans)"
+      "primary": "var(--primary)",
+      "secondary": "var(--secondary)",
+      "default": "var(--primary)"
     }
   }
 }

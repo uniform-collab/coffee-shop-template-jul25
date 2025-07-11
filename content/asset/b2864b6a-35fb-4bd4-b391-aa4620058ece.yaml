@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: b2864b6a-35fb-4bd4-b391-aa4620058ece
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: impresso-12-cup-perk-coffee-maker-1.png
+    file:
+      type: file
+      value: 8a4c01ac-1c99-4ab9-bdef-be4041bd3cc8
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/N0QOqjXvSFeXY7i3yzY8ZQ/nKUdf450TcyXsJW780OrvQ-impresso-12-cup-perk-coffee-maker-1.png
+      type: text
+    size:
+      value: 251892
+      type: number
+    width:
+      value: 1280
+      type: number
+    height:
+      value: 1280
+      type: number
+    custom: {}
+created: '2025-01-29T11:08:57.87546+00:00'
+modified: '2025-01-29T11:08:57.87546+00:00'

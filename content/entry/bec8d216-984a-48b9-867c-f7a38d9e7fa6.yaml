@@ -1,0 +1,15 @@
+created: '2025-04-24T11:39:58.834196+00:00'
+modified: '2025-04-24T11:39:58.834196+00:00'
+pattern: false
+entry:
+  _id: bec8d216-984a-48b9-867c-f7a38d9e7fa6
+  _name: Tea
+  _slug: tea
+  type: articleCategory
+  fields:
+    title:
+      type: text
+      locales:
+        en: Tea
+  _locales:
+    - en

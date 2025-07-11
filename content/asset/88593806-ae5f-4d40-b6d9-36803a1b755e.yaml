@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 88593806-ae5f-4d40-b6d9-36803a1b755e
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: robusta.png
+    file:
+      type: file
+      value: a4fe3b28-6441-4ba6-8c5b-83b326ef9795
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/N0QOqjXvSFeXY7i3yzY8ZQ/zqeGgb53TyOYxQNSn1kzDA-robusta.png
+      type: text
+    size:
+      value: 2280450
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-01-29T11:08:55.848882+00:00'
+modified: '2025-01-29T11:08:55.848882+00:00'

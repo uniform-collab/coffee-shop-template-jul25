@@ -1,0 +1,37 @@
+composition:
+  _name: Title (atom)
+  _id: 23d2d19c-a74c-48cd-b397-e1574bb84b7b
+  type: text
+  parameters:
+    tag:
+      type: dex-segmented-control-parameter
+      value: h1
+    font:
+      type: dex-token-selector-parameter
+      value: primary
+    size:
+      type: dex-segmented-control-parameter
+      value:
+        mobile: 3xl
+        tablet: 4xl
+        desktop: 4xl
+    color:
+      type: dex-color-palette-parameter
+      value: text-primary
+    weight:
+      type: dex-segmented-control-parameter
+      value: bold
+    transform:
+      type: dex-segmented-control-parameter
+      value: uppercase
+  _overridability:
+    parameters:
+      tag: 'yes'
+      text: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en
+created: '2025-04-25T12:20:42.689599+00:00'
+modified: '2025-06-25T12:07:46.982337+00:00'
+pattern: true
+categoryId: 70d03350-bbf9-457d-abc0-cf7d7aa2a3a4

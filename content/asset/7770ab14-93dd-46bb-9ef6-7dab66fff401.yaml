@@ -1,0 +1,30 @@
+asset:
+  type: other
+  _id: 7770ab14-93dd-46bb-9ef6-7dab66fff401
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: profile-icon-white.svg
+    file:
+      type: file
+      value: 9977b90c-f32d-46ac-a50f-27ce7f9aa661
+    mediaType:
+      value: image/svg+xml
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/NNwYKQxtRVSY-BaCP67Jkw/oN5UUBISRv6ZhUVijwZbyQ-profile-icon-white.svg
+      type: text
+    size:
+      value: 610
+      type: number
+    width:
+      value: 24
+      type: number
+    height:
+      value: 24
+      type: number
+    custom: {}
+created: '2025-06-05T12:14:53.976389+00:00'
+modified: '2025-06-05T13:26:31.413125+00:00'

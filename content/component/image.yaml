@@ -10,6 +10,7 @@ parameters:
     typeConfig:
       max: 1
       min: 1
+    allowConditionalValues: true
   - id: cca23341-d3d6-448d-9c5d-16b2324881bc
     name: Dimensions
     type: group
@@ -110,17 +111,15 @@ parameters:
     name: Border
     type: dex-token-selector-parameter
     typeConfig:
-      allowTokens:
-        - border-image-radius-small
-        - border-image-radius-medium
+      allowTokens: []
       selectedTokenType: border
 categoryId: 70d03350-bbf9-457d-abc0-cf7d7aa2a3a4
 previewImageUrl: >-
-  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/image.jpg
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/coffee-shop-template/preview-images/image.jpg
 useTeamPermissions: true
 slots: []
 titleParameter: image
 thumbnailParameter: image
 canBeComposition: false
-created: '2025-03-20T12:55:44.383837+00:00'
-updated: '2025-06-19T14:23:44.458359+00:00'
+created: '2025-02-27T10:44:57.300333+00:00'
+updated: '2025-05-21T09:16:38.134464+00:00'

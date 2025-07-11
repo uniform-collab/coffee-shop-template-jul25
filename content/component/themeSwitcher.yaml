@@ -10,7 +10,7 @@ parameters:
     typeConfig: null
 categoryId: b1163ce2-5ac7-4347-bc38-a42198180718
 previewImageUrl: >-
-  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/theme-switcher.jpg
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/coffee-shop-template/preview-images/theme-switcher.jpg
 useTeamPermissions: true
 slots: []
 canBeComposition: false

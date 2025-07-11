@@ -1,0 +1,16 @@
+composition:
+  _name: Flexible Hero pattern
+  _id: 90d8eead-1a79-4352-9b3c-34222e5e691d
+  type: flexibleHero
+  parameters:
+    contentAlignment:
+      type: dex-segmented-control-parameter
+      value: center
+  _overridability:
+    hideLockedParameters: true
+  _locales:
+    - en
+created: '2025-05-20T11:53:44.068431+00:00'
+modified: '2025-05-22T10:54:25.82479+00:00'
+pattern: true
+categoryId: f22b05f0-c4bf-4158-8ebc-4856e4d453af

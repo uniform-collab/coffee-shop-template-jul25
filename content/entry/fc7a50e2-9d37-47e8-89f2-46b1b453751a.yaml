@@ -1,0 +1,15 @@
+created: '2025-04-24T11:38:28.698963+00:00'
+modified: '2025-04-24T11:38:28.698963+00:00'
+pattern: false
+entry:
+  _id: fc7a50e2-9d37-47e8-89f2-46b1b453751a
+  _name: Ingredients & Preparation
+  _slug: ingredients-and-preparation
+  type: articleCategory
+  fields:
+    title:
+      type: text
+      locales:
+        en: Ingredients & Preparation
+  _locales:
+    - en

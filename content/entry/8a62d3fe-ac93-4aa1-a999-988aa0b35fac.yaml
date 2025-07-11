@@ -1,0 +1,1651 @@
+created: '2025-01-29T11:10:30.186646+00:00'
+modified: '2025-06-26T06:30:08.716273+00:00'
+pattern: false
+entry:
+  _id: 8a62d3fe-ac93-4aa1-a999-988aa0b35fac
+  _name: Kosmic Coffee Stainless Steel Precision Brewer
+  _slug: kosmic-coffee-stainless-steel-precision-brewer
+  _thumbnail: >-
+    https://img.uniform.global/p/DCdo4LRJTZWl21CYeUJNPg/v2jJURLsRJG3LxX9fEENPg-kosmic-coffee-stainless-steel-precision-brewer-1.png
+  type: product
+  fields:
+    body:
+      type: richText
+      locales:
+        en:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Achieve coffee perfection with the '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: Kosmic Coffee Stainless Steel Precision Brewer
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: ' by Breville, a high-performance coffee maker engineered for enthusiasts of third-wave specialty coffee. This 60 oz drip coffee maker, complete with a premium thermal carafe, captures the essence of café-quality coffee in every cup. Featuring six brewing modes and precise digital temperature control (PID), the Kosmic Brewer is designed for those who demand a balanced, flavorful experience each time.'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Key Features
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: ':'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: table
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        width: 207
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Feature
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        width: 209
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Description
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        width: 207
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Six Brewing Modes
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        width: 209
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Choose from Gold, Fast, Strong, Iced, Cold
+                                  Brew, and My Brew modes to suit any coffee
+                                  style and strength.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        width: 207
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Gold Mode
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        width: 209
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Meets the exacting standards of third-wave
+                                  coffee, with precision temperature and timing
+                                  for ideal flavor extraction.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        width: 207
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Fast Mode
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        width: 209
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Perfect for busy mornings, delivering a quick
+                                  yet satisfying cup without compromising on
+                                  taste.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    height: 38
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        width: 207
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Strong Mode
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        width: 209
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Intensifies the flavor extraction process,
+                                  creating a richer, bolder cup for those who
+                                  love deep flavors.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        width: 207
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Cold Brew Mode
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        width: 209
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Designed to brew smooth, refreshing cold
+                                  coffee that’s rich in taste and low in
+                                  acidity, ideal for warm days.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        width: 207
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Thermo Coil Heating System
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        width: 209
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Delivers clean, pure water to preserve the
+                                  authentic taste of your coffee, without
+                                  aluminum interference in the heating process.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        width: 207
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Thermal Carafe
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        width: 209
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Keeps your coffee hot for hours without
+                                  compromising flavor, perfect for leisurely
+                                  mornings or sharing with guests.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Flow Rate Control
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Adjustable flow rates allow you to tailor
+                                  contact time with the coffee grounds for
+                                  optimal flavor, enhancing both depth and
+                                  richness.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Precision Digital Control
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Digital PID temperature control maintains
+                                  exact brewing temperatures, ensuring
+                                  consistency and excellence in every cup.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                direction: null
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Why Choose the Kosmic Coffee Precision Brewer?
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      With advanced brewing features and precision controls, the
+                      Kosmic Coffee Brewer stands out as an exceptional coffee
+                      maker for true aficionados. Whether you’re brewing a quick
+                      morning cup or carefully crafting a cold brew, this brewer
+                      offers unmatched versatility and quality. Its elegant,
+                      stainless steel design also complements any modern
+                      kitchen, combining both functionality and style.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children: []
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Brewing Modes & Recommended Uses
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: ':'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: table
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Mode
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Ideal For
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        width: 425
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Description
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Gold
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Specialty Coffee
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        width: 425
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Brews coffee to exacting standards, balancing
+                                  temperature and extraction for a classic
+                                  coffee profile.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Fast
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Busy Mornings
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        width: 425
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Produces a quick, satisfying brew in a
+                                  fraction of the usual time.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Strong
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Bolder Tastes
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        width: 425
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Enhances extraction time for a fuller, more
+                                  robust flavor.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Iced
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Refreshing Cold Coffee
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        width: 425
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Locks in strong, smooth flavor that holds up
+                                  to ice.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Cold Brew
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Smooth, Low-Acidity Coffee
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        width: 425
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Gently steeps coffee grounds for an extended
+                                  period, perfect for hot summer days.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: My Brew
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Personalized Taste Preferences
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        width: 425
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Allows complete control over brewing
+                                  parameters for tailored taste.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                direction: null
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Your Gateway to Exceptional Coffee
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'The '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: Kosmic Coffee Stainless Steel Precision Brewer
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: ' is more than just a machine; it’s a gateway to experiencing coffee in its finest form. With precision engineering, a variety of brewing modes, and an intuitive design, this brewer meets the needs of everyone—from casual coffee lovers to discerning aficionados. The versatility to craft everything from quick morning brews to slow, rich cold brews sets this machine apart, ensuring each cup is a true expression of your taste.'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      By choosing the Kosmic Brewer, you’re embracing a
+                      commitment to quality and a dedication to the craft of
+                      coffee making. It’s a tool that grows with your love for
+                      coffee, allowing you to explore new flavors, customize
+                      your brewing process, and enjoy a café-quality experience
+                      right at home. Discover the joy of expertly brewed coffee
+                      with every sip—unlock your coffee’s full potential with
+                      the
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: Kosmic Coffee Stainless Steel Precision Brewer
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: .
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+    name:
+      type: text
+      value: Kosmic Coffee Stainless Steel Precision Brewer
+    brand:
+      type: contentReference
+      value: ${#jptr:/ref-8a62d3fe-ac93-4aa1-a999-988aa0b35fac-brand/entries/0}
+    title:
+      type: text
+      value: Kosmic Coffee Stainless Steel Precision Brewer
+    rating:
+      type: number
+      value: '4.4'
+    ogImage:
+      type: asset
+      value:
+        - _id: 73844a23-1220-4adb-8336-ca45c4c94f24
+          type: image
+          fields:
+            id:
+              type: text
+              value: 624c1e75-e542-4da1-bb6a-86206afa2f0d
+            url:
+              value: >-
+                https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/uoIQWdosRu6lyFHO9_sI5g-kosmic-coffee-stainless-steel-precision-brewer-1.png
+              type: text
+            file:
+              type: file
+              value: 241ff619-1426-41de-82f3-c8c7fd3a02c7
+            size:
+              value: 193857
+              type: number
+            title:
+              type: text
+              value: kosmic-coffee-stainless-steel-precision-brewer-1.png
+            width:
+              value: 1280
+              type: number
+            height:
+              value: 1280
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+    category:
+      type: contentReference
+      value: ${#jptr:/ref-8a62d3fe-ac93-4aa1-a999-988aa0b35fac-category/entries/0}
+    variants:
+      type: $block
+      value:
+        - _id: a7250d86-0c42-4a80-a275-32d73795bfae
+          type: variant
+          fields:
+            code:
+              type: text
+              value: '116'
+            price:
+              type: number
+              locales:
+                en: '299.99'
+            title:
+              type: text
+              locales:
+                en: Kosmic Coffee Stainless Steel Precision Brewer
+            currency:
+              type: text
+              locales:
+                en: USD
+            imageGallery:
+              type: asset
+              value:
+                - _id: 5098be22-6fa6-4bee-8a84-9adad780b12b
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: 624c1e75-e542-4da1-bb6a-86206afa2f0d
+                    url:
+                      value: >-
+                        https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/uoIQWdosRu6lyFHO9_sI5g-kosmic-coffee-stainless-steel-precision-brewer-1.png
+                      type: text
+                    file:
+                      type: file
+                      value: 241ff619-1426-41de-82f3-c8c7fd3a02c7
+                    size:
+                      value: 193857
+                      type: number
+                    title:
+                      type: text
+                      value: kosmic-coffee-stainless-steel-precision-brewer-1.png
+                    width:
+                      value: 1280
+                      type: number
+                    height:
+                      value: 1280
+                      type: number
+                    mediaType:
+                      value: image/png
+                      type: text
+                  _source: uniform-assets
+                - _id: 0973ad2c-48fe-48bc-9021-e67615dea489
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: da674456-003c-4879-9397-85b83848c8ff
+                    url:
+                      value: >-
+                        https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/SrKLL0q-TRSMb2csSzQ6CA-kosmic-coffee-stainless-steel-precision-brewer-2.png
+                      type: text
+                    file:
+                      type: file
+                      value: d0a5b71c-f828-4d38-9fbf-43de5166d294
+                    size:
+                      value: 463398
+                      type: number
+                    title:
+                      type: text
+                      value: kosmic-coffee-stainless-steel-precision-brewer-2.png
+                    width:
+                      value: 1280
+                      type: number
+                    height:
+                      value: 1280
+                      type: number
+                    mediaType:
+                      value: image/png
+                      type: text
+                  _source: uniform-assets
+    metaTitle:
+      type: text
+      value: Kosmic Coffee Stainless Steel Precision Brewer
+    enrichments:
+      type: $enr
+      value:
+        - cat: int
+          key: coffee-makers
+          str: 5
+        - cat: subCategory
+          key: percolators
+          str: 5
+        - cat: brand
+          key: kosmic-coffee
+          str: 5
+    subcategory:
+      type: contentReference
+      value: ${#jptr:/ref-8a62d3fe-ac93-4aa1-a999-988aa0b35fac-subcategory/entries/0}
+    primaryImage:
+      type: asset
+      value:
+        - _id: 73844a23-1220-4adb-8336-ca45c4c94f24
+          type: image
+          fields:
+            id:
+              type: text
+              value: 624c1e75-e542-4da1-bb6a-86206afa2f0d
+            url:
+              value: >-
+                https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/uoIQWdosRu6lyFHO9_sI5g-kosmic-coffee-stainless-steel-precision-brewer-1.png
+              type: text
+            file:
+              type: file
+              value: 241ff619-1426-41de-82f3-c8c7fd3a02c7
+            size:
+              value: 193857
+              type: number
+            title:
+              type: text
+              value: kosmic-coffee-stainless-steel-precision-brewer-1.png
+            width:
+              value: 1280
+              type: number
+            height:
+              value: 1280
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+    metaDescription:
+      type: text
+      locales:
+        en: >-
+          Brew third wave specialty coffee at home with the Breville Precision
+          Brewer Thermal, featuring 6 modes, precise temperature control, and a
+          thermal carafe.
+    recommendations:
+      type: contentReference
+      value: >-
+        ${#jptr:/ref-8a62d3fe-ac93-4aa1-a999-988aa0b35fac-recommendations/entries}
+    shortDescription:
+      type: text
+      locales:
+        en: >-
+          The Breville Precision Brewer Thermal is a 60 oz drip coffee maker
+          with thermal carafe that allows you to brew third wave specialty
+          coffee at home, automatically; Experience your favorite coffee at its
+          best with precise temperature and brewing time AUTOMATIC PRESETS AND
+          CUSTOMIZABLE: 6 unique brewing modes ensure you enjoy the perfect
+          balanced coffee every time; Preset modes include Gold, Fast, Strong,
+          Iced, Cold Brew and My Brew, all so you can experience your favorite
+          coffee at its best PRECISE &amp; ADJUSTABLE TEMPERATURE: Coffee maker
+          with precise digital temperature control (PID), 3 different flow rates
+          to optimize contact time and Thermo Coil Heating System delivering
+          water that is more pure than typical brewing systems that use
+          aluminium
+  _dataResources:
+    ref-8a62d3fe-ac93-4aa1-a999-988aa0b35fac-brand:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 9ade18d3-c6b0-4928-b86b-9ff43d676159
+    ref-8a62d3fe-ac93-4aa1-a999-988aa0b35fac-category:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 2f6cc670-cdaa-4532-b70e-424206c8d0ba
+    ref-8a62d3fe-ac93-4aa1-a999-988aa0b35fac-subcategory:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 7c33133b-4267-4e85-8663-730f9a14d7e3
+    ref-8a62d3fe-ac93-4aa1-a999-988aa0b35fac-recommendations:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: >-
+          734d3f04-7135-4c78-a86c-d87d3426ee9a,3e3af534-0999-4bcb-b479-3bd693173c83,4435ccaf-103e-4b69-9138-7ec8196955fb
+  _locales:
+    - en

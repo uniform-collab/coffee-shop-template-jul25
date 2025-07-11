@@ -1,0 +1,213 @@
+composition:
+  _name: Cart Items List
+  _id: 6e3f6afb-48aa-4678-bfa7-1519f538b505
+  type: container
+  parameters:
+    spacing:
+      type: dex-space-control-parameter
+      value:
+        mobile: {}
+        tablet: {}
+        desktop: {}
+    displayName:
+      type: text
+      value: Cart Items List
+  slots:
+    containerContent:
+      - _id: 3e36ea31-e85f-4251-94d0-6ea67380e6c3
+        type: grid
+        slots:
+          gridInner:
+            - _id: b827d634-ea68-4c97-b359-1221ed2543bf
+              type: gridItem
+              slots:
+                inner:
+                  - _id: f4abd913-a80e-4aeb-a311-6bb1a24f0bd2
+                    type: text
+                    parameters:
+                      tag:
+                        type: dex-segmented-control-parameter
+                        value: span
+                      size:
+                        type: dex-segmented-control-parameter
+                        value:
+                          mobile: ''
+                          tablet: ''
+                          desktop: ''
+                      text:
+                        type: text
+                        value: ITEM
+                      weight:
+                        type: dex-segmented-control-parameter
+                        value: bold
+              parameters:
+                rowSpan:
+                  type: dex-slider-control-parameter
+                  value:
+                    mobile: ''
+                rowStart:
+                  type: dex-slider-control-parameter
+                  value:
+                    mobile: ''
+                    tablet: ''
+                    desktop: ''
+                columnSpan:
+                  type: dex-slider-control-parameter
+                  value:
+                    mobile: ''
+                    tablet: span-3
+                    desktop: span-3
+                columnStart:
+                  type: dex-slider-control-parameter
+                  value:
+                    mobile: ''
+                    tablet: ''
+                    desktop: ''
+                displayName:
+                  type: text
+                  value: Item
+            - _id: c1c11eb0-e695-4544-a2bb-3a8ad3f33fcf
+              type: gridItem
+              slots:
+                inner:
+                  - _id: fe6b7555-bb4d-4fb3-8201-ff5942f766b2
+                    type: text
+                    parameters:
+                      tag:
+                        type: dex-segmented-control-parameter
+                        value: span
+                      size:
+                        type: dex-segmented-control-parameter
+                        value: {}
+                      text:
+                        type: text
+                        value: QTY
+                      weight:
+                        type: dex-segmented-control-parameter
+                        value: bold
+              parameters:
+                rowSpan:
+                  type: dex-slider-control-parameter
+                  value: {}
+                rowStart:
+                  type: dex-slider-control-parameter
+                  value:
+                    mobile: ''
+                    tablet: ''
+                    desktop: ''
+                columnSpan:
+                  type: dex-slider-control-parameter
+                  value:
+                    mobile: ''
+                    tablet: span-1
+                    desktop: span-1
+                columnStart:
+                  type: dex-slider-control-parameter
+                  value:
+                    mobile: ''
+                    tablet: ''
+                    desktop: ''
+                displayName:
+                  type: text
+                  value: Qty
+            - _id: 2374cd2a-d85b-49d1-9279-1ab2e13446fc
+              type: gridItem
+              slots:
+                inner:
+                  - _id: bc2a1449-eb8e-4f3f-bb04-b1136be7610c
+                    type: text
+                    parameters:
+                      tag:
+                        type: dex-segmented-control-parameter
+                        value: p
+                      size:
+                        type: dex-segmented-control-parameter
+                        value: {}
+                      text:
+                        type: text
+                        value: PRICE
+                      weight:
+                        type: dex-segmented-control-parameter
+                        value: bold
+                      alignment:
+                        type: dex-segmented-control-parameter
+                        value: right
+              parameters:
+                rowSpan:
+                  type: dex-slider-control-parameter
+                  value: {}
+                rowStart:
+                  type: dex-slider-control-parameter
+                  value:
+                    mobile: ''
+                    tablet: ''
+                    desktop: ''
+                columnSpan:
+                  type: dex-slider-control-parameter
+                  value: {}
+                columnStart:
+                  type: dex-slider-control-parameter
+                  value:
+                    mobile: ''
+                    tablet: ''
+                    desktop: ''
+                displayName:
+                  type: text
+                  value: Price
+        parameters:
+          gapX:
+            type: dex-slider-control-parameter
+            value:
+              mobile: '2'
+              tablet: '2'
+              desktop: '2'
+          gapY:
+            type: dex-slider-control-parameter
+            value:
+              mobile: '2'
+              tablet: '2'
+              desktop: '2'
+          border:
+            type: dex-token-selector-parameter
+            value: border-product-card-bottom
+          spacing:
+            type: dex-space-control-parameter
+            value:
+              marginTop: container-large
+              marginBottom: container-small
+              paddingBottom: container-small
+          displayName:
+            type: text
+            value: Cart Header
+          columnsCount:
+            type: dex-slider-control-parameter
+            value:
+              mobile: '3'
+              tablet: '5'
+              desktop: '5'
+          fluidContent:
+            type: checkbox
+            value: true
+      - _id: c1cba995-4c3d-471d-866b-7ece3a936b20
+        type: shoppingCart
+        _overridability:
+          hideLockedParameters: true
+  _dataResources:
+    Product List Content:
+      type: productList
+      variables:
+        limit: '50'
+        locale: ${locale}
+        search: ''
+        filters: '{"type[eq]":"product"}'
+        contentTypes: product
+      isPatternParameter: true
+      ignorePatternParameterDefault: false
+  _locales:
+    - en
+created: '2025-03-18T13:02:29.173932+00:00'
+modified: '2025-05-22T10:51:10.189785+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/coffee-shop-template/preview-images/cart-items-list.jpg
+categoryId: adaebea8-ba58-494b-9c3b-9f82906d9415

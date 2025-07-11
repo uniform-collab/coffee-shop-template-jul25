@@ -1,0 +1,82 @@
+composition:
+  _name: Container pattern
+  _id: e1162711-ee40-4a8b-b932-859ef691b90c
+  type: container
+  parameters:
+    spacing:
+      type: dex-space-control-parameter
+      value:
+        mobile: {}
+        tablet: {}
+        desktop:
+          paddingTop: container-medium
+          paddingBottom: container-medium
+  slots:
+    containerContent:
+      - _id: 1764d052-9668-4189-9ddb-793dac3c09ab
+        type: text
+        parameters:
+          tag:
+            type: dex-segmented-control-parameter
+            value: h1
+          size:
+            type: dex-segmented-control-parameter
+            value:
+              desktop: 4xl
+          text:
+            type: text
+            locales:
+              en: Title
+          color:
+            type: dex-color-palette-parameter
+            value: text-dark
+          weight:
+            type: dex-segmented-control-parameter
+            value: bold
+        _overridability:
+          hideLockedParameters: true
+      - _id: 39d84418-235a-4a72-95a0-3e567aa443f3
+        type: text
+        parameters:
+          tag:
+            type: dex-segmented-control-parameter
+            value: h2
+          text:
+            type: text
+            locales:
+              en: description
+        _overridability:
+          hideLockedParameters: true
+      - _id: 3e2f7686-e7fa-4f93-b44f-9bff7fbcc984
+        type: button
+        parameters:
+          link:
+            type: link
+            locales:
+              en:
+                path: /${locale}/summer-campaign
+                type: projectMapNode
+                nodeId: 94663b98-2fd8-4852-b75f-7eb89bbccb63
+                projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+                dynamicInputValues:
+                  locale: ${locale}
+          text:
+            type: text
+            locales:
+              en: Click me
+          textColor:
+            type: dex-color-palette-parameter
+            value: text-secondary
+          buttonColor:
+            type: dex-color-palette-parameter
+            value: button-primary
+        _overridability:
+          hideLockedParameters: true
+  _overridability:
+    hideLockedParameters: true
+  _locales:
+    - en
+created: '2025-05-20T11:53:45.018544+00:00'
+modified: '2025-05-22T10:51:32.354287+00:00'
+pattern: true
+categoryId: ae15b0f6-4953-4ccb-9984-ad0525e77b01

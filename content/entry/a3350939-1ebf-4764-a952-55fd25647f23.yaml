@@ -1,0 +1,238 @@
+created: '2025-01-29T11:10:26.276931+00:00'
+modified: '2025-06-26T06:30:10.701587+00:00'
+pattern: false
+entry:
+  _id: a3350939-1ebf-4764-a952-55fd25647f23
+  _name: Coffee Permanent Filter
+  _slug: coffee-permanent-filter
+  _thumbnail: >-
+    https://img.uniform.global/p/DCdo4LRJTZWl21CYeUJNPg/n2-a91FqRfWn5t-8rdJgAw-coffee-permanent-filter-1.png
+  type: product
+  fields:
+    body:
+      type: richText
+      locales:
+        en:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Enhance your coffee-making experience with the Coffee
+                      Permanent Filter, a reusable and durable filter designed
+                      specifically for specialty coffee makers. Say goodbye to
+                      disposable paper filters and embrace a more eco-friendly
+                      and cost-effective brewing solution. This permanent filter
+                      is crafted to deliver a smooth, full-bodied flavor by
+                      allowing the natural oils of the coffee beans to pass
+                      through while effectively capturing grounds for a clean
+                      cup.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Made from high-quality, food-grade materials, the Coffee
+                      Permanent Filter is built for long-lasting use and easy
+                      maintenance. Simply rinse after each brew, and it’s ready
+                      for the next cup. With this reusable filter, not only do
+                      you reduce waste, but you also enjoy a consistent and
+                      reliable coffee experience that complements your specialty
+                      coffee maker. Perfect for coffee enthusiasts looking for
+                      sustainability without compromising on taste, the Coffee
+                      Permanent Filter is an essential addition to your brewing
+                      toolkit.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+    name:
+      type: text
+      value: Coffee Permanent Filter
+    brand:
+      type: contentReference
+      value: ${#jptr:/ref-a3350939-1ebf-4764-a952-55fd25647f23-brand/entries/0}
+    title:
+      type: text
+      value: Coffee Permanent Filter
+    rating:
+      type: number
+      value: '4.9'
+    ogImage:
+      type: asset
+      value:
+        - _id: b2ee904e-104f-441b-a12e-ac48e5e5ffd1
+          type: image
+          fields:
+            id:
+              type: text
+              value: 481a9d97-a553-4001-931b-abbc812ee743
+            url:
+              value: >-
+                https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/N4cgnnxZRPyrVriYAJgyCQ-coffee-permanent-filter-1.png
+              type: text
+            file:
+              type: file
+              value: 1b370459-583f-4578-ba4a-faa7e889c6d4
+            size:
+              value: 53290
+              type: number
+            title:
+              type: text
+              value: coffee-permanent-filter-1.png
+            width:
+              value: 800
+              type: number
+            height:
+              value: 600
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+    category:
+      type: contentReference
+      value: ${#jptr:/ref-a3350939-1ebf-4764-a952-55fd25647f23-category/entries/0}
+    variants:
+      type: $block
+      value:
+        - _id: e1b8b640-9a22-4728-b981-90cf169ec598
+          type: variant
+          fields:
+            code:
+              type: text
+              value: '147'
+            price:
+              type: number
+              locales:
+                en: '12.95'
+            title:
+              type: text
+              locales:
+                en: Coffee Permanent Filter
+            currency:
+              type: text
+              locales:
+                en: USD
+            imageGallery:
+              type: asset
+              value:
+                - _id: 7307ce06-90d5-40ed-8b45-bab472b82480
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: 481a9d97-a553-4001-931b-abbc812ee743
+                    url:
+                      value: >-
+                        https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/N4cgnnxZRPyrVriYAJgyCQ-coffee-permanent-filter-1.png
+                      type: text
+                    file:
+                      type: file
+                      value: 1b370459-583f-4578-ba4a-faa7e889c6d4
+                    size:
+                      value: 53290
+                      type: number
+                    title:
+                      type: text
+                      value: coffee-permanent-filter-1.png
+                    width:
+                      value: 800
+                      type: number
+                    height:
+                      value: 600
+                      type: number
+                    mediaType:
+                      value: image/png
+                      type: text
+                  _source: uniform-assets
+    metaTitle:
+      type: text
+      value: Coffee Permanent Filter
+    enrichments:
+      type: $enr
+      value:
+        - cat: brand
+          key: javadrip
+          str: 5
+    primaryImage:
+      type: asset
+      value:
+        - _id: b2ee904e-104f-441b-a12e-ac48e5e5ffd1
+          type: image
+          fields:
+            id:
+              type: text
+              value: 481a9d97-a553-4001-931b-abbc812ee743
+            url:
+              value: >-
+                https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/N4cgnnxZRPyrVriYAJgyCQ-coffee-permanent-filter-1.png
+              type: text
+            file:
+              type: file
+              value: 1b370459-583f-4578-ba4a-faa7e889c6d4
+            size:
+              value: 53290
+              type: number
+            title:
+              type: text
+              value: coffee-permanent-filter-1.png
+            width:
+              value: 800
+              type: number
+            height:
+              value: 600
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+    metaDescription:
+      type: text
+      locales:
+        en: >-
+          Eco-friendly Coffee Permanent Filter for rich, flavorful brews.
+          Reusable, cost-effective, and perfect for specialty coffee makers.
+    shortDescription:
+      type: text
+      locales:
+        en: >-
+          The Coffee Permanent Filter is a reusable accessory designed for
+          specialty coffee makers, providing an eco-friendly and cost-effective
+          solution for consistently rich, flavorful brews.
+  _dataResources:
+    ref-a3350939-1ebf-4764-a952-55fd25647f23-brand:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 725d0924-c684-49f1-ba91-b0dfd695823d
+    ref-a3350939-1ebf-4764-a952-55fd25647f23-category:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 6b8b91ea-1922-4c2a-8233-4a4a20ab285b
+  _locales:
+    - en

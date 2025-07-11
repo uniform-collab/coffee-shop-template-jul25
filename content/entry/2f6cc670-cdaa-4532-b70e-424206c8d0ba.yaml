@@ -1,0 +1,63 @@
+created: '2025-04-24T11:36:56.764571+00:00'
+modified: '2025-04-24T11:36:56.764571+00:00'
+pattern: false
+entry:
+  _id: 2f6cc670-cdaa-4532-b70e-424206c8d0ba
+  _name: Coffee Makers
+  _slug: coffee-makers
+  _thumbnail: >-
+    https://img.uniform.global/p/DCdo4LRJTZWl21CYeUJNPg/EBnL9_-uQpa5HYnmAzhrWA-coffee-makers.png
+  type: productCategory
+  fields:
+    logo:
+      type: asset
+      value: []
+      locales:
+        en:
+          - _id: 26f81277-1123-488c-8c03-7b7f124413d3
+            type: image
+            fields:
+              id:
+                type: text
+                value: a6db99c5-39b8-4555-b79a-8e101c585b46
+              url:
+                value: >-
+                  https://img.uniform.global/p/9VlMgIbZQQKI2wzV-L0jow/MCpfrmshQ0qU4ruM22UPzA-coffee-makers.png
+                type: text
+              file:
+                type: file
+                value: 85e652f4-0db3-4e8c-a01f-742be1c54ea3
+              size:
+                value: 2109433
+                type: number
+              title:
+                type: text
+                value: coffee-makers.png
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/png
+                type: text
+            _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en: Coffee Makers
+    description:
+      type: text
+      locales:
+        en: >-
+          Discover the perfect coffee maker to suit your brewing needs. Our
+          selection of coffee makers ranges from traditional drip machines to
+          advanced espresso machines, all designed to bring out the rich, robust
+          flavors of your favorite beans. Whether you’re a casual coffee drinker
+          or a dedicated aficionado, our coffee makers offer precision,
+          convenience, and style. Brew your ideal cup with ease and enjoy the
+          perfect balance of aroma and taste every morning. Explore our
+          collection and elevate your coffee experience to new heights.
+  _locales:
+    - en

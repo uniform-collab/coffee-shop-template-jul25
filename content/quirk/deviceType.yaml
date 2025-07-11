@@ -1,0 +1,10 @@
+id: deviceType
+name: Device Type
+description: ''
+options:
+  - name: Mobile
+    value: m
+  - name: Tablet
+    value: t
+  - name: Desktop
+    value: d

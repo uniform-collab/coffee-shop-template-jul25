@@ -1,0 +1,428 @@
+composition:
+  _name: Products Grid With Facets
+  _id: 0c4c3dd0-72d3-4d77-878a-e2d06d56017e
+  type: grid
+  parameters:
+    gapX:
+      type: dex-slider-control-parameter
+      value:
+        mobile: ''
+        tablet: '4'
+        desktop: '8'
+    gapY:
+      type: dex-slider-control-parameter
+      value:
+        mobile: '2'
+        tablet: '4'
+        desktop: '8'
+    spacing:
+      type: dex-space-control-parameter
+      value:
+        mobile:
+          marginTop: container-small
+          marginBottom: container-large
+        tablet:
+          marginTop: container-small
+          marginBottom: container-large
+        desktop:
+          marginTop: container-small
+          marginBottom: container-large
+    displayName:
+      type: text
+      value: Product with Categories
+    columnsCount:
+      type: dex-slider-control-parameter
+      value:
+        mobile: '1'
+        tablet: '6'
+        desktop: '8'
+  slots:
+    gridInner:
+      - _id: 9dd30804-4dc9-4cc7-aa0c-6543641630e3
+        type: gridItem
+        slots:
+          inner:
+            - _id: 73cb4106-7fef-43f1-a8f7-a8fac971cf3b
+              type: flex
+              slots:
+                flexItem:
+                  - _id: d14bfb71-dd7d-4431-84e3-1af77fee5cf8
+                    type: text
+                    parameters:
+                      tag:
+                        type: dex-segmented-control-parameter
+                        value: span
+                      size:
+                        type: dex-segmented-control-parameter
+                        value:
+                          mobile: 2xl
+                          tablet: 2xl
+                          desktop: 2xl
+                      text:
+                        type: text
+                        value: Categories
+                      color:
+                        type: dex-color-palette-parameter
+                        value: text-primary
+                      weight:
+                        type: dex-segmented-control-parameter
+                        value: bold
+                    _overridability:
+                      hideLockedParameters: true
+                  - _id: caf31e39-28ab-4e99-ba32-f93ab771b47f
+                    type: $loop
+                    slots:
+                      body:
+                        - _id: c8fb8f5b-5fc4-44c3-b838-410e0c9ca48d
+                          type: text
+                          parameters:
+                            tag:
+                              type: dex-segmented-control-parameter
+                              value: span
+                            size:
+                              type: dex-segmented-control-parameter
+                              value:
+                                desktop: base
+                            text:
+                              type: text
+                              value: >-
+                                ${#jptr:/Product List Content entries Loop
+                                Item/entry/fields/title/value}
+                            color:
+                              type: dex-color-palette-parameter
+                              value: text-primary
+                            weight:
+                              type: dex-segmented-control-parameter
+                              value: normal
+                          _overridability:
+                            hideLockedParameters: true
+                    _dataResources:
+                      Product List Content entries Loop Item:
+                        type: sys-reserved-loop
+                        variables:
+                          connectedData: >-
+                            #jptr:/Multiple Product Category
+                            Content/entries:fa=c
+                    _overridability:
+                      hideLockedParameters: true
+              parameters:
+                gap:
+                  type: dex-slider-control-parameter
+                  value:
+                    mobile: '4'
+                    tablet: '4'
+                    desktop: '4'
+                spacing:
+                  type: dex-space-control-parameter
+                  value:
+                    marginTop: ''
+                direction:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: col
+                    tablet: col
+                    desktop: col
+                alignItems:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: center
+                    tablet: start
+                    desktop: start
+                displayName:
+                  type: text
+                  value: Categories
+                justifyContent:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: center
+              _overridability:
+                hideLockedParameters: true
+            - _id: 3172117a-9088-4b98-9359-ebbd24e66f6c
+              type: spacer
+              parameters:
+                size:
+                  type: dex-token-selector-parameter
+                  value: spacer-large
+              _overridability:
+                hideLockedParameters: true
+            - _id: e1a65baf-02e8-464f-9846-14a1f9fc2967
+              type: flex
+              slots:
+                flexItem:
+                  - _id: a892a504-cded-489e-9d9c-086693df1e12
+                    type: text
+                    parameters:
+                      tag:
+                        type: dex-segmented-control-parameter
+                        value: span
+                      size:
+                        type: dex-segmented-control-parameter
+                        value:
+                          mobile: 2xl
+                          tablet: 2xl
+                          desktop: 2xl
+                      text:
+                        type: text
+                        value: Brands
+                      color:
+                        type: dex-color-palette-parameter
+                        value: text-primary
+                      weight:
+                        type: dex-segmented-control-parameter
+                        value: bold
+                    _overridability:
+                      hideLockedParameters: true
+                  - _id: 6007d996-dfcf-4b50-b8cb-703c7a5b258c
+                    type: $loop
+                    slots:
+                      body:
+                        - _id: f42ffdcd-fbc7-42c4-a69d-8906f13c01c7
+                          type: text
+                          parameters:
+                            tag:
+                              type: dex-segmented-control-parameter
+                              value: span
+                            size:
+                              type: dex-segmented-control-parameter
+                              value:
+                                mobile: base
+                                tablet: base
+                                desktop: base
+                            text:
+                              type: text
+                              value: >-
+                                ${#jptr:/Product List Content entries Loop
+                                Item/entry/fields/title/value}
+                            color:
+                              type: dex-color-palette-parameter
+                              value: text-primary
+                            weight:
+                              type: dex-segmented-control-parameter
+                              value: normal
+                          _overridability:
+                            hideLockedParameters: true
+                    _dataResources:
+                      Product List Content entries Loop Item:
+                        type: sys-reserved-loop
+                        variables:
+                          connectedData: '#jptr:/Multiple Brand Category Content/entries:fa=c'
+                    _overridability:
+                      hideLockedParameters: true
+              parameters:
+                gap:
+                  type: dex-slider-control-parameter
+                  value:
+                    mobile: '4'
+                    tablet: '4'
+                    desktop: '4'
+                direction:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: col
+                    tablet: col
+                    desktop: col
+                alignItems:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: center
+                    tablet: start
+                    desktop: start
+                displayName:
+                  type: text
+                  value: Brands
+                justifyContent:
+                  type: dex-segmented-control-parameter
+                  value: {}
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          rowSpan:
+            type: dex-slider-control-parameter
+            value: {}
+          rowStart:
+            type: dex-slider-control-parameter
+            value:
+              mobile: ''
+              tablet: '1'
+              desktop: '1'
+          columnSpan:
+            type: dex-slider-control-parameter
+            value:
+              tablet: span-1
+              desktop: span-2
+          columnStart:
+            type: dex-slider-control-parameter
+            value:
+              mobile: ''
+              tablet: '1'
+              desktop: '1'
+          displayName:
+            type: text
+            value: Categories
+        _overridability:
+          hideLockedParameters: true
+      - _id: 5eafeeba-e19b-4400-a121-0d3af87f47d9
+        type: gridItem
+        slots:
+          inner:
+            - _id: 708c99a5-dc1a-4c78-80ae-86ef82d6162d
+              type: grid
+              slots:
+                gridInner:
+                  - _id: b4435a52-73c9-41ec-95bb-b06a2d2cc8e6
+                    type: $loop
+                    slots:
+                      body:
+                        - _id: 9052a1f0-04e4-4bba-9d94-2d371f9ece8f
+                          type: link
+                          _pattern: 1b9cb318-a532-4c1a-af19-c0ee1a66855f
+                    _dataResources:
+                      Product List Content entries Loop Item:
+                        type: sys-reserved-loop
+                        variables:
+                          connectedData: '#jptr:/Product List Content/entries:fa=c'
+                    _overridability:
+                      hideLockedParameters: true
+              parameters:
+                gapX:
+                  type: dex-slider-control-parameter
+                  value:
+                    mobile: '4'
+                    tablet: '2'
+                    desktop: '4'
+                gapY:
+                  type: dex-slider-control-parameter
+                  value:
+                    mobile: '8'
+                    tablet: '8'
+                    desktop: '16'
+                spacing:
+                  type: dex-space-control-parameter
+                  value: {}
+                displayName:
+                  type: text
+                  value: Products Grid
+                columnsCount:
+                  type: dex-slider-control-parameter
+                  value:
+                    mobile: '1'
+                    tablet: '2'
+                    desktop: '3'
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          rowSpan:
+            type: dex-slider-control-parameter
+            value: {}
+          rowStart:
+            type: dex-slider-control-parameter
+            value:
+              mobile: ''
+              tablet: '1'
+              desktop: '1'
+          columnSpan:
+            type: dex-slider-control-parameter
+            value:
+              tablet: span-5
+              desktop: span-6
+          columnStart:
+            type: dex-slider-control-parameter
+            value:
+              mobile: ''
+              tablet: '2'
+              desktop: '3'
+          displayName:
+            type: text
+            value: Products
+        _overridability:
+          hideLockedParameters: true
+  _dataResources:
+    Product List Content:
+      type: productList
+      variables:
+        locale: ${locale}
+        search: ''
+        filters: >-
+          {"type[eq]":"product","fields.category[eq]":"2f6cc670-cdaa-4532-b70e-424206c8d0ba"}
+        contentTypes: product
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+    Multiple Brand Category Content:
+      type: multipleBrandCategory
+      variables:
+        locale: ${locale}
+        entryIds: >-
+          59c77aba-33d8-47da-a613-6d799d699f06,bb55a2ae-cc49-4f1f-ae91-0cafa3128834,725d0924-c684-49f1-ba91-b0dfd695823d,c2e0f6d6-661c-4eb3-ad6f-adf7e6748b67,9ade18d3-c6b0-4928-b86b-9ff43d676159
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+    Multiple Product Category Content:
+      type: multipleProductCategory
+      variables:
+        locale: ${locale}
+        entryIds: >-
+          0c97e1ea-e717-4942-adb4-88f7a1aa2021,ba6763eb-aa88-4bec-bbcb-20613499cfad,89ff9053-0c46-4c5d-be39-6d24907ba240,7c33133b-4267-4e85-8663-730f9a14d7e3,60970e06-2563-452a-b344-f89d54d1e83b
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overrides:
+    9052a1f0-04e4-4bba-9d94-2d371f9ece8f:
+      parameters:
+        link:
+          type: link
+          value:
+            path: >-
+              /${locale}/products/${#jptr:/Product List Content entries Loop
+              Item/entry/_slug}
+            type: projectMapNode
+            nodeId: 702b0e0b-3858-4b5d-99e4-bdb98097ca0f
+            projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+            dynamicInputValues:
+              locale: ${locale}
+              product-slug: ${#jptr:/Product List Content entries Loop Item/entry/_slug}
+        displayName:
+          type: text
+          locales:
+            en: >-
+              ${#jptr:/Product List Content entries Loop
+              Item/entry/fields/name/value}
+    9052a1f0-04e4-4bba-9d94-2d371f9ece8f|1af937fb-40ae-4938-b1a8-110b8ff73fc4:
+      parameters:
+        displayName:
+          type: text
+          value: >-
+            ${#jptr:/Product List Content entries Loop
+            Item/entry/fields/name/value}
+    9052a1f0-04e4-4bba-9d94-2d371f9ece8f|1af937fb-40ae-4938-b1a8-110b8ff73fc4|0952417a-061c-4634-91df-1341269e4054:
+      parameters:
+        image:
+          type: asset
+          value: >-
+            ${#jptr:/Product List Content entries Loop
+            Item/entry/fields/primaryImage/value}
+    9052a1f0-04e4-4bba-9d94-2d371f9ece8f|1af937fb-40ae-4938-b1a8-110b8ff73fc4|41f41812-74a8-48f1-9e2a-920dfff8ea04:
+      parameters:
+        productSlug:
+          type: text
+          locales:
+            en: ${#jptr:/Product List Content entries Loop Item/entry/_slug}
+    9052a1f0-04e4-4bba-9d94-2d371f9ece8f|1af937fb-40ae-4938-b1a8-110b8ff73fc4|8bad3ddd-add0-43d3-a314-5836bf0c7a93:
+      parameters:
+        text:
+          type: text
+          value: >-
+            ${#jptr:/Product List Content entries Loop
+            Item/entry/fields/variants/value/0/fields/price/value} $
+    9052a1f0-04e4-4bba-9d94-2d371f9ece8f|1af937fb-40ae-4938-b1a8-110b8ff73fc4|988f7805-9e0e-4b30-acaf-f97d7dd5099f:
+      parameters:
+        text:
+          type: text
+          value: >-
+            ${#jptr:/Product List Content entries Loop
+            Item/entry/fields/name/value}
+  _locales:
+    - en
+created: '2025-03-18T13:02:27.149852+00:00'
+modified: '2025-05-22T11:13:32.467074+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/coffee-shop-template/preview-images/product-list-grid.jpg
+categoryId: adaebea8-ba58-494b-9c3b-9f82906d9415

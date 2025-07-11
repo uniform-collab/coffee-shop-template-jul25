@@ -1,0 +1,1425 @@
+created: '2025-01-29T11:10:26.529066+00:00'
+modified: '2025-06-26T06:30:11.715249+00:00'
+pattern: false
+entry:
+  _id: b897a717-bb41-4990-a25b-8f860d02700d
+  _name: Irish Blend Coffee
+  _slug: irish-blend-coffee
+  _thumbnail: >-
+    https://img.uniform.global/p/DCdo4LRJTZWl21CYeUJNPg/1UCKE7xJT9ip1kr1Ph6slg-irish-blend-coffee-1.png
+  type: product
+  fields:
+    body:
+      type: richText
+      locales:
+        en:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Indulge in the luxurious taste of our '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: Irish Blend Coffee
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: >-
+                      , a premium roast that perfectly captures the beloved
+                      flavors of traditional Irish liqueur. This full-bodied
+                      coffee is expertly crafted to bring you a rich, aromatic
+                      cup that delivers warmth and satisfaction with every sip.
+                      Featuring a tempting flavor profile of sweet brown sugar,
+                      smooth cream, and warm spices, this blend is sure to earn
+                      a permanent spot in your coffee collection.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Bean Characteristics
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+              - type: table
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Characteristic
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 1
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Description
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 1
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Liqueur-Inspired Flavor
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Mimics the classic taste of Irish liqueur with
+                                  notes of brown sugar, cream, and warm spices.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Full-Bodied Roast
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Offers a rich and robust flavor profile that
+                                  satisfies with depth and complexity.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: High-Quality Beans
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Crafted from premium coffee beans selected for
+                                  their ability to absorb and enhance flavored
+                                  profiles.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Aromatic Experience
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Provides a delightful aroma that enhances the
+                                  indulgent coffee experience.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Versatile Brewing
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Suitable for various brewing methods including
+                                  drip coffee makers, espresso machines, and
+                                  French presses.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                direction: null
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Why Choose Irish Blend Coffee?
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Our '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: Irish Blend Coffee
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: ' is perfect for those who appreciate a touch of indulgence in their daily coffee ritual. By choosing this blend, you''re treating yourself to a unique coffee experience that brings the cozy comfort of Irish liqueur flavors without the alcohol. The rich combination of sweet brown sugar, smooth cream, and warm spices creates a decadent taste that transforms any moment into something special.'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Brewing Suggestions
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+              - type: table
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Brewing Method
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 1
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Ideal For
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 1
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Description
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 1
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Drip Coffee Maker
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Daily Indulgence
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Enjoy a convenient and consistent brew that
+                                  highlights the coffee's sweet and spicy notes.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Espresso Machine
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Intense Flavor Experience
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Create a concentrated shot that amplifies the
+                                  rich, liqueur-inspired flavors.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: French Press
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Full-Bodied Richness
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Extracts deep flavors and oils, offering a
+                                  robust and immersive coffee experience.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Pour-Over Setup
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Flavor Precision
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Allows for meticulous brewing to emphasize the
+                                  blend's nuanced flavors.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Cold Brew
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Smooth & Refreshing Twist
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Delivers a mellow, less acidic version that's
+                                  perfect over ice, enhancing the sweet and
+                                  creamy notes.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: AeroPress
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Quick & Flavorful
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Combines immersion and pressure for a clean,
+                                  vibrant cup in minutes.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Moka Pot
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Stovetop Boldness
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Produces a strong, espresso-like coffee
+                                  accentuating the blend's rich characteristics.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                direction: null
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Experience the Taste of Ireland at Home
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Bring the essence of a classic coffeehouse specialty into
+                      your home with our
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: Irish Blend Coffee
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: >-
+                      . Its unique flavor profile makes every cup an indulgent
+                      treat, perfect for starting your day with a touch of
+                      luxury or unwinding in the afternoon.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Savor the rich, decadent taste and comforting aroma that
+                      this blend offers. Whether you enjoy it black to fully
+                      appreciate its complexity or with a splash of milk for
+                      added creaminess, our
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: Irish Blend Coffee
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: ' transforms ordinary moments into extraordinary ones.'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+    name:
+      type: text
+      value: Irish Blend Coffee
+    brand:
+      type: contentReference
+      value: ${#jptr:/ref-b897a717-bb41-4990-a25b-8f860d02700d-brand/entries/0}
+    title:
+      type: text
+      value: Irish Blend Coffee
+    rating:
+      type: number
+      value: '4.4'
+    ogImage:
+      type: asset
+      value:
+        - _id: 106e7e74-4ee1-4f3e-a474-f8e1d8eb81d0
+          type: image
+          fields:
+            id:
+              type: text
+              value: e2419d1e-c68d-4a76-8d6d-10e2c41c00d2
+            url:
+              value: >-
+                https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/uTu_MRFOSReVvKofNVBNmQ-irish-blend-coffee-1.png
+              type: text
+            file:
+              type: file
+              value: 3f95bab2-7e5d-47bb-94f5-a9ef1afdb992
+            size:
+              value: 193583
+              type: number
+            title:
+              type: text
+              value: irish-blend-coffee-1.png
+            width:
+              value: 1280
+              type: number
+            height:
+              value: 1280
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+    category:
+      type: contentReference
+      value: ${#jptr:/ref-b897a717-bb41-4990-a25b-8f860d02700d-category/entries/0}
+    variants:
+      type: $block
+      value:
+        - _id: 4bf373ec-0986-45e9-a2fc-1c5d2f73081a
+          type: variant
+          fields:
+            code:
+              type: text
+              value: '132'
+            price:
+              type: number
+              locales:
+                en: '12.99'
+            title:
+              type: text
+              locales:
+                en: Irish Blend Coffee
+            currency:
+              type: text
+              locales:
+                en: USD
+            imageGallery:
+              type: asset
+              value:
+                - _id: df1b8727-03e8-4321-b1ab-442ae9179f3c
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: e2419d1e-c68d-4a76-8d6d-10e2c41c00d2
+                    url:
+                      value: >-
+                        https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/uTu_MRFOSReVvKofNVBNmQ-irish-blend-coffee-1.png
+                      type: text
+                    file:
+                      type: file
+                      value: 3f95bab2-7e5d-47bb-94f5-a9ef1afdb992
+                    size:
+                      value: 193583
+                      type: number
+                    title:
+                      type: text
+                      value: irish-blend-coffee-1.png
+                    width:
+                      value: 1280
+                      type: number
+                    height:
+                      value: 1280
+                      type: number
+                    mediaType:
+                      value: image/png
+                      type: text
+                  _source: uniform-assets
+    metaTitle:
+      type: text
+      value: Irish Blend Coffee
+    enrichments:
+      type: $enr
+      value:
+        - cat: int
+          key: beans
+          str: 5
+        - cat: subCategory
+          key: liberica
+          str: 5
+        - cat: brand
+          key: javadrip
+          str: 5
+    subcategory:
+      type: contentReference
+      value: ${#jptr:/ref-b897a717-bb41-4990-a25b-8f860d02700d-subcategory/entries/0}
+    primaryImage:
+      type: asset
+      value:
+        - _id: 106e7e74-4ee1-4f3e-a474-f8e1d8eb81d0
+          type: image
+          fields:
+            id:
+              type: text
+              value: e2419d1e-c68d-4a76-8d6d-10e2c41c00d2
+            url:
+              value: >-
+                https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/uTu_MRFOSReVvKofNVBNmQ-irish-blend-coffee-1.png
+              type: text
+            file:
+              type: file
+              value: 3f95bab2-7e5d-47bb-94f5-a9ef1afdb992
+            size:
+              value: 193583
+              type: number
+            title:
+              type: text
+              value: irish-blend-coffee-1.png
+            width:
+              value: 1280
+              type: number
+            height:
+              value: 1280
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+    metaDescription:
+      type: text
+      locales:
+        en: >-
+          Indulge in a premium roast coffee with notes of sweet brown sugar,
+          smooth cream, and warm spices, reminiscent of your favorite liqueur.
+    recommendations:
+      type: contentReference
+      value: >-
+        ${#jptr:/ref-b897a717-bb41-4990-a25b-8f860d02700d-recommendations/entries}
+    shortDescription:
+      type: text
+      locales:
+        en: >-
+          A full-bodied high-quality flavored coffee that mimics the beloved
+          liqueur, with a tempting flavor profile of sweet brown sugar, smooth
+          cream, and warm spices that will earn this premium roast a permanent
+          spot in your cabinet.
+  _dataResources:
+    ref-b897a717-bb41-4990-a25b-8f860d02700d-brand:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 725d0924-c684-49f1-ba91-b0dfd695823d
+    ref-b897a717-bb41-4990-a25b-8f860d02700d-category:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: ae8e04c4-f20b-46f5-9eb4-7d8f82bbee38
+    ref-b897a717-bb41-4990-a25b-8f860d02700d-subcategory:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 4e8f00c8-a2da-4a73-8431-8888d88def25
+    ref-b897a717-bb41-4990-a25b-8f860d02700d-recommendations:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: >-
+          38622bea-be3c-477b-8756-1a188e84b882,d2719c84-ddf5-4020-8d11-a75fbe3ef2f7,15ef28e8-b2cd-4c74-8dfe-19e35c1c818d
+  _locales:
+    - en

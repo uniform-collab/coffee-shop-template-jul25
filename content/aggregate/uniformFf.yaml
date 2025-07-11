@@ -1,0 +1,7 @@
+id: uniformFf
+name: Uniform F&F
+description: ''
+type: 0
+inputs:
+  - dim: specialLaunchCampaign
+    sign: +

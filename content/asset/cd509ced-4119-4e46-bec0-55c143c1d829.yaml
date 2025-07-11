@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: cd509ced-4119-4e46-bec0-55c143c1d829
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: ember-turkish-arabic-hammered-copper-coffee-pot-1.png
+    file:
+      type: file
+      value: 6d06b341-e621-43c2-949e-2ab628aa5635
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/N0QOqjXvSFeXY7i3yzY8ZQ/n0gM0mE_Qsm7Cm2yKc1o8A-ember-turkish-arabic-hammered-copper-coffee-pot-1.png
+      type: text
+    size:
+      value: 174342
+      type: number
+    width:
+      value: 1280
+      type: number
+    height:
+      value: 1280
+      type: number
+    custom: {}
+created: '2025-01-29T11:08:58.76762+00:00'
+modified: '2025-01-29T11:08:58.76762+00:00'

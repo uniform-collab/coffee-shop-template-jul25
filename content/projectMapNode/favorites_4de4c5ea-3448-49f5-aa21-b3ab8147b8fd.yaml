@@ -1,0 +1,9 @@
+id: 4de4c5ea-3448-49f5-aa21-b3ab8147b8fd
+name: Favorites
+order: 1000
+path: /:locale/favorites
+type: composition
+pathSegment: favorites
+data: {}
+compositionId: 476baa17-efbe-44f6-926d-c32162728978
+projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9

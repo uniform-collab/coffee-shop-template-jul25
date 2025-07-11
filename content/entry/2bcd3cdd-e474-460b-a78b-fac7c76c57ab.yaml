@@ -1,0 +1,19 @@
+created: '2025-04-24T11:37:12.24519+00:00'
+modified: '2025-04-24T11:37:12.24519+00:00'
+pattern: false
+entry:
+  _id: 2bcd3cdd-e474-460b-a78b-fac7c76c57ab
+  _name: Drip Coffee
+  _slug: drip-coffee
+  type: productCategory
+  fields:
+    title:
+      type: text
+      locales:
+        en: Drip Coffee
+    description:
+      type: text
+      locales:
+        en: Just like you get in an American diner
+  _locales:
+    - en

@@ -1,0 +1,378 @@
+composition:
+  _name: Mini Cart
+  _id: 5af78ee1-29c2-4852-94ae-c337a0fe5513
+  type: modalLayout
+  parameters:
+    open:
+      type: checkbox
+      value: true
+    border:
+      type: dex-token-selector-parameter
+      value: border-product-card-bottom
+    spacing:
+      type: dex-space-control-parameter
+      value: {}
+    displayName:
+      type: text
+      value: Mini Cart
+    backgroundColor:
+      type: dex-color-palette-parameter
+      value: general-color-1
+  slots:
+    layoutContent:
+      - _id: c16c3624-305a-468a-804f-986ba1b766df
+        type: flex
+        slots:
+          flexItem:
+            - _id: 0b5b3f31-e62b-4267-bca0-4b8ec1773811
+              type: button
+              parameters:
+                icon:
+                  type: asset
+                  locales:
+                    en:
+                      - _id: bafb753c-b14f-4a24-92a8-99a9d35d1079
+                        type: image
+                        fields:
+                          id:
+                            type: text
+                            value: 2c9af7f7-6fb4-49c8-a8cd-f6433e85bab9
+                          url:
+                            value: >-
+                              https://img.uniform.global/p/9VlMgIbZQQKI2wzV-L0jow/zvAn-5yfRoawXT_9Klb2Ow-close.svg
+                            type: text
+                          file:
+                            type: file
+                            value: e72cfa35-2a87-410c-9475-c4a9c5b1a1b5
+                          size:
+                            value: 352
+                            type: number
+                          title:
+                            type: text
+                            value: close.svg
+                          width:
+                            value: 12
+                            type: number
+                          height:
+                            value: 12
+                            type: number
+                          mediaType:
+                            value: image/svg+xml
+                            type: text
+                        _source: uniform-assets
+                text:
+                  type: text
+                  value: Close
+                textSize:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: sm
+                    tablet: sm
+                    desktop: sm
+                textColor:
+                  type: dex-color-palette-parameter
+                  value: text-primary
+                textWeight:
+                  type: dex-segmented-control-parameter
+                  value: bold
+                iconPosition:
+                  type: dex-segmented-control-parameter
+                  value: left
+                textTransform:
+                  type: dex-segmented-control-parameter
+                  value: uppercase
+              _overridability:
+                parameters:
+                  link: 'yes'
+            - _id: e2515c28-dd6e-44d2-ae49-a965500080e9
+              type: button
+              parameters:
+                icon:
+                  type: asset
+                  locales:
+                    en:
+                      - _id: 6e2aeddb-63be-4666-9e4d-69cd798baa74
+                        type: image
+                        fields:
+                          id:
+                            type: text
+                            value: b207e5e2-a19f-4bda-a9c2-e96a64e1d62c
+                          url:
+                            value: >-
+                              https://img.uniform.global/p/6MJ1ELg6RE6-E2mQbcKLjg/tgl7FHHzSUuPZ9lGebWFmw-icon-cart.svg
+                            type: text
+                          file:
+                            type: file
+                            value: d23b35bb-c04d-4bde-bf7d-15435850034e
+                          size:
+                            value: 872
+                            type: number
+                          title:
+                            type: text
+                            value: icon-cart.svg
+                          width:
+                            value: 24
+                            type: number
+                          height:
+                            value: 24
+                            type: number
+                          mediaType:
+                            value: image/svg+xml
+                            type: text
+                        _source: uniform-assets
+                text:
+                  type: text
+                  value: My Cart
+                textSize:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: sm
+                    tablet: sm
+                    desktop: sm
+                textColor:
+                  type: dex-color-palette-parameter
+                  value: text-primary
+                textWeight:
+                  type: dex-segmented-control-parameter
+                  value: bold
+                iconPosition:
+                  type: dex-segmented-control-parameter
+                  value: right
+                textTransform:
+                  type: dex-segmented-control-parameter
+                  value: uppercase
+        parameters:
+          gap:
+            type: dex-slider-control-parameter
+            value: {}
+          border:
+            type: dex-token-selector-parameter
+            value: border-product-card-bottom
+          spacing:
+            type: dex-space-control-parameter
+            value:
+              mobile:
+                paddingTop: container-small
+                paddingLeft: container-small
+                paddingRight: container-small
+                paddingBottom: container-small
+              tablet:
+                paddingTop: container-small
+                paddingLeft: container-small
+                paddingRight: container-small
+                paddingBottom: container-small
+              desktop:
+                paddingTop: container-small
+                paddingLeft: container-small
+                paddingRight: container-small
+                paddingBottom: container-small
+          direction:
+            type: dex-segmented-control-parameter
+            value:
+              mobile: row
+              tablet: row
+              desktop: row
+          alignItems:
+            type: dex-segmented-control-parameter
+            value: {}
+          displayName:
+            type: text
+            value: Layout Head
+          fluidContent:
+            type: checkbox
+            value: true
+          justifyContent:
+            type: dex-segmented-control-parameter
+            value:
+              mobile: between
+              tablet: between
+              desktop: between
+      - _id: f7a6d649-e69b-467d-a4e5-3faf3873ab79
+        type: flex
+        slots:
+          flexItem:
+            - _id: bee6f802-9667-481f-90ea-7e444c2aefa6
+              type: $loop
+              slots:
+                body:
+                  - _id: 02d8741a-bb8c-475b-badc-ead49bf7bde7
+                    type: container
+                    slots:
+                      containerContent:
+                        - _id: 56a85058-797c-4eb4-ae3c-d7be38f52006
+                          type: flex
+                          _pattern: 44fd1bfe-eec0-490a-bb6d-9bde004d62bf
+                        - _id: 668cd3a2-943e-4faa-bdd9-ad47222b85d6
+                          type: container
+                          slots:
+                            containerContent:
+                              - _id: 6c3135de-8381-4bcb-940a-c54b6f8dfa94
+                                type: divider
+                                parameters:
+                                  color:
+                                    type: dex-color-palette-parameter
+                                    value: general-color-12
+                                  width:
+                                    type: dex-slider-control-parameter
+                                    value: 100%
+                                  alignment:
+                                    type: dex-segmented-control-parameter
+                                    value: center
+                                  thickness:
+                                    type: dex-slider-control-parameter
+                                    value: 1px
+                                _overridability:
+                                  hideLockedParameters: true
+                          parameters:
+                            spacing:
+                              type: dex-space-control-parameter
+                              value:
+                                paddingTop: container-small
+                                paddingBottom: container-small
+                            displayName:
+                              type: text
+                              value: Divider
+                            fluidContent:
+                              type: checkbox
+                              value: true
+                          _overridability:
+                            hideLockedParameters: true
+                    parameters:
+                      displayName:
+                        type: text
+                        value: >-
+                          ${#jptr:/Multiple Product Content entries Loop
+                          Item/entry/fields/name/value}
+                      fluidContent:
+                        type: checkbox
+                        value: true
+                    _overridability:
+                      hideLockedParameters: true
+              _dataResources:
+                Multiple Product Content entries Loop Item:
+                  type: sys-reserved-loop
+                  variables:
+                    connectedData: '#jptr:/Multiple Product Content/entries:fa=c'
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          gap:
+            type: dex-slider-control-parameter
+            value:
+              mobile: '4'
+              tablet: '4'
+              desktop: '4'
+          spacing:
+            type: dex-space-control-parameter
+            value:
+              mobile:
+                paddingTop: container-small
+                paddingLeft: container-small
+                paddingRight: container-small
+                paddingBottom: container-small
+              tablet:
+                paddingTop: container-small
+                paddingLeft: container-small
+                paddingRight: container-small
+                paddingBottom: container-small
+              desktop:
+                paddingTop: container-small
+                paddingLeft: container-small
+                paddingRight: container-small
+                paddingBottom: container-small
+          direction:
+            type: dex-segmented-control-parameter
+            value:
+              mobile: col
+              tablet: col
+              desktop: col
+          alignItems:
+            type: dex-segmented-control-parameter
+            value: {}
+          displayName:
+            type: text
+            value: Products
+          justifyContent:
+            type: dex-segmented-control-parameter
+            value: {}
+        _overridability:
+          hideLockedParameters: true
+  _dataResources:
+    Multiple Product Content:
+      type: multipleProduct
+      variables:
+        locale: ${locale}
+        entryIds: >-
+          f478f705-edb5-4751-9445-18a37e48c183,367662c7-edef-47d6-93af-1262afc7a06b,b897a717-bb41-4990-a25b-8f860d02700d,38622bea-be3c-477b-8756-1a188e84b882
+      isPatternParameter: true
+      ignorePatternParameterDefault: false
+  _overrides:
+    56a85058-797c-4eb4-ae3c-d7be38f52006:
+      parameters:
+        displayName:
+          type: text
+          value: >-
+            ${#jptr:/Multiple Product Content entries Loop
+            Item/entry/fields/name/value}
+        fluidContent:
+          type: checkbox
+          value: true
+    56a85058-797c-4eb4-ae3c-d7be38f52006|19830402-7370-4efe-a3fa-696c694825e2:
+      parameters:
+        text:
+          type: text
+          value: >-
+            ${#jptr:/Multiple Product Content entries Loop
+            Item/entry/fields/name/value}
+    56a85058-797c-4eb4-ae3c-d7be38f52006|2bca77d8-bb2e-4a2b-afcb-efac234c948c:
+      parameters:
+        image:
+          type: asset
+          value:
+            - _id: 13e107d5-aa7e-4c88-95c6-99c06667ce34
+              type: image
+              fields:
+                url:
+                  type: text
+                  value: >-
+                    ${#jptr:/Multiple Product Content entries Loop
+                    Item/entry/fields/primaryImage/value/0/fields/url/value}
+                title:
+                  type: text
+                  value: >-
+                    ${#jptr:/Multiple Product Content entries Loop
+                    Item/entry/fields/name/value}
+                description:
+                  type: text
+                  value: >-
+                    ${#jptr:/Multiple Product Content entries Loop
+                    Item/entry/fields/name/value}
+              _source: custom-url
+    56a85058-797c-4eb4-ae3c-d7be38f52006|3f11374a-9e09-499a-aa74-d1ba0aebbd34:
+      parameters:
+        text:
+          type: text
+          value: >-
+            ${#jptr:/Multiple Product Content entries Loop
+            Item/entry/fields/variants/value/0/fields/currency/value}
+            ${#jptr:/Multiple Product Content entries Loop
+            Item/entry/fields/variants/value/0/fields/price/value}
+    56a85058-797c-4eb4-ae3c-d7be38f52006|721f51d4-3b74-43ff-b532-14b95cd69747:
+      parameters:
+        text:
+          type: text
+          value: >-
+            ${#jptr:/Multiple Product Content entries Loop
+            Item/entry/fields/variants/value/0/fields/code/value}
+  _overridability:
+    parameters:
+      open: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en
+created: '2025-03-18T13:02:28.227505+00:00'
+modified: '2025-05-22T11:01:14.572994+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/coffee-shop-template/preview-images/mini-cart.jpg
+categoryId: adaebea8-ba58-494b-9c3b-9f82906d9415

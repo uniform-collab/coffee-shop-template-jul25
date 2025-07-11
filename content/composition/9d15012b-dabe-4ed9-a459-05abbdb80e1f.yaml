@@ -1,0 +1,315 @@
+composition:
+  _name: Summer Campaign
+  _id: 9d15012b-dabe-4ed9-a459-05abbdb80e1f
+  _slug: summer-campaign
+  type: page
+  _overrides:
+    4edbd4b0-a384-47be-9aa2-5bfaa7f77fce:
+      parameters:
+        backgroundColor:
+          type: dex-color-palette-parameter
+          value: general-color-6
+      dataResources:
+        Product multiple manual select Content:
+          type: productMultipleManualSelect
+          variables:
+            locale: ${locale}
+            entryIds: >-
+              2f042be4-1e8b-4fae-be0e-a5294b89d8dd,f7e77f37-2646-410e-8596-6ae16379d5d9,ee97ebf7-c55c-49a6-9aa4-752116ee23ff
+    9d15012b-dabe-4ed9-a459-05abbdb80e1f:
+      parameters:
+        pageTitle:
+          type: text
+          value: 'Java Drip: Summer 2025 Coffee Delights & Tips'
+        twitterImage:
+          type: asset
+          value:
+            - _id: b13023ca-4f17-4b8d-b96a-5058a5bd791b
+              type: image
+              fields:
+                id:
+                  type: text
+                  value: 75ebf11f-2f1d-4a4e-9062-cca926fe65c1
+                url:
+                  value: >-
+                    https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/sOAxssUvS-Onko8YWWGp8Q-Beans_BG.png
+                  type: text
+                file:
+                  type: file
+                  value: b76064f7-04ff-4299-bdc1-65cc1d9f67b9
+                size:
+                  value: 3551148
+                  type: number
+                title:
+                  type: text
+                  value: Beans_BG.png
+                width:
+                  value: 1536
+                  type: number
+                height:
+                  value: 1024
+                  type: number
+                mediaType:
+                  value: image/png
+                  type: text
+              _source: uniform-assets
+        openGraphImage:
+          type: asset
+          value:
+            - _id: 853be2ab-0714-4949-84b9-b7be7ee5d396
+              type: image
+              fields:
+                id:
+                  type: text
+                  value: 75ebf11f-2f1d-4a4e-9062-cca926fe65c1
+                url:
+                  value: >-
+                    https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/sOAxssUvS-Onko8YWWGp8Q-Beans_BG.png
+                  type: text
+                file:
+                  type: file
+                  value: b76064f7-04ff-4299-bdc1-65cc1d9f67b9
+                size:
+                  value: 3551148
+                  type: number
+                title:
+                  type: text
+                  value: Beans_BG.png
+                width:
+                  value: 1536
+                  type: number
+                height:
+                  value: 1024
+                  type: number
+                mediaType:
+                  value: image/png
+                  type: text
+              _source: uniform-assets
+        openGraphTitle:
+          type: text
+          locales:
+            en: Explore Summer 2025 Coffee Delights
+        pageDescription:
+          type: text
+          locales:
+            en: >-
+              Discover our curated summer products and expert coffee-making
+              guides. Perfect for coffee enthusiasts and summer adventures!
+        openGraphDescription:
+          type: text
+          locales:
+            en: >-
+              Celebrate Summer 2025 with our exclusive coffee collection and
+              tips for crafting the perfect espresso.
+    ff73f10a-2842-41d4-81c3-31ebb55d8b05:
+      variant: columnsReverse
+      dataResources:
+        Article single Content:
+          type: articleSingle
+          variables:
+            locale: ${locale}
+            entryId: f6663a55-c9e0-46e8-8e06-5abcf3f33d7d
+    4edbd4b0-a384-47be-9aa2-5bfaa7f77fce|46da22a2-ba9a-4d15-b626-d893fe0fc748:
+      parameters:
+        text:
+          type: text
+          locales:
+            en: Check out our summer products
+    9d15012b-dabe-4ed9-a459-05abbdb80e1f|dc2e95be-21b5-4476-a309-f8a34922f528:
+      slots:
+        $slotSectionItems:
+          - _id: 4edbd4b0-a384-47be-9aa2-5bfaa7f77fce
+            type: container
+            _pattern: 9de9d5d6-88b3-4ec9-9d6f-79a33f1af368
+            _dataResources:
+              Product multiple manual select Content:
+                type: productMultipleManualSelect
+                variables:
+                  locale: ${locale}
+                  entryIds: >-
+                    2f042be4-1e8b-4fae-be0e-a5294b89d8dd,f7e77f37-2646-410e-8596-6ae16379d5d9,ee97ebf7-c55c-49a6-9aa4-752116ee23ff
+            _overridability:
+              parameters:
+                displayName: 'yes'
+                backgroundColor: 'yes'
+              hideLockedParameters: true
+          - _id: ff73f10a-2842-41d4-81c3-31ebb55d8b05
+            type: section
+            variant: columnsReverse
+            _pattern: f184bdb0-45ce-4b52-9984-8130e23f9dc5
+            _dataResources:
+              Article single Content:
+                type: articleSingle
+                variables:
+                  locale: ${locale}
+                  entryId: f6663a55-c9e0-46e8-8e06-5abcf3f33d7d
+            _overridability:
+              variants: true
+              parameters:
+                spacing: 'no'
+                displayName: 'no'
+                fluidContent: 'no'
+              hideLockedParameters: true
+          - _id: e64d3ce7-f8aa-4d59-97fd-ba1a5760d626
+            type: fixedHero
+            variant: columns
+            parameters:
+              image:
+                type: asset
+                value:
+                  - _id: 14258649-e887-41a3-976e-71353db34161
+                    type: image
+                    fields:
+                      id:
+                        type: text
+                        value: 6a6011fb-0029-42f6-af50-480a372d748a
+                      url:
+                        value: >-
+                          https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/yVYfvtXcS82iD2lRZg8ndQ-Summer-2025-Outdoor-Italy.png
+                        type: text
+                      file:
+                        type: file
+                        value: a8281e76-10e8-4f83-9e9e-5e9051ecd085
+                      size:
+                        value: 2891571
+                        type: number
+                      title:
+                        type: text
+                        value: Summer-2025-Outdoor-Italy.png
+                      width:
+                        value: 1571
+                        type: number
+                      height:
+                        value: 1044
+                        type: number
+                      mediaType:
+                        value: image/png
+                        type: text
+                    _source: uniform-assets
+              titleTag:
+                type: dex-segmented-control-parameter
+                value: h2
+              titleText:
+                type: text
+                value: Uniform’s Component Starter Kit
+                locales:
+                  en: Which Espresso Maker Should You Buy?
+              displayName:
+                type: text
+                value: Fixed Hero
+                locales:
+                  en: Choosing the Right Espresso Maker
+              descriptionText:
+                type: text
+                value: >-
+                  An essential set of components you need to start building
+                  personalized web experiences with Uniform.
+                locales:
+                  en: >-
+                    Navigating the world of espresso machines can be
+                    overwhelming. From manual to automatic, learn the key
+                    features and considerations to help you choose the perfect
+                    espresso maker for your needs.
+              contentAlignment:
+                type: dex-segmented-control-parameter
+                value: center
+              eyebrowTitleText:
+                type: text
+                value: HELLO AND WELCOME! THIS IS
+                locales:
+                  en: Essential Guide
+              primaryButtonText:
+                type: text
+                value: Primary Button
+                locales:
+                  en: Explore Espresso Options
+          - _id: 2aea7468-7bb4-4006-8b62-4575fe7b087d
+            type: fixedHero
+            parameters:
+              image:
+                type: asset
+                value:
+                  - _id: 8a16d7fe-2e22-4c95-ba9f-c393ec692b99
+                    type: image
+                    fields:
+                      id:
+                        type: text
+                        value: 343e6e3f-f884-4d64-b0b1-002adacbea91
+                      url:
+                        value: >-
+                          https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/rrF3KAvWTimcW-VpQK4KFw-Summer-2025-Fields-of-Beans.png
+                        type: text
+                      file:
+                        type: file
+                        value: 76703096-5e35-429f-a2ea-e7879ae274cb
+                      size:
+                        value: 2676410
+                        type: number
+                      title:
+                        type: text
+                        value: Summer-2025-Fields-of-Beans.png
+                      width:
+                        value: 1536
+                        type: number
+                      height:
+                        value: 1024
+                        type: number
+                      mediaType:
+                        value: image/png
+                        type: text
+                    _source: uniform-assets
+              titleTag:
+                type: dex-segmented-control-parameter
+                value: h1
+              titleText:
+                type: text
+                locales:
+                  en: A perfect cup meets comfort of your home
+              titleColor:
+                type: dex-color-palette-parameter
+                value: text-secondary
+              displayName:
+                type: text
+                locales:
+                  en: Main Home Hero
+              contentAlignment:
+                type: dex-segmented-control-parameter
+                value: right
+              descriptionColor:
+                type: dex-color-palette-parameter
+                value: text-secondary
+              eyebrowTitleColor:
+                type: dex-color-palette-parameter
+                value: text-secondary
+              primaryButtonLink:
+                type: link
+                locales:
+                  en:
+                    path: /${locale}/coffee-makers
+                    type: projectMapNode
+                    nodeId: c9869cee-a65c-4064-b296-78c4a5ba4ffc
+                    projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+                    dynamicInputValues:
+                      locale: ${locale}
+              primaryButtonText:
+                type: text
+                locales:
+                  en: Explore our products
+    9d15012b-dabe-4ed9-a459-05abbdb80e1f|be3fb453-fb93-41ab-88e0-6d23e3dfa15d|c50e99a6-1d91-4d6e-9a22-3154d4e4a8b7:
+      parameters:
+        text:
+          type: text
+          value: Summer is here!
+    4edbd4b0-a384-47be-9aa2-5bfaa7f77fce|56df55a3-a0d4-41b2-b5cd-08a63509a03f|1af937fb-40ae-4938-b1a8-110b8ff73fc4|8bad3ddd-add0-43d3-a314-5836bf0c7a93:
+      parameters:
+        text:
+          type: text
+          value: >-
+            $${#jptr:/Product List Content entries Loop
+            Item/entry/fields/variants/value/0/fields/price/value}
+  _locales:
+    - en
+  _pattern: cb6c094d-ce9a-44ac-9a2d-54aafa3f39ff
+created: '2025-04-25T12:20:48.440572+00:00'
+modified: '2025-06-25T12:32:06.578588+00:00'
+pattern: false

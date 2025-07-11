@@ -1,0 +1,230 @@
+composition:
+  _name: Reviews Hero
+  _id: cb6acfbc-01ca-4eef-b637-6a22df3f86e4
+  type: container
+  parameters:
+    spacing:
+      type: dex-space-control-parameter
+      value:
+        mobile: {}
+        tablet: {}
+        desktop: {}
+    displayName:
+      type: text
+      locales:
+        en: Statement
+    fluidContent:
+      type: checkbox
+      value: true
+    backgroundColor:
+      type: dex-color-palette-parameter
+      value: general-color-3
+  slots:
+    containerContent:
+      - _id: 66dbb936-41b2-4769-9686-715aac715aee
+        type: section
+        slots:
+          sectionCTA:
+            - _id: 83f03dee-6787-4fc2-803f-11de7cdf931b
+              type: button
+              _pattern: 646faee6-b476-43c6-a1a8-eebe85699889
+          sectionMedia:
+            - _id: 4dde39a6-ae51-48dc-a8b9-b2f678182a42
+              type: image
+              parameters:
+                image:
+                  type: asset
+                  value:
+                    - _id: 41694638-e7b4-41a6-9bd3-7f8e338eb7fd
+                      type: image
+                      fields:
+                        id:
+                          type: text
+                          value: 6b2c6448-2e43-4b65-810d-e0e730e91987
+                        url:
+                          value: >-
+                            https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/xeeSZLfvSwqVj7c5mZ4sHQ-EspressoMakersReview_OG.png
+                          type: text
+                        file:
+                          type: file
+                          value: f26b93ba-7243-497a-9d62-c2500c8f107d
+                        size:
+                          value: 1585180
+                          type: number
+                        title:
+                          type: text
+                          value: EspressoMakersReview_OG.png
+                        width:
+                          value: 1167
+                          type: number
+                        height:
+                          value: 775
+                          type: number
+                        mediaType:
+                          value: image/png
+                          type: text
+                      _source: uniform-assets
+                objectFit:
+                  type: dex-segmented-control-parameter
+                  value: contain
+              _overridability:
+                parameters:
+                  image: 'yes'
+                hideLockedParameters: true
+          sectionContent:
+            - _id: 4b056631-d58d-415c-99a1-045977206919
+              type: flex
+              slots:
+                flexItem:
+                  - _id: ee9557ac-9678-4825-9fc5-92ddfa20c2d4
+                    type: text
+                    parameters:
+                      tag:
+                        type: dex-segmented-control-parameter
+                        value: h2
+                      size:
+                        type: dex-segmented-control-parameter
+                        value:
+                          tablet: 4xl
+                          desktop: 4xl
+                      text:
+                        type: text
+                        value: >-
+                          Our machines reviewed by one of the most acclaimed
+                          espresso makers
+                      color:
+                        type: dex-color-palette-parameter
+                        value: text-secondary
+                      weight:
+                        type: dex-segmented-control-parameter
+                        value: bold
+                      alignment:
+                        type: dex-segmented-control-parameter
+                        value: left
+                    _overridability:
+                      parameters:
+                        text: 'yes'
+                      hideLockedParameters: true
+                  - _id: b16c6892-6d68-4dc3-bc4c-0b4386d8fb77
+                    type: text
+                    parameters:
+                      tag:
+                        type: dex-segmented-control-parameter
+                        value: span
+                      size:
+                        type: dex-segmented-control-parameter
+                        value: {}
+                      text:
+                        type: text
+                        locales:
+                          en: >-
+                            Renowned espresso maker Joanne laFur has been
+                            rigorously testing four distinct JavaDrip espresso
+                            machines, bringing her expert insights to coffee
+                            enthusiasts eager for their next upgrade. Throughout
+                            her review, Joanne emphasizes the importance of
+                            personal coffee preferences and encourages users to
+                            consider their brewing habits alongside her detailed
+                            findings, ensuring they make an informed decision
+                            tailored to their espresso enjoyment.
+                      color:
+                        type: dex-color-palette-parameter
+                        value: text-secondary
+                      weight:
+                        type: dex-segmented-control-parameter
+                        value: normal
+                      alignment:
+                        type: dex-segmented-control-parameter
+                        value: left
+                  - _id: 4b835ea3-c2b0-43dd-bb9b-968ab3f48e05
+                    type: text
+                    parameters:
+                      tag:
+                        type: dex-segmented-control-parameter
+                        value: span
+                      font:
+                        type: dex-token-selector-parameter
+                        value: secondary
+                      size:
+                        type: dex-segmented-control-parameter
+                        value:
+                          mobile: lg
+                          tablet: lg
+                          desktop: lg
+                      text:
+                        type: text
+                        value: >-
+                          Are you looking to update your espresso maker? Make
+                          sure to take a look at which Joanne laFur's review of
+                          which Espresso Makers to buy.
+                      color:
+                        type: dex-color-palette-parameter
+                        value: text-secondary
+                      weight:
+                        type: dex-segmented-control-parameter
+                        value: bold
+                      alignment:
+                        type: dex-segmented-control-parameter
+                        value: left
+                      letterSpacing:
+                        type: dex-segmented-control-parameter
+                        value: wide
+              parameters:
+                gap:
+                  type: dex-slider-control-parameter
+                  value:
+                    mobile: '4'
+                    tablet: '4'
+                    desktop: '4'
+                spacing:
+                  type: dex-space-control-parameter
+                  value:
+                    mobile: {}
+                    tablet:
+                      marginLeft: container-large
+                    desktop:
+                      marginLeft: container-large
+                direction:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: col
+                    tablet: col
+                    desktop: col
+                alignItems:
+                  type: dex-segmented-control-parameter
+                  value: {}
+                displayName:
+                  type: text
+                  value: Content
+                justifyContent:
+                  type: dex-segmented-control-parameter
+                  value: {}
+              _overridability:
+                hideLockedParameters: true
+        variant: columns
+        parameters:
+          spacing:
+            type: dex-space-control-parameter
+            value:
+              paddingTop: container-medium
+              paddingBottom: container-medium
+          displayName:
+            type: text
+            value: |
+              Four user profiles for full taste customization
+          contentAlignment:
+            type: dex-segmented-control-parameter
+            value: center
+        _overridability:
+          parameters:
+            spacing: 'yes'
+            displayName: 'yes'
+            fluidContent: 'yes'
+          hideLockedParameters: true
+  _locales:
+    - en
+created: '2025-06-06T09:25:47.504888+00:00'
+modified: '2025-06-06T09:45:14.291262+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/coffee-shop-template/preview-images/reviews_hero.png

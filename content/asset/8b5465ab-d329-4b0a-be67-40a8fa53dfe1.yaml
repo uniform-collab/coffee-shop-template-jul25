@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 8b5465ab-d329-4b0a-be67-40a8fa53dfe1
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: MA_sidebyside.png
+    file:
+      type: file
+      value: 65d91d5f-0258-43c9-bb92-93f02c469459
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/DCdo4LRJTZWl21CYeUJNPg/IG8UY7J8RJqpjtWD1AwD-A-MA_sidebyside.png
+      type: text
+    size:
+      value: 1468103
+      type: number
+    width:
+      value: 1166
+      type: number
+    height:
+      value: 774
+      type: number
+    custom: {}
+created: '2025-04-24T11:32:59.308217+00:00'
+modified: '2025-04-24T11:32:59.308217+00:00'

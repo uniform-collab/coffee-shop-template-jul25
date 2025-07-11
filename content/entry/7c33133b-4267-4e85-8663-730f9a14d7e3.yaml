@@ -1,0 +1,62 @@
+created: '2025-04-24T11:39:27.746643+00:00'
+modified: '2025-04-24T11:39:27.746643+00:00'
+pattern: false
+entry:
+  _id: 7c33133b-4267-4e85-8663-730f9a14d7e3
+  _name: Percolators
+  _slug: percolators
+  _thumbnail: >-
+    https://img.uniform.global/p/DCdo4LRJTZWl21CYeUJNPg/-ON9FCXlRuqpMw7Fxcvg3A-percolators.png
+  type: productCategory
+  fields:
+    logo:
+      type: asset
+      value: []
+      locales:
+        en:
+          - _id: 1b7a6262-081f-414c-b9e1-b967305a9ff0
+            type: image
+            fields:
+              id:
+                type: text
+                value: ae0d8b83-533a-4572-bc4b-d28eefc2df73
+              url:
+                value: >-
+                  https://img.uniform.global/p/9VlMgIbZQQKI2wzV-L0jow/zD0Tc2zaRIGEREO5MmhPOw-percolators.png
+                type: text
+              file:
+                type: file
+                value: 885cc694-384d-4123-9bf6-bab4aec7f010
+              size:
+                value: 987680
+                type: number
+              title:
+                type: text
+                value: percolators.png
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/png
+                type: text
+            _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en: Percolators
+    description:
+      type: text
+      locales:
+        en: >-
+          Rediscover the timeless method of brewing with our selection of coffee
+          percolators. Known for their robust and full-bodied flavor extraction,
+          percolators bring a nostalgic touch to modern coffee making. Our range
+          includes high-quality percolators in various sizes and materials,
+          perfect for any coffee enthusiast looking to enjoy a classic brew.
+          Explore our collection and experience the rich, aromatic coffee that
+          only a percolator can deliver.
+  _locales:
+    - en

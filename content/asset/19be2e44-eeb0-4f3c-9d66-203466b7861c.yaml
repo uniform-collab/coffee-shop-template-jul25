@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 19be2e44-eeb0-4f3c-9d66-203466b7861c
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: beans-logo.svg
+    file:
+      type: file
+      value: 616306bf-7cda-41c5-aef5-212e5ee26ff1
+    mediaType:
+      value: image/svg+xml
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/N0QOqjXvSFeXY7i3yzY8ZQ/L52FrjxeQYy0O66QswB-gg-beans-logo.svg
+      type: text
+    size:
+      value: 2725
+      type: number
+    width:
+      value: 84
+      type: number
+    height:
+      value: 73
+      type: number
+    custom: {}
+created: '2025-01-29T11:08:48.813775+00:00'
+modified: '2025-01-29T11:08:48.813775+00:00'

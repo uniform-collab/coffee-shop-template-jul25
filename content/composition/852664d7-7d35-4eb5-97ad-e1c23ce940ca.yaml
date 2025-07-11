@@ -3,48 +3,156 @@ composition:
   _id: 852664d7-7d35-4eb5-97ad-e1c23ce940ca
   _slug: /
   type: page
+  _dataResources:
+    Product List Content:
+      type: productList
+      variables:
+        limit: '3'
+        locale: ${locale}
+        search: ''
+        filters: >-
+          {"type[eq]":"product","fields.category[eq]":"2f6cc670-cdaa-4532-b70e-424206c8d0ba"}
+        contentTypes: product
+      isPatternParameter: true
+      ignorePatternParameterDefault: false
   _overrides:
+    076ec962-8c25-417f-9070-50d96979b484:
+      parameters:
+        link:
+          type: link
+          locales:
+            en:
+              path: /${locale}/beans-bundle
+              type: projectMapNode
+              nodeId: 77389775-4c2c-4114-b135-c66e53ccbda1
+              projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+              dynamicInputValues:
+                locale: ${locale}
+        text:
+          type: text
+          value: Sign up for membership
+    1fc9f4b5-b1ea-4e47-b430-d985b4ec2b41:
+      parameters:
+        $pzCrit:
+          type: $pzCrit
+          value: null
+        displayName:
+          type: text
+          value: Find the perfect bean
+        backgroundColor:
+          type: dex-color-palette-parameter
+          value: general-color-6
+    2f992602-e0b0-44be-b932-00a6f5002583:
+      parameters:
+        link:
+          type: link
+          locales:
+            en:
+              path: /${locale}/beans-bundle
+              type: projectMapNode
+              nodeId: 77389775-4c2c-4114-b135-c66e53ccbda1
+              projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+              dynamicInputValues:
+                locale: ${locale}
+        text:
+          type: text
+          value: Sign up for membership
+    3074410a-05a6-475d-a592-d12154625515:
+      parameters:
+        $pzCrit:
+          type: $pzCrit
+          value: null
+        backgroundColor:
+          type: dex-color-palette-parameter
+          value: general-color-11
+      dataResources:
+        Product List Content:
+          type: productList
+          variables:
+            limit: '3'
+            locale: ${locale}
+            search: espresso
+            filters: >-
+              {"type[eq]":"product","fields.category[eq]":"2f6cc670-cdaa-4532-b70e-424206c8d0ba"}
+            orderBy: creator_ASC
+            contentTypes: product
+    4985d1ca-6d4a-4857-9313-eed9ecb9bc3c:
+      parameters:
+        link:
+          type: link
+          locales:
+            en:
+              path: /${locale}/coffee-makers
+              type: projectMapNode
+              nodeId: c9869cee-a65c-4064-b296-78c4a5ba4ffc
+              projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+              dynamicInputValues:
+                locale: ${locale}
+        text:
+          type: text
+          value: See all
+    61ec067e-41d4-4e57-8862-dd76a0242028:
+      parameters:
+        link:
+          type: link
+          locales:
+            en:
+              path: /${locale}/articles
+              type: projectMapNode
+              nodeId: 078321b0-280e-409e-bd7e-bc6a6d0abeae
+              projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+              dynamicInputValues:
+                locale: ${locale}
+        text:
+          type: text
+          value: "Learn more\_"
+        fullWidth:
+          type: checkbox
+          value: null
     852664d7-7d35-4eb5-97ad-e1c23ce940ca:
       parameters:
         pageTitle:
           type: text
-          value: Component Starter Kit from Uniform
+          value: Java Drip – Premium Coffee Makers, Beans, and Accessories
         twitterCard:
           type: select
           value: summary_large_image
         pageKeywords:
           type: text
-          value: uniform, nextjs, composable, cms, commerce
+          value: >-
+            uniform, java drip, coffee store, coffee makers, coffee beans,
+            coffee accessories, premium coffee, best coffee makers, coffee
+            brewing
         twitterImage:
           type: asset
           value:
-            - _id: 9f8f80e7-4111-4e3e-b13b-55b4ce48b835
+            - _id: 8f8b745c-4520-4b12-acc4-391b0c6bbf35
               type: image
               fields:
                 id:
                   type: text
-                  value: 0ff678c5-794e-4ad2-af0b-861222dd178d
+                  value: 240cb8b5-fdea-4570-af4f-cad7878eec92
                 url:
                   value: >-
-                    https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/ck_RJf3ZTfiDvE-8PPa0Ag-meta-image.png
+                    https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/F9_HGsPeSTiVKKM54YvGig-jd-earth-to-bean.jpg
                   type: text
                 file:
                   type: file
-                  value: 28f307bf-569a-446d-9700-39e855892108
+                  value: 3460ce7f-742e-4f59-b880-31fffddbf613
                 size:
-                  value: 171834
+                  value: 945417
                   type: number
                 title:
                   type: text
-                  value: meta-image.png
+                  value: jd-earth-to-bean.jpg
                 width:
-                  value: 1200
+                  value: 2600
                   type: number
                 height:
-                  value: 630
+                  value: 1300
                   type: number
                 mediaType:
-                  value: image/png
+                  value: image/jpeg
                   type: text
               _source: uniform-assets
         twitterTitle:
@@ -56,87 +164,771 @@ composition:
         openGraphImage:
           type: asset
           value:
-            - _id: 5ea92564-890d-499f-85bb-244817c46534
+            - _id: e1e1d26c-dcb6-409f-adba-3d6ca12e6ed4
               type: image
               fields:
                 id:
                   type: text
-                  value: 0ff678c5-794e-4ad2-af0b-861222dd178d
+                  value: 240cb8b5-fdea-4570-af4f-cad7878eec92
                 url:
                   value: >-
-                    https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/ck_RJf3ZTfiDvE-8PPa0Ag-meta-image.png
+                    https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/F9_HGsPeSTiVKKM54YvGig-jd-earth-to-bean.jpg
                   type: text
                 file:
                   type: file
-                  value: 28f307bf-569a-446d-9700-39e855892108
+                  value: e18fb21b-0e5c-413c-bff7-816c37aeaa0a
                 size:
-                  value: 171834
+                  value: 945417
                   type: number
                 title:
                   type: text
-                  value: meta-image.png
+                  value: jd-earth-to-bean.jpg
                 width:
-                  value: 1200
+                  value: 2600
                   type: number
                 height:
-                  value: 630
+                  value: 1300
+                  type: number
+                mediaType:
+                  value: image/jpeg
+                  type: text
+              _source: uniform-assets
+        openGraphTitle:
+          type: text
+          value: Java Drip // Premium Coffee Makers, Beans, and Accessories
+        pageDescription:
+          type: text
+          value: >-
+            Discover Java Drip’s premium selection of coffee makers, quality
+            coffee beans, and stylish accessories. Elevate your coffee
+            experience with our carefully curated products for coffee lovers.
+        openGraphDescription:
+          type: text
+          value: >-
+            Discover Java Drip’s premium selection of coffee makers, quality
+            coffee beans, and stylish accessories. Elevate your coffee
+            experience with our carefully curated products for coffee lovers.
+    9d607fb8-aac2-468f-9370-193972317c55:
+      parameters:
+        link:
+          type: link
+          locales:
+            en:
+              path: /${locale}/coffee-beans
+              type: projectMapNode
+              nodeId: 9db6eee2-5e3b-4e3e-9e26-836d3973217c
+              projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+              dynamicInputValues:
+                locale: ${locale}
+        text:
+          type: text
+          value: See all
+    f6a22f48-de97-4a4a-8a12-42ad6ec6179a:
+      parameters:
+        $pzCrit:
+          type: $pzCrit
+          value:
+            name: default
+        displayName:
+          type: text
+          value: Default Hero
+    13a58c2b-eced-49bc-98fb-13c6ed96c9e7|3090a8f6-e088-4d8f-a8f0-e6dff9ddb28a:
+      slots:
+        $slotSectionItems:
+          - _id: 3faa3ed8-4ca0-4096-b6f6-3b155b375580
+            type: grid
+            _pattern: 90cf0a21-78be-4cc6-b460-acb78b5c1f31
+            _overridability:
+              hideLockedParameters: true
+    1fc9f4b5-b1ea-4e47-b430-d985b4ec2b41|23ef179e-28e2-4551-83b4-80296f479519:
+      slots:
+        $slotSectionItems:
+          - _id: 9d607fb8-aac2-468f-9370-193972317c55
+            type: button
+            _pattern: 53b59aed-e378-4fcb-9135-20247d92074e
+            _overridability:
+              variants: true
+              parameters:
+                link: 'yes'
+                text: 'yes'
+                fullWidth: 'yes'
+                textWeight: 'no'
+                buttonColor: 'yes'
+                iconPosition: 'yes'
+                textTransform: 'no'
+                hoverTextColor: 'no'
+                hoverButtonColor: 'no'
+              hideLockedParameters: true
+    1fc9f4b5-b1ea-4e47-b430-d985b4ec2b41|46da22a2-ba9a-4d15-b626-d893fe0fc748:
+      parameters:
+        text:
+          type: text
+          value: Find the perfect bean for your liking
+        color:
+          type: dex-color-palette-parameter
+          value: text-tertiary
+    3074410a-05a6-475d-a592-d12154625515|23ef179e-28e2-4551-83b4-80296f479519:
+      slots:
+        $slotSectionItems:
+          - _id: 4985d1ca-6d4a-4857-9313-eed9ecb9bc3c
+            type: button
+            _pattern: 646faee6-b476-43c6-a1a8-eebe85699889
+            _overridability:
+              variants: true
+              parameters:
+                link: 'yes'
+                text: 'yes'
+                fullWidth: 'yes'
+                textColor: 'no'
+              hideLockedParameters: true
+    3074410a-05a6-475d-a592-d12154625515|46da22a2-ba9a-4d15-b626-d893fe0fc748:
+      parameters:
+        text:
+          type: text
+          value: "Tools to make great\_espresso at home"
+    852664d7-7d35-4eb5-97ad-e1c23ce940ca|dc2e95be-21b5-4476-a309-f8a34922f528:
+      slots:
+        $slotSectionItems:
+          - _id: 1374242f-092a-49c0-8afd-9627bf022b78
+            type: $personalization
+            slots:
+              pz:
+                - _id: edebb9bf-7b86-4c6b-9972-687084cbff7b
+                  type: fixedHero
+                  variant: columns
+                  parameters:
+                    image:
+                      type: asset
+                      value:
+                        - _id: 0f1ac269-7f8d-4f3d-a8bf-447fb57de7aa
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: 4a540191-b713-42b0-a2f6-e96ce1450aca
+                            url:
+                              value: >-
+                                https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/R2uNG3KaTMOefiRv2XpBlQ-beans-heart.jpg
+                              type: text
+                            file:
+                              type: file
+                              value: 0d81a7d7-f5b1-48a0-869f-dd23aff77741
+                            size:
+                              value: 1836620
+                              type: number
+                            title:
+                              type: text
+                              value: beans-heart.jpg
+                            width:
+                              value: 4608
+                              type: number
+                            height:
+                              value: 3072
+                              type: number
+                            mediaType:
+                              value: image/jpeg
+                              type: text
+                          _source: uniform-assets
+                          _overrides:
+                            fields:
+                              focalPoint:
+                                type: focalPoint
+                                value:
+                                  x: 0.28
+                                  'y': 0.64
+                    $pzCrit:
+                      type: $pzCrit
+                      value:
+                        dim: aficionado
+                        name: aficionados-audience
+                    titleTag:
+                      type: dex-segmented-control-parameter
+                      value: h1
+                    titleText:
+                      type: text
+                      locales:
+                        en: Exclusive Brews for Coffee Connoisseurs
+                    displayName:
+                      type: text
+                      locales:
+                        en: Main Home Hero
+                    contentAlignment:
+                      type: dex-segmented-control-parameter
+                      value: right
+                    eyebrowTitleText:
+                      type: text
+                      locales:
+                        en: For the True Coffee Lover
+                    primaryButtonLink:
+                      type: link
+                      locales:
+                        en:
+                          path: /${locale}/coffee-makers
+                          type: projectMapNode
+                          nodeId: c9869cee-a65c-4064-b296-78c4a5ba4ffc
+                          projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+                          dynamicInputValues:
+                            locale: ${locale}
+                    primaryButtonText:
+                      type: text
+                      locales:
+                        en: Discover Premium Brews
+                - _id: 977d16e4-bfd5-462a-9ff9-876984f0b874
+                  type: fixedHero
+                  parameters:
+                    image:
+                      type: asset
+                      value:
+                        - _id: 1122314a-62c0-4ef1-a5de-d77b704cdea8
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: 3b585523-8581-4f92-ba28-31212944e28d
+                            url:
+                              value: >-
+                                https://img.uniform.global/p/zm-ftiPuRciHvgZTqv6KFA/8HnzkLe_QwuSTxZuw_YvUQ-pexels-photo.jpeg
+                              type: text
+                            file:
+                              type: file
+                              value: 9e4ce947-9991-44cf-9512-038193547233
+                            size:
+                              value: 204305
+                              type: number
+                            title:
+                              type: text
+                              value: pexels-photo.jpeg
+                            width:
+                              value: 1920
+                              type: number
+                            height:
+                              value: 1280
+                              type: number
+                            mediaType:
+                              value: image/jpeg
+                              type: text
+                          _source: uniform-assets
+                    $pzCrit:
+                      type: $pzCrit
+                      value:
+                        dim: int_beans
+                        name: beans-interest
+                    titleTag:
+                      type: dex-segmented-control-parameter
+                      value: h1
+                    textColor:
+                      type: dex-color-palette-parameter
+                      value: text-secondary
+                    titleText:
+                      type: text
+                      locales:
+                        en: Discover the world’s rarest coffee beans.
+                    displayName:
+                      type: text
+                      locales:
+                        en: Coffee Bean Hero
+                    descriptionText:
+                      type: text
+                      locales:
+                        en: "From Arabica to Liberica.\_"
+                    contentAlignment:
+                      type: dex-segmented-control-parameter
+                      value: left
+                    eyebrowTitleText:
+                      type: text
+                      locales:
+                        en: Curated for the most demanding taste
+                    primaryButtonLink:
+                      type: link
+                      locales:
+                        en:
+                          path: /${locale}/coffee-beans
+                          type: projectMapNode
+                          nodeId: 9db6eee2-5e3b-4e3e-9e26-836d3973217c
+                          projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+                          dynamicInputValues:
+                            locale: ${locale}
+                    primaryButtonText:
+                      type: text
+                      locales:
+                        en: Discover our beans
+                    enableOverlayAutoTint:
+                      type: checkbox
+                      value: true
+                - _id: a1148d47-b087-4c04-a0c9-1dbdb5b8c21c
+                  type: fixedHero
+                  parameters:
+                    image:
+                      type: asset
+                      value:
+                        - _id: 59b53b35-24ad-49db-93d7-6585247a06a7
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: 0207c17d-ecb7-4b02-b116-285aa4d10b8f
+                            url:
+                              value: >-
+                                https://img.uniform.global/p/zm-ftiPuRciHvgZTqv6KFA/N4lCM_rUSJekpBrxGnKx7w-image.png
+                              type: text
+                            file:
+                              type: file
+                              value: ae8ddc9a-89d9-4911-b97b-4e9ba0b0c7e2
+                            size:
+                              value: 1441088
+                              type: number
+                            title:
+                              type: text
+                              value: image.png
+                            width:
+                              value: 1920
+                              type: number
+                            height:
+                              value: 1282
+                              type: number
+                            mediaType:
+                              value: image/png
+                              type: text
+                          _source: uniform-assets
+                    $pzCrit:
+                      type: $pzCrit
+                      value:
+                        dim: int_coffee-makers
+                        name: machine-interest
+                    titleTag:
+                      type: dex-segmented-control-parameter
+                      value: h1
+                    textColor:
+                      type: dex-color-palette-parameter
+                      value: text-secondary
+                    titleText:
+                      type: text
+                      locales:
+                        en: Discover precision-crafted brewing gear.
+                    displayName:
+                      type: text
+                      locales:
+                        en: Coffee Machines Hero
+                    descriptionText:
+                      type: text
+                      locales:
+                        en: From Espresso machines to French Press
+                    contentAlignment:
+                      type: dex-segmented-control-parameter
+                      value: left
+                    eyebrowTitleText:
+                      type: text
+                      locales:
+                        en: smartest coffee machines
+                    primaryButtonLink:
+                      type: link
+                      locales:
+                        en:
+                          path: /${locale}/coffee-makers
+                          type: projectMapNode
+                          nodeId: c9869cee-a65c-4064-b296-78c4a5ba4ffc
+                          projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+                          dynamicInputValues:
+                            locale: ${locale}
+                    primaryButtonText:
+                      type: text
+                      locales:
+                        en: Shop machines
+                    enableOverlayAutoTint:
+                      type: checkbox
+                      value: true
+                - _id: f6a22f48-de97-4a4a-8a12-42ad6ec6179a
+                  type: featuredSection
+                  _pattern: d7181e81-f3d1-4e21-af6f-1e73c8dfa6b5
+                  _overridability:
+                    parameters:
+                      displayName: 'yes'
+                      contentBackgroundColor: 'yes'
+                    hideLockedParameters: true
+            parameters:
+              algorithm:
+                type: pzAlgorithm
+                value: ssc
+              trackingEventName:
+                type: text
+                value: Home Hero
+          - _id: fada7724-57a6-4055-a75b-f7d9af44400a
+            type: $test
+            slots:
+              test:
+                - _id: 92ac3652-804d-4ecd-9d5c-af752e7b85a7
+                  type: section
+                  slots:
+                    sectionCTA:
+                      - _id: 2f992602-e0b0-44be-b932-00a6f5002583
+                        type: button
+                        _pattern: 8060e691-b0b3-428c-92f1-278fc76baf47
+                        _overridability:
+                          variants: true
+                          parameters:
+                            link: 'yes'
+                            text: 'yes'
+                            textColor: 'yes'
+                            textWeight: 'yes'
+                            buttonColor: 'yes'
+                            textTransform: 'yes'
+                            hoverTextColor: 'yes'
+                            hoverButtonColor: 'yes'
+                          hideLockedParameters: true
+                    sectionContent:
+                      - _id: 65f1426e-e522-4f5c-9834-ece9fea5a6f1
+                        type: text
+                        parameters:
+                          tag:
+                            type: dex-segmented-control-parameter
+                            value: h2
+                          size:
+                            type: dex-segmented-control-parameter
+                            value:
+                              mobile: 3xl
+                              tablet: 4xl
+                              desktop: 4xl
+                          text:
+                            type: text
+                            value: Why we’re obsessed with coffee
+                          color:
+                            type: dex-color-palette-parameter
+                            value: text-primary
+                          weight:
+                            type: dex-segmented-control-parameter
+                            value: bold
+                      - _id: 5c6cbe45-7548-4158-ae1e-15b5fe67b0ff
+                        type: text
+                        parameters:
+                          tag:
+                            type: dex-segmented-control-parameter
+                            value: span
+                          size:
+                            type: dex-segmented-control-parameter
+                            value:
+                              mobile: sm
+                              tablet: lg
+                              desktop: xl
+                          text:
+                            type: text
+                            value: >-
+                              At JavaDrip, coffee isn’t just a drink—it’s an
+                              experience, a ritual, and a connection. From the
+                              perfect grind to the rich aroma, we’re passionate
+                              about every step of the journey that brings the
+                              finest coffee to your cup. Our obsession drives us
+                              to source only the highest quality beans, create
+                              state-of-the-art brewing equipment, and offer
+                              accessories that elevate your daily coffee
+                              routine. Join us in celebrating the art of coffee,
+                              one sip at a time
+                          color:
+                            type: dex-color-palette-parameter
+                            value: text-primary
+                          weight:
+                            type: dex-segmented-control-parameter
+                            value: normal
+                          alignment:
+                            type: dex-segmented-control-parameter
+                            value: center
+                  parameters:
+                    spacing:
+                      type: dex-space-control-parameter
+                      value:
+                        mobile:
+                          paddingTop: container-medium
+                          paddingLeft: container-medium
+                          paddingRight: container-medium
+                          paddingBottom: container-medium
+                        tablet:
+                          paddingTop: container-xlarge
+                          paddingBottom: container-medium
+                        desktop:
+                          paddingTop: container-xlarge
+                          paddingBottom: container-medium
+                    $tstVrnt:
+                      type: testVariant
+                      value:
+                        id: text
+                    displayName:
+                      type: text
+                      value: Why we’re obsessed with coffee
+                    contentAlignment:
+                      type: dex-segmented-control-parameter
+                      value: center
+                - _id: 15887854-8d4c-4e52-af66-e6b318fa9d76
+                  type: container
+                  slots:
+                    containerContent:
+                      - _id: a3cbce1b-3ab3-4d7b-92d2-a5022e2445fc
+                        type: section
+                        slots:
+                          sectionCTA:
+                            - _id: 076ec962-8c25-417f-9070-50d96979b484
+                              type: button
+                              _pattern: 8060e691-b0b3-428c-92f1-278fc76baf47
+                              _overridability:
+                                variants: true
+                                parameters:
+                                  link: 'yes'
+                                  text: 'yes'
+                                  textColor: 'yes'
+                                  textWeight: 'yes'
+                                  buttonColor: 'yes'
+                                  textTransform: 'yes'
+                                  hoverTextColor: 'yes'
+                                  hoverButtonColor: 'yes'
+                                hideLockedParameters: true
+                          sectionMedia:
+                            - _id: 414fe284-9c27-4c15-b4e6-000fb9b3e48f
+                              type: video
+                              parameters:
+                                loop:
+                                  type: checkbox
+                                  value: true
+                                muted:
+                                  type: checkbox
+                                  value: true
+                                video:
+                                  type: asset
+                                  value:
+                                    - _id: 66f94224-bfea-45d8-b8ea-c049aee0c06e
+                                      type: video
+                                      fields:
+                                        id:
+                                          type: text
+                                          value: ede2372e-b790-4da5-9d8b-09bf6365b537
+                                        url:
+                                          value: >-
+                                            https://files.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/FYULhpFQTq24MfxMbCkOTA-4820352-uhd_4096_2160_25fps.mp4
+                                          type: text
+                                        file:
+                                          type: file
+                                          value: 8bbfcbb1-4e17-4f0a-a101-33a2075b10b9
+                                        size:
+                                          value: 39836004
+                                          type: number
+                                        title:
+                                          type: text
+                                          value: 4820352-uhd_4096_2160_25fps.mp4
+                                        mediaType:
+                                          value: video/mp4
+                                          type: text
+                                      _source: uniform-assets
+                                autoPlay:
+                                  type: checkbox
+                                  value: true
+                                displayName:
+                                  type: text
+                                  locales:
+                                    en: Video
+                          sectionContent:
+                            - _id: 855dfdfe-14d0-4c5c-ad87-97cf3b3b4e7b
+                              type: text
+                              parameters:
+                                tag:
+                                  type: dex-segmented-control-parameter
+                                  value: h2
+                                size:
+                                  type: dex-segmented-control-parameter
+                                  value:
+                                    mobile: 3xl
+                                    tablet: 4xl
+                                    desktop: 4xl
+                                text:
+                                  type: text
+                                  value: Why we’re obsessed with coffee
+                                color:
+                                  type: dex-color-palette-parameter
+                                  value: text-primary
+                                weight:
+                                  type: dex-segmented-control-parameter
+                                  value: bold
+                            - _id: a84e9c58-8557-4bad-b6ad-cf7258d0de09
+                              type: text
+                              parameters:
+                                tag:
+                                  type: dex-segmented-control-parameter
+                                  value: span
+                                size:
+                                  type: dex-segmented-control-parameter
+                                  value:
+                                    mobile: sm
+                                    tablet: lg
+                                    desktop: xl
+                                text:
+                                  type: text
+                                  value: >-
+                                    At JavaDrip, coffee isn’t just a drink—it’s
+                                    an experience, a ritual, and a connection.
+                                    From the perfect grind to the rich aroma,
+                                    we’re passionate about every step of the
+                                    journey that brings the finest coffee to
+                                    your cup. Our obsession drives us to source
+                                    only the highest quality beans, create
+                                    state-of-the-art brewing equipment, and
+                                    offer accessories that elevate your daily
+                                    coffee routine. Join us in celebrating the
+                                    art of coffee, one sip at a time
+                                color:
+                                  type: dex-color-palette-parameter
+                                  value: text-primary
+                                weight:
+                                  type: dex-segmented-control-parameter
+                                  value: normal
+                                alignment:
+                                  type: dex-segmented-control-parameter
+                                  value: center
+                        variant: columns
+                        parameters:
+                          spacing:
+                            type: dex-space-control-parameter
+                            value:
+                              mobile:
+                                paddingTop: container-medium
+                                paddingBottom: container-medium
+                              tablet:
+                                paddingTop: container-xlarge
+                                paddingBottom: container-medium
+                              desktop:
+                                paddingTop: container-xlarge
+                                paddingBottom: container-medium
+                          $tstVrnt:
+                            type: testVariant
+                            value:
+                              id: video
+                          displayName:
+                            type: text
+                            value: Why we’re obsessed with coffee
+                          backgroundColor:
+                            type: dex-color-palette-parameter
+                            value: general-color-6
+                          contentAlignment:
+                            type: dex-segmented-control-parameter
+                            value: center
+                  parameters:
+                    height:
+                      type: dex-segmented-control-parameter
+                      value: {}
+                    spacing:
+                      type: dex-space-control-parameter
+                      value:
+                        mobile: {}
+                        tablet: {}
+                        desktop: {}
+                    $tstVrnt:
+                      type: testVariant
+                      value:
+                        id: container-1588
+                    displayName:
+                      type: text
+                      locales:
+                        en: Why we’re obsessed with coffee
+                    fluidContent:
+                      type: checkbox
+                      value: true
+                    backgroundColor:
+                      type: dex-color-palette-parameter
+                      value: general-color-6
+            parameters:
+              test:
+                type: testSelect
+                value: membershipCta
+          - _id: 3074410a-05a6-475d-a592-d12154625515
+            type: container
+            _pattern: 4a0a5fb2-25d0-4563-955b-714233ddffe6
+            _dataResources:
+              Product List Content:
+                type: productList
+                variables:
+                  limit: '3'
+                  locale: ${locale}
+                  search: espresso
+                  filters: >-
+                    {"type[eq]":"product","fields.category[eq]":"2f6cc670-cdaa-4532-b70e-424206c8d0ba"}
+                  orderBy: creator_ASC
+                  contentTypes: product
+            _overridability:
+              parameters:
+                displayName: 'yes'
+                backgroundColor: 'yes'
+              hideLockedParameters: true
+          - _id: 1fc9f4b5-b1ea-4e47-b430-d985b4ec2b41
+            type: container
+            _pattern: 00a7ebd9-8743-4158-aa06-bc671a05529b
+            _overridability:
+              parameters:
+                displayName: 'yes'
+                backgroundColor: 'no'
+              hideLockedParameters: true
+          - _id: 13a58c2b-eced-49bc-98fb-13c6ed96c9e7
+            type: grid
+            _pattern: 2fa494d2-d69a-49bc-b728-229a1684d77f
+            _overridability:
+              parameters:
+                displayName: 'yes'
+              hideLockedParameters: true
+    f6a22f48-de97-4a4a-8a12-42ad6ec6179a|5d86f5e9-47d6-4e77-a139-83228ec0be41:
+      slots:
+        $slotSectionItems:
+          - _id: 61ec067e-41d4-4e57-8862-dd76a0242028
+            type: button
+            _pattern: 646faee6-b476-43c6-a1a8-eebe85699889
+            _overridability:
+              variants: true
+              parameters:
+                link: 'yes'
+                text: 'yes'
+                fullWidth: 'yes'
+                textColor: 'no'
+              hideLockedParameters: true
+    f6a22f48-de97-4a4a-8a12-42ad6ec6179a|c50e99a6-1d91-4d6e-9a22-3154d4e4a8b7:
+      parameters:
+        text:
+          type: text
+          value: Only the rarest coffee beans and precision brewers
+    f6a22f48-de97-4a4a-8a12-42ad6ec6179a|fcac6346-1864-4284-8715-a0e4fb4854f4:
+      parameters:
+        image:
+          type: asset
+          value:
+            - _id: 0de14705-6e41-4ba3-a524-8ee267b0397a
+              type: image
+              fields:
+                id:
+                  type: text
+                  value: e48a76d6-773f-4e3a-9b4e-409d77e8648a
+                url:
+                  value: >-
+                    https://img.uniform.global/p/zm-ftiPuRciHvgZTqv6KFA/uRjGFXyhSDaxys2Fdhz3hg-coffee.png
+                  type: text
+                file:
+                  type: file
+                  value: 3ff76bc4-89d0-4b69-8c22-9312b68cf66f
+                size:
+                  value: 1206370
+                  type: number
+                title:
+                  type: text
+                  value: coffee.png
+                width:
+                  value: 1920
+                  type: number
+                height:
+                  value: 1280
                   type: number
                 mediaType:
                   value: image/png
                   type: text
               _source: uniform-assets
-        openGraphTitle:
-          type: text
-          value: Uniform // Component Starter Kit
-        pageDescription:
-          type: text
-          value: >-
-            Essential set of components you need to start building
-            personalizable web experiences with Uniform.
-    852664d7-7d35-4eb5-97ad-e1c23ce940ca|dc2e95be-21b5-4476-a309-f8a34922f528:
-      slots:
-        $slotSectionItems:
-          - _id: eebf1227-58aa-41c5-bfc4-089d94cebdba
-            type: fixedHero
-            parameters:
-              image:
-                type: asset
-                value: []
-              titleTag:
-                type: dex-segmented-control-parameter
-                value: h1
-              textColor:
-                type: dex-color-palette-parameter
-                value: text-primary
-              titleText:
-                type: text
-                value: Component Starter Kit
-              displayName:
-                type: text
-                value: Welcome Hero
-              descriptionText:
-                type: text
-                value: >-
-                  A rich set of components to supercharge building fast, modern,
-                  personalized experiences with Uniform DXP.
-              contentAlignment:
-                type: dex-segmented-control-parameter
-                value: center
-              eyebrowTitleText:
-                type: text
-                value: Get your next project started on the right foot
-              primaryButtonLink:
-                type: link
-                locales:
-                  en:
-                    path: https://unfrm.to/csk-docs
-                    type: url
-              primaryButtonText:
-                type: text
-                value: Docs
+    3faa3ed8-4ca0-4096-b6f6-3b155b375580|cde73dfb-c7ea-43fe-8683-b6b4960d53ae|f02a551f-116f-48d2-99b3-21ebe2ca74e5:
+      parameters:
+        objectFit:
+          type: dex-segmented-control-parameter
+          value: contain
   _locales:
     - en
   _pattern: f9c058ea-c40d-4435-ac5a-53423cf654dc
-created: '2025-01-29T10:47:10.496403+00:00'
-modified: '2025-06-12T08:05:55.451205+00:00'
+created: '2025-01-29T11:09:36.86484+00:00'
+modified: '2025-06-25T13:55:59.533159+00:00'
 pattern: false

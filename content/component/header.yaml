@@ -45,7 +45,7 @@ parameters:
       selectedTokenType: border
 categoryId: b1163ce2-5ac7-4347-bc38-a42198180718
 previewImageUrl: >-
-  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/header-default.jpg
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/coffee-shop-template/preview-images/header-default.jpg
 useTeamPermissions: true
 slots:
   - id: headerLeftContent
@@ -72,13 +72,17 @@ slots:
     allowedComponents:
       - button
       - themeSwitcher
+      - navigationLink
+      - shoppingCartIcon
+      - favoritesIcon
+      - aiShoppingAssistantButton
     allowAllComponents: false
     inheritAllowedComponents: false
     patternsInAllowedComponents: false
 titleParameter: displayName
 canBeComposition: false
-created: '2025-01-29T10:47:01.517369+00:00'
-updated: '2025-02-19T10:34:32.190121+00:00'
+created: '2025-04-24T11:34:26.120947+00:00'
+updated: '2025-04-24T11:34:26.120947+00:00'
 variants:
   - id: sticky
     name: Sticky

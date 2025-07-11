@@ -1,0 +1,8 @@
+id: state
+name: State
+description: ''
+options:
+  - name: California
+    value: CA
+  - name: New York
+    value: NY

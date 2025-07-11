@@ -1,0 +1,1242 @@
+created: '2025-01-29T11:10:30.313028+00:00'
+modified: '2025-06-26T06:30:09.71042+00:00'
+pattern: false
+entry:
+  _id: 9be7153e-31db-47ef-bc77-1d4c7145d056
+  _name: Royale Coffee Pour-Over Vintage Drip Coffeemaker
+  _slug: royale-coffee-pour-over-vintage-drip-coffeemaker
+  _thumbnail: >-
+    https://img.uniform.global/p/DCdo4LRJTZWl21CYeUJNPg/lKza0i1xSjKi7uZPUNYCHw-royale-coffee-pour-over-vintage-drip-coffeemaker-1.png
+  type: product
+  fields:
+    body:
+      type: richText
+      locales:
+        en:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Rediscover the art of coffee brewing with the '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: Royale Coffee Pour-Over Vintage Drip Coffeemaker
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: >-
+                      , a refined and timeless piece inspired by the classic
+                      HEMEX design. Crafted from premium, non-porous
+                      borosilicate glass, this coffeemaker resists absorbing
+                      odors or chemical residues, ensuring that every cup you
+                      brew is pure, flavorful, and true to the beans’ natural
+                      taste. Its elegant construction and thoughtful design make
+                      it an essential tool for coffee enthusiasts who appreciate
+                      both simplicity and sophistication.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Key Features:'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+              - type: table
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        width: 207
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Feature
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        width: 234
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Description
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        width: 207
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Premium Borosilicate Glass
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        width: 234
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  High-quality, non-porous glass resists odor
+                                  and residue absorption, preserving the
+                                  coffee's authentic taste.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        width: 207
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Patented Pour-Over Design
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        width: 234
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Enhances coffee extraction and allows for
+                                  covered storage to retain flavor when
+                                  refrigerated.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        width: 207
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: 5 oz. Measurement Per Cup
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        width: 234
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Offers precise brewing measurements, making it
+                                  easy to create the ideal amount of coffee.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        width: 207
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Timeless Elegance
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        width: 234
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Classic design that adds a sophisticated touch
+                                  to any kitchen or coffee station.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        width: 207
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Easy Compatibility
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        width: 234
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Works seamlessly with CHEMEX Bonded Filters
+                                  (FP-1, FC-100, FS-100, FSU-100) for optimal
+                                  filtration and a clean cup.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                direction: null
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Why Choose the Royale Coffee Pour-Over Vintage Drip
+                      Coffeemaker?
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      The Royale Coffee Pour-Over Vintage Drip Coffeemaker
+                      stands out for its ability to merge heritage and modern
+                      precision in one beautiful piece. Whether you’re savoring
+                      a personal brew or sharing with guests, this coffeemaker’s
+                      design and functionality ensure a rich, aromatic coffee
+                      experience. The ease of use paired with the premium
+                      construction makes it a reliable choice for both everyday
+                      brewing and special occasions.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Brewing Modes & Recommended Uses:'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+              - type: table
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: tablerow
+                    format: ''
+                    height: 35
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Mode
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: ltr
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Ideal For
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: ltr
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        width: 213
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Description
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: ltr
+                        headerState: 0
+                        backgroundColor: null
+                    direction: ltr
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Classic Pour-Over
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Daily Coffee Brewing
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        width: 213
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Delivers a balanced, aromatic cup with
+                                  consistent flavor extraction.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Single Cup Mode
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Personal Enjoyment
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        width: 213
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Perfect for crafting a precise, individual cup
+                                  without waste.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Batch Brew
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Sharing with Friends & Family
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        width: 213
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Allows for multiple servings with accurate 5
+                                  oz. per cup measurement.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                  - type: tablerow
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Chilled Brew
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Iced Coffee Enthusiasts
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                      - type: tablecell
+                        width: 213
+                        format: ''
+                        indent: 0
+                        colSpan: 1
+                        rowSpan: 1
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Brew and refrigerate for later consumption
+                                  while maintaining full flavor.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                        headerState: 0
+                        backgroundColor: null
+                    direction: null
+                direction: null
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Your Gateway to Timeless Brewing
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'With the '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: Royale Coffee Pour-Over Vintage Drip Coffeemaker
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: >-
+                      , you are not just making coffee; you are engaging in a
+                      time-honored ritual. Its superior design ensures that each
+                      cup captures the rich essence and character of your chosen
+                      beans. A combination of heritage craftsmanship and modern
+                      practicality, this coffeemaker is a beautiful and
+                      functional addition to any coffee lover’s collection.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Experience the elegance and simplicity of brewing with
+                      this remarkable piece. The Royale Coffee Pour-Over Vintage
+                      Drip Coffeemaker is perfect for those who seek an
+                      unmatched combination of taste, quality, and tradition in
+                      their coffee-making journey. Enjoy a cup that embodies
+                      sophistication and exceptional flavor every time.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+    name:
+      type: text
+      value: Royale Coffee Pour-Over Vintage Drip Coffeemaker
+    brand:
+      type: contentReference
+      value: ${#jptr:/ref-9be7153e-31db-47ef-bc77-1d4c7145d056-brand/entries/0}
+    title:
+      type: text
+      value: Royale Coffee Pour-Over Vintage Drip Coffeemaker
+    rating:
+      type: number
+      value: '4.6'
+    ogImage:
+      type: asset
+      value:
+        - _id: 29f703a6-d2d9-4cb0-ad29-5c0b741a2fae
+          type: image
+          fields:
+            id:
+              type: text
+              value: 0189c43b-40d0-4cff-bfb5-761fcf87159d
+            url:
+              value: >-
+                https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/KUZmIsrwRJSDwwrBEL8qkA-royale-coffee-pour-over-vintage-drip-coffeemaker-1.png
+              type: text
+            file:
+              type: file
+              value: f2c4280f-501c-4422-961f-53d8eb10799f
+            size:
+              value: 222286
+              type: number
+            title:
+              type: text
+              value: royale-coffee-pour-over-vintage-drip-coffeemaker-1.png
+            width:
+              value: 1280
+              type: number
+            height:
+              value: 1280
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+    category:
+      type: contentReference
+      value: ${#jptr:/ref-9be7153e-31db-47ef-bc77-1d4c7145d056-category/entries/0}
+    variants:
+      type: $block
+      value:
+        - _id: 4c8d96ad-353e-408d-8bf4-6555e883eb09
+          type: variant
+          fields:
+            code:
+              type: text
+              value: '88'
+            price:
+              type: number
+              locales:
+                en: '44.63'
+            title:
+              type: text
+              locales:
+                en: Royale Coffee Pour-Over Vintage Drip Coffeemaker
+            currency:
+              type: text
+              locales:
+                en: USD
+            imageGallery:
+              type: asset
+              value:
+                - _id: 225f588e-debd-4b36-83b7-a0c7ac82087e
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: 0189c43b-40d0-4cff-bfb5-761fcf87159d
+                    url:
+                      value: >-
+                        https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/KUZmIsrwRJSDwwrBEL8qkA-royale-coffee-pour-over-vintage-drip-coffeemaker-1.png
+                      type: text
+                    file:
+                      type: file
+                      value: f2c4280f-501c-4422-961f-53d8eb10799f
+                    size:
+                      value: 222286
+                      type: number
+                    title:
+                      type: text
+                      value: royale-coffee-pour-over-vintage-drip-coffeemaker-1.png
+                    width:
+                      value: 1280
+                      type: number
+                    height:
+                      value: 1280
+                      type: number
+                    mediaType:
+                      value: image/png
+                      type: text
+                  _source: uniform-assets
+                - _id: 914b7320-25e1-4220-bb3b-a79df8c721f4
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: 62f68958-6cf4-407c-9c47-6d9083fc5acb
+                    url:
+                      value: >-
+                        https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/cN5gr2x5S3GyRW7i3iDoVA-royale-coffee-pour-over-vintage-drip-coffeemaker-2.png
+                      type: text
+                    file:
+                      type: file
+                      value: b9c2cb6c-372b-4678-804f-8f2ff70006cf
+                    size:
+                      value: 559709
+                      type: number
+                    title:
+                      type: text
+                      value: royale-coffee-pour-over-vintage-drip-coffeemaker-2.png
+                    width:
+                      value: 1280
+                      type: number
+                    height:
+                      value: 1280
+                      type: number
+                    mediaType:
+                      value: image/png
+                      type: text
+                  _source: uniform-assets
+                - _id: ca668ae8-e344-4bba-b9fa-4aefc4765d5d
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: 35e2d591-7826-484c-8373-621d11f23b76
+                    url:
+                      value: >-
+                        https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/IoT_qVFDRmiH6z9bWlI84Q-royale-coffee-pour-over-vintage-drip-coffeemaker-3.png
+                      type: text
+                    file:
+                      type: file
+                      value: 879f1944-9bc5-406d-8ccb-8ac6a79b2777
+                    size:
+                      value: 656164
+                      type: number
+                    title:
+                      type: text
+                      value: royale-coffee-pour-over-vintage-drip-coffeemaker-3.png
+                    width:
+                      value: 1280
+                      type: number
+                    height:
+                      value: 1280
+                      type: number
+                    mediaType:
+                      value: image/png
+                      type: text
+                  _source: uniform-assets
+    metaTitle:
+      type: text
+      value: Royale Coffee Pour-Over Vintage Drip Coffeemaker
+    enrichments:
+      type: $enr
+      value:
+        - cat: int
+          key: coffee-makers
+          str: 5
+        - cat: subCategory
+          key: pour-over
+          str: 5
+        - cat: brand
+          key: royale
+          str: 5
+    subcategory:
+      type: contentReference
+      value: ${#jptr:/ref-9be7153e-31db-47ef-bc77-1d4c7145d056-subcategory/entries/0}
+    primaryImage:
+      type: asset
+      value:
+        - _id: 29f703a6-d2d9-4cb0-ad29-5c0b741a2fae
+          type: image
+          fields:
+            id:
+              type: text
+              value: 0189c43b-40d0-4cff-bfb5-761fcf87159d
+            url:
+              value: >-
+                https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/KUZmIsrwRJSDwwrBEL8qkA-royale-coffee-pour-over-vintage-drip-coffeemaker-1.png
+              type: text
+            file:
+              type: file
+              value: f2c4280f-501c-4422-961f-53d8eb10799f
+            size:
+              value: 222286
+              type: number
+            title:
+              type: text
+              value: royale-coffee-pour-over-vintage-drip-coffeemaker-1.png
+            width:
+              value: 1280
+              type: number
+            height:
+              value: 1280
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+    metaDescription:
+      type: text
+      locales:
+        en: >-
+          Elegant and timeless, HEMEX Coffeemaker ensures pure flavor with
+          high-quality glass and patented pour-over design. Enjoy fresh taste
+          anytime.
+    recommendations:
+      type: contentReference
+      value: >-
+        ${#jptr:/ref-9be7153e-31db-47ef-bc77-1d4c7145d056-recommendations/entries}
+    shortDescription:
+      type: text
+      locales:
+        en: >-
+          HEMEX - simple, easy to use with timeless, elegant design All CHEMEX
+          Coffeemakers are made of the highest quality, non-porous Borosilicate
+          glass which will not absorb odors or chemical residues The patented
+          CHEMEX pour-over design allows coffee to be covered and refrigerated
+          for reheating without losing flavor All CHEMEX Coffeemakers are
+          measured using 5 oz. as 1 cup Use CHEMEX Bonded Filters FP-1, FC-100,
+          FS-100, FSU-100
+  _dataResources:
+    ref-9be7153e-31db-47ef-bc77-1d4c7145d056-brand:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: fd53a87d-8279-4da5-a655-9b35de37b5dc
+    ref-9be7153e-31db-47ef-bc77-1d4c7145d056-category:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 2f6cc670-cdaa-4532-b70e-424206c8d0ba
+    ref-9be7153e-31db-47ef-bc77-1d4c7145d056-subcategory:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 60970e06-2563-452a-b344-f89d54d1e83b
+    ref-9be7153e-31db-47ef-bc77-1d4c7145d056-recommendations:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: >-
+          f7e77f37-2646-410e-8596-6ae16379d5d9,79ddd1f3-30a9-4f4d-8a93-0d9e17ad5967,3e3af534-0999-4bcb-b479-3bd693173c83
+  _locales:
+    - en

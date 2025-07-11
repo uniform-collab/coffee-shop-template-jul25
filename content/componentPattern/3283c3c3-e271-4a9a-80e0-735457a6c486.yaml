@@ -1,0 +1,599 @@
+composition:
+  _name: Product Info Reverse
+  _id: 3283c3c3-e271-4a9a-80e0-735457a6c486
+  type: container
+  parameters:
+    height:
+      type: dex-segmented-control-parameter
+      value: {}
+    spacing:
+      type: dex-space-control-parameter
+      value:
+        mobile:
+          paddingTop: container-medium
+          paddingBottom: container-medium
+        tablet:
+          paddingTop: container-medium
+          paddingBottom: container-medium
+        desktop:
+          paddingTop: container-medium
+          paddingBottom: container-medium
+    displayName:
+      type: text
+      value: ${#jptr:/Product Content/entry/fields/name/value}
+  slots:
+    containerContent:
+      - _id: 46ce375e-ba9b-4831-b09d-15fd372a0665
+        type: grid
+        slots:
+          gridInner:
+            - _id: 9f9d9f33-c663-4c68-8c27-fc22f14dc108
+              type: gridItem
+              slots:
+                inner:
+                  - _id: b1488ec3-f5cc-451e-8847-2c766ab341a8
+                    type: flex
+                    slots:
+                      flexItem:
+                        - _id: e22193db-b075-4f95-82f3-7098d3e4be0d
+                          type: text
+                          parameters:
+                            tag:
+                              type: dex-segmented-control-parameter
+                              value: span
+                            size:
+                              type: dex-segmented-control-parameter
+                              value:
+                                mobile: 3xl
+                                tablet: 4xl
+                                desktop: 4xl
+                            text:
+                              type: text
+                              value: >-
+                                ${#jptr:/Product
+                                Content/entry/fields/name/value}
+                            color:
+                              type: dex-color-palette-parameter
+                              value: text-primary
+                            weight:
+                              type: dex-segmented-control-parameter
+                              value: bold
+                            alignment:
+                              type: dex-segmented-control-parameter
+                              value: left
+                          _overridability:
+                            hideLockedParameters: true
+                        - _id: 9c7759c7-56cc-49ff-b188-68019ffbb353
+                          type: text
+                          parameters:
+                            tag:
+                              type: dex-segmented-control-parameter
+                              value: span
+                            size:
+                              type: dex-segmented-control-parameter
+                              value:
+                                mobile: 2xl
+                                tablet: 2xl
+                                desktop: 2xl
+                            text:
+                              type: text
+                              value: >-
+                                ${#jptr:/Product
+                                Content/entry/fields/variants/value/0/fields/currency/value}
+                                ${#jptr:/Product
+                                Content/entry/fields/variants/value/0/fields/price/value}
+                            color:
+                              type: dex-color-palette-parameter
+                              value: text-primary
+                            weight:
+                              type: dex-segmented-control-parameter
+                              value: normal
+                          _overridability:
+                            hideLockedParameters: true
+                        - _id: a94a3da2-9f36-40ae-9939-b1242a17994e
+                          type: table
+                          slots:
+                            tableBody:
+                              - _id: 5d797884-35fa-4ea2-9b09-de9c4468eec8
+                                type: tableRow
+                                slots:
+                                  tableRowCells:
+                                    - _id: 1b250bc3-bb54-46a9-a188-7b8cd1a9cd17
+                                      type: tableCustomCell
+                                      slots:
+                                        tableCustomCellContent:
+                                          - _id: 22de15c1-6a0b-4de6-9706-235e76aa98c1
+                                            type: text
+                                            parameters:
+                                              tag:
+                                                type: dex-segmented-control-parameter
+                                                value: span
+                                              size:
+                                                type: dex-segmented-control-parameter
+                                                value:
+                                                  mobile: base
+                                                  tablet: base
+                                                  desktop: base
+                                              text:
+                                                type: text
+                                                value: SKU
+                                              color:
+                                                type: dex-color-palette-parameter
+                                                value: text-primary
+                                              weight:
+                                                type: dex-segmented-control-parameter
+                                                value: bold
+                                            _overridability:
+                                              hideLockedParameters: true
+                                      parameters:
+                                        displayName:
+                                          type: text
+                                          value: SKU
+                                      _overridability:
+                                        hideLockedParameters: true
+                                    - _id: d5672590-ed33-4a5e-8150-3dc4ebca79f8
+                                      type: tableDataCell
+                                      parameters:
+                                        value:
+                                          type: text
+                                          locales:
+                                            en: >-
+                                              ${#jptr:/Product
+                                              Content/entry/fields/variants/value/0/fields/code/value}
+                                      _overridability:
+                                        hideLockedParameters: true
+                                parameters:
+                                  displayName:
+                                    type: text
+                                    value: SKU
+                                _overridability:
+                                  hideLockedParameters: true
+                              - _id: c05ee302-21ec-4da9-8cea-5379af2eae53
+                                type: tableRow
+                                slots:
+                                  tableRowCells:
+                                    - _id: 4fe5f3c7-2ee2-42b8-9943-dd1b0222bfc2
+                                      type: tableCustomCell
+                                      slots:
+                                        tableCustomCellContent:
+                                          - _id: 7ec14759-444c-4c00-bf9f-53de581da730
+                                            type: text
+                                            parameters:
+                                              tag:
+                                                type: dex-segmented-control-parameter
+                                                value: span
+                                              size:
+                                                type: dex-segmented-control-parameter
+                                                value:
+                                                  mobile: base
+                                                  tablet: base
+                                                  desktop: base
+                                              text:
+                                                type: text
+                                                value: Brand
+                                              color:
+                                                type: dex-color-palette-parameter
+                                                value: text-primary
+                                              weight:
+                                                type: dex-segmented-control-parameter
+                                                value: bold
+                                            _overridability:
+                                              hideLockedParameters: true
+                                      parameters:
+                                        displayName:
+                                          type: text
+                                          value: Brand
+                                      _overridability:
+                                        hideLockedParameters: true
+                                    - _id: c6d02946-7c54-492b-aa1b-fcf131e2268f
+                                      type: tableDataCell
+                                      parameters:
+                                        value:
+                                          type: text
+                                          locales:
+                                            en: >-
+                                              ${#jptr:/Product
+                                              Content/entry/fields/brand/value/entry/fields/title/value}
+                                      _overridability:
+                                        hideLockedParameters: true
+                                parameters:
+                                  displayName:
+                                    type: text
+                                    value: Brand
+                                _overridability:
+                                  hideLockedParameters: true
+                              - _id: 9260bee8-c5c6-495b-a4e0-5e5e91b74b00
+                                type: tableRow
+                                slots:
+                                  tableRowCells:
+                                    - _id: 8f25babf-2ccd-45e3-8acc-7633bed30d1e
+                                      type: tableCustomCell
+                                      slots:
+                                        tableCustomCellContent:
+                                          - _id: 751d44ca-6140-44bd-82a7-a53d423a8709
+                                            type: text
+                                            parameters:
+                                              tag:
+                                                type: dex-segmented-control-parameter
+                                                value: span
+                                              size:
+                                                type: dex-segmented-control-parameter
+                                                value:
+                                                  mobile: base
+                                                  tablet: base
+                                                  desktop: base
+                                              text:
+                                                type: text
+                                                value: Type
+                                              color:
+                                                type: dex-color-palette-parameter
+                                                value: text-primary
+                                              weight:
+                                                type: dex-segmented-control-parameter
+                                                value: bold
+                                            _overridability:
+                                              hideLockedParameters: true
+                                      parameters:
+                                        displayName:
+                                          type: text
+                                          value: Type
+                                      _overridability:
+                                        hideLockedParameters: true
+                                    - _id: d56fbf03-f06e-4939-81e4-c41f655e1405
+                                      type: tableDataCell
+                                      parameters:
+                                        value:
+                                          type: text
+                                          locales:
+                                            en: >-
+                                              ${#jptr:/Product
+                                              Content/entry/fields/category/value/0/entry/fields/title/value}
+                                      _overridability:
+                                        hideLockedParameters: true
+                                parameters:
+                                  displayName:
+                                    type: text
+                                    value: Type
+                                _overridability:
+                                  hideLockedParameters: true
+                          parameters:
+                            size:
+                              type: dex-token-selector-parameter
+                              value: table-medium
+                            spacing:
+                              type: dex-space-control-parameter
+                              value:
+                                paddingTop: ''
+                                paddingBottom: ''
+                            textColor:
+                              type: dex-color-palette-parameter
+                              value: text-primary
+                            displayName:
+                              type: text
+                              value: Data
+                          _overridability:
+                            hideLockedParameters: true
+                        - _id: 1d465a82-5033-44f4-b034-89c85d5452de
+                          type: addToCardButton
+                          _pattern: 20161830-c75e-4695-8622-41032f5be75d
+                    parameters:
+                      gap:
+                        type: dex-slider-control-parameter
+                        value:
+                          mobile: '8'
+                          tablet: '8'
+                          desktop: '8'
+                      spacing:
+                        type: dex-space-control-parameter
+                        value:
+                          paddingTop: container-medium
+                          paddingLeft: container-medium
+                          paddingRight: container-medium
+                          paddingBottom: container-medium
+                      direction:
+                        type: dex-segmented-control-parameter
+                        value:
+                          mobile: col
+                          tablet: col
+                          desktop: col
+                      alignItems:
+                        type: dex-segmented-control-parameter
+                        value:
+                          mobile: start
+                          tablet: start
+                          desktop: start
+                      displayName:
+                        type: text
+                        value: Primary Info
+                      justifyContent:
+                        type: dex-segmented-control-parameter
+                        value:
+                          mobile: center
+                          tablet: center
+                          desktop: center
+                    _overridability:
+                      hideLockedParameters: true
+              parameters:
+                rowSpan:
+                  type: dex-slider-control-parameter
+                  value: {}
+                rowStart:
+                  type: dex-slider-control-parameter
+                  value:
+                    mobile: ''
+                    tablet: ''
+                    desktop: ''
+                columnSpan:
+                  type: dex-slider-control-parameter
+                  value: {}
+                columnStart:
+                  type: dex-slider-control-parameter
+                  value:
+                    mobile: ''
+                    tablet: ''
+                    desktop: ''
+                displayName:
+                  type: text
+                  value: Product Information Section
+              _overridability:
+                hideLockedParameters: true
+            - _id: 4fcf68c0-6794-47a4-b8aa-1be4a4d966a2
+              type: gridItem
+              slots:
+                inner:
+                  - _id: 8f267d7f-b730-469a-8fc8-d105e3a21e03
+                    type: container
+                    slots:
+                      containerContent:
+                        - _id: 52133760-45ff-446e-a8cc-32baace300b3
+                          type: image
+                          parameters:
+                            image:
+                              type: asset
+                              value:
+                                - _id: 0396d4a2-4a0c-461b-9ff0-6a826f2d117d
+                                  type: image
+                                  fields:
+                                    url:
+                                      type: text
+                                      value: >-
+                                        ${#jptr:/Product
+                                        Content/entry/fields/primaryImage/value/0/fields/url/value}
+                                    title:
+                                      type: text
+                                      value: >-
+                                        ${#jptr:/Product
+                                        Content/entry/fields/name/value}
+                                    description:
+                                      type: text
+                                      value: >-
+                                        ${#jptr:/Product
+                                        Content/entry/fields/name/value}
+                                  _source: custom-url
+                            height:
+                              type: number
+                              value: '520'
+                            objectFit:
+                              type: dex-segmented-control-parameter
+                              value: cover
+                          _overridability:
+                            hideLockedParameters: true
+                    parameters:
+                      border:
+                        type: dex-token-selector-parameter
+                        value: border-product-card
+                      spacing:
+                        type: dex-space-control-parameter
+                        value:
+                          marginTop: ''
+                          marginLeft: ''
+                          paddingTop: container-small
+                          marginRight: ''
+                          paddingLeft: container-small
+                          paddingRight: container-small
+                          paddingBottom: container-small
+                      displayName:
+                        type: text
+                        value: Image
+                      fluidContent:
+                        type: checkbox
+                        value: true
+                      backgroundColor:
+                        type: dex-color-palette-parameter
+                        value: general-color-1
+                    _overridability:
+                      hideLockedParameters: true
+              parameters:
+                rowSpan:
+                  type: dex-slider-control-parameter
+                  value: {}
+                rowStart:
+                  type: dex-slider-control-parameter
+                  value:
+                    mobile: ''
+                    tablet: ''
+                    desktop: ''
+                columnSpan:
+                  type: dex-slider-control-parameter
+                  value: {}
+                columnStart:
+                  type: dex-slider-control-parameter
+                  value:
+                    mobile: ''
+                    tablet: ''
+                    desktop: '2'
+                displayName:
+                  type: text
+                  value: Product Image Section
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          gapX:
+            type: dex-slider-control-parameter
+            value:
+              tablet: '8'
+              desktop: '8'
+          gapY:
+            type: dex-slider-control-parameter
+            value: {}
+          spacing:
+            type: dex-space-control-parameter
+            value: {}
+          displayName:
+            type: text
+            value: Product Info
+          columnsCount:
+            type: dex-slider-control-parameter
+            value:
+              mobile: '1'
+              tablet: '1'
+              desktop: '2'
+        _overridability:
+          hideLockedParameters: true
+      - _id: bda74aa4-e9c6-48f9-ab84-b0ce01c3a983
+        type: container
+        slots:
+          containerContent:
+            - _id: 0f1430e6-268b-480e-953e-23c9bbb9013f
+              type: divider
+              parameters:
+                color:
+                  type: dex-color-palette-parameter
+                  value: general-color-12
+                width:
+                  type: dex-slider-control-parameter
+                  value: 100%
+                alignment:
+                  type: dex-segmented-control-parameter
+                  value: center
+                thickness:
+                  type: dex-slider-control-parameter
+                  value: 1px
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          spacing:
+            type: dex-space-control-parameter
+            value:
+              paddingTop: container-medium
+              paddingBottom: container-medium
+          displayName:
+            type: text
+            value: Divider
+        _overridability:
+          hideLockedParameters: true
+      - _id: 4d90b7bd-af13-450d-b199-a1b1d15af803
+        type: flex
+        slots:
+          flexItem:
+            - _id: 7b36906c-ece0-4943-822f-144a77eb093b
+              type: text
+              parameters:
+                tag:
+                  type: dex-segmented-control-parameter
+                  value: span
+                font:
+                  type: dex-token-selector-parameter
+                  value: ''
+                size:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: 2xl
+                    tablet: 2xl
+                    desktop: 2xl
+                text:
+                  type: text
+                  value: About this product
+                color:
+                  type: dex-color-palette-parameter
+                  value: text-primary
+                weight:
+                  type: dex-segmented-control-parameter
+                  value: bold
+              _overridability:
+                hideLockedParameters: true
+            - _id: e99d2675-544f-4e52-86e3-b5fd88f80955
+              type: readMore
+              slots:
+                content:
+                  - _id: a5bed2de-6aca-496d-b7d9-b76cfaa9363e
+                    type: richText
+                    parameters:
+                      font:
+                        type: dex-token-selector-parameter
+                        value: ''
+                      text:
+                        type: richText
+                        value: ${#jptr:/Product Content/entry/fields/body/value}
+                      color:
+                        type: dex-color-palette-parameter
+                        value: text-primary
+                    _overridability:
+                      hideLockedParameters: true
+              parameters:
+                colorTo:
+                  type: dex-color-palette-parameter
+                  value: general-color-10
+                colorFrom:
+                  type: dex-color-palette-parameter
+                  value: general-color-1
+                maxHeight:
+                  type: number
+                  value: '150'
+                textColor:
+                  type: dex-color-palette-parameter
+                  value: text-primary
+                readLessLabel:
+                  type: text
+                  value: Read Less
+                readMoreLabel:
+                  type: text
+                  value: Read More
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          gap:
+            type: dex-slider-control-parameter
+            value:
+              mobile: '4'
+              tablet: '4'
+              desktop: '4'
+          spacing:
+            type: dex-space-control-parameter
+            value:
+              paddingRight: ''
+          direction:
+            type: dex-segmented-control-parameter
+            value:
+              mobile: col
+              tablet: col
+              desktop: col
+          alignItems:
+            type: dex-segmented-control-parameter
+            value: {}
+          displayName:
+            type: text
+            value: Description
+          justifyContent:
+            type: dex-segmented-control-parameter
+            value: {}
+        _overridability:
+          hideLockedParameters: true
+  _dataResources:
+    Product Content:
+      type: product
+      variables:
+        slug: kosmic-coffee-stainless-steel-precision-brewer
+        locale: ${locale}
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    hideLockedParameters: true
+  _locales:
+    - en
+created: '2025-01-29T11:09:28.776714+00:00'
+modified: '2025-06-25T09:08:15.776714+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/coffee-shop-template/preview-images/product-info-reverse.jpg
+categoryId: adaebea8-ba58-494b-9c3b-9f82906d9415

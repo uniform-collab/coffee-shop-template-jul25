@@ -1,0 +1,106 @@
+composition:
+  _name: Favorites
+  _id: 476baa17-efbe-44f6-926d-c32162728978
+  _slug: favorites
+  type: page
+  _dataResources:
+    Product List Content:
+      type: productList
+      variables:
+        limit: '5'
+        locale: ${locale}
+        search: ''
+        contentTypes: product
+  _overrides:
+    476baa17-efbe-44f6-926d-c32162728978:
+      parameters:
+        pageTitle:
+          type: text
+          value: Your Favorite Coffee Selections - Java Drip Coffee Shop
+        pageKeywords:
+          type: text
+          value: >-
+            Favorite Coffee, Java Drip Coffee Shop, Coffee Favorites, Coffee
+            Accessories, Coffee Beans, Specialty Coffee
+        openGraphType:
+          type: select
+          value: website
+        openGraphImage:
+          type: asset
+          value:
+            - _id: 886e671d-287a-4b41-9e85-4a2837e65160
+              type: image
+              fields:
+                id:
+                  type: text
+                  value: 17ec229a-173b-4528-b733-7df3c3e829fb
+                url:
+                  value: >-
+                    https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/ubj9ZWjkQhKjAs5aO-dKqw-favorites-og-image.png
+                  type: text
+                file:
+                  type: file
+                  value: bb1d1267-8a16-476a-b9bf-4f01ab14c242
+                size:
+                  value: 1400671
+                  type: number
+                title:
+                  type: text
+                  value: favorites-og-image.png
+                width:
+                  value: 1808
+                  type: number
+                height:
+                  value: 908
+                  type: number
+                mediaType:
+                  value: image/png
+                  type: text
+              _source: uniform-assets
+        openGraphTitle:
+          type: text
+          value: Your Favorite Coffee Selections - Java Drip Coffee Shop
+        pageDescription:
+          type: text
+          value: >-
+            Explore your curated list of favorite coffees, brewers, and
+            accessories. Enjoy the best coffee selections handpicked just for
+            you at Java Drip Coffee Shop.
+        openGraphDescription:
+          type: text
+          value: >-
+            Explore your curated list of favorite coffees, brewers, and
+            accessories. Enjoy the best coffee selections handpicked just for
+            you at Java Drip Coffee Shop.
+    4be3cf1f-a4a0-4657-bfca-776fc40dd827:
+      parameters:
+        displayName:
+          type: text
+          value: Favorites
+    476baa17-efbe-44f6-926d-c32162728978|dc2e95be-21b5-4476-a309-f8a34922f528:
+      slots:
+        $slotSectionItems:
+          - _id: 4be3cf1f-a4a0-4657-bfca-776fc40dd827
+            type: container
+            _pattern: d9dd4b0a-358f-4b10-be48-77c5088020cc
+            _overridability:
+              parameters:
+                displayName: 'yes'
+              hideLockedParameters: true
+    4be3cf1f-a4a0-4657-bfca-776fc40dd827|2058ad6d-25b3-4eea-a276-cb996b4188cc:
+      slots:
+        $slotSectionItems:
+          - _id: 5180a2c7-5e54-4764-aef4-a64d574d92ab
+            type: favorites
+            _pattern: d80bafe3-ac5f-4304-8ca5-b3d78f820ddb
+    4be3cf1f-a4a0-4657-bfca-776fc40dd827|5feefc71-05dd-4004-bfe9-3dd6876628b4:
+      parameters:
+        text:
+          type: text
+          value: My favorites
+  _locales:
+    - en
+  _pattern: f9c058ea-c40d-4435-ac5a-53423cf654dc
+created: '2025-03-18T13:02:32.611933+00:00'
+modified: '2025-06-05T08:51:44.20681+00:00'
+pattern: false

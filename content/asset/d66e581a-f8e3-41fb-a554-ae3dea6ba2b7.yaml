@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: d66e581a-f8e3-41fb-a554-ae3dea6ba2b7
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: frother-whisk-1.png
+    file:
+      type: file
+      value: eb4865ba-8019-4190-98c2-4eb286ceecdc
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/N0QOqjXvSFeXY7i3yzY8ZQ/Uk5bEDINSs6U2A8nkLqPrg-frother-whisk-1.png
+      type: text
+    size:
+      value: 7402
+      type: number
+    width:
+      value: 250
+      type: number
+    height:
+      value: 250
+      type: number
+    custom: {}
+created: '2025-01-29T11:08:59.786975+00:00'
+modified: '2025-01-29T11:08:59.786975+00:00'

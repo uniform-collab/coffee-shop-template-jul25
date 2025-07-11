@@ -1,0 +1,60 @@
+created: '2025-04-24T11:39:45.782053+00:00'
+modified: '2025-04-24T11:39:45.782053+00:00'
+pattern: false
+entry:
+  _id: fd53a87d-8279-4da5-a655-9b35de37b5dc
+  _name: Royale
+  _slug: royale
+  _thumbnail: >-
+    https://img.uniform.global/p/DCdo4LRJTZWl21CYeUJNPg/3yppegQLRM6lLOVmLTVcyA-royale.png
+  type: brand
+  fields:
+    logo:
+      type: asset
+      value: []
+      locales:
+        en:
+          - _id: 53824089-63d3-42b1-a9dd-99b637ae7419
+            type: image
+            fields:
+              id:
+                type: text
+                value: 6c2c8fad-e71b-4a36-b9ba-f4f5c742cbdf
+              url:
+                value: >-
+                  https://img.uniform.global/p/9VlMgIbZQQKI2wzV-L0jow/ZkAugSqJR8236QQNf1QF3Q-royale.png
+                type: text
+              file:
+                type: file
+                value: bbce30b8-a098-4a2f-862a-7d2897ec46ac
+              size:
+                value: 938485
+                type: number
+              title:
+                type: text
+                value: royale.png
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/png
+                type: text
+            _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en: Royale
+    description:
+      type: text
+      locales:
+        en: >-
+          Royale epitomizes luxury and elegance in the world of coffee. Our
+          commitment is to provide premium coffee makers and exquisite coffee
+          products that cater to the most discerning tastes. With a focus on
+          sophistication and quality, Royale transforms your coffee experience
+          into a regal affair, ensuring each cup is a true masterpiece.
+  _locales:
+    - en

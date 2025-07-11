@@ -1,0 +1,139 @@
+composition:
+  _name: Simple Hero
+  _id: 90b32c21-f5d8-4a40-b971-c97c359ecce9
+  type: section
+  parameters:
+    spacing:
+      type: dex-space-control-parameter
+      value:
+        mobile:
+          paddingTop: container-medium
+          paddingLeft: container-small
+          paddingRight: container-small
+          paddingBottom: container-small
+        tablet:
+          paddingTop: container-large
+          paddingBottom: container-large
+        desktop:
+          paddingTop: container-large
+          paddingBottom: container-large
+    displayName:
+      type: text
+      value: Simple Hero
+    fluidContent:
+      type: checkbox
+      value: true
+    backgroundColor:
+      type: dex-color-palette-parameter
+      value: general-color-1
+    contentAlignment:
+      type: dex-segmented-control-parameter
+      value: center
+  slots:
+    sectionCTA:
+      - _id: bd7e5037-b737-441a-99f3-94450a442a6e
+        type: $slotSection
+        parameters:
+          name:
+            type: text
+            value: Buttons
+        _overridability:
+          hideLockedParameters: true
+    sectionMedia:
+      - _id: 215f54df-5063-4f0a-81c0-d8bda909b52c
+        type: image
+        parameters:
+          fill:
+            type: checkbox
+            value: true
+          image:
+            type: asset
+            value:
+              - _id: 8fb815fd-9e04-450b-b938-415c54fab374
+                type: image
+                fields:
+                  id:
+                    type: text
+                    value: c424e408-6515-49b8-9147-a2ef08c1c4ff
+                  url:
+                    value: >-
+                      https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/J_f3H6xQRZeHgRTj9rpPnA-vietnamese-coffee-filter-drip.jpeg
+                    type: text
+                  file:
+                    type: file
+                    value: 3d357e0d-0888-4acb-a023-471a4c5f2064
+                  size:
+                    value: 243065
+                    type: number
+                  title:
+                    type: text
+                    value: vietnamese-coffee-filter-drip.jpeg
+                  width:
+                    value: 2600
+                    type: number
+                  height:
+                    value: 1300
+                    type: number
+                  mediaType:
+                    value: image/jpeg
+                    type: text
+                _source: uniform-assets
+          objectFit:
+            type: dex-segmented-control-parameter
+            value: cover
+          overlayColor:
+            type: dex-color-palette-parameter
+            value: general-color-3
+          overlayOpacity:
+            type: dex-slider-control-parameter
+            value: '0.5'
+        _overridability:
+          parameters:
+            $viz: 'yes'
+            image: 'yes'
+            width: 'yes'
+            height: 'yes'
+            priority: 'yes'
+            objectFit: 'yes'
+            unoptimized: 'yes'
+            overlayColor: 'yes'
+            overlayOpacity: 'yes'
+          hideLockedParameters: true
+    sectionContent:
+      - _id: edea6a24-f36d-48c7-acdb-e0dbd8ed511e
+        type: text
+        parameters:
+          tag:
+            type: dex-segmented-control-parameter
+            value: h2
+          size:
+            type: dex-segmented-control-parameter
+            value:
+              mobile: 3xl
+              tablet: 4xl
+              desktop: 4xl
+          color:
+            type: dex-color-palette-parameter
+            value: text-secondary
+          weight:
+            type: dex-segmented-control-parameter
+            value: bold
+          alignment:
+            type: dex-segmented-control-parameter
+            value: center
+        _overridability:
+          parameters:
+            text: 'yes'
+          hideLockedParameters: true
+  _overridability:
+    parameters:
+      displayName: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en
+created: '2025-01-29T11:09:29.493465+00:00'
+modified: '2025-06-25T09:15:40.058884+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/coffee-shop-template/preview-images/simple-hero.jpg
+categoryId: f22b05f0-c4bf-4158-8ebc-4856e4d453af

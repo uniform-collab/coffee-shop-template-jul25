@@ -2,7 +2,7 @@
 $schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: page
 name: Page
-icon: card
+icon: template
 parameters:
   - id: acb00032-a954-464b-ac5c-8fdf6bd9f53f
     name: Meta Data
@@ -17,7 +17,7 @@ parameters:
     name: Page Title
     type: text
     typeConfig:
-      required: false
+      required: true
     localizable: true
   - id: pageDescription
     name: Page Description
@@ -72,7 +72,7 @@ parameters:
         - text: article
           value: article
   - id: 609a7913-350c-4420-b94f-e408e40e96d9
-    name: Twitter
+    name: X / Twitter
     type: group
     typeConfig:
       collapsed: true
@@ -82,25 +82,25 @@ parameters:
         - twitterImage
         - twitterCard
   - id: twitterTitle
-    name: Twitter Title
+    name: Title
     type: text
     helpText: Fallback to Page Title when the value is not set.
     typeConfig: null
     localizable: true
   - id: twitterDescription
-    name: Twitter Description
+    name: Description
     type: text
     helpText: Fallback to Page Description when the value is not set.
     typeConfig: null
     localizable: true
   - id: twitterImage
-    name: Twitter Image
+    name: Image
     type: asset
     helpText: Fallback to Open Graph Image when the correct value is not set.
     typeConfig:
       max: 1
   - id: twitterCard
-    name: Twitter Card
+    name: Card Type
     type: select
     typeConfig:
       options:
@@ -131,7 +131,7 @@ parameters:
       max: 1
 categoryId: c7a1d1d9-cc3f-431c-b55e-6c4af1285108
 previewImageUrl: >-
-  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/page.jpg
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/coffee-shop-template/preview-images/page.jpg
 useTeamPermissions: true
 slots:
   - id: pageHeader
@@ -145,25 +145,64 @@ slots:
   - id: pageContent
     name: Page Content
     allowedComponents:
-      - accordion
+      - addToCardButton
+      - aiShoppingAssistantButton
+      - badge
       - banner
+      - button
       - card
       - carousel
+      - completeCheckoutButton
       - container
+      - divider
+      - dynamicProductRecommendations
+      - entriesSearchBox
+      - entriesSearchEngine
+      - entriesSearchFilters
+      - entriesSearchList
+      - entriesSearchPageSize
+      - entriesSearchPagination
+      - entriesSearchSorting
+      - entriesSearchTotalAmount
+      - featuredSection
       - fixedHero
       - flex
+      - flexCard
+      - flexItem
       - flexibleHero
       - grid
+      - gridItem
+      - iconLabel
+      - image
       - imageGallery
+      - input
+      - link
+      - modal
+      - modalLayout
+      - navigationFlyout
+      - productCard
+      - quantitySelector
+      - quirkSelector
+      - readMore
       - review
+      - richText
       - section
+      - shoppingCart
+      - shoppingCartIcon
+      - spacer
+      - tab
       - table
       - tabs
       - testimonial
+      - text
+      - video
+      - aiConfiguration
+      - entryPreview
       - $test
       - $localization
       - $loop
       - $personalization
+      - accordion
     allowAllComponents: false
     inheritAllowedComponents: false
     patternsInAllowedComponents: false
@@ -177,5 +216,5 @@ slots:
 titleParameter: pageTitle
 thumbnailParameter: openGraphImage
 canBeComposition: true
-created: '2025-02-17T15:34:15.142676+00:00'
-updated: '2025-02-17T15:34:15.142676+00:00'
+created: '2025-04-24T11:34:30.411172+00:00'
+updated: '2025-04-25T12:03:34.745723+00:00'

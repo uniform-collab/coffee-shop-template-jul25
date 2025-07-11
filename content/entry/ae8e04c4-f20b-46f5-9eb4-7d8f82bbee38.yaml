@@ -1,0 +1,66 @@
+created: '2025-04-24T11:36:28.347812+00:00'
+modified: '2025-04-24T11:36:28.347812+00:00'
+pattern: false
+entry:
+  _id: ae8e04c4-f20b-46f5-9eb4-7d8f82bbee38
+  _name: Beans
+  _slug: beans
+  _thumbnail: >-
+    https://img.uniform.global/p/DCdo4LRJTZWl21CYeUJNPg/3epghGyxRVq-L_jxW7CR9w-beans.png
+  type: productCategory
+  fields:
+    logo:
+      type: asset
+      value: []
+      locales:
+        en:
+          - _id: e3bdc9e3-be09-46ee-a655-621bcbe5abdb
+            type: image
+            fields:
+              id:
+                type: text
+                value: 9e77b051-483f-4c91-8440-d0e5cf963bce
+              url:
+                value: >-
+                  https://img.uniform.global/p/9VlMgIbZQQKI2wzV-L0jow/XcB_VPA9SsCTN_ofz3aqXA-beans.png
+                type: text
+              file:
+                type: file
+                value: ca0c1ded-5c91-4136-88c3-c8aac49629eb
+              size:
+                value: 891292
+                type: number
+              title:
+                type: text
+                value: beans.png
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/png
+                type: text
+            _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en: Beans
+    description:
+      type: text
+      locales:
+        en: >-
+          Immerse yourself in the world of premium coffee beans, carefully
+          selected and sourced from the finest coffee-growing regions around the
+          globe. Our collection of beans offers a diverse range of flavors and
+          aromas, from the bright and fruity notes of African beans to the rich
+          and chocolatey undertones of South American varieties. Whether you
+          prefer single-origin beans for their unique characteristics or
+          expertly crafted blends for a balanced cup, our selection caters to
+          every coffee enthusiast’s palate. Experience the freshness and quality
+          that only whole beans can provide, and elevate your coffee brewing
+          routine to a new level of excellence. Explore our beans category and
+          find your perfect roast today
+  _locales:
+    - en

@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 6e676cab-6ead-47fc-b151-d715e3795f06
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: ComposableConferenceKickoff.jpg
+    file:
+      type: file
+      value: 2c088c9d-a136-48d2-901d-321387b1b565
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/DCdo4LRJTZWl21CYeUJNPg/avhPXeXyRECHR1sI_YWn9Q-ComposableConferenceKickoff.jpg
+      type: text
+    size:
+      value: 874517
+      type: number
+    width:
+      value: 2016
+      type: number
+    height:
+      value: 1512
+      type: number
+    custom: {}
+created: '2025-04-24T11:34:06.403219+00:00'
+modified: '2025-04-24T11:34:06.403219+00:00'

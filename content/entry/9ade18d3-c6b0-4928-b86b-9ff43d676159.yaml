@@ -1,0 +1,61 @@
+created: '2025-04-24T11:38:47.094196+00:00'
+modified: '2025-04-24T11:38:47.094196+00:00'
+pattern: false
+entry:
+  _id: 9ade18d3-c6b0-4928-b86b-9ff43d676159
+  _name: Kosmic Coffee
+  _slug: kosmic-coffee
+  _thumbnail: >-
+    https://img.uniform.global/p/DCdo4LRJTZWl21CYeUJNPg/Z5_ranDrRc2iLBd2gmJc6Q-kosmic-coffee.png
+  type: brand
+  fields:
+    logo:
+      type: asset
+      value: []
+      locales:
+        en:
+          - _id: daba7c75-b067-4b64-b473-378167ffa842
+            type: image
+            fields:
+              id:
+                type: text
+                value: d839f23a-45ac-4bac-a6a0-b9a51be60280
+              url:
+                value: >-
+                  https://img.uniform.global/p/9VlMgIbZQQKI2wzV-L0jow/4KAve1S6TFG-bzc5D27F6w-kosmic-coffee.png
+                type: text
+              file:
+                type: file
+                value: ace811a5-9548-4d27-82d0-babc5ed61040
+              size:
+                value: 631541
+                type: number
+              title:
+                type: text
+                value: kosmic-coffee.png
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/png
+                type: text
+            _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en: Kosmic Coffee
+    description:
+      type: text
+      locales:
+        en: >-
+          Kosmic Coffee takes you on an extraordinary journey through the
+          universe of flavors and aromas. Our mission is to craft stellar coffee
+          experiences with innovative coffee makers and premium coffee products.
+          Whether you’re a coffee aficionado or just starting your coffee
+          adventure, Kosmic Coffee is dedicated to delivering out-of-this-world
+          quality and taste in every cup.
+  _locales:
+    - en

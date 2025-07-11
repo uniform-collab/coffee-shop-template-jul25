@@ -1,0 +1,428 @@
+composition:
+  _name: Articles
+  _id: 3f4d35dd-7510-4068-9c41-3166b271dea3
+  _slug: articles
+  type: page
+  _dataResources:
+    All Article Authors:
+      type: authorList
+      variables:
+        locale: ${locale}
+        search: ''
+        filters: '{"type[eq]":"author"}'
+        contentTypes: author
+    All Article Categories:
+      type: articleCategoryList
+      variables:
+        locale: ${locale}
+        search: ''
+        filters: '{"type[eq]":"articleCategory"}'
+        contentTypes: articleCategory
+  _overrides:
+    3f4d35dd-7510-4068-9c41-3166b271dea3:
+      parameters:
+        pageTitle:
+          type: text
+          value: Java Drip Coffee Shop Articles - Discover Your Perfect Brew
+        pageKeywords:
+          type: text
+          value: >-
+            Coffee, Coffee Beans, Brewing Techniques, Coffee Tips, Coffee
+            Articles, Java Drip, Espresso, Specialty Coffee
+        openGraphType:
+          type: select
+          value: website
+        openGraphImage:
+          type: asset
+          value:
+            - _id: 516bf10a-161d-4c99-a806-b2b173621852
+              type: image
+              fields:
+                id:
+                  type: text
+                  value: d0565648-3211-4de9-9b30-ef03c342b554
+                url:
+                  value: >-
+                    https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/sU50KER2RsejacFysdbA1A-articles-og-image.png
+                  type: text
+                file:
+                  type: file
+                  value: bcfc68fe-28a6-4cd7-82d1-18dd2b597b79
+                size:
+                  value: 1805651
+                  type: number
+                title:
+                  type: text
+                  value: articles-og-image.png
+                width:
+                  value: 1808
+                  type: number
+                height:
+                  value: 908
+                  type: number
+                mediaType:
+                  value: image/png
+                  type: text
+              _source: uniform-assets
+        openGraphTitle:
+          type: text
+          value: Java Drip Coffee Shop Articles - Discover Your Perfect Brew
+        pageDescription:
+          type: text
+          value: >-
+            Explore our collection of coffee articles. From choosing the right
+            coffee beans to mastering the perfect brewing techniques, discover
+            all you need to know about coffee here.
+        openGraphDescription:
+          type: text
+          value: >-
+            Explore our collection of coffee articles. From choosing the right
+            coffee beans to mastering the perfect brewing techniques, discover
+            all you need to know about coffee here.
+    3f4d35dd-7510-4068-9c41-3166b271dea3|dc2e95be-21b5-4476-a309-f8a34922f528:
+      slots:
+        $slotSectionItems:
+          - _id: 9a8e179f-df98-4297-b6e8-74da7f904a12
+            type: container
+            _pattern: d9dd4b0a-358f-4b10-be48-77c5088020cc
+            _overridability:
+              parameters:
+                displayName: 'yes'
+              hideLockedParameters: true
+    9a8e179f-df98-4297-b6e8-74da7f904a12|2058ad6d-25b3-4eea-a276-cb996b4188cc:
+      slots:
+        $slotSectionItems:
+          - _id: 04931c78-f13c-4b5f-bafe-f016d18e1c6a
+            type: entriesSearchEngine
+            slots:
+              content:
+                - _id: 3aa897f9-c9e0-44d7-80b3-763e12af4127
+                  type: grid
+                  slots:
+                    gridInner:
+                      - _id: 1c006f17-5bf0-4c8e-bcb3-49f67b75ce4e
+                        type: gridItem
+                        slots:
+                          inner:
+                            - _id: bab79972-79db-4794-aa19-2a14bb8e17a6
+                              type: entriesSearchBox
+                              parameters:
+                                size:
+                                  type: dex-token-selector-parameter
+                                  value: input-large
+                                border:
+                                  type: dex-token-selector-parameter
+                                  value: border-product-card
+                                placeholder:
+                                  type: text
+                                  value: Start searching for an article
+                        parameters:
+                          rowSpan:
+                            type: dex-slider-control-parameter
+                            value: {}
+                          rowStart:
+                            type: dex-slider-control-parameter
+                            value:
+                              mobile: ''
+                              tablet: ''
+                              desktop: ''
+                          columnSpan:
+                            type: dex-slider-control-parameter
+                            value:
+                              tablet: span-3
+                              desktop: span-3
+                          columnStart:
+                            type: dex-slider-control-parameter
+                            value:
+                              mobile: ''
+                              tablet: ''
+                              desktop: ''
+                          displayName:
+                            type: text
+                            locales:
+                              en: Search Box
+                      - _id: b7e771d2-1634-4b03-91b2-709ecc7fdc02
+                        type: entriesSearchSorting
+                  parameters:
+                    gapX:
+                      type: dex-slider-control-parameter
+                      value:
+                        tablet: '4'
+                        desktop: '4'
+                    gapY:
+                      type: dex-slider-control-parameter
+                      value:
+                        mobile: '4'
+                    spacing:
+                      type: dex-space-control-parameter
+                      value:
+                        mobile: {}
+                        tablet: {}
+                        desktop: {}
+                    alignItems:
+                      type: dex-segmented-control-parameter
+                      value: ''
+                    displayName:
+                      type: text
+                      locales:
+                        en: Search Box and Sorting
+                    columnsCount:
+                      type: dex-slider-control-parameter
+                      value:
+                        mobile: '1'
+                        tablet: '4'
+                        desktop: '4'
+                    fluidContent:
+                      type: checkbox
+                      value: true
+                - _id: d51cf988-b2af-4af1-8061-ea4f00e29110
+                  type: spacer
+                  parameters:
+                    size:
+                      type: dex-token-selector-parameter
+                      value: spacer-medium
+                - _id: 314aca46-3226-4b95-8309-401695faa6fb
+                  type: grid
+                  slots:
+                    gridInner:
+                      - _id: 98912376-9781-413d-af64-ccd238f8ca70
+                        type: gridItem
+                        slots:
+                          inner:
+                            - _id: 25f77f34-dcd9-48ea-8e0b-93c14df9055d
+                              type: entriesSearchFilters
+                        parameters:
+                          rowSpan:
+                            type: dex-slider-control-parameter
+                            value: {}
+                          rowStart:
+                            type: dex-slider-control-parameter
+                            value:
+                              mobile: ''
+                              tablet: ''
+                              desktop: ''
+                          columnSpan:
+                            type: dex-slider-control-parameter
+                            value: {}
+                          columnStart:
+                            type: dex-slider-control-parameter
+                            value:
+                              mobile: ''
+                              tablet: ''
+                              desktop: ''
+                          displayName:
+                            type: text
+                            locales:
+                              en: Left Content
+                      - _id: abdaa09f-7446-432b-b541-82a4ca46871a
+                        type: gridItem
+                        slots:
+                          inner:
+                            - _id: 17a3477f-27a8-4138-adf3-f1f12ee73606
+                              type: entriesSearchList
+                              parameters:
+                                border:
+                                  type: dex-token-selector-parameter
+                                  value: border-product-card
+                                textColor:
+                                  type: dex-color-palette-parameter
+                                  value: text-primary
+                            - _id: 2b9c6df5-dc65-415f-9cc6-b3e0b5c50942
+                              type: spacer
+                              parameters:
+                                size:
+                                  type: dex-token-selector-parameter
+                                  value: spacer-small
+                            - _id: 7d271a67-441c-48c6-9cc0-22b76d1862e4
+                              type: entriesSearchPagination
+                        parameters:
+                          rowSpan:
+                            type: dex-slider-control-parameter
+                            value: {}
+                          rowStart:
+                            type: dex-slider-control-parameter
+                            value:
+                              mobile: ''
+                              tablet: ''
+                              desktop: ''
+                          columnSpan:
+                            type: dex-slider-control-parameter
+                            value:
+                              tablet: auto
+                              desktop: span-3
+                          columnStart:
+                            type: dex-slider-control-parameter
+                            value:
+                              mobile: ''
+                              tablet: ''
+                              desktop: '2'
+                          displayName:
+                            type: text
+                            locales:
+                              en: Right Content
+                  parameters:
+                    gapX:
+                      type: dex-slider-control-parameter
+                      value:
+                        desktop: '8'
+                    gapY:
+                      type: dex-slider-control-parameter
+                      value:
+                        mobile: '8'
+                        tablet: '8'
+                    spacing:
+                      type: dex-space-control-parameter
+                      value:
+                        mobile: {}
+                        tablet: {}
+                        desktop: {}
+                    alignItems:
+                      type: dex-segmented-control-parameter
+                      value: start
+                    displayName:
+                      type: text
+                      locales:
+                        en: Search Content
+                    columnsCount:
+                      type: dex-slider-control-parameter
+                      value:
+                        mobile: '1'
+                        tablet: '1'
+                        desktop: '4'
+                    fluidContent:
+                      type: checkbox
+                      value: true
+            parameters:
+              orderBy:
+                type: $block
+                value:
+                  - _id: 9a9702b3-df89-4321-ab69-09e78a2c71ee
+                    type: orderBy
+                    fields:
+                      field:
+                        type: text
+                        value: fields.publishDate
+                      title:
+                        type: text
+                        value: Newest First
+                      direction:
+                        type: select
+                        value: DESC
+              filterBy:
+                type: $block
+                value:
+                  - _id: 0c2c5196-5cb8-46b4-98e4-7ae44fe2ea4c
+                    type: filterBy
+                    fields:
+                      type:
+                        type: select
+                        value: multiSelect
+                      title:
+                        type: text
+                        locales:
+                          en: Pick a category
+                      values:
+                        type: $block
+                        value:
+                          - _id: 332361c2-be9d-4610-bce7-7b6966c82b71
+                            type: $loop
+                            fields:
+                              body:
+                                type: $block
+                                value:
+                                  - _id: 09af5080-c1e9-4098-a3ff-143badaeb657
+                                    type: filterByItem
+                                    fields:
+                                      title:
+                                        type: text
+                                        value: >-
+                                          ${#jptr:/All Article Categories entries
+                                          Loop Item/entry/fields/title/value}
+                                      value:
+                                        type: text
+                                        value: >-
+                                          ${#jptr:/All Article Categories entries
+                                          Loop Item/entry/_slug}
+                            _dataResources:
+                              All Article Categories entries Loop Item:
+                                type: sys-reserved-loop
+                                variables:
+                                  connectedData: '#jptr:/All Article Categories/entries:fa=c'
+                      fieldId:
+                        type: text
+                        value: category
+                      fieldKey:
+                        type: text
+                        value: fields.category.slug
+                      enableFaceting:
+                        type: checkbox
+                        value: true
+                  - _id: 3c48def4-6328-4efe-97c1-f33a6af5309d
+                    type: filterBy
+                    fields:
+                      type:
+                        type: select
+                        value: multiSelect
+                      title:
+                        type: text
+                        locales:
+                          en: Refine by author
+                      values:
+                        type: $block
+                        value:
+                          - _id: 1d8abfc7-4af5-4661-9a6a-a714f9b39ec6
+                            type: $loop
+                            fields:
+                              body:
+                                type: $block
+                                value:
+                                  - _id: 68ae0faf-5420-4e3b-93f3-710cd5cd26ad
+                                    type: filterByItem
+                                    fields:
+                                      title:
+                                        type: text
+                                        value: >-
+                                          ${#jptr:/All Article Authors 0 Loop
+                                          Item/entry/fields/name/value}
+                                      value:
+                                        type: text
+                                        value: >-
+                                          ${#jptr:/All Article Authors 0 Loop
+                                          Item/entry/_slug}
+                            _dataResources:
+                              All Article Authors 0 Loop Item:
+                                type: sys-reserved-loop
+                                variables:
+                                  connectedData: '#jptr:/All Article Authors/entries:fa=c'
+                      fieldId:
+                        type: text
+                        value: author
+                      fieldKey:
+                        type: text
+                        value: fields.author.slug
+                      enableFaceting:
+                        type: checkbox
+                        value: true
+              pageSizes:
+                type: $block
+                value:
+                  - _id: cf603565-4ba5-4657-9c13-67a588c4468d
+                    type: pageSize
+                    fields:
+                      size:
+                        type: number
+                        value: '6'
+              contentType:
+                type: select
+                value: article
+    9a8e179f-df98-4297-b6e8-74da7f904a12|5feefc71-05dd-4004-bfe9-3dd6876628b4:
+      parameters:
+        text:
+          type: text
+          value: Our curated content on all things brewing
+  _locales:
+    - en
+  _pattern: f9c058ea-c40d-4435-ac5a-53423cf654dc
+created: '2025-03-18T13:02:32.603847+00:00'
+modified: '2025-06-05T08:51:43.840079+00:00'
+pattern: false

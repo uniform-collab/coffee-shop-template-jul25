@@ -1,0 +1,182 @@
+composition:
+  _name: Two Column Flex Container
+  _id: 0993e09d-9e20-469e-a8e1-3a56a2a6168b
+  type: flex
+  parameters:
+    gap:
+      type: dex-slider-control-parameter
+      value:
+        mobile: '32'
+        tablet: '32'
+        desktop: '32'
+    spacing:
+      type: dex-space-control-parameter
+      value:
+        mobile: {}
+        tablet: {}
+        desktop: {}
+    direction:
+      type: dex-segmented-control-parameter
+      value:
+        mobile: col
+        tablet: row
+        desktop: row
+    alignItems:
+      type: dex-segmented-control-parameter
+      value: {}
+    displayName:
+      type: text
+      value: Two Column Flex Container
+    justifyContent:
+      type: dex-segmented-control-parameter
+      value:
+        desktop: start
+    backgroundColor:
+      type: dex-color-palette-parameter
+      value: general-color-1
+  slots:
+    flexItem:
+      - _id: d136f89c-b8a2-47d1-a74b-3fcdb3f95cfe
+        type: container
+        slots:
+          containerContent:
+            - _id: 0d1037e3-3759-4681-8406-15defe45a5a3
+              type: $slotSection
+              parameters:
+                max:
+                  type: text
+                  value: 1
+                name:
+                  type: text
+                  value: Media
+                specific:
+                  type: array
+                  value:
+                    - video
+                    - image
+                groupType:
+                  type: text
+                  value: specific
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          spacing:
+            type: dex-space-control-parameter
+            value:
+              mobile:
+                paddingTop: container-small
+                paddingBottom: container-small
+              tablet:
+                paddingTop: container-small
+                paddingBottom: container-small
+              desktop:
+                paddingTop: container-small
+                paddingBottom: container-small
+          displayName:
+            type: text
+            value: Left Col
+          backgroundColor:
+            type: dex-color-palette-parameter
+            value: general-color-1
+        _overridability:
+          parameters:
+            displayName: 'yes'
+          hideLockedParameters: true
+      - _id: 193bd17b-b24e-4d09-b24e-f0e23d0b060a
+        type: container
+        slots:
+          containerContent:
+            - _id: e2570bb0-3acb-4650-a070-664753ab6d66
+              type: flex
+              slots:
+                flexItem:
+                  - _id: 3e090f34-ca83-4bde-8c89-60d1ccf3ce3e
+                    type: $slotSection
+                    parameters:
+                      name:
+                        type: text
+                        value: Content Column
+                      specific:
+                        type: array
+                        value:
+                          - $p:23d2d19c-a74c-48cd-b397-e1574bb84b7b
+                          - $p:fb371b1e-e91d-419b-812b-adb8910afe73
+                          - text
+                          - $p:53b59aed-e378-4fcb-9135-20247d92074e
+                          - $p:646faee6-b476-43c6-a1a8-eebe85699889
+                          - $p:8060e691-b0b3-428c-92f1-278fc76baf47
+                          - richText
+                      groupType:
+                        type: text
+                        value: specific
+                    _overridability:
+                      hideLockedParameters: true
+              parameters:
+                gap:
+                  type: dex-slider-control-parameter
+                  value:
+                    mobile: '16'
+                    desktop: '8'
+                spacing:
+                  type: dex-space-control-parameter
+                  value:
+                    mobile: {}
+                    tablet: {}
+                    desktop: {}
+                direction:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: col
+                    tablet: col
+                    desktop: col
+                alignItems:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: start
+                displayName:
+                  type: text
+                  value: Flex
+                justifyContent:
+                  type: dex-segmented-control-parameter
+                  value:
+                    desktop: center
+              _overridability:
+                parameters:
+                  displayName: 'yes'
+                hideLockedParameters: true
+        parameters:
+          spacing:
+            type: dex-space-control-parameter
+            value:
+              mobile:
+                paddingTop: container-small
+                paddingBottom: container-small
+              tablet:
+                paddingTop: container-small
+                paddingBottom: container-small
+              desktop:
+                paddingTop: container-small
+                paddingBottom: container-small
+          fitContent:
+            type: checkbox
+            value: true
+          displayName:
+            type: text
+            value: Right Col
+          backgroundColor:
+            type: dex-color-palette-parameter
+            value: general-color-1
+        _overridability:
+          parameters:
+            displayName: 'yes'
+          hideLockedParameters: true
+  _overridability:
+    parameters:
+      displayName: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en
+created: '2025-04-24T11:35:28.094446+00:00'
+modified: '2025-04-24T11:35:28.094446+00:00'
+pattern: true
+categoryId: ae15b0f6-4953-4ccb-9984-ad0525e77b01

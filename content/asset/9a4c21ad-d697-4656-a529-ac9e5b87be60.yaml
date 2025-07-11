@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 9a4c21ad-d697-4656-a529-ac9e5b87be60
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: quantum-heating-technology.png
+    file:
+      type: file
+      value: a874af90-6277-49c0-b1e6-397a6d21dab9
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/b0JtaxSVQxmqWylG6vGC1Q/sNI8HlaKRLazsBj2X8zwSg-quantum-heating-technology.png
+      type: text
+    size:
+      value: 773
+      type: number
+    width:
+      value: 60
+      type: number
+    height:
+      value: 47
+      type: number
+    custom: {}
+created: '2025-05-22T08:54:17.21238+00:00'
+modified: '2025-05-22T08:54:17.21238+00:00'

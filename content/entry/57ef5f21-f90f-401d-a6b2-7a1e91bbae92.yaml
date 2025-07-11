@@ -1,0 +1,15 @@
+created: '2025-04-24T11:37:56.9889+00:00'
+modified: '2025-04-24T11:37:56.9889+00:00'
+pattern: false
+entry:
+  _id: 57ef5f21-f90f-401d-a6b2-7a1e91bbae92
+  _name: Guides
+  _slug: guides
+  type: articleCategory
+  fields:
+    title:
+      type: text
+      locales:
+        en: Guides
+  _locales:
+    - en

@@ -1,0 +1,68 @@
+composition:
+  _name: Blog highlight
+  _id: 3fde766b-b504-48fa-9402-16e202d0e0b2
+  type: fixedHero
+  variant: columns
+  parameters:
+    image:
+      type: asset
+      value: ${#jptr:/Article single Content/entry/fields/thumbnail/value}
+    titleTag:
+      type: dex-segmented-control-parameter
+      value: h2
+    titleText:
+      type: text
+      locales:
+        en: ${#jptr:/Article single Content/entry/fields/title/value}
+    displayName:
+      type: text
+      locales:
+        en: ${#jptr:/Article single Content/entry/fields/title/value}
+    descriptionText:
+      type: text
+      locales:
+        en: ${#jptr:/Article single Content/entry/fields/shortDescription/value}
+    contentAlignment:
+      type: dex-segmented-control-parameter
+      value: center
+    eyebrowTitleText:
+      type: text
+      locales:
+        en: Featured blog
+    primaryButtonLink:
+      type: link
+      locales:
+        en:
+          path: /${locale}/articles/${#jptr:/Article single Content/entry/_slug}
+          type: projectMapNode
+          nodeId: 0b2a6284-3d74-4ef6-a3de-b2617058c861
+          projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+          dynamicInputValues:
+            locale: ${locale}
+            article-slug: ${#jptr:/Article single Content/entry/_slug}
+    primaryButtonText:
+      type: text
+      locales:
+        en: Read more
+  _dataResources:
+    Article single Content:
+      type: articleSingle
+      variables:
+        locale: ${locale}
+        entryId: f6663a55-c9e0-46e8-8e06-5abcf3f33d7d
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    variants: true
+    parameters:
+      $viz: 'yes'
+      eyebrowTitleText: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en
+created: '2025-04-24T11:35:07.343882+00:00'
+modified: '2025-04-24T11:35:07.343882+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/coffee-shop-template/preview-images/blog_highlight.png
+categoryId: 3bab40a0-d52d-49b3-8780-b26f737b84a3

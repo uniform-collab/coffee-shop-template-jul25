@@ -1,0 +1,9 @@
+id: c9869cee-a65c-4064-b296-78c4a5ba4ffc
+name: ☕ Coffee Makers
+order: 300
+path: /:locale/coffee-makers
+type: composition
+pathSegment: coffee-makers
+data: {}
+compositionId: 5a6c8a7b-d7f9-4e8d-9549-10ea4d09106a
+projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9

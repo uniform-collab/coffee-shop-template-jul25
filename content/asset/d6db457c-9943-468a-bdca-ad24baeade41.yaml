@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: d6db457c-9943-468a-bdca-ad24baeade41
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: tips-for-the-perfect-espresso.jpg
+    file:
+      type: file
+      value: 2fe59e2f-6342-4d0d-875b-aae89bf0f74c
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/N0QOqjXvSFeXY7i3yzY8ZQ/ch0tcXVyQqS63P_GXj-zHA-tips-for-the-perfect-espresso.jpg
+      type: text
+    size:
+      value: 984517
+      type: number
+    width:
+      value: 6185
+      type: number
+    height:
+      value: 4123
+      type: number
+    custom: {}
+created: '2025-01-29T11:08:59.784339+00:00'
+modified: '2025-01-29T11:08:59.784339+00:00'

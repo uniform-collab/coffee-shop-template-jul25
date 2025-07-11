@@ -1,0 +1,186 @@
+composition:
+  _name: Coffee Beans
+  _id: d9e2afce-4417-4f75-9345-701831f831aa
+  _slug: coffee-beans
+  type: page
+  _overrides:
+    3613f719-1b75-44c5-bac4-446a3ff33c05:
+      parameters:
+        boostEnrichments:
+          type: multi-select
+          value:
+            - subCategory,subcategory
+      dataResources:
+        Base Product Category:
+          type: productCategory
+          variables:
+            locale: ${locale}
+            entryId: ae8e04c4-f20b-46f5-9eb4-7d8f82bbee38
+    d9e2afce-4417-4f75-9345-701831f831aa:
+      parameters:
+        $enr:
+          type: $enr
+          value:
+            - cat: int
+              key: beans
+              str: 5
+        pageTitle:
+          type: text
+          value: >-
+            Premium Coffee Beans - Freshly Roasted for Perfect Flavor | Buy
+            Coffee Beans Online
+        pageKeywords:
+          type: text
+          value: >-
+            coffee beans, buy coffee beans, best coffee beans, fresh coffee
+            beans, coffee beans for sale
+        openGraphImage:
+          type: asset
+          value:
+            - _id: a676c4f9-35fc-4830-bf84-01c3ac337a6d
+              type: image
+              fields:
+                id:
+                  type: text
+                  value: 995568b1-190f-4ee1-8e89-5429489f2a00
+                url:
+                  value: >-
+                    https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/jHWH2zUITu64K776XYllFA-coffee-beans-og-image.png
+                  type: text
+                file:
+                  type: file
+                  value: 1f267bcc-ab64-4d81-8165-bf104cb6159a
+                size:
+                  value: 831079
+                  type: number
+                title:
+                  type: text
+                  value: coffee-beans-og-image.png
+                width:
+                  value: 1808
+                  type: number
+                height:
+                  value: 908
+                  type: number
+                mediaType:
+                  value: image/png
+                  type: text
+              _source: uniform-assets
+        openGraphTitle:
+          type: text
+          value: >-
+            Premium Coffee Beans - Freshly Roasted for Perfect Flavor | Buy
+            Coffee Beans Online
+        pageDescription:
+          type: text
+          value: >-
+            Explore our selection of premium coffee beans, sourced from the best
+            coffee-growing regions. Freshly roasted and available in various
+            roasts, find the perfect beans for your coffee ritual. Order online
+            for delivery!
+        openGraphDescription:
+          type: text
+          value: >-
+            Explore our selection of premium coffee beans, sourced from the best
+            coffee-growing regions. Freshly roasted and available in various
+            roasts, find the perfect beans for your coffee ritual. Order online
+            for delivery!
+    3613f719-1b75-44c5-bac4-446a3ff33c05|c4e468fe-b6cf-4497-8c14-bde24a0e35b8:
+      parameters:
+        placeholder:
+          type: text
+          value: Start searching for a coffee beans
+    a031e4b5-bc6b-4e75-80e2-f26f2b8d1362|215f54df-5063-4f0a-81c0-d8bda909b52c:
+      parameters:
+        image:
+          type: asset
+          value:
+            - _id: d8978dfb-6f09-452c-8a3a-6c2ab54ddfaf
+              type: image
+              fields:
+                id:
+                  type: text
+                  value: e894771b-4d96-439b-b315-90a822d545a2
+                url:
+                  value: >-
+                    https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/LL_D_XJUTFakZk07-Qj3Jg-ideal-beans-for-slow-drip.jpg
+                  type: text
+                file:
+                  type: file
+                  value: 3f3bbe8e-a5f9-4b89-9f72-1f0a2db82f03
+                size:
+                  value: 3885592
+                  type: number
+                title:
+                  type: text
+                  value: ideal-beans-for-slow-drip.jpg
+                width:
+                  value: 4928
+                  type: number
+                height:
+                  value: 3264
+                  type: number
+                mediaType:
+                  value: image/jpeg
+                  type: text
+              _source: uniform-assets
+        overlayColor:
+          type: dex-color-palette-parameter
+          value: general-color-3
+        overlayOpacity:
+          type: dex-slider-control-parameter
+          value: '0.5'
+    a031e4b5-bc6b-4e75-80e2-f26f2b8d1362|edea6a24-f36d-48c7-acdb-e0dbd8ed511e:
+      parameters:
+        text:
+          type: text
+          value: Discover curated coffee beans
+    d9e2afce-4417-4f75-9345-701831f831aa|dc2e95be-21b5-4476-a309-f8a34922f528:
+      slots:
+        $slotSectionItems:
+          - _id: a031e4b5-bc6b-4e75-80e2-f26f2b8d1362
+            type: section
+            _pattern: 90b32c21-f5d8-4a40-b971-c97c359ecce9
+            _overridability:
+              parameters:
+                displayName: 'yes'
+              hideLockedParameters: true
+          - _id: 403ac0e1-f7fa-49a7-808d-ce9dcfbdf004
+            type: container
+            slots:
+              containerContent:
+                - _id: 3613f719-1b75-44c5-bac4-446a3ff33c05
+                  type: entriesSearchEngine
+                  _pattern: afef4fa3-394f-4228-81b9-3374b4616b3c
+                  _dataResources:
+                    Base Product Category:
+                      type: productCategory
+                      variables:
+                        locale: ${locale}
+                        entryId: ae8e04c4-f20b-46f5-9eb4-7d8f82bbee38
+                  _overridability:
+                    parameters:
+                      boostEnrichments: 'yes'
+                    hideLockedParameters: true
+            parameters:
+              spacing:
+                type: dex-space-control-parameter
+                value:
+                  mobile:
+                    paddingTop: container-small
+                    paddingRight: container-xsmall
+                  tablet: {}
+                  desktop:
+                    paddingTop: container-medium
+                    paddingLeft: container-small
+                    paddingRight: container-small
+              displayName:
+                type: text
+                locales:
+                  en: Faceted Search
+  _locales:
+    - en
+  _pattern: f9c058ea-c40d-4435-ac5a-53423cf654dc
+created: '2025-03-18T13:02:33.533786+00:00'
+modified: '2025-06-05T08:51:47.528757+00:00'
+pattern: false

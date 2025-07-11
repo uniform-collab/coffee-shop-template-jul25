@@ -1,0 +1,12 @@
+id: a56e917d-dea3-40f1-b7b0-a9aea2f7dedb
+sourceUrl: /:locale/beans
+sourceRetainQuerystring: true
+targetUrl: https://www.javadrip.coffee/:locale/coffee-beans
+targetStatusCode: 301
+targetProjectMapNodeId: 9db6eee2-5e3b-4e3e-9e26-836d3973217c
+projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+sourceMustMatchDomain: false
+targetPreserveIncomingProtocol: false
+targetPreserveIncomingDomain: false
+targetMergeQuerystring: true
+labelAsSystem: false

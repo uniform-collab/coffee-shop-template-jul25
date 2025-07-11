@@ -1,0 +1,9 @@
+id: 9db6eee2-5e3b-4e3e-9e26-836d3973217c
+name: 🫛 Coffee Beans
+order: 400
+path: /:locale/coffee-beans
+type: composition
+pathSegment: coffee-beans
+data: {}
+compositionId: d9e2afce-4417-4f75-9345-701831f831aa
+projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9

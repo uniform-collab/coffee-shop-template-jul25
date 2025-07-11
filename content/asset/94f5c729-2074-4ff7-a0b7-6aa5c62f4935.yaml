@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 94f5c729-2074-4ff7-a0b7-6aa5c62f4935
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: dark-roast-coffee-1.png
+    file:
+      type: file
+      value: b11b9ac7-ac38-4ef2-8171-bd6785394dcb
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/N0QOqjXvSFeXY7i3yzY8ZQ/9WGJqE7NRYC5b6vdD9QtZg-dark-roast-coffee-1.png
+      type: text
+    size:
+      value: 156745
+      type: number
+    width:
+      value: 1280
+      type: number
+    height:
+      value: 1280
+      type: number
+    custom: {}
+created: '2025-01-29T11:08:54.806054+00:00'
+modified: '2025-01-29T11:08:54.806054+00:00'

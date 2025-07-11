@@ -1,0 +1,210 @@
+composition:
+  _name: Purchase History Container
+  _id: 67fd3820-7df7-4ace-aec8-bf57b5a2abd3
+  type: container
+  parameters:
+    spacing:
+      type: dex-space-control-parameter
+      value:
+        mobile: {}
+        tablet: {}
+        desktop: {}
+    displayName:
+      type: text
+      value: 'Purchase History '
+  slots:
+    containerContent:
+      - _id: 20ecea8b-233d-452f-9ebe-c489165bacb4
+        type: text
+        parameters:
+          tag:
+            type: dex-segmented-control-parameter
+            value: span
+          size:
+            type: dex-segmented-control-parameter
+            value:
+              mobile: 2xl
+              tablet: 3xl
+              desktop: 3xl
+          text:
+            type: text
+            value: 'Purchase History '
+          color:
+            type: dex-color-palette-parameter
+            value: text-primary
+          weight:
+            type: dex-segmented-control-parameter
+            value: bold
+        _overridability:
+          hideLockedParameters: true
+      - _id: fca0de58-e63a-4449-a41d-0dbbc16a2e03
+        type: container
+        slots:
+          containerContent:
+            - _id: ef8bb500-fb7e-436f-95fc-ef237b7963cb
+              type: divider
+              parameters:
+                color:
+                  type: dex-color-palette-parameter
+                  value: general-color-12
+                width:
+                  type: dex-slider-control-parameter
+                  value: 100%
+                alignment:
+                  type: dex-segmented-control-parameter
+                  value: center
+                thickness:
+                  type: dex-slider-control-parameter
+                  value: 1px
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          spacing:
+            type: dex-space-control-parameter
+            value:
+              paddingTop: container-small
+              paddingBottom: container-small
+          displayName:
+            type: text
+            value: Divider
+          fluidContent:
+            type: checkbox
+            value: true
+        _overridability:
+          hideLockedParameters: true
+      - _id: ac6e1178-2436-418a-8f4e-7017e08a1869
+        type: flex
+        slots:
+          flexItem:
+            - _id: 8cd99c1e-f6d9-40cd-924f-e21df096317e
+              type: $loop
+              slots:
+                body:
+                  - _id: 1febe4d9-2e8d-43d3-8812-02eed7ef6fac
+                    type: grid
+                    _pattern: e1383714-61c0-4647-a00b-bb12371df0d7
+              _dataResources:
+                Multiple Product Content entries Loop Item:
+                  type: sys-reserved-loop
+                  variables:
+                    connectedData: '#jptr:/Multiple Product Content/entries:fa=c'
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          gap:
+            type: dex-slider-control-parameter
+            value:
+              desktop: '4'
+          spacing:
+            type: dex-space-control-parameter
+            value:
+              mobile: {}
+              tablet: {}
+              desktop: {}
+          direction:
+            type: dex-segmented-control-parameter
+            value:
+              mobile: col
+              tablet: col
+              desktop: col
+          alignItems:
+            type: dex-segmented-control-parameter
+            value: {}
+          displayName:
+            type: text
+            value: Products Link
+          fluidContent:
+            type: checkbox
+            value: true
+          justifyContent:
+            type: dex-segmented-control-parameter
+            value: {}
+        _overridability:
+          hideLockedParameters: true
+  _dataResources:
+    Multiple Product Content:
+      type: multipleProduct
+      variables:
+        locale: ${locale}
+        entryIds: >-
+          28bf4036-f588-4ee0-94bb-241d39270972,f478f705-edb5-4751-9445-18a37e48c183,e79e0ce3-81ff-4431-803d-45c6ba75f077,368a700a-adfd-4304-9186-534f7cbac088
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overrides:
+    1febe4d9-2e8d-43d3-8812-02eed7ef6fac:
+      parameters:
+        displayName:
+          type: text
+          value: >-
+            ${#jptr:/Multiple Product Content entries Loop
+            Item/entry/fields/name/value}
+    1febe4d9-2e8d-43d3-8812-02eed7ef6fac|343d0838-294f-429d-abff-03fdfc3da33e:
+      parameters:
+        text:
+          type: text
+          value: >-
+            ${#jptr:/Multiple Product Content entries Loop
+            Item/entry/fields/variants/value/0/fields/currency/value}
+            ${#jptr:/Multiple Product Content entries Loop
+            Item/entry/fields/variants/value/0/fields/price/value}
+    1febe4d9-2e8d-43d3-8812-02eed7ef6fac|c528e462-6a4f-4c13-9d02-f58663c69855:
+      parameters:
+        image:
+          type: asset
+          value:
+            - _id: 60dd42ca-c0f7-4beb-8a8b-b55fd9965eb6
+              type: image
+              fields:
+                url:
+                  type: text
+                  value: >-
+                    ${#jptr:/Multiple Product Content entries Loop
+                    Item/entry/fields/primaryImage/value/0/fields/url/value}
+                title:
+                  type: text
+                  value: >-
+                    ${#jptr:/Multiple Product Content entries Loop
+                    Item/entry/fields/name/value}
+                description:
+                  type: text
+                  value: >-
+                    ${#jptr:/Multiple Product Content entries Loop
+                    Item/entry/fields/name/value}
+              _source: custom-url
+    1febe4d9-2e8d-43d3-8812-02eed7ef6fac|cca5ffc7-3f0a-4ded-9371-80b0bbde2711:
+      parameters:
+        link:
+          type: link
+          locales:
+            en:
+              path: >-
+                /${locale}/products/${#jptr:/Multiple Product Content entries
+                Loop Item/entry/_slug}
+              type: projectMapNode
+              nodeId: 702b0e0b-3858-4b5d-99e4-bdb98097ca0f
+              projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+              dynamicInputValues:
+                locale: ${locale}
+                product-slug: >-
+                  ${#jptr:/Multiple Product Content entries Loop
+                  Item/entry/_slug}
+    1febe4d9-2e8d-43d3-8812-02eed7ef6fac|f8e535bb-d461-4469-975d-81e9b15487cf:
+      parameters:
+        text:
+          type: text
+          value: >-
+            ${#jptr:/Multiple Product Content entries Loop
+            Item/entry/fields/name/value}
+  _overridability:
+    parameters:
+      spacing: 'yes'
+      fluidContent: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en
+created: '2025-03-18T13:02:29.47449+00:00'
+modified: '2025-05-22T11:20:06.463899+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/coffee-shop-template/preview-images/purchase-history-container.jpg
+categoryId: adaebea8-ba58-494b-9c3b-9f82906d9415

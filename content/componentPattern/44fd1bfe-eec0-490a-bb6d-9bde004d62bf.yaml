@@ -1,0 +1,586 @@
+composition:
+  _name: Mini Cart Item
+  _id: 44fd1bfe-eec0-490a-bb6d-9bde004d62bf
+  type: flex
+  parameters:
+    gap:
+      type: dex-slider-control-parameter
+      value:
+        mobile: '4'
+        tablet: '4'
+        desktop: '4'
+    spacing:
+      type: dex-space-control-parameter
+      value:
+        mobile: {}
+        tablet: {}
+        desktop: {}
+    direction:
+      type: dex-segmented-control-parameter
+      value:
+        mobile: col
+        tablet: col
+        desktop: col
+    alignItems:
+      type: dex-segmented-control-parameter
+      value: {}
+    displayName:
+      type: text
+      value: Product
+    justifyContent:
+      type: dex-segmented-control-parameter
+      value: {}
+  slots:
+    flexItem:
+      - _id: eb2e8319-7f03-43ec-8c08-13d0f69a82a1
+        type: flex
+        slots:
+          flexItem:
+            - _id: b2f96ab3-1eb2-425e-bc91-ff155d22426a
+              type: text
+              parameters:
+                tag:
+                  type: dex-segmented-control-parameter
+                  value: span
+                size:
+                  type: dex-segmented-control-parameter
+                  value:
+                    desktop: base
+                text:
+                  type: text
+                  value: Item
+                color:
+                  type: dex-color-palette-parameter
+                  value: text-primary
+                weight:
+                  type: dex-segmented-control-parameter
+                  value: bold
+                transform:
+                  type: dex-segmented-control-parameter
+                  value: uppercase
+              _overridability:
+                hideLockedParameters: true
+            - _id: b042015d-2f2d-4cc4-8c7b-426caedf1dc9
+              type: removeButton
+              parameters:
+                icon:
+                  type: asset
+                  locales:
+                    en:
+                      - _id: 2b02bb52-3309-4e74-8c6a-3e722c1209fd
+                        type: image
+                        fields:
+                          id:
+                            type: text
+                            value: 4724e58e-eb3f-46f0-b4b7-50d73da49732
+                          url:
+                            value: >-
+                              https://img.uniform.global/p/9VlMgIbZQQKI2wzV-L0jow/K0Lh5kQeRQ6jBLQtPd67nA-blue-close-icon.svg
+                            type: text
+                          file:
+                            type: file
+                            value: c7c8ea80-292a-45b9-8ad1-e290387a70a1
+                          size:
+                            value: 354
+                            type: number
+                          title:
+                            type: text
+                            value: blue-close-icon.svg
+                          width:
+                            value: 12
+                            type: number
+                          height:
+                            value: 12
+                            type: number
+                          mediaType:
+                            value: image/svg+xml
+                            type: text
+                        _source: uniform-assets
+                iconPosition:
+                  type: dex-segmented-control-parameter
+                  value: left
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          gap:
+            type: dex-slider-control-parameter
+            value: {}
+          spacing:
+            type: dex-space-control-parameter
+            value:
+              mobile: {}
+              tablet: {}
+              desktop: {}
+          direction:
+            type: dex-segmented-control-parameter
+            value:
+              mobile: row
+              tablet: row
+              desktop: row
+          alignItems:
+            type: dex-segmented-control-parameter
+            value: {}
+          displayName:
+            type: text
+            value: Head
+          fluidContent:
+            type: checkbox
+            value: true
+          justifyContent:
+            type: dex-segmented-control-parameter
+            value:
+              mobile: between
+              tablet: between
+              desktop: between
+        _overridability:
+          hideLockedParameters: true
+      - _id: 4f8d1910-5ef6-42e9-99e5-a63caf9a48c8
+        type: flex
+        slots:
+          flexItem:
+            - _id: 64e0b0fc-b68d-49db-ac60-a4b29b7ceb95
+              type: container
+              slots:
+                containerContent:
+                  - _id: 2bca77d8-bb2e-4a2b-afcb-efac234c948c
+                    type: image
+                    parameters:
+                      image:
+                        type: asset
+                        value:
+                          - _id: fa159211-f92e-4e72-acda-58d6b5ba11ab
+                            type: image
+                            fields:
+                              id:
+                                type: text
+                                value: a2fc1548-9e8f-45de-befb-afafd756cd7a
+                              url:
+                                value: >-
+                                  https://img.uniform.global/p/9VlMgIbZQQKI2wzV-L0jow/LDc0j9doQmCvJ4w2hDiDHg-kosmic-coffee-barista-express-espresso-machine-1.png
+                                type: text
+                              file:
+                                type: file
+                                value: 28f1afde-df55-4078-9328-709e2a0fe26a
+                              size:
+                                value: 361098
+                                type: number
+                              title:
+                                type: text
+                                value: >-
+                                  kosmic-coffee-barista-express-espresso-machine-1.png
+                              width:
+                                value: 1280
+                                type: number
+                              height:
+                                value: 1280
+                                type: number
+                              mediaType:
+                                value: image/png
+                                type: text
+                            _source: uniform-assets
+                      width:
+                        type: number
+                        value: '100'
+                      height:
+                        type: number
+                        value: '100'
+                      objectFit:
+                        type: dex-segmented-control-parameter
+                        value: cover
+                    _overridability:
+                      parameters:
+                        image: 'yes'
+                      hideLockedParameters: true
+              parameters:
+                anchor:
+                  type: text
+                  locales:
+                    en: Product Image
+                border:
+                  type: dex-token-selector-parameter
+                  value: border-product-card
+                spacing:
+                  type: dex-space-control-parameter
+                  value:
+                    paddingTop: container-xxsmall
+                    paddingLeft: container-xxsmall
+                    paddingRight: container-xxsmall
+                    paddingBottom: container-xxsmall
+                fitContent:
+                  type: checkbox
+                  value: true
+                displayName:
+                  type: text
+                  value: Image
+                fluidContent:
+                  type: checkbox
+                  value: true
+              _overridability:
+                hideLockedParameters: true
+            - _id: c9137705-6309-44e5-a7b9-81010356c424
+              type: flex
+              slots:
+                flexItem:
+                  - _id: 19830402-7370-4efe-a3fa-696c694825e2
+                    type: text
+                    parameters:
+                      tag:
+                        type: dex-segmented-control-parameter
+                        value: span
+                      size:
+                        type: dex-segmented-control-parameter
+                        value:
+                          mobile: 2xl
+                          tablet: 2xl
+                          desktop: 2xl
+                      text:
+                        type: text
+                        value: Cervello di Caffè
+                      color:
+                        type: dex-color-palette-parameter
+                        value: text-primary
+                      weight:
+                        type: dex-segmented-control-parameter
+                        value: bold
+                    _overridability:
+                      parameters:
+                        text: 'yes'
+                      hideLockedParameters: true
+                  - _id: 5d39d815-679c-4f44-abfa-df2e5cd98450
+                    type: flex
+                    slots:
+                      flexItem:
+                        - _id: 3fe93609-d6fc-449e-8586-75a84a650ce6
+                          type: text
+                          parameters:
+                            tag:
+                              type: dex-segmented-control-parameter
+                              value: span
+                            size:
+                              type: dex-segmented-control-parameter
+                              value: {}
+                            text:
+                              type: text
+                              value: 'SKU:'
+                            weight:
+                              type: dex-segmented-control-parameter
+                              value: bold
+                        - _id: 721f51d4-3b74-43ff-b532-14b95cd69747
+                          type: text
+                          parameters:
+                            tag:
+                              type: dex-segmented-control-parameter
+                              value: span
+                            text:
+                              type: text
+                              value: CC3C
+                          _overridability:
+                            parameters:
+                              text: 'yes'
+                    parameters:
+                      gap:
+                        type: dex-slider-control-parameter
+                        value:
+                          mobile: '2'
+                          tablet: '2'
+                          desktop: '2'
+                      spacing:
+                        type: dex-space-control-parameter
+                        value:
+                          mobile: {}
+                          tablet: {}
+                          desktop: {}
+                      direction:
+                        type: dex-segmented-control-parameter
+                        value:
+                          mobile: row
+                          tablet: row
+                          desktop: row
+                      alignItems:
+                        type: dex-segmented-control-parameter
+                        value: {}
+                      displayName:
+                        type: text
+                        value: SKU
+                      fluidContent:
+                        type: checkbox
+                        value: true
+                      justifyContent:
+                        type: dex-segmented-control-parameter
+                        value: {}
+              parameters:
+                gap:
+                  type: dex-slider-control-parameter
+                  value:
+                    mobile: '4'
+                    tablet: '2'
+                    desktop: '2'
+                spacing:
+                  type: dex-space-control-parameter
+                  value:
+                    mobile: {}
+                    tablet: {}
+                    desktop: {}
+                direction:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: col
+                    tablet: col
+                    desktop: col
+                alignItems:
+                  type: dex-segmented-control-parameter
+                  value: {}
+                displayName:
+                  type: text
+                  value: Content
+                fluidContent:
+                  type: checkbox
+                  value: true
+                justifyContent:
+                  type: dex-segmented-control-parameter
+                  value:
+                    desktop: start
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          gap:
+            type: dex-slider-control-parameter
+            value:
+              mobile: '4'
+              tablet: '4'
+              desktop: '4'
+          spacing:
+            type: dex-space-control-parameter
+            value:
+              mobile: {}
+              tablet: {}
+              desktop: {}
+          direction:
+            type: dex-segmented-control-parameter
+            value:
+              mobile: row
+              tablet: row
+              desktop: row
+          alignItems:
+            type: dex-segmented-control-parameter
+            value:
+              desktop: center
+          displayName:
+            type: text
+            value: Product Info
+          fluidContent:
+            type: checkbox
+            value: true
+          justifyContent:
+            type: dex-segmented-control-parameter
+            value:
+              mobile: start
+              tablet: start
+              desktop: start
+        _overridability:
+          hideLockedParameters: true
+      - _id: 8a7d8397-5159-4e02-a7b3-00ef93422218
+        type: flex
+        slots:
+          flexItem:
+            - _id: b7ef307c-bc4b-4b99-9a0d-28de24388296
+              type: flex
+              slots:
+                flexItem:
+                  - _id: 35a50ba5-8d09-47ea-acaf-9aa309173a55
+                    type: text
+                    parameters:
+                      tag:
+                        type: dex-segmented-control-parameter
+                        value: span
+                      size:
+                        type: dex-segmented-control-parameter
+                        value:
+                          desktop: base
+                      text:
+                        type: text
+                        value: QTY
+                      color:
+                        type: dex-color-palette-parameter
+                        value: text-primary
+                      weight:
+                        type: dex-segmented-control-parameter
+                        value: bold
+                    _overridability:
+                      hideLockedParameters: true
+                  - _id: f853c213-a35d-45ad-9b06-57b0d3bce7a0
+                    type: quantitySelector
+                    parameters:
+                      size:
+                        type: dex-segmented-control-parameter
+                        value: {}
+                      border:
+                        type: dex-token-selector-parameter
+                        value: border-product-card
+                      fluidContent:
+                        type: checkbox
+                        value: true
+                    _overridability:
+                      hideLockedParameters: true
+              parameters:
+                gap:
+                  type: dex-slider-control-parameter
+                  value:
+                    mobile: '2'
+                    tablet: '2'
+                    desktop: '2'
+                spacing:
+                  type: dex-space-control-parameter
+                  value:
+                    mobile: {}
+                    tablet: {}
+                    desktop: {}
+                direction:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: col
+                    tablet: col
+                    desktop: col
+                alignItems:
+                  type: dex-segmented-control-parameter
+                  value: {}
+                displayName:
+                  type: text
+                  value: QTY
+                fluidContent:
+                  type: checkbox
+                  value: true
+                justifyContent:
+                  type: dex-segmented-control-parameter
+                  value: {}
+              _overridability:
+                hideLockedParameters: true
+            - _id: d1ba98b8-532a-487b-8bcc-c43feaf49e45
+              type: flex
+              slots:
+                flexItem:
+                  - _id: 6645406c-1155-4eb2-a39c-1bf591808efd
+                    type: text
+                    parameters:
+                      tag:
+                        type: dex-segmented-control-parameter
+                        value: span
+                      size:
+                        type: dex-segmented-control-parameter
+                        value:
+                          desktop: base
+                      text:
+                        type: text
+                        value: Price
+                      color:
+                        type: dex-color-palette-parameter
+                        value: text-primary
+                      weight:
+                        type: dex-segmented-control-parameter
+                        value: bold
+                    _overridability:
+                      hideLockedParameters: true
+                  - _id: 3f11374a-9e09-499a-aa74-d1ba0aebbd34
+                    type: text
+                    parameters:
+                      tag:
+                        type: dex-segmented-control-parameter
+                        value: span
+                      size:
+                        type: dex-segmented-control-parameter
+                        value:
+                          mobile: 2xl
+                          tablet: 2xl
+                          desktop: 2xl
+                      text:
+                        type: text
+                        value: $27.95
+                      color:
+                        type: dex-color-palette-parameter
+                        value: text-primary
+                      weight:
+                        type: dex-segmented-control-parameter
+                        value: normal
+                    _overridability:
+                      parameters:
+                        text: 'yes'
+                      hideLockedParameters: true
+              parameters:
+                gap:
+                  type: dex-slider-control-parameter
+                  value:
+                    mobile: '2'
+                    tablet: '2'
+                    desktop: '2'
+                spacing:
+                  type: dex-space-control-parameter
+                  value:
+                    mobile: {}
+                    tablet: {}
+                    desktop: {}
+                direction:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: col
+                    tablet: col
+                    desktop: col
+                alignItems:
+                  type: dex-segmented-control-parameter
+                  value: {}
+                displayName:
+                  type: text
+                  value: Price
+                fluidContent:
+                  type: checkbox
+                  value: true
+                justifyContent:
+                  type: dex-segmented-control-parameter
+                  value: {}
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          gap:
+            type: dex-slider-control-parameter
+            value: {}
+          spacing:
+            type: dex-space-control-parameter
+            value:
+              mobile: {}
+              tablet: {}
+              desktop: {}
+          direction:
+            type: dex-segmented-control-parameter
+            value:
+              mobile: row
+              tablet: row
+              desktop: row
+          alignItems:
+            type: dex-segmented-control-parameter
+            value: {}
+          displayName:
+            type: text
+            value: Quantity
+          fluidContent:
+            type: checkbox
+            value: true
+          justifyContent:
+            type: dex-segmented-control-parameter
+            value:
+              mobile: between
+              tablet: between
+              desktop: between
+        _overridability:
+          hideLockedParameters: true
+  _overridability:
+    parameters:
+      displayName: 'yes'
+      fluidContent: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en
+created: '2025-03-18T13:02:28.20926+00:00'
+modified: '2025-05-22T11:02:09.271274+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/coffee-shop-template/preview-images/mini-cart-item.jpg
+categoryId: adaebea8-ba58-494b-9c3b-9f82906d9415

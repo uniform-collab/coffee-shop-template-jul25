@@ -1,0 +1,219 @@
+created: '2025-01-29T11:10:22.217763+00:00'
+modified: '2025-06-26T06:30:04.922823+00:00'
+pattern: false
+entry:
+  _id: 3fc0b630-00a8-48e3-b66e-a9e87540c9aa
+  _name: Water filter
+  _slug: water-filter
+  _thumbnail: >-
+    https://img.uniform.global/p/DCdo4LRJTZWl21CYeUJNPg/XMWpFpRgSuuQxEdRrO809g-water-filter-1.png
+  type: product
+  fields:
+    body:
+      type: richText
+      locales:
+        en:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Optimize your coffee machine's performance with this
+                      premium water filter, specially crafted with ion-exchange
+                      resin and natural coconut granular activated carbon for
+                      exceptional water purification. This advanced filtration
+                      system effectively removes unpleasant odors, reduces rust,
+                      chlorine, and other impurities, ensuring your coffee is
+                      brewed with the purest water possible. By preventing scale
+                      formation, this filter not only enhances the flavor of
+                      your coffee but also protects and prolongs the life of
+                      your coffee machine, keeping it in peak condition for
+                      consistent, quality brews. Ideal for coffee enthusiasts
+                      seeking a smoother, cleaner taste, this filter is a
+                      practical addition to any home setup, providing peace of
+                      mind and enhanced machine longevity with every cup.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+    name:
+      type: text
+      value: Water filter
+    brand:
+      type: contentReference
+      value: ${#jptr:/ref-3fc0b630-00a8-48e3-b66e-a9e87540c9aa-brand/entries/0}
+    title:
+      type: text
+      value: Water filter
+    rating:
+      type: number
+      value: '4.2'
+    ogImage:
+      type: asset
+      value:
+        - _id: 77353f1e-01bf-4099-841f-8c32ecd4426b
+          type: image
+          fields:
+            id:
+              type: text
+              value: 9e908952-8fda-4d10-959a-3af9d558ebe0
+            url:
+              value: >-
+                https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/aVOKxFRbRECi9lLOj8NpMQ-water-filter-1.png
+              type: text
+            file:
+              type: file
+              value: 5950f866-842e-4794-b2bd-b1ec922664f8
+            size:
+              value: 15603
+              type: number
+            title:
+              type: text
+              value: water-filter-1.png
+            width:
+              value: 386
+              type: number
+            height:
+              value: 386
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+    category:
+      type: contentReference
+      value: ${#jptr:/ref-3fc0b630-00a8-48e3-b66e-a9e87540c9aa-category/entries/0}
+    variants:
+      type: $block
+      value:
+        - _id: 5f0d39f0-f548-4ec5-9f53-693b49fc10a7
+          type: variant
+          fields:
+            code:
+              type: text
+              value: '143'
+            price:
+              type: number
+              locales:
+                en: '65'
+            title:
+              type: text
+              locales:
+                en: Water filter
+            currency:
+              type: text
+              locales:
+                en: USD
+            imageGallery:
+              type: asset
+              value:
+                - _id: f8c73ffe-bc32-40a8-8938-33f60dea468b
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: 9e908952-8fda-4d10-959a-3af9d558ebe0
+                    url:
+                      value: >-
+                        https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/aVOKxFRbRECi9lLOj8NpMQ-water-filter-1.png
+                      type: text
+                    file:
+                      type: file
+                      value: 5950f866-842e-4794-b2bd-b1ec922664f8
+                    size:
+                      value: 15603
+                      type: number
+                    title:
+                      type: text
+                      value: water-filter-1.png
+                    width:
+                      value: 386
+                      type: number
+                    height:
+                      value: 386
+                      type: number
+                    mediaType:
+                      value: image/png
+                      type: text
+                  _source: uniform-assets
+    metaTitle:
+      type: text
+      value: Water filter
+    enrichments:
+      type: $enr
+      value:
+        - cat: brand
+          key: javadrip
+          str: 5
+    primaryImage:
+      type: asset
+      value:
+        - _id: 77353f1e-01bf-4099-841f-8c32ecd4426b
+          type: image
+          fields:
+            id:
+              type: text
+              value: 9e908952-8fda-4d10-959a-3af9d558ebe0
+            url:
+              value: >-
+                https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/aVOKxFRbRECi9lLOj8NpMQ-water-filter-1.png
+              type: text
+            file:
+              type: file
+              value: 5950f866-842e-4794-b2bd-b1ec922664f8
+            size:
+              value: 15603
+              type: number
+            title:
+              type: text
+              value: water-filter-1.png
+            width:
+              value: 386
+              type: number
+            height:
+              value: 386
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+    metaDescription:
+      type: text
+      locales:
+        en: >-
+          Enhance coffee flavor by reducing pollutants and scale with this
+          ion-exchange and coconut carbon filter. Prolongs machine life.
+    shortDescription:
+      type: text
+      locales:
+        en: >-
+          This filter is using ion-exchange resin and natural coconut granular
+          activated carbon, effectively remove odor, reduce rust, chlorine and
+          other pollutants; Coffee machine can prevent the formation of scale,
+          prolong the service life of the coffee machine.
+  _dataResources:
+    ref-3fc0b630-00a8-48e3-b66e-a9e87540c9aa-brand:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 725d0924-c684-49f1-ba91-b0dfd695823d
+    ref-3fc0b630-00a8-48e3-b66e-a9e87540c9aa-category:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 6b8b91ea-1922-4c2a-8233-4a4a20ab285b
+  _locales:
+    - en

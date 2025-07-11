@@ -6,12 +6,19 @@ composition:
   parameters:
     color:
       type: dex-color-palette-parameter
-      value: text-primary
+      value: general-color-3
     spacing:
       type: dex-space-control-parameter
       value:
-        paddingTop: container-small
-        paddingBottom: container-small
+        mobile:
+          paddingTop: container-small
+          paddingBottom: container-small
+        tablet:
+          paddingTop: container-small
+          paddingBottom: container-small
+        desktop:
+          paddingTop: container-small
+          paddingBottom: container-small
     displayName:
       type: text
       value: Header
@@ -24,50 +31,52 @@ composition:
         type: link
         slots:
           linkContent:
-            - _id: 1d80a3d5-a57a-44e5-9ac8-0b665124f55c
+            - _id: 2a3315a0-cfeb-4794-8bb5-92bd602d9b9e
               type: image
               parameters:
                 image:
                   type: asset
                   value:
-                    - _id: bf66f619-6751-47ba-8249-28a233e15360
+                    - _id: 8e76b058-6d76-42c8-8e5b-488eee8bb092
                       type: image
                       fields:
                         id:
                           type: text
-                          value: 0f0670b4-a425-40d3-842b-c7c895d500a5
+                          value: 2b92b553-0d54-4b6e-a64b-e58bbf32e117
                         url:
                           value: >-
-                            https://img.uniform.global/p/YBXmRPPzQZ-45Yo5jJzHAw/yw_nl-x6RgCEUl3LVg1uqQ-uniformlogo.svg
+                            https://img.uniform.global/p/h9NrQJBHRgiSM3uMDm3B0w/MXAIx0T3RtST6wPh-A2oGQ-jd-logo-black.png
                           type: text
                         file:
                           type: file
-                          value: d7405da9-bafe-4158-836d-f9994daa1ed1
+                          value: 3b0f3c65-6ce2-4b93-9d72-6e2882ad574d
                         size:
-                          value: 454
+                          value: 8074
                           type: number
                         title:
                           type: text
-                          value: uniformlogo.svg
+                          value: jd-logo-black.png
                         width:
-                          value: 45
+                          value: 627
                           type: number
                         height:
-                          value: 52
+                          value: 150
                           type: number
                         mediaType:
-                          value: image/svg+xml
+                          value: image/png
                           type: text
                       _source: uniform-assets
                 width:
                   type: number
-                  value: '50'
+                  value: '180'
                 height:
                   type: number
-                  value: '40'
+                  value: '43'
                 objectFit:
                   type: dex-segmented-control-parameter
                   value: contain
+              _overridability:
+                hideLockedParameters: true
         parameters:
           link:
             type: link
@@ -81,40 +90,1266 @@ composition:
             value: Logo
         _overridability:
           hideLockedParameters: true
+    headerRightContent:
+      - _id: 2b8f1b07-be12-44eb-a109-4edb0564b6fe
+        type: favoritesIcon
+        parameters:
+          link:
+            type: link
+            locales:
+              en:
+                path: /${locale}/favorites
+                type: projectMapNode
+                nodeId: 4de4c5ea-3448-49f5-aa21-b3ab8147b8fd
+                projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+                dynamicInputValues:
+                  locale: ${locale}
+          size:
+            type: dex-segmented-control-parameter
+            value: 2xl
+          weight:
+            type: dex-segmented-control-parameter
+            value: normal
+          activeState:
+            type: checkbox
+            value: true
+          hoverEffect:
+            type: dex-segmented-control-parameter
+            value: contrast-[.1]
+          emptyFavoritesIcon:
+            type: asset
+            locales:
+              en:
+                - _id: e0324a0d-95b3-40ef-8812-236e391d5cac
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: 42f196a1-dff3-4f01-bc53-f57e05125c9a
+                    url:
+                      value: >-
+                        https://img.uniform.global/p/h9NrQJBHRgiSM3uMDm3B0w/C86f3JRyQP2TRi-JznKfEg-favourite-icon.svg
+                      type: text
+                    file:
+                      type: file
+                      value: 5b6bbc81-cd4f-4e8e-9b96-5a3bb9aa68af
+                    size:
+                      value: 690
+                      type: number
+                    title:
+                      type: text
+                      value: favourite-icon.svg
+                    width:
+                      value: 24
+                      type: number
+                    height:
+                      value: 24
+                      type: number
+                    mediaType:
+                      value: image/svg+xml
+                      type: text
+                  _source: uniform-assets
+          filledFavoritesIcon:
+            type: asset
+            locales:
+              en:
+                - _id: 341425ff-6fd9-45b8-96e5-64e347b951e4
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: f118b73e-d427-4db0-960f-76b018aacc03
+                    url:
+                      value: >-
+                        https://img.uniform.global/p/h9NrQJBHRgiSM3uMDm3B0w/ltrwdRxvSE2bgpa1lHRsFA-favourite-icon-red.svg
+                      type: text
+                    file:
+                      type: file
+                      value: a8b111b7-62f0-4ae4-92ed-f8b6531e6df0
+                    size:
+                      value: 689
+                      type: number
+                    title:
+                      type: text
+                      value: favourite-icon-red.svg
+                    width:
+                      value: 24
+                      type: number
+                    height:
+                      value: 24
+                      type: number
+                    mediaType:
+                      value: image/svg+xml
+                      type: text
+                  _source: uniform-assets
+        _overridability:
+          hideLockedParameters: true
+      - _id: 7034b802-1c54-4e50-8d6c-34339f57fa65
+        type: shoppingCartIcon
+        parameters:
+          icon:
+            type: asset
+            locales:
+              en:
+                - _id: a2bada31-8b01-4742-8838-b95041895727
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: b207e5e2-a19f-4bda-a9c2-e96a64e1d62c
+                    url:
+                      value: >-
+                        https://img.uniform.global/p/h9NrQJBHRgiSM3uMDm3B0w/eLQL2sayTxuR-iJDMrV_IA-icon-cart.svg
+                      type: text
+                    file:
+                      type: file
+                      value: d23b35bb-c04d-4bde-bf7d-15435850034e
+                    size:
+                      value: 872
+                      type: number
+                    title:
+                      type: text
+                      value: icon-cart.svg
+                    width:
+                      value: 24
+                      type: number
+                    height:
+                      value: 24
+                      type: number
+                    mediaType:
+                      value: image/svg+xml
+                      type: text
+                  _source: uniform-assets
+          link:
+            type: link
+            locales:
+              en:
+                path: /${locale}/cart
+                type: projectMapNode
+                nodeId: 5c88cfb5-bf57-4dc4-b25c-be9510d01b81
+                projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+                dynamicInputValues:
+                  locale: ${locale}
+          size:
+            type: dex-segmented-control-parameter
+            value: 2xl
+          weight:
+            type: dex-segmented-control-parameter
+            value: normal
+          activeState:
+            type: checkbox
+            value: true
+          hoverEffect:
+            type: dex-segmented-control-parameter
+            value: contrast-[.1]
+        _overridability:
+          hideLockedParameters: true
+      - _id: 03f4eb07-7d1a-4297-bacf-96234c2a0d31
+        type: navigationLink
+        parameters:
+          icon:
+            type: asset
+            locales:
+              en:
+                - _id: 4cf524a1-dbc9-41c0-9ed0-be43cb72463b
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: f5888aec-46f9-46fe-9a5f-5e7820281e3a
+                    url:
+                      value: >-
+                        https://img.uniform.global/p/h9NrQJBHRgiSM3uMDm3B0w/3IvcCT10TmCovcTdOgxgnw-profile-icon.svg
+                      type: text
+                    file:
+                      type: file
+                      value: 7e8a2365-3a3d-459b-b0be-9bb8de9d5c6b
+                    size:
+                      value: 578
+                      type: number
+                    title:
+                      type: text
+                      value: profile-icon.svg
+                    width:
+                      value: 24
+                      type: number
+                    height:
+                      value: 24
+                      type: number
+                    mediaType:
+                      value: image/svg+xml
+                      type: text
+                  _source: uniform-assets
+          link:
+            type: link
+            locales:
+              en:
+                path: /${locale}/profile
+                type: projectMapNode
+                nodeId: 2b51fe3c-56f4-425b-94f5-88c5e3b3af14
+                projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+                dynamicInputValues:
+                  locale: ${locale}
+          size:
+            type: dex-segmented-control-parameter
+            value: 2xl
+          weight:
+            type: dex-segmented-control-parameter
+            value: normal
+          activeState:
+            type: checkbox
+            value: true
+          hoverEffect:
+            type: dex-segmented-control-parameter
+            value: contrast-[.1]
+        _overridability:
+          hideLockedParameters: true
     headerCenterContent:
-      - _id: 09b1471d-7aa8-419c-85e1-ba30947775ca
+      - _id: 5832d439-1459-4a01-b422-fd1e66a71cbb
         type: navigationLink
-        _pattern: f0bb02cd-315f-40d1-8e74-948e09019995
-      - _id: af0e8859-9cc9-4db7-87a6-92db71e075a4
+        parameters:
+          link:
+            type: link
+            value:
+              path: /${locale}
+              type: projectMapNode
+              nodeId: e7206bd2-8ac2-4e25-937d-8f57292f006b
+              projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+              dynamicInputValues:
+                locale: ${locale}
+          size:
+            type: dex-segmented-control-parameter
+            value: base
+          text:
+            type: text
+            value: Home
+          color:
+            type: dex-color-palette-parameter
+            value: text-primary
+          weight:
+            type: dex-segmented-control-parameter
+            value: medium
+          activeState:
+            type: checkbox
+            value: true
+          hoverEffect:
+            type: dex-segmented-control-parameter
+            value: contrast-[.1]
+      - _id: 13896b94-5245-4cc5-807c-a098a611b949
         type: navigationLink
-        _pattern: f0bb02cd-315f-40d1-8e74-948e09019995
-  _overrides:
-    09b1471d-7aa8-419c-85e1-ba30947775ca:
-      parameters:
-        link:
-          type: link
-          locales:
-            en:
-              path: https://dev-csk-marketing-site.vercel.app/get-started
-              type: url
-        text:
-          type: text
-          value: Get Started
-    af0e8859-9cc9-4db7-87a6-92db71e075a4:
-      parameters:
-        link:
-          type: link
-          value:
-            path: https://dev-csk-marketing-site.vercel.app/components
-            type: url
-        text:
-          type: text
-          value: Components
+        parameters:
+          link:
+            type: link
+            value:
+              path: /${locale}/coffee-makers
+              type: projectMapNode
+              nodeId: c9869cee-a65c-4064-b296-78c4a5ba4ffc
+              projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+              dynamicInputValues:
+                locale: ${locale}
+          size:
+            type: dex-segmented-control-parameter
+            value: base
+          text:
+            type: text
+            value: Coffee Makers
+          color:
+            type: dex-color-palette-parameter
+            value: text-primary
+          weight:
+            type: dex-segmented-control-parameter
+            value: medium
+          activeState:
+            type: checkbox
+            value: true
+          hoverEffect:
+            type: dex-segmented-control-parameter
+            value: contrast-[.1]
+      - _id: bcb290a3-ba42-4877-b40d-9331fc5fa788
+        type: navigationLink
+        parameters:
+          link:
+            type: link
+            value:
+              path: /${locale}/coffee-beans
+              type: projectMapNode
+              nodeId: 9db6eee2-5e3b-4e3e-9e26-836d3973217c
+              projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+              dynamicInputValues:
+                locale: ${locale}
+          size:
+            type: dex-segmented-control-parameter
+            value: base
+          text:
+            type: text
+            value: Beans
+          color:
+            type: dex-color-palette-parameter
+            value: text-primary
+          weight:
+            type: dex-segmented-control-parameter
+            value: medium
+          activeState:
+            type: checkbox
+            value: true
+          hoverEffect:
+            type: dex-segmented-control-parameter
+            value: contrast-[.1]
+      - _id: 82bb0c71-5539-4e74-8f01-49fd6e0fb0d6
+        type: navigationLink
+        parameters:
+          link:
+            type: link
+            value:
+              path: /${locale}/articles
+              type: projectMapNode
+              nodeId: 078321b0-280e-409e-bd7e-bc6a6d0abeae
+              projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+              dynamicInputValues:
+                locale: ${locale}
+          size:
+            type: dex-segmented-control-parameter
+            value: base
+          text:
+            type: text
+            value: Articles
+          color:
+            type: dex-color-palette-parameter
+            value: text-primary
+          weight:
+            type: dex-segmented-control-parameter
+            value: medium
+          activeState:
+            type: checkbox
+            value: true
+          hoverEffect:
+            type: dex-segmented-control-parameter
+            value: contrast-[.1]
+      - _id: 62e5a023-8ad4-47b1-9677-a8a9c72d0184
+        type: navigationFlyout
+        slots:
+          navigationFlyoutLeftContent:
+            - _id: 2e0c3b23-4089-4093-b695-6efb4995296b
+              type: grid
+              slots:
+                gridInner:
+                  - _id: 76287060-5151-4c9c-b968-0b101ac2fea6
+                    type: flex
+                    slots:
+                      flexItem:
+                        - _id: 99ac7b54-fa39-4720-bd9e-b8c16f7e0b0e
+                          type: text
+                          parameters:
+                            tag:
+                              type: dex-segmented-control-parameter
+                              value: span
+                            size:
+                              type: dex-segmented-control-parameter
+                              value:
+                                desktop: base
+                            text:
+                              type: text
+                              value: Top Products
+                            color:
+                              type: dex-color-palette-parameter
+                              value: text-primary
+                            weight:
+                              type: dex-segmented-control-parameter
+                              value: bold
+                            alignment:
+                              type: dex-segmented-control-parameter
+                              value: left
+                          _overridability:
+                            hideLockedParameters: true
+                        - _id: 72ffb5f6-68e3-4b85-aecf-a349f3bbd017
+                          type: navigationLink
+                          parameters:
+                            link:
+                              type: link
+                              value:
+                                path: /${locale}/products/espresso-gpt
+                                type: projectMapNode
+                                nodeId: 702b0e0b-3858-4b5d-99e4-bdb98097ca0f
+                                projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+                                dynamicInputValues:
+                                  locale: ${locale}
+                                  product-slug: espresso-gpt
+                            size:
+                              type: dex-segmented-control-parameter
+                              value: base
+                            text:
+                              type: text
+                              value: EspressoGPT
+                            color:
+                              type: dex-color-palette-parameter
+                              value: text-primary
+                            weight:
+                              type: dex-segmented-control-parameter
+                              value: medium
+                        - _id: c8a0603c-6973-4d3d-a21b-19bdec39d350
+                          type: navigationLink
+                          parameters:
+                            link:
+                              type: link
+                              value:
+                                path: >-
+                                  /${locale}/products/kosmic-coffee-barista-express-espresso-machine
+                                type: projectMapNode
+                                nodeId: 702b0e0b-3858-4b5d-99e4-bdb98097ca0f
+                                projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+                                dynamicInputValues:
+                                  locale: ${locale}
+                                  product-slug: >-
+                                    kosmic-coffee-barista-express-espresso-machine
+                            size:
+                              type: dex-segmented-control-parameter
+                              value: base
+                            text:
+                              type: text
+                              value: Kosmic Coffee Barista
+                            color:
+                              type: dex-color-palette-parameter
+                              value: text-primary
+                            weight:
+                              type: dex-segmented-control-parameter
+                              value: medium
+                        - _id: dcf411f7-2917-414a-bb26-f0aa081ef5ab
+                          type: navigationLink
+                          parameters:
+                            link:
+                              type: link
+                              value:
+                                path: /${locale}/products/irish-blend-coffee
+                                type: projectMapNode
+                                nodeId: 702b0e0b-3858-4b5d-99e4-bdb98097ca0f
+                                projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+                                dynamicInputValues:
+                                  locale: ${locale}
+                                  product-slug: irish-blend-coffee
+                            size:
+                              type: dex-segmented-control-parameter
+                              value: base
+                            text:
+                              type: text
+                              value: Irish Blend Coffee
+                            color:
+                              type: dex-color-palette-parameter
+                              value: text-primary
+                            weight:
+                              type: dex-segmented-control-parameter
+                              value: medium
+                        - _id: 56fad797-ef8d-49b4-bb19-86c604226040
+                          type: spacer
+                          parameters:
+                            size:
+                              type: dex-token-selector-parameter
+                              value: spacer-extra-small
+                          _overridability:
+                            hideLockedParameters: true
+                        - _id: 7f057448-418d-438a-b92d-115487ece461
+                          type: text
+                          parameters:
+                            tag:
+                              type: dex-segmented-control-parameter
+                              value: span
+                            size:
+                              type: dex-segmented-control-parameter
+                              value:
+                                desktop: base
+                            text:
+                              type: text
+                              value: Top Articles
+                            color:
+                              type: dex-color-palette-parameter
+                              value: text-primary
+                            weight:
+                              type: dex-segmented-control-parameter
+                              value: bold
+                            alignment:
+                              type: dex-segmented-control-parameter
+                              value: left
+                          _overridability:
+                            hideLockedParameters: true
+                        - _id: 4445efa6-901e-409e-bbc8-2a7cf463f49c
+                          type: navigationLink
+                          parameters:
+                            link:
+                              type: link
+                              value:
+                                path: >-
+                                  /${locale}/articles/a-proper-cuppa-how-to-brew-tea-right
+                                type: projectMapNode
+                                nodeId: 0b2a6284-3d74-4ef6-a3de-b2617058c861
+                                projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+                                dynamicInputValues:
+                                  locale: ${locale}
+                                  article-slug: a-proper-cuppa-how-to-brew-tea-right
+                            size:
+                              type: dex-segmented-control-parameter
+                              value: base
+                            text:
+                              type: text
+                              value: How to Brew Tea Right
+                            color:
+                              type: dex-color-palette-parameter
+                              value: text-primary
+                            weight:
+                              type: dex-segmented-control-parameter
+                              value: medium
+                        - _id: e30a58ed-7d18-4490-ad36-b2ff234347a2
+                          type: navigationLink
+                          parameters:
+                            link:
+                              type: link
+                              value:
+                                path: >-
+                                  /${locale}/articles/the-secret-to-a-great-french-press
+                                type: projectMapNode
+                                nodeId: 0b2a6284-3d74-4ef6-a3de-b2617058c861
+                                projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+                                dynamicInputValues:
+                                  locale: ${locale}
+                                  article-slug: the-secret-to-a-great-french-press
+                            size:
+                              type: dex-segmented-control-parameter
+                              value: base
+                            text:
+                              type: text
+                              value: Great French Press Secret
+                            color:
+                              type: dex-color-palette-parameter
+                              value: text-primary
+                            weight:
+                              type: dex-segmented-control-parameter
+                              value: medium
+                        - _id: 134ee90c-6a8f-4dad-af4a-ea2819ce66c4
+                          type: navigationLink
+                          parameters:
+                            link:
+                              type: link
+                              value:
+                                path: >-
+                                  /${locale}/articles/the-art-of-the-perfect-espresso
+                                type: projectMapNode
+                                nodeId: 0b2a6284-3d74-4ef6-a3de-b2617058c861
+                                projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+                                dynamicInputValues:
+                                  locale: ${locale}
+                                  article-slug: the-art-of-the-perfect-espresso
+                            size:
+                              type: dex-segmented-control-parameter
+                              value: base
+                            text:
+                              type: text
+                              value: Perfect Espresso Art
+                            color:
+                              type: dex-color-palette-parameter
+                              value: text-primary
+                            weight:
+                              type: dex-segmented-control-parameter
+                              value: medium
+                    parameters:
+                      gap:
+                        type: dex-slider-control-parameter
+                        value:
+                          mobile: '4'
+                          tablet: '4'
+                          desktop: '4'
+                      spacing:
+                        type: dex-space-control-parameter
+                        value:
+                          mobile: {}
+                          tablet: {}
+                          desktop: {}
+                      direction:
+                        type: dex-segmented-control-parameter
+                        value:
+                          mobile: col
+                          tablet: col
+                          desktop: col
+                      alignItems:
+                        type: dex-segmented-control-parameter
+                        value: {}
+                      displayName:
+                        type: text
+                        value: Top Picks
+                      fluidContent:
+                        type: checkbox
+                        value: true
+                      justifyContent:
+                        type: dex-segmented-control-parameter
+                        value: {}
+                    _overridability:
+                      hideLockedParameters: true
+                  - _id: a11dcd5c-ebf0-4c9f-847f-bfb4afd6e337
+                    type: flex
+                    slots:
+                      flexItem:
+                        - _id: 5700a465-e1f9-4392-b5d9-731254717b0f
+                          type: flex
+                          slots:
+                            flexItem:
+                              - _id: 3e2388cf-ec3e-4599-94d2-2224992a8e88
+                                type: text
+                                parameters:
+                                  tag:
+                                    type: dex-segmented-control-parameter
+                                    value: span
+                                  size:
+                                    type: dex-segmented-control-parameter
+                                    value:
+                                      desktop: base
+                                  text:
+                                    type: text
+                                    value: My JavaDrip
+                                  color:
+                                    type: dex-color-palette-parameter
+                                    value: text-primary
+                                  weight:
+                                    type: dex-segmented-control-parameter
+                                    value: bold
+                                  alignment:
+                                    type: dex-segmented-control-parameter
+                                    value: ''
+                                _overridability:
+                                  hideLockedParameters: true
+                              - _id: 1d4de6f0-1d5b-4586-b60b-0da1f0091103
+                                type: navigationLink
+                                parameters:
+                                  link:
+                                    type: link
+                                    value:
+                                      path: /${locale}/profile
+                                      type: projectMapNode
+                                      nodeId: 2b51fe3c-56f4-425b-94f5-88c5e3b3af14
+                                      projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+                                      dynamicInputValues:
+                                        locale: ${locale}
+                                  size:
+                                    type: dex-segmented-control-parameter
+                                    value: base
+                                  text:
+                                    type: text
+                                    value: Your Profile
+                                  color:
+                                    type: dex-color-palette-parameter
+                                    value: text-primary
+                                  weight:
+                                    type: dex-segmented-control-parameter
+                                    value: medium
+                                  alignment:
+                                    type: dex-segmented-control-parameter
+                                    value: ''
+                              - _id: 0c66a087-3b00-48eb-9f1d-438580561bdb
+                                type: navigationLink
+                                parameters:
+                                  link:
+                                    type: link
+                                    value:
+                                      path: /${locale}/cart
+                                      type: projectMapNode
+                                      nodeId: 5c88cfb5-bf57-4dc4-b25c-be9510d01b81
+                                      projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+                                      dynamicInputValues:
+                                        locale: ${locale}
+                                  size:
+                                    type: dex-segmented-control-parameter
+                                    value: base
+                                  text:
+                                    type: text
+                                    value: Your Cart
+                                  color:
+                                    type: dex-color-palette-parameter
+                                    value: text-primary
+                                  weight:
+                                    type: dex-segmented-control-parameter
+                                    value: medium
+                                  alignment:
+                                    type: dex-segmented-control-parameter
+                                    value: ''
+                              - _id: bcdf8356-40fe-4436-8012-03099e37a3ce
+                                type: navigationLink
+                                parameters:
+                                  link:
+                                    type: link
+                                    value:
+                                      path: /${locale}/favorites
+                                      type: projectMapNode
+                                      nodeId: 4de4c5ea-3448-49f5-aa21-b3ab8147b8fd
+                                      projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+                                      dynamicInputValues:
+                                        locale: ${locale}
+                                  size:
+                                    type: dex-segmented-control-parameter
+                                    value: base
+                                  text:
+                                    type: text
+                                    value: 'Your Favorites '
+                                  color:
+                                    type: dex-color-palette-parameter
+                                    value: text-primary
+                                  weight:
+                                    type: dex-segmented-control-parameter
+                                    value: medium
+                                  alignment:
+                                    type: dex-segmented-control-parameter
+                                    value: ''
+                              - _id: d14164c3-e293-43cc-bedd-a4f44c10ccfc
+                                type: spacer
+                                parameters:
+                                  size:
+                                    type: dex-token-selector-parameter
+                                    value: spacer-extra-small
+                                _overridability:
+                                  hideLockedParameters: true
+                              - _id: 90d81fd0-9562-4b5a-838c-12617ad1a4e4
+                                type: text
+                                parameters:
+                                  tag:
+                                    type: dex-segmented-control-parameter
+                                    value: span
+                                  size:
+                                    type: dex-segmented-control-parameter
+                                    value:
+                                      desktop: base
+                                  text:
+                                    type: text
+                                    value: Resources
+                                  color:
+                                    type: dex-color-palette-parameter
+                                    value: text-primary
+                                  weight:
+                                    type: dex-segmented-control-parameter
+                                    value: bold
+                                  alignment:
+                                    type: dex-segmented-control-parameter
+                                    value: ''
+                                _overridability:
+                                  hideLockedParameters: true
+                              - _id: 490d4bbb-9258-4afa-beb7-bd417ebe23ea
+                                type: navigationLink
+                                parameters:
+                                  link:
+                                    type: link
+                                    value:
+                                      path: /${locale}/contact-us
+                                      type: projectMapNode
+                                      nodeId: 6165b5f5-bbad-4325-8cb6-dc221f6ac26a
+                                      projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+                                      dynamicInputValues:
+                                        locale: ${locale}
+                                  size:
+                                    type: dex-segmented-control-parameter
+                                    value: base
+                                  text:
+                                    type: text
+                                    value: Contact Us
+                                  color:
+                                    type: dex-color-palette-parameter
+                                    value: text-primary
+                                  weight:
+                                    type: dex-segmented-control-parameter
+                                    value: medium
+                                  alignment:
+                                    type: dex-segmented-control-parameter
+                                    value: ''
+                              - _id: 5ac601fb-181a-4ad0-9361-6c62d3e26909
+                                type: navigationLink
+                                parameters:
+                                  link:
+                                    type: link
+                                    value:
+                                      path: >-
+                                        https://uniform.dev/demo?utm_source=javadrip
+                                      type: url
+                                  size:
+                                    type: dex-segmented-control-parameter
+                                    value: base
+                                  text:
+                                    type: text
+                                    value: Get a demo
+                                  color:
+                                    type: dex-color-palette-parameter
+                                    value: text-primary
+                                  weight:
+                                    type: dex-segmented-control-parameter
+                                    value: bold
+                                  alignment:
+                                    type: dex-segmented-control-parameter
+                                    value: ''
+                          parameters:
+                            gap:
+                              type: dex-slider-control-parameter
+                              value:
+                                mobile: '4'
+                                tablet: '4'
+                                desktop: '4'
+                            spacing:
+                              type: dex-space-control-parameter
+                              value:
+                                mobile: {}
+                                tablet: {}
+                                desktop: {}
+                            direction:
+                              type: dex-segmented-control-parameter
+                              value:
+                                mobile: col
+                                tablet: col
+                                desktop: col
+                            alignItems:
+                              type: dex-segmented-control-parameter
+                              value: {}
+                            displayName:
+                              type: text
+                              value: Links Container
+                            fluidContent:
+                              type: checkbox
+                              value: true
+                            justifyContent:
+                              type: dex-segmented-control-parameter
+                              value: {}
+                          _overridability:
+                            hideLockedParameters: true
+                    parameters:
+                      gap:
+                        type: dex-slider-control-parameter
+                        value:
+                          mobile: '4'
+                          tablet: '4'
+                          desktop: '4'
+                      spacing:
+                        type: dex-space-control-parameter
+                        value:
+                          mobile: {}
+                          tablet: {}
+                          desktop: {}
+                      direction:
+                        type: dex-segmented-control-parameter
+                        value:
+                          mobile: col
+                          tablet: col
+                          desktop: row
+                      alignItems:
+                        type: dex-segmented-control-parameter
+                        value:
+                          desktop: ''
+                      displayName:
+                        type: text
+                        value: My JavaDrip
+                      fluidContent:
+                        type: checkbox
+                        value: true
+                      justifyContent:
+                        type: dex-segmented-control-parameter
+                        value:
+                          desktop: end
+                    _overridability:
+                      hideLockedParameters: true
+              parameters:
+                gapX:
+                  type: dex-slider-control-parameter
+                  value:
+                    tablet: '16'
+                    desktop: '16'
+                gapY:
+                  type: dex-slider-control-parameter
+                  value:
+                    mobile: '8'
+                spacing:
+                  type: dex-space-control-parameter
+                  value:
+                    mobile: {}
+                    tablet: {}
+                    desktop: {}
+                displayName:
+                  type: text
+                  value: Links Wrapper
+                columnsCount:
+                  type: dex-slider-control-parameter
+                  value:
+                    mobile: '1'
+                    tablet: '1'
+                    desktop: '2'
+                fluidContent:
+                  type: checkbox
+                  value: true
+              _overridability:
+                hideLockedParameters: true
+          navigationFlyoutRightContent:
+            - _id: e2e57b4f-9211-4220-8a59-a16c60ad1a5f
+              type: flex
+              slots:
+                flexItem:
+                  - _id: 4ed5cc2c-1976-4dc5-8b4e-453b28ab4d08
+                    type: card
+                    slots:
+                      cardMedia:
+                        - _id: >-
+                            4ed5cc2c-1976-4dc5-8b4e-453b28ab4d08|61dd629a-df37-4737-97b1-5a76dfca1d93
+                          type: container
+                          slots:
+                            containerContent:
+                              - _id: >-
+                                  4ed5cc2c-1976-4dc5-8b4e-453b28ab4d08|b421ef45-f54a-4969-88fd-4d227891e73f
+                                type: container
+                                slots:
+                                  containerContent:
+                                    - _id: >-
+                                        4ed5cc2c-1976-4dc5-8b4e-453b28ab4d08|0952417a-061c-4634-91df-1341269e4054
+                                      type: image
+                                      parameters:
+                                        image:
+                                          type: asset
+                                          value:
+                                            - _id: 141ae8dd-3cb2-486c-9ed4-6f1d279bce8e
+                                              type: image
+                                              fields:
+                                                id:
+                                                  type: text
+                                                  value: c38a6695-b6bc-41cd-a6b3-33ae76b95c60
+                                                url:
+                                                  value: >-
+                                                    https://img.uniform.global/p/h9NrQJBHRgiSM3uMDm3B0w/ILBzRhgrSLWWcQAMQzX2dQ-cervello-di-caffe-the-ultimate-ai-powered-espresso.png
+                                                  type: text
+                                                file:
+                                                  type: file
+                                                  value: 2009c77a-f6d7-4a59-8f22-85401779f4cf
+                                                size:
+                                                  value: 238075
+                                                  type: number
+                                                title:
+                                                  type: text
+                                                  value: >-
+                                                    cervello-di-caffe-the-ultimate-ai-powered-espresso.png
+                                                width:
+                                                  value: 1500
+                                                  type: number
+                                                height:
+                                                  value: 1500
+                                                  type: number
+                                                mediaType:
+                                                  value: image/png
+                                                  type: text
+                                              _source: uniform-assets
+                                        width:
+                                          type: number
+                                          value: '200'
+                                        height:
+                                          type: number
+                                          value: '200'
+                                        objectFit:
+                                          type: dex-segmented-control-parameter
+                                          value: cover
+                                      _overridability:
+                                        parameters:
+                                          image: 'yes'
+                                        hideLockedParameters: true
+                                parameters:
+                                  spacing:
+                                    type: dex-space-control-parameter
+                                    value:
+                                      mobile: {}
+                                      tablet: {}
+                                      desktop: {}
+                                  relative:
+                                    type: checkbox
+                                    value: true
+                                  fitContent:
+                                    type: checkbox
+                                    value: true
+                                  displayName:
+                                    type: text
+                                    value: Relative Container
+                                  fluidContent:
+                                    type: checkbox
+                                    value: true
+                                _overridability:
+                                  hideLockedParameters: true
+                          parameters:
+                            border:
+                              type: dex-token-selector-parameter
+                              value: border-product-card
+                            spacing:
+                              type: dex-space-control-parameter
+                              value:
+                                mobile:
+                                  paddingTop: container-small
+                                  paddingLeft: container-small
+                                  paddingRight: container-small
+                                  paddingBottom: container-small
+                                tablet:
+                                  paddingTop: container-small
+                                  paddingLeft: container-small
+                                  paddingRight: container-small
+                                  paddingBottom: container-small
+                                desktop:
+                                  paddingTop: container-small
+                                  paddingLeft: container-small
+                                  paddingRight: container-small
+                                  paddingBottom: container-small
+                            fitContent:
+                              type: checkbox
+                              value: true
+                            displayName:
+                              type: text
+                              value: Background Container
+                            fluidContent:
+                              type: checkbox
+                              value: true
+                            backgroundColor:
+                              type: dex-color-palette-parameter
+                              value: general-color-1
+                          _overridability:
+                            hideLockedParameters: true
+                      cardContent:
+                        - _id: >-
+                            4ed5cc2c-1976-4dc5-8b4e-453b28ab4d08|a8625927-9fe5-40ee-8832-22b979e09ea6
+                          type: flex
+                          slots:
+                            flexItem:
+                              - _id: >-
+                                  4ed5cc2c-1976-4dc5-8b4e-453b28ab4d08|988f7805-9e0e-4b30-acaf-f97d7dd5099f
+                                type: text
+                                parameters:
+                                  tag:
+                                    type: dex-segmented-control-parameter
+                                    value: span
+                                  size:
+                                    type: dex-segmented-control-parameter
+                                    value:
+                                      mobile: 2xl
+                                      tablet: 2xl
+                                      desktop: 2xl
+                                  text:
+                                    type: text
+                                    value: Cervello di Caffè
+                                  color:
+                                    type: dex-color-palette-parameter
+                                    value: text-primary
+                                  weight:
+                                    type: dex-segmented-control-parameter
+                                    value: bold
+                                  alignment:
+                                    type: dex-segmented-control-parameter
+                                    value: center
+                                _overridability:
+                                  parameters:
+                                    text: 'yes'
+                                    color: 'yes'
+                                  hideLockedParameters: true
+                              - _id: 12ee6d6a-ea4f-456e-900e-df080b092b5c
+                                type: button
+                                parameters:
+                                  link:
+                                    type: link
+                                    locales:
+                                      en:
+                                        path: /${locale}/landing-page
+                                        type: projectMapNode
+                                        nodeId: 50be580b-ba2a-48d0-bcea-25e2ede87060
+                                        projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+                                        dynamicInputValues:
+                                          locale: ${locale}
+                                  size:
+                                    type: dex-token-selector-parameter
+                                    value: button-medium
+                                  text:
+                                    type: text
+                                    value: Uncover Details
+                                  border:
+                                    type: dex-token-selector-parameter
+                                    value: border-button-secondary
+                                  textSize:
+                                    type: dex-segmented-control-parameter
+                                    value:
+                                      mobile: sm
+                                      tablet: sm
+                                      desktop: sm
+                                  fullWidth:
+                                    type: checkbox
+                                    value: true
+                                  textColor:
+                                    type: dex-color-palette-parameter
+                                    value: text-primary
+                                  textWeight:
+                                    type: dex-segmented-control-parameter
+                                    value: bold
+                                  buttonColor:
+                                    type: dex-color-palette-parameter
+                                    value: button-secondary
+                                  iconPosition:
+                                    type: dex-segmented-control-parameter
+                                    value: right
+                                  textTransform:
+                                    type: dex-segmented-control-parameter
+                                    value: uppercase
+                                  hoverTextColor:
+                                    type: dex-color-palette-parameter
+                                    value: text-secondary
+                                  hoverButtonColor:
+                                    type: dex-color-palette-parameter
+                                    value: button-primary
+                                _overridability:
+                                  variants: true
+                                  parameters:
+                                    icon: 'yes'
+                                    link: 'yes'
+                                    text: 'yes'
+                                    fullWidth: 'yes'
+                                    textColor: 'no'
+                                  hideLockedParameters: true
+                          parameters:
+                            gap:
+                              type: dex-slider-control-parameter
+                              value:
+                                mobile: '2'
+                                tablet: '2'
+                                desktop: '2'
+                            spacing:
+                              type: dex-space-control-parameter
+                              value:
+                                mobile:
+                                  marginTop: container-small
+                                tablet:
+                                  marginTop: container-small
+                                desktop:
+                                  marginTop: container-small
+                            direction:
+                              type: dex-segmented-control-parameter
+                              value:
+                                mobile: col
+                                tablet: col
+                                desktop: col
+                            alignItems:
+                              type: dex-segmented-control-parameter
+                              value: {}
+                            displayName:
+                              type: text
+                              value: Content Container
+                            fluidContent:
+                              type: checkbox
+                              value: true
+                            justifyContent:
+                              type: dex-segmented-control-parameter
+                              value: {}
+                          _overridability:
+                            hideLockedParameters: true
+                    parameters:
+                      spacing:
+                        type: dex-space-control-parameter
+                        value:
+                          marginTop: ''
+                          marginLeft: ''
+                          paddingTop: ''
+                          marginRight: ''
+                          paddingLeft: ''
+                          marginBottom: ''
+                          paddingRight: ''
+                          paddingBottom: ''
+                      displayName:
+                        type: text
+                        value: Cervello di Caffè
+                      fluidContent:
+                        type: checkbox
+                        value: true
+                    _overridability:
+                      parameters:
+                        displayName: 'yes'
+                        fluidContent: 'yes'
+                      hideLockedParameters: true
+              parameters:
+                gap:
+                  type: dex-slider-control-parameter
+                  value: {}
+                spacing:
+                  type: dex-space-control-parameter
+                  value:
+                    mobile: {}
+                    tablet: {}
+                    desktop: {}
+                direction:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: row
+                    tablet: row
+                    desktop: row
+                alignItems:
+                  type: dex-segmented-control-parameter
+                  value:
+                    desktop: end
+                displayName:
+                  type: text
+                  value: Card Container
+                fluidContent:
+                  type: checkbox
+                  value: true
+                justifyContent:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: end
+                    tablet: end
+                    desktop: end
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          size:
+            type: dex-segmented-control-parameter
+            value: base
+          text:
+            type: text
+            value: More
+          color:
+            type: dex-color-palette-parameter
+            value: text-primary
+          weight:
+            type: dex-segmented-control-parameter
+            value: medium
+          caretIcon:
+            type: asset
+            locales:
+              en:
+                - _id: 26f53d5c-a3b1-4509-b9c3-4e0c4b9fe56c
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: 1697b6ae-aa6f-4bd6-b844-c8fb3c86216c
+                    url:
+                      type: text
+                      value: >-
+                        https://img.uniform.global/p/b0JtaxSVQxmqWylG6vGC1Q/Ht7wyTceT_iSMhtzCC_w7w-chevron-down.svg
+                    file:
+                      type: file
+                      value: 43d7012f-9d7e-4d6d-a411-5454ecb48c6c
+                    size:
+                      type: number
+                      value: 190
+                    title:
+                      type: text
+                      value: chevron-down.svg
+                    width:
+                      type: number
+                      value: 24
+                    height:
+                      type: number
+                      value: 24
+                    mediaType:
+                      type: text
+                      value: image/svg+xml
+                  _source: uniform-assets
+          hoverEffect:
+            type: dex-segmented-control-parameter
+            value: contrast-[.1]
+          backgroundColor:
+            type: dex-color-palette-parameter
+            value: general-color-11
+        _overridability:
+          hideLockedParameters: true
   _locales:
     - en
-created: '2025-02-17T15:34:18.087161+00:00'
-modified: '2025-02-17T15:34:18.087161+00:00'
+created: '2025-06-20T11:56:24.54025+00:00'
+modified: '2025-06-20T19:49:48.838594+00:00'
 pattern: true
 previewImageUrl: >-
-  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/main-header.jpg
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/coffee-shop-template/preview-images/global_header.png
 categoryId: b1163ce2-5ac7-4347-bc38-a42198180718

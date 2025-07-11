@@ -1,0 +1,160 @@
+composition:
+  _name: Article Details
+  _id: 15e5e99e-1ff0-463d-9e98-7920f6ba6b95
+  _slug: ':article-slug'
+  type: page
+  _dataResources:
+    Article Content:
+      type: article
+      variables:
+        slug: ${article-slug}
+        locale: ${locale}
+  _overrides:
+    15e5e99e-1ff0-463d-9e98-7920f6ba6b95:
+      parameters:
+        $enr:
+          type: $enr
+          value: ${#jptr:/Article Content/entry/fields/enrichments/value}
+        pageTitle:
+          type: text
+          value: ${#jptr:/Article Content/entry/fields/title/value}
+        twitterCard:
+          type: select
+          value: summary_large_image
+        pageKeywords:
+          type: text
+          value: article, uniform, csk, coffee
+        twitterImage:
+          type: asset
+          value: ${#jptr:/Article Content/entry/fields/ogImage/value}
+        twitterTitle:
+          type: text
+          locales:
+            en: ${#jptr:/Article Content/entry/fields/metaTitle/value}
+        openGraphType:
+          type: select
+          value: article
+        openGraphImage:
+          type: asset
+          value: ${#jptr:/Article Content/entry/fields/ogImage/value}
+        openGraphTitle:
+          type: text
+          value: ${#jptr:/Article Content/entry/fields/metaTitle/value}
+        pageDescription:
+          type: text
+          value: ${#jptr:/Article Content/entry/fields/shortDescription/value}
+        twitterDescription:
+          type: text
+          locales:
+            en: ${#jptr:/Article Content/entry/fields/title/value}
+        openGraphDescription:
+          type: text
+          value: ${#jptr:/Article Content/entry/fields/metaDescription/value}
+    15e5e99e-1ff0-463d-9e98-7920f6ba6b95|dc2e95be-21b5-4476-a309-f8a34922f528:
+      slots:
+        $slotSectionItems:
+          - _id: 922e013a-710a-4dcc-a8bb-2632a8628907
+            type: section
+            _pattern: 90b32c21-f5d8-4a40-b971-c97c359ecce9
+            _overridability:
+              parameters:
+                displayName: 'yes'
+              hideLockedParameters: true
+          - _id: cd114cba-9290-4eae-b5da-6741dd4f9797
+            type: container
+            slots:
+              containerContent:
+                - _id: e011ac3b-1ff6-4a4f-a0de-c91869335011
+                  type: text
+                  parameters:
+                    tag:
+                      type: dex-segmented-control-parameter
+                      value: span
+                    size:
+                      type: dex-segmented-control-parameter
+                      value:
+                        mobile: 2xl
+                        tablet: 2xl
+                        desktop: 2xl
+                    text:
+                      type: text
+                      value: >-
+                        by ${#jptr:/Article
+                        Content/entry/fields/author/value/entry/fields/name/value}
+                    color:
+                      type: dex-color-palette-parameter
+                      value: text-primary
+                    weight:
+                      type: dex-segmented-control-parameter
+                      value: normal
+                - _id: e4b4c560-d978-4f5a-82cd-51fa551bd5d0
+                  type: spacer
+                  parameters:
+                    size:
+                      type: dex-token-selector-parameter
+                      value: spacer-medium
+                - _id: a753f23a-141d-4816-911b-2ccba3d44c88
+                  type: richText
+                  parameters:
+                    text:
+                      type: richText
+                      value: ${#jptr:/Article Content/entry/fields/content/value}
+            parameters:
+              spacing:
+                type: dex-space-control-parameter
+                value:
+                  paddingTop: container-medium
+                  paddingBottom: container-medium
+              displayName:
+                type: text
+                value: ${#jptr:/Article Content/entry/fields/title/value}
+          - _id: 99175748-eb71-482b-a474-bdf06a23f051
+            type: container
+            _pattern: 00a7ebd9-8743-4158-aa06-bc671a05529b
+            _overridability:
+              parameters:
+                displayName: 'yes'
+                backgroundColor: 'no'
+              hideLockedParameters: true
+    922e013a-710a-4dcc-a8bb-2632a8628907|215f54df-5063-4f0a-81c0-d8bda909b52c:
+      parameters:
+        image:
+          type: asset
+          value:
+            - _id: c09577c1-c89b-43d7-812d-bb9416001625
+              type: image
+              fields:
+                url:
+                  type: text
+                  value: >-
+                    ${#jptr:/Article
+                    Content/entry/fields/thumbnail/value/0/fields/url/value}
+                title:
+                  type: text
+                  value: ${#jptr:/Article Content/entry/fields/title/value}
+                description:
+                  type: text
+                  value: ${#jptr:/Article Content/entry/fields/title/value}
+              _source: custom-url
+        overlayColor:
+          type: dex-color-palette-parameter
+          value: general-color-3
+        overlayOpacity:
+          type: dex-slider-control-parameter
+          value: '0.6'
+    922e013a-710a-4dcc-a8bb-2632a8628907|edea6a24-f36d-48c7-acdb-e0dbd8ed511e:
+      parameters:
+        text:
+          type: text
+          value: ${#jptr:/Article Content/entry/fields/title/value}
+    99175748-eb71-482b-a474-bdf06a23f051|46da22a2-ba9a-4d15-b626-d893fe0fc748:
+      parameters:
+        text:
+          type: text
+          value: Finding the Perfect Choice for You
+  _locales:
+    - en
+  _pattern: f9c058ea-c40d-4435-ac5a-53423cf654dc
+created: '2025-01-29T11:09:35.854539+00:00'
+modified: '2025-06-25T14:27:01.909687+00:00'
+pattern: false

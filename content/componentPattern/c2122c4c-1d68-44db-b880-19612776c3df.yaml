@@ -1,0 +1,424 @@
+composition:
+  _name: Personalization Card
+  _id: c2122c4c-1d68-44db-b880-19612776c3df
+  type: grid
+  parameters:
+    gapX:
+      type: dex-slider-control-parameter
+      value:
+        tablet: '4'
+        desktop: '8'
+    gapY:
+      type: dex-slider-control-parameter
+      value:
+        mobile: '8'
+    border:
+      type: dex-token-selector-parameter
+      value: border-personalization-card
+    spacing:
+      type: dex-space-control-parameter
+      value:
+        marginTop: ''
+        marginLeft: ''
+        paddingTop: container-small
+        paddingLeft: container-small
+        paddingRight: container-small
+        paddingBottom: container-small
+    alignItems:
+      type: dex-segmented-control-parameter
+      value: start
+    displayName:
+      type: text
+      value: Personalization Card
+    columnsCount:
+      type: dex-slider-control-parameter
+      value:
+        mobile: '1'
+        tablet: '12'
+        desktop: '12'
+    backgroundColor:
+      type: dex-color-palette-parameter
+      value: general-color-9
+  slots:
+    gridInner:
+      - _id: 4b21f7fe-72d6-4234-a77d-10b762f1040e
+        type: gridItem
+        slots:
+          inner:
+            - _id: 1b5cc2fa-94f2-4b49-9036-7fbb26f0759a
+              type: flex
+              slots:
+                flexItem:
+                  - _id: 9b4d01d3-e0f4-4f43-84b3-0f33dd7eeb5c
+                    type: image
+                    parameters:
+                      image:
+                        type: asset
+                        value:
+                          - _id: bf5a0285-26e1-4237-8307-b10f85f2fdac
+                            type: image
+                            fields:
+                              id:
+                                type: text
+                                value: 1da30c5b-9a4f-4c63-9fd0-9525ff979dd5
+                              url:
+                                value: >-
+                                  https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/1GAOs05SSvmiAtwU6gM6aA-green-cup-of-coffee.svg
+                                type: text
+                              file:
+                                type: file
+                                value: 502ef6f1-cd5a-4849-8371-590a25621cfb
+                              size:
+                                value: 5865
+                                type: number
+                              title:
+                                type: text
+                                value: green-cup-of-coffee.svg
+                              width:
+                                value: 35
+                                type: number
+                              height:
+                                value: 39
+                                type: number
+                              mediaType:
+                                value: image/svg+xml
+                                type: text
+                            _source: uniform-assets
+                      width:
+                        type: number
+                        value: '40'
+                      height:
+                        type: number
+                        value: '40'
+                      objectFit:
+                        type: dex-segmented-control-parameter
+                        value: fill
+                    _overridability:
+                      parameters:
+                        image: 'yes'
+                      hideLockedParameters: true
+              parameters:
+                gap:
+                  type: dex-slider-control-parameter
+                  value: {}
+                height:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: full
+                    tablet: full
+                    desktop: full
+                spacing:
+                  type: dex-space-control-parameter
+                  value:
+                    mobile: {}
+                    tablet: {}
+                    desktop: {}
+                direction:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: row
+                    tablet: row
+                    desktop: row
+                alignItems:
+                  type: dex-segmented-control-parameter
+                  value:
+                    desktop: center
+                displayName:
+                  type: text
+                  value: Icon
+                justifyContent:
+                  type: dex-segmented-control-parameter
+                  value:
+                    desktop: center
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          rowSpan:
+            type: dex-slider-control-parameter
+            value: {}
+          rowStart:
+            type: dex-slider-control-parameter
+            value:
+              mobile: ''
+              tablet: '1'
+              desktop: '1'
+          columnSpan:
+            type: dex-slider-control-parameter
+            value:
+              mobile: ''
+              tablet: span-3
+              desktop: span-1
+          columnStart:
+            type: dex-slider-control-parameter
+            value:
+              mobile: ''
+              tablet: '1'
+              desktop: '1'
+          displayName:
+            type: text
+            value: Image
+        _overridability:
+          hideLockedParameters: true
+      - _id: e8ccb0ad-a597-464f-baf4-80d6f268967b
+        type: gridItem
+        slots:
+          inner:
+            - _id: 80995427-6b73-4e98-8587-2cdec9a5854d
+              type: flex
+              slots:
+                flexItem:
+                  - _id: 4e7f1617-1524-4771-bad7-e871c177ef53
+                    type: text
+                    parameters:
+                      tag:
+                        type: dex-segmented-control-parameter
+                        value: span
+                      size:
+                        type: dex-segmented-control-parameter
+                        value:
+                          mobile: 2xl
+                          tablet: 2xl
+                          desktop: 2xl
+                      text:
+                        type: text
+                        value: Cervello di Caffè has been activated!
+                      color:
+                        type: dex-color-palette-parameter
+                        value: text-primary
+                      weight:
+                        type: dex-segmented-control-parameter
+                        value: bold
+                    _overridability:
+                      parameters:
+                        text: 'yes'
+                      hideLockedParameters: true
+                  - _id: 84b8ca9c-90a0-4c34-bd96-a2391bf97f62
+                    type: text
+                    parameters:
+                      tag:
+                        type: dex-segmented-control-parameter
+                        value: span
+                      size:
+                        type: dex-segmented-control-parameter
+                        value:
+                          desktop: base
+                      text:
+                        type: text
+                        value: >-
+                          Your machine is now associated with this account,
+                          allowing you to interact with your purchase and reach
+                          our support staff in no time.
+                      color:
+                        type: dex-color-palette-parameter
+                        value: text-primary
+                      weight:
+                        type: dex-segmented-control-parameter
+                        value: normal
+                    _overridability:
+                      parameters:
+                        text: 'yes'
+                      hideLockedParameters: true
+              parameters:
+                gap:
+                  type: dex-slider-control-parameter
+                  value:
+                    mobile: '4'
+                    tablet: '4'
+                    desktop: '4'
+                spacing:
+                  type: dex-space-control-parameter
+                  value:
+                    paddingTop: ''
+                    paddingBottom: ''
+                direction:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: col
+                    tablet: col
+                    desktop: col
+                alignItems:
+                  type: dex-segmented-control-parameter
+                  value:
+                    desktop: start
+                displayName:
+                  type: text
+                  value: Content Container
+                fluidContent:
+                  type: checkbox
+                  value: true
+                justifyContent:
+                  type: dex-segmented-control-parameter
+                  value:
+                    desktop: ''
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          rowSpan:
+            type: dex-slider-control-parameter
+            value: {}
+          rowStart:
+            type: dex-slider-control-parameter
+            value:
+              mobile: ''
+              tablet: '1'
+              desktop: '1'
+          columnSpan:
+            type: dex-slider-control-parameter
+            value:
+              mobile: ''
+              tablet: span-8
+              desktop: span-10
+          columnStart:
+            type: dex-slider-control-parameter
+            value:
+              mobile: ''
+              tablet: '4'
+              desktop: '2'
+          displayName:
+            type: text
+            value: Content
+        _overridability:
+          hideLockedParameters: true
+      - _id: 2cbeebf4-b95e-4243-be9d-19fd3baf34a9
+        type: gridItem
+        slots:
+          inner:
+            - _id: 45884bca-9eb3-4f65-84cb-88da6f5860d9
+              type: flex
+              slots:
+                flexItem:
+                  - _id: fa64b7b0-d009-4811-9d23-510515103d7b
+                    type: link
+                    slots:
+                      linkContent:
+                        - _id: 656265eb-730d-499b-b280-fbb3fab6df7a
+                          type: image
+                          parameters:
+                            image:
+                              type: asset
+                              value:
+                                - _id: 236d47ef-b6be-48ef-a989-254f9e16a6bd
+                                  type: image
+                                  fields:
+                                    id:
+                                      type: text
+                                      value: 2c9af7f7-6fb4-49c8-a8cd-f6433e85bab9
+                                    url:
+                                      value: >-
+                                        https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/ZJ-o8GeqT6mzD7bWknDjAw-close.svg
+                                      type: text
+                                    file:
+                                      type: file
+                                      value: e72cfa35-2a87-410c-9475-c4a9c5b1a1b5
+                                    size:
+                                      value: 352
+                                      type: number
+                                    title:
+                                      type: text
+                                      value: close.svg
+                                    width:
+                                      value: 12
+                                      type: number
+                                    height:
+                                      value: 12
+                                      type: number
+                                    mediaType:
+                                      value: image/svg+xml
+                                      type: text
+                                  _source: uniform-assets
+                            width:
+                              type: number
+                              value: '12'
+                            height:
+                              type: number
+                              value: '12'
+                            objectFit:
+                              type: dex-segmented-control-parameter
+                              value: fill
+                          _overridability:
+                            hideLockedParameters: true
+                    parameters:
+                      displayName:
+                        type: text
+                        value: Link
+                    _overridability:
+                      parameters:
+                        link: 'yes'
+                      hideLockedParameters: true
+              parameters:
+                gap:
+                  type: dex-slider-control-parameter
+                  value: {}
+                height:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: full
+                    tablet: full
+                    desktop: full
+                spacing:
+                  type: dex-space-control-parameter
+                  value:
+                    mobile: {}
+                    tablet: {}
+                    desktop: {}
+                direction:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: row
+                    tablet: row
+                    desktop: row
+                alignItems:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: start
+                    tablet: start
+                    desktop: start
+                displayName:
+                  type: text
+                  value: Close
+                justifyContent:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: end
+                    tablet: end
+                    desktop: end
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          rowSpan:
+            type: dex-slider-control-parameter
+            value: {}
+          rowStart:
+            type: dex-slider-control-parameter
+            value:
+              mobile: ''
+              tablet: '1'
+              desktop: '1'
+          columnSpan:
+            type: dex-slider-control-parameter
+            value:
+              desktop: auto
+          columnStart:
+            type: dex-slider-control-parameter
+            value:
+              mobile: ''
+              tablet: '12'
+              desktop: '12'
+          displayName:
+            type: text
+            value: Link Button
+        _overridability:
+          hideLockedParameters: true
+  _overridability:
+    parameters:
+      displayName: 'yes'
+      fluidContent: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en
+created: '2025-01-29T11:09:29.535371+00:00'
+modified: '2025-06-23T13:44:51.294903+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/coffee-shop-template/preview-images/spotlight-card.jpg
+categoryId: 096fd5ed-5e2a-4bfa-834b-fb805d1d1ce9

@@ -1,0 +1,9 @@
+id: 56d212ca-516a-42ee-86e6-2df10e284b60
+name: Checkout
+order: 500
+path: /:locale/cart/checkout
+type: composition
+pathSegment: checkout
+data: {}
+compositionId: 38331931-ef05-4479-8ff8-db86738d5a9b
+projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9

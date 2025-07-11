@@ -85,7 +85,7 @@ parameters:
     typeConfig: null
 categoryId: 096fd5ed-5e2a-4bfa-834b-fb805d1d1ce9
 previewImageUrl: >-
-  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/section-columns-reverse-variant-with-image.jpg
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/coffee-shop-template/preview-images/section-columns-reverse-variant-with-image.jpg
 useTeamPermissions: true
 slots:
   - id: sectionMedia
@@ -93,6 +93,7 @@ slots:
     allowedComponents:
       - image
       - video
+      - container
     allowAllComponents: false
     inheritAllowedComponents: false
     patternsInAllowedComponents: false
@@ -100,6 +101,9 @@ slots:
     name: Section Content
     allowedComponents:
       - text
+      - container
+      - flex
+      - grid
     allowAllComponents: false
     inheritAllowedComponents: false
     patternsInAllowedComponents: true
@@ -108,6 +112,7 @@ slots:
     allowedComponents:
       - $p:53b59aed-e378-4fcb-9135-20247d92074e
       - $p:646faee6-b476-43c6-a1a8-eebe85699889
+      - $p:8060e691-b0b3-428c-92f1-278fc76baf47
     allowAllComponents: false
     inheritAllowedComponents: false
     patternsInAllowedComponents: true

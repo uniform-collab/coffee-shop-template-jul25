@@ -1,0 +1,8 @@
+id: 05c9dbfc-7fb7-40ce-b77c-850a6b4ebef4
+name: Products
+order: 500
+path: /:locale/products
+type: placeholder
+pathSegment: products
+data: {}
+projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9

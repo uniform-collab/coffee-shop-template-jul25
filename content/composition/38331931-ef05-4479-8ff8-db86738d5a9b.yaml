@@ -1,0 +1,493 @@
+composition:
+  _name: Checkout
+  _id: 38331931-ef05-4479-8ff8-db86738d5a9b
+  _slug: checkout
+  type: page
+  _overrides:
+    247bbe59-dcc0-4bbc-962c-d57064c43a38:
+      parameters:
+        text:
+          type: text
+          value: Complete Checkout
+    38331931-ef05-4479-8ff8-db86738d5a9b:
+      parameters:
+        pageTitle:
+          type: text
+          value: 'Java Drip - Checkout '
+        pageKeywords:
+          type: text
+          locales:
+            en: >-
+              coffee shop checkout, secure coffee payment, buy coffee online,
+              order coffee, coffee shop cart, online coffee store
+        openGraphType:
+          type: select
+          value: website
+        openGraphImage:
+          type: asset
+          value:
+            - _id: 278d73c2-e4e6-46aa-97de-2c58b4c0796a
+              type: image
+              fields:
+                id:
+                  type: text
+                  value: a83ea1cf-d8d1-4bb7-88d5-ac2fc268afb8
+                url:
+                  value: >-
+                    https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/27Up2H9HQfWjzeaLAWrvFg-checkout-og-image.png
+                  type: text
+                file:
+                  type: file
+                  value: 1ff7d870-f670-4517-b577-57b0f9232b17
+                size:
+                  value: 1908757
+                  type: number
+                title:
+                  type: text
+                  value: checkout-og-image.png
+                width:
+                  value: 1808
+                  type: number
+                height:
+                  value: 908
+                  type: number
+                mediaType:
+                  value: image/png
+                  type: text
+              _source: uniform-assets
+        openGraphTitle:
+          type: text
+          locales:
+            en: 'Java Drip - Checkout '
+        pageDescription:
+          type: text
+          locales:
+            en: >-
+              Complete your order at Java Drip. Enjoy freshly brewed coffee and
+              delicious pastries delivered to your doorstep. Fast and secure
+              checkout.
+        openGraphDescription:
+          type: text
+          locales:
+            en: >-
+              Complete your order at Java Drip. Enjoy freshly brewed coffee and
+              delicious pastries delivered to your doorstep. Fast and secure
+              checkout.
+    38331931-ef05-4479-8ff8-db86738d5a9b|dc2e95be-21b5-4476-a309-f8a34922f528:
+      slots:
+        $slotSectionItems:
+          - _id: fe4b236a-cb1c-4ef3-af8e-30cbdb8cbb1b
+            type: section
+            _pattern: 90b32c21-f5d8-4a40-b971-c97c359ecce9
+            _overridability:
+              parameters:
+                displayName: 'yes'
+              hideLockedParameters: true
+          - _id: 1df74ed4-6fb1-4a2f-93a2-b377a279a50f
+            type: container
+            slots:
+              containerContent:
+                - _id: 76cef8c8-54b0-4fc9-92e5-41f828b01b9d
+                  type: richText
+                  parameters:
+                    text:
+                      type: richText
+                      locales:
+                        en:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - tag: h2
+                                type: heading
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      ☕ Almost There! Complete Your Order
+                                      Securely
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Your perfect coffee experience is just a
+                                      step away. Take a moment to review your
+                                      order and proceed with a fast and secure
+                                      checkout.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: '🔒 '
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                  - mode: normal
+                                    text: Safe & Secure Payments
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: ' – We use encrypted transactions to protect your information.'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: '🚚 '
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                  - mode: normal
+                                    text: Fast Order Processing
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: ' – Get your coffee fresh, whether for pickup or delivery.'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: '💳 '
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                  - mode: normal
+                                    text: Multiple Payment Options
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: ' – Pay with card, digital wallets, or in-store.'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children: []
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                              - tag: h2
+                                type: heading
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: 🛍️ Need to Make a Last-Minute Change?
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                direction: ltr
+                                textFormat: 1
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      • Want to add an extra shot of espresso or
+                                      a delicious pastry? 
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                  - link:
+                                      path: /${locale}
+                                      type: projectMapNode
+                                      nodeId: e7206bd2-8ac2-4e25-937d-8f57292f006b
+                                      projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+                                      dynamicInputValues:
+                                        locale: ${locale}
+                                    type: link
+                                    format: ''
+                                    indent: 0
+                                    version: 1
+                                    children:
+                                      - mode: normal
+                                        text: Go Back to Menu
+                                        type: text
+                                        style: ''
+                                        detail: 0
+                                        format: 0
+                                        version: 1
+                                    direction: ltr
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      • Have a discount code? Apply it below to
+                                      enjoy exclusive savings!
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children: []
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                              - tag: h2
+                                type: heading
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      ❤️ Brewed with Passion, Delivered with
+                                      Care
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                direction: ltr
+                                textFormat: 1
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Every order is prepared with the finest
+                                      beans and crafted by expert baristas.
+                                      Whether you’re picking up on the go or
+                                      enjoying it at home, we guarantee every
+                                      sip will be worth it!
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: '☕ '
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                  - mode: normal
+                                    text: Thank you for choosing Java Drip!
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            textFormat: 1
+            parameters:
+              spacing:
+                type: dex-space-control-parameter
+                value:
+                  mobile:
+                    paddingTop: container-medium
+                    paddingBottom: container-medium
+                  tablet:
+                    paddingTop: container-medium
+                    paddingBottom: container-medium
+                  desktop:
+                    paddingTop: container-medium
+                    paddingBottom: container-medium
+              displayName:
+                type: text
+                locales:
+                  en: Checkout Content
+          - _id: f0c20b31-b0a2-4358-81d3-0143221ae9cc
+            type: flex
+            slots:
+              flexItem:
+                - _id: 247bbe59-dcc0-4bbc-962c-d57064c43a38
+                  type: button
+                  _pattern: 53b59aed-e378-4fcb-9135-20247d92074e
+                  _overridability:
+                    variants: true
+                    parameters:
+                      link: 'yes'
+                      text: 'yes'
+                      fullWidth: 'yes'
+                      textWeight: 'no'
+                      buttonColor: 'yes'
+                      iconPosition: 'yes'
+                      textTransform: 'no'
+                      hoverTextColor: 'no'
+                      hoverButtonColor: 'no'
+                    hideLockedParameters: true
+            parameters:
+              gap:
+                type: dex-slider-control-parameter
+                value: {}
+              spacing:
+                type: dex-space-control-parameter
+                value:
+                  mobile:
+                    paddingTop: container-medium
+                    paddingBottom: container-medium
+                  tablet:
+                    paddingTop: container-medium
+                    paddingBottom: container-medium
+                  desktop:
+                    paddingTop: container-medium
+                    paddingBottom: container-medium
+              direction:
+                type: dex-segmented-control-parameter
+                value:
+                  mobile: row
+                  tablet: row
+                  desktop: row
+              alignItems:
+                type: dex-segmented-control-parameter
+                value: {}
+              displayName:
+                type: text
+                locales:
+                  en: Complete Checkout
+              justifyContent:
+                type: dex-segmented-control-parameter
+                value:
+                  mobile: end
+                  tablet: end
+                  desktop: end
+    fe4b236a-cb1c-4ef3-af8e-30cbdb8cbb1b|215f54df-5063-4f0a-81c0-d8bda909b52c:
+      parameters:
+        image:
+          type: asset
+          value:
+            - _id: 1b8b30eb-cb84-4b03-8c7d-38446e915b30
+              type: image
+              fields:
+                id:
+                  type: text
+                  value: ef86aab9-3329-4fd0-b67e-3e5964e1bf13
+                url:
+                  value: >-
+                    https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/Mt843rKPTL6nh0jh5fwYCw-whats-up-with-the-slow-drip.jpg
+                  type: text
+                file:
+                  type: file
+                  value: c4906294-fe1a-4b94-a000-00bace128d4c
+                size:
+                  value: 1558105
+                  type: number
+                title:
+                  type: text
+                  value: whats-up-with-the-slow-drip.jpg
+                width:
+                  value: 4928
+                  type: number
+                height:
+                  value: 3264
+                  type: number
+                mediaType:
+                  value: image/jpeg
+                  type: text
+              _source: uniform-assets
+        overlayColor:
+          type: dex-color-palette-parameter
+          value: general-color-3
+        overlayOpacity:
+          type: dex-slider-control-parameter
+          value: '0.3'
+    fe4b236a-cb1c-4ef3-af8e-30cbdb8cbb1b|edea6a24-f36d-48c7-acdb-e0dbd8ed511e:
+      parameters:
+        text:
+          type: text
+          value: Secure & Easy Checkout – Your Coffee is Almost Ready!
+  _locales:
+    - en
+  _pattern: f9c058ea-c40d-4435-ac5a-53423cf654dc
+created: '2025-03-07T12:12:23.596784+00:00'
+modified: '2025-06-06T11:01:34.997524+00:00'
+pattern: false

@@ -1,0 +1,236 @@
+created: '2025-01-29T11:10:22.516124+00:00'
+modified: '2025-06-26T06:30:05.670683+00:00'
+pattern: false
+entry:
+  _id: 428cd544-92ed-45b5-b702-b274bb5f912f
+  _name: Descaling tablets
+  _slug: descaling-tablets
+  _thumbnail: >-
+    https://img.uniform.global/p/DCdo4LRJTZWl21CYeUJNPg/trmd-2yrSeKszU5mTDG-AA-descaling-tablets-1.png
+  type: product
+  fields:
+    body:
+      type: richText
+      locales:
+        en:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Maintain the longevity and efficiency of your coffee
+                      machine with JavaDrip's descaling tablets. Specially
+                      formulated to remove scale and mineral buildup, these
+                      tablets help preserve your machine's performance, ensuring
+                      that every cup of coffee is brewed to perfection. Regular
+                      use of descaling tablets prevents scaling, which can
+                      affect the taste of your coffee and hinder the machine’s
+                      functionality over time.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      JavaDrip's descaling tablets are designed to be gentle yet
+                      effective, working without causing any damage to the
+                      internal components of your coffee maker. Whether you have
+                      a high-end espresso machine or a reliable drip coffee
+                      maker, these tablets provide an easy, reliable solution
+                      for maintenance. Keep your coffee tasting fresh and your
+                      machine running smoothly with JavaDrip's descaling
+                      tablets, an essential addition to any coffee enthusiast’s
+                      routine.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+    name:
+      type: text
+      value: Descaling tablets
+    brand:
+      type: contentReference
+      value: ${#jptr:/ref-428cd544-92ed-45b5-b702-b274bb5f912f-brand/entries/0}
+    title:
+      type: text
+      value: Descaling tablets
+    rating:
+      type: number
+      value: '4.4'
+    ogImage:
+      type: asset
+      value:
+        - _id: c70a8c0e-54b3-442c-9060-89f2d8b70c5d
+          type: image
+          fields:
+            id:
+              type: text
+              value: 5dc9b795-1bd9-41d6-bf52-9e098cb585d1
+            url:
+              value: >-
+                https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/3NSS4PX7SIa-bDas96rOug-descaling-tablets-1.png
+              type: text
+            file:
+              type: file
+              value: 87bd3aa2-3825-4bab-84fa-797deaa1ef29
+            size:
+              value: 25973
+              type: number
+            title:
+              type: text
+              value: descaling-tablets-1.png
+            width:
+              value: 386
+              type: number
+            height:
+              value: 386
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+    category:
+      type: contentReference
+      value: ${#jptr:/ref-428cd544-92ed-45b5-b702-b274bb5f912f-category/entries/0}
+    variants:
+      type: $block
+      value:
+        - _id: 9e4b9293-33bd-4dfe-a90b-c9c4c54255a8
+          type: variant
+          fields:
+            code:
+              type: text
+              value: '142'
+            price:
+              type: number
+              locales:
+                en: '35'
+            title:
+              type: text
+              locales:
+                en: Descaling tablets
+            currency:
+              type: text
+              locales:
+                en: USD
+            imageGallery:
+              type: asset
+              value:
+                - _id: f39c5e0c-90da-4abd-ab61-1875d2912731
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: 5dc9b795-1bd9-41d6-bf52-9e098cb585d1
+                    url:
+                      value: >-
+                        https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/3NSS4PX7SIa-bDas96rOug-descaling-tablets-1.png
+                      type: text
+                    file:
+                      type: file
+                      value: 87bd3aa2-3825-4bab-84fa-797deaa1ef29
+                    size:
+                      value: 25973
+                      type: number
+                    title:
+                      type: text
+                      value: descaling-tablets-1.png
+                    width:
+                      value: 386
+                      type: number
+                    height:
+                      value: 386
+                      type: number
+                    mediaType:
+                      value: image/png
+                      type: text
+                  _source: uniform-assets
+    metaTitle:
+      type: text
+      value: Descaling tablets
+    enrichments:
+      type: $enr
+      value:
+        - cat: brand
+          key: javadrip
+          str: 5
+    primaryImage:
+      type: asset
+      value:
+        - _id: c70a8c0e-54b3-442c-9060-89f2d8b70c5d
+          type: image
+          fields:
+            id:
+              type: text
+              value: 5dc9b795-1bd9-41d6-bf52-9e098cb585d1
+            url:
+              value: >-
+                https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/3NSS4PX7SIa-bDas96rOug-descaling-tablets-1.png
+              type: text
+            file:
+              type: file
+              value: 87bd3aa2-3825-4bab-84fa-797deaa1ef29
+            size:
+              value: 25973
+              type: number
+            title:
+              type: text
+              value: descaling-tablets-1.png
+            width:
+              value: 386
+              type: number
+            height:
+              value: 386
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+    metaDescription:
+      type: text
+      locales:
+        en: >-
+          Extend your coffee machine's life with JavaDrip's descaling tablets,
+          ensuring optimal performance and safety.
+    shortDescription:
+      type: text
+      locales:
+        en: >-
+          JavaDrip's descaling tablets effectively remove scale buildup to
+          extend the life of your coffee machine, ensuring optimal performance
+          without causing any damage.
+  _dataResources:
+    ref-428cd544-92ed-45b5-b702-b274bb5f912f-brand:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 725d0924-c684-49f1-ba91-b0dfd695823d
+    ref-428cd544-92ed-45b5-b702-b274bb5f912f-category:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 6b8b91ea-1922-4c2a-8233-4a4a20ab285b
+  _locales:
+    - en

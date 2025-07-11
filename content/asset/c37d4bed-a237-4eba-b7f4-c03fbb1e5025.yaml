@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: c37d4bed-a237-4eba-b7f4-c03fbb1e5025
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: grinding-beans.svg
+    file:
+      type: file
+      value: 6022ca87-3e13-4121-8096-9e2582f6dba5
+    mediaType:
+      value: image/svg+xml
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/N0QOqjXvSFeXY7i3yzY8ZQ/XVTXrqBeRl-L5a9iLtQ_sw-grinding-beans.svg
+      type: text
+    size:
+      value: 5220
+      type: number
+    width:
+      value: 60
+      type: number
+    height:
+      value: 84
+      type: number
+    custom: {}
+created: '2025-01-29T11:08:56.835546+00:00'
+modified: '2025-01-29T11:08:56.835546+00:00'

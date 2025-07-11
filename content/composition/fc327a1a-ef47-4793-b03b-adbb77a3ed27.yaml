@@ -1,0 +1,265 @@
+composition:
+  _name: Profile
+  _id: fc327a1a-ef47-4793-b03b-adbb77a3ed27
+  _slug: profile
+  type: page
+  _overrides:
+    1d72bf11-3812-45c3-a4fd-927cfdbc00f1:
+      parameters:
+        $pzCrit:
+          type: $pzCrit
+          value:
+            crit:
+              - l: segment
+                r: occasional
+                t: q
+                op: '='
+            name: Occasional
+        fluidContent:
+          type: checkbox
+          value: true
+    4b531db1-0939-41fd-9991-aa08d210bbb6:
+      parameters:
+        displayName:
+          type: text
+          value: Profile
+    5c23965e-e196-4403-861a-183024970d07:
+      parameters:
+        $pzCrit:
+          type: $pzCrit
+          value:
+            crit:
+              - l: segment
+                r: aficionado
+                t: q
+                op: '='
+            name: Aficionado
+        fluidContent:
+          type: checkbox
+          value: true
+    d47f2d1c-c006-4606-8901-26a23f74150b:
+      parameters:
+        $pzCrit:
+          type: $pzCrit
+          value:
+            crit:
+              - l: segment
+                r: newb
+                t: q
+                op: '='
+            name: Newb
+        fluidContent:
+          type: checkbox
+          value: true
+    fc327a1a-ef47-4793-b03b-adbb77a3ed27:
+      parameters:
+        pageTitle:
+          type: text
+          value: Your Profile - Java Drip
+        pageKeywords:
+          type: text
+          value: >-
+            coffee shop profile, personal coffee profile, coffee shop account,
+            order history, personalized coffee recommendations, manage profile,
+            coffee preferences
+        openGraphImage:
+          type: asset
+          value:
+            - _id: 8b833a88-bb87-44c8-b41c-59d686fc13be
+              type: image
+              fields:
+                id:
+                  type: text
+                  value: 93f8e9cb-3deb-4d8f-8d46-24ab5fc96ccd
+                url:
+                  value: >-
+                    https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/LwtPc8i6TbqbwuEnyUdahg-my-profile-og-image.png
+                  type: text
+                file:
+                  type: file
+                  value: b9635052-c89b-4d7a-a858-961ceb160b16
+                size:
+                  value: 1596632
+                  type: number
+                title:
+                  type: text
+                  value: my-profile-og-image.png
+                width:
+                  value: 1808
+                  type: number
+                height:
+                  value: 908
+                  type: number
+                mediaType:
+                  value: image/png
+                  type: text
+              _source: uniform-assets
+        openGraphTitle:
+          type: text
+          value: Your Profile - Java Drip
+        pageDescription:
+          type: text
+          value: >-
+            Manage your personal profile at Java Drip. Update your contact
+            information, view your order history, and discover personalized
+            coffee recommendations to enhance your coffee experience.
+        openGraphDescription:
+          type: text
+          value: >-
+            Manage your personal profile at Java Drip. Update your contact
+            information, view your order history, and discover personalized
+            coffee recommendations to enhance your coffee experience.
+    1d72bf11-3812-45c3-a4fd-927cfdbc00f1|4e7f1617-1524-4771-bad7-e871c177ef53:
+      parameters:
+        text:
+          type: text
+          value: Occasional has been activated!
+    1d72bf11-3812-45c3-a4fd-927cfdbc00f1|84b8ca9c-90a0-4c34-bd96-a2391bf97f62:
+      parameters:
+        text:
+          type: text
+          value: Occasional mode on — we’ll keep things light and useful
+    4873f22b-b646-4b66-9666-3ddffdc48447|dea621e2-bc14-423e-8e1b-58d41ae2b2a7:
+      slots:
+        $slotSectionItems:
+          - _id: 79e06d05-114d-4b60-a86a-7f9f6781ae39
+            type: $personalization
+            slots:
+              pz:
+                - _id: 5c23965e-e196-4403-861a-183024970d07
+                  type: grid
+                  _pattern: c2122c4c-1d68-44db-b880-19612776c3df
+                  _overridability:
+                    parameters:
+                      displayName: 'yes'
+                      fluidContent: 'yes'
+                    hideLockedParameters: true
+                - _id: 1d72bf11-3812-45c3-a4fd-927cfdbc00f1
+                  type: grid
+                  _pattern: c2122c4c-1d68-44db-b880-19612776c3df
+                  _overridability:
+                    parameters:
+                      displayName: 'yes'
+                      fluidContent: 'yes'
+                    hideLockedParameters: true
+                - _id: d47f2d1c-c006-4606-8901-26a23f74150b
+                  type: grid
+                  _pattern: c2122c4c-1d68-44db-b880-19612776c3df
+                  _overridability:
+                    parameters:
+                      displayName: 'yes'
+                      fluidContent: 'yes'
+                    hideLockedParameters: true
+            parameters:
+              trackingEventName:
+                type: text
+                value: Selected Segment
+    4b531db1-0939-41fd-9991-aa08d210bbb6|2058ad6d-25b3-4eea-a276-cb996b4188cc:
+      slots:
+        $slotSectionItems:
+          - _id: c6cefff6-e465-43c7-a2a6-51c5d11e46b4
+            type: flex
+            slots:
+              flexItem:
+                - _id: 3c9be116-a1c0-4782-9788-f8e40259399c
+                  type: text
+                  parameters:
+                    tag:
+                      type: dex-segmented-control-parameter
+                      value: p
+                    size:
+                      type: dex-segmented-control-parameter
+                      value: {}
+                    text:
+                      type: text
+                      locales:
+                        en: 'Select audience to associate with current visitor:'
+                    weight:
+                      type: dex-segmented-control-parameter
+                      value: normal
+                - _id: 4873f22b-b646-4b66-9666-3ddffdc48447
+                  type: quirkSelector
+                  _pattern: 0bc0e924-445c-47de-9217-3dc6f889f1e7
+                  _overridability:
+                    hideLockedParameters: true
+            parameters:
+              gap:
+                type: dex-slider-control-parameter
+                value:
+                  mobile: '4'
+                  tablet: '4'
+                  desktop: '4'
+              spacing:
+                type: dex-space-control-parameter
+                value:
+                  mobile:
+                    paddingTop: container-small
+                    paddingBottom: container-small
+                  tablet:
+                    paddingTop: container-small
+                    paddingBottom: container-small
+                  desktop:
+                    paddingTop: container-small
+                    paddingBottom: container-small
+              direction:
+                type: dex-segmented-control-parameter
+                value:
+                  mobile: col
+                  tablet: col
+                  desktop: col
+              alignItems:
+                type: dex-segmented-control-parameter
+                value: {}
+              displayName:
+                type: text
+                locales:
+                  en: Personalization Selector
+              fluidContent:
+                type: checkbox
+                value: true
+              justifyContent:
+                type: dex-segmented-control-parameter
+                value: {}
+    4b531db1-0939-41fd-9991-aa08d210bbb6|5feefc71-05dd-4004-bfe9-3dd6876628b4:
+      parameters:
+        text:
+          type: text
+          value: 🛩️ Audience Simulator
+    5c23965e-e196-4403-861a-183024970d07|4e7f1617-1524-4771-bad7-e871c177ef53:
+      parameters:
+        text:
+          type: text
+          value: Aficionado has been activated!
+    5c23965e-e196-4403-861a-183024970d07|84b8ca9c-90a0-4c34-bd96-a2391bf97f62:
+      parameters:
+        text:
+          type: text
+          value: >-
+            Welcome back, aficionado — your experience is now fully
+            personalized.
+    d47f2d1c-c006-4606-8901-26a23f74150b|4e7f1617-1524-4771-bad7-e871c177ef53:
+      parameters:
+        text:
+          type: text
+          value: Newb has been activated!
+    d47f2d1c-c006-4606-8901-26a23f74150b|84b8ca9c-90a0-4c34-bd96-a2391bf97f62:
+      parameters:
+        text:
+          type: text
+          value: Welcome, newcomer — we’ll guide you every step of the way
+    fc327a1a-ef47-4793-b03b-adbb77a3ed27|dc2e95be-21b5-4476-a309-f8a34922f528:
+      slots:
+        $slotSectionItems:
+          - _id: 4b531db1-0939-41fd-9991-aa08d210bbb6
+            type: container
+            _pattern: d9dd4b0a-358f-4b10-be48-77c5088020cc
+            _overridability:
+              parameters:
+                displayName: 'yes'
+              hideLockedParameters: true
+  _locales:
+    - en
+  _pattern: f9c058ea-c40d-4435-ac5a-53423cf654dc
+created: '2025-06-06T09:07:07.408468+00:00'
+modified: '2025-06-06T09:07:07.408468+00:00'
+pattern: false

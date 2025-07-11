@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 72851ba3-cff9-4913-af83-5481afa08516
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: Summer-2025-Enjoying-a-Cortado.png
+    file:
+      type: file
+      value: 57a48249-3e0b-4894-88c8-78d0727ccb3c
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/DCdo4LRJTZWl21CYeUJNPg/wW1oIX_gQHSwYd00kGrf-A-Summer-2025-Enjoying-a-Cortado.png
+      type: text
+    size:
+      value: 2747692
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1536
+      type: number
+    custom: {}
+created: '2025-04-24T11:33:51.041075+00:00'
+modified: '2025-04-24T11:33:51.041075+00:00'

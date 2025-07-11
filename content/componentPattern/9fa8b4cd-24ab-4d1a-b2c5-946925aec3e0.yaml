@@ -1,0 +1,62 @@
+composition:
+  _name: Product Recommendations
+  _id: 9fa8b4cd-24ab-4d1a-b2c5-946925aec3e0
+  type: dynamicProductRecommendations
+  parameters:
+    spacing:
+      type: dex-space-control-parameter
+      value:
+        mobile:
+          paddingTop: container-medium
+          paddingBottom: container-medium
+        tablet: {}
+        desktop: {}
+    displayName:
+      type: text
+      locales:
+        en: Recommendations
+    boostEnrichments:
+      type: multi-select
+      value:
+        - subCategory,subcategory
+        - int,category
+        - brand,brand
+    maxRecommendations:
+      type: number
+      value: '3'
+  slots:
+    dynamicRecommendationsTitle:
+      - _id: 36ef82db-8556-4006-be7a-957216a76758
+        type: text
+        parameters:
+          tag:
+            type: dex-segmented-control-parameter
+            value: h2
+          size:
+            type: dex-segmented-control-parameter
+            value:
+              mobile: 3xl
+              tablet: 4xl
+              desktop: 4xl
+          text:
+            type: text
+            locales:
+              en: Recommended for you
+          weight:
+            type: dex-segmented-control-parameter
+            value: bold
+        _overridability:
+          parameters:
+            text: 'yes'
+          hideLockedParameters: true
+  _overridability:
+    parameters:
+      boostEnrichments: 'yes'
+      maxRecommendations: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en
+created: '2025-04-25T12:20:45.050676+00:00'
+modified: '2025-06-25T10:20:36.778496+00:00'
+pattern: true
+categoryId: adaebea8-ba58-494b-9c3b-9f82906d9415

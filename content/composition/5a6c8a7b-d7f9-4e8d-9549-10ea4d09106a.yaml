@@ -1,0 +1,197 @@
+composition:
+  _name: Coffee Makers
+  _id: 5a6c8a7b-d7f9-4e8d-9549-10ea4d09106a
+  _slug: coffee-makers
+  type: page
+  _dataResources:
+    Brand List Content:
+      type: brandList
+      variables:
+        locale: ${locale}
+        search: ''
+        filters: '{"type[eq]":"brand"}'
+        contentTypes: brand
+    Base Product Category:
+      type: productCategory
+      variables:
+        locale: ${locale}
+        entryId: 2f6cc670-cdaa-4532-b70e-424206c8d0ba
+    Product Category List Content:
+      type: productCategoryList
+      variables:
+        locale: ${locale}
+        search: ''
+        filters: '{"type[eq]":"productCategory"}'
+        contentTypes: productCategory
+  _overrides:
+    3e33c756-b149-4393-881d-52f5740b9ada:
+      parameters:
+        displayName:
+          type: text
+          value: Category Hero
+    5a6c8a7b-d7f9-4e8d-9549-10ea4d09106a:
+      parameters:
+        $enr:
+          type: $enr
+          value:
+            - cat: int
+              key: coffee-makers
+              str: 5
+        pageTitle:
+          type: text
+          value: >-
+            Coffee Makers for Every Brew Style | Find Your Perfect Coffee Maker
+            Today
+        pageKeywords:
+          type: text
+          value: >-
+            coffee makers, best coffee makers, coffee machines, coffee maker,
+            coffee machine
+        openGraphType:
+          type: select
+          value: website
+        openGraphImage:
+          type: asset
+          value:
+            - _id: 626cc5c7-71fb-4bab-96f5-9fc67db0722a
+              type: image
+              fields:
+                id:
+                  type: text
+                  value: 0ae43122-7c7d-417c-8036-e0df2013f3a8
+                url:
+                  value: >-
+                    https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/84tdPvdeTlSfNm27iqBerg-coffee-makers-og-image.png
+                  type: text
+                file:
+                  type: file
+                  value: 56de50bd-6dc2-45ab-b47c-cf871bb49c3c
+                size:
+                  value: 853064
+                  type: number
+                title:
+                  type: text
+                  value: coffee-makers-og-image.png
+                width:
+                  value: 1600
+                  type: number
+                height:
+                  value: 900
+                  type: number
+                mediaType:
+                  value: image/png
+                  type: text
+              _source: uniform-assets
+        openGraphTitle:
+          type: text
+          value: >-
+            Coffee Makers for Every Brew Style | Find Your Perfect Coffee Maker
+            Today
+        pageDescription:
+          type: text
+          value: >-
+            Discover the best coffee makers for every taste and style. From
+            espresso machines to drip coffee makers, we have high-quality
+            options to elevate your coffee experience. Find your ideal coffee
+            maker today and brew like a pro!
+        openGraphDescription:
+          type: text
+          value: >-
+            Discover the best coffee makers for every taste and style. From
+            espresso machines to drip coffee makers, we have high-quality
+            options to elevate your coffee experience. Find your ideal coffee
+            maker today and brew like a pro!
+    fa0c778a-5f16-4d2e-8855-0a6b4a616374:
+      parameters:
+        boostEnrichments:
+          type: multi-select
+          value:
+            - subCategory,subcategory
+    3e33c756-b149-4393-881d-52f5740b9ada|215f54df-5063-4f0a-81c0-d8bda909b52c:
+      parameters:
+        image:
+          type: asset
+          value:
+            - _id: 20bca8d0-edfa-4c55-87a1-f9dc5be33b99
+              type: image
+              fields:
+                id:
+                  type: text
+                  value: 87342bb8-9859-4a25-a7cd-f625d9b195a3
+                url:
+                  value: >-
+                    https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/ycw_1zcQTCW7mXTPxEdtng-espresso-machine-with-latte-and-cold-brew.jpeg
+                  type: text
+                file:
+                  type: file
+                  value: 80fb8d74-222f-425c-8e02-a8ee792965ae
+                size:
+                  value: 368912
+                  type: number
+                title:
+                  type: text
+                  value: espresso-machine-with-latte-and-cold-brew.jpeg
+                width:
+                  value: 3000
+                  type: number
+                height:
+                  value: 1999
+                  type: number
+                mediaType:
+                  value: image/jpeg
+                  type: text
+              _source: uniform-assets
+        overlayColor:
+          type: dex-color-palette-parameter
+          value: general-color-3
+        overlayOpacity:
+          type: dex-slider-control-parameter
+          value: '0.5'
+    3e33c756-b149-4393-881d-52f5740b9ada|edea6a24-f36d-48c7-acdb-e0dbd8ed511e:
+      parameters:
+        text:
+          type: text
+          value: Find your perfect coffee maker
+    5a6c8a7b-d7f9-4e8d-9549-10ea4d09106a|dc2e95be-21b5-4476-a309-f8a34922f528:
+      slots:
+        $slotSectionItems:
+          - _id: 3e33c756-b149-4393-881d-52f5740b9ada
+            type: section
+            _pattern: 90b32c21-f5d8-4a40-b971-c97c359ecce9
+            _overridability:
+              parameters:
+                displayName: 'yes'
+              hideLockedParameters: true
+          - _id: ab956a0f-b84f-4e7d-b1bd-f23cbe87cebf
+            type: container
+            slots:
+              containerContent:
+                - _id: fa0c778a-5f16-4d2e-8855-0a6b4a616374
+                  type: entriesSearchEngine
+                  _pattern: afef4fa3-394f-4228-81b9-3374b4616b3c
+                  _overridability:
+                    parameters:
+                      boostEnrichments: 'yes'
+                    hideLockedParameters: true
+            parameters:
+              spacing:
+                type: dex-space-control-parameter
+                value:
+                  mobile:
+                    paddingTop: container-small
+                    paddingRight: container-xsmall
+                  tablet: {}
+                  desktop:
+                    paddingTop: container-medium
+                    paddingLeft: container-small
+                    paddingRight: container-small
+              displayName:
+                type: text
+                locales:
+                  en: Faceted Search
+  _locales:
+    - en
+  _pattern: f9c058ea-c40d-4435-ac5a-53423cf654dc
+created: '2025-03-18T13:02:32.661565+00:00'
+modified: '2025-06-05T08:51:44.16813+00:00'
+pattern: false

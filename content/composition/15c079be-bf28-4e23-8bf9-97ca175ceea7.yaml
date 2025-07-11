@@ -1,0 +1,1324 @@
+composition:
+  _name: Beans Bundle
+  _id: 15c079be-bf28-4e23-8bf9-97ca175ceea7
+  _slug: beans-bundle
+  type: page
+  _overrides:
+    44d9a29d-f2f6-456b-92cb-96590d068768:
+      parameters:
+        link:
+          type: link
+          locales:
+            en:
+              path: '#OrderNow'
+              type: url
+        text:
+          type: text
+          value: ORDER NOW
+    a4dc3dd0-9598-4af7-ace8-0bfcf3423a6a:
+      parameters:
+        text:
+          type: text
+          value: BUY NOW
+        buttonColor:
+          type: dex-color-palette-parameter
+          value: button-primary
+        hoverButtonColor:
+          type: dex-color-palette-parameter
+          value: button-tertiary
+    15c079be-bf28-4e23-8bf9-97ca175ceea7|dc2e95be-21b5-4476-a309-f8a34922f528:
+      slots:
+        $slotSectionItems:
+          - _id: 93046baf-1b7b-4e03-be0b-47ff9d91d1ca
+            type: fixedHero
+            parameters:
+              image:
+                type: asset
+                value:
+                  - _id: 9392e0e5-e7bc-4cd6-bd1a-6b8b6effb9cb
+                    type: image
+                    fields:
+                      id:
+                        type: text
+                        value: 3c2eb78c-f861-4a89-aeb9-084ac4ff7d0c
+                      url:
+                        value: >-
+                          https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/wfnf9qQWQuGNnupOpqpcAw-BB_Setting.png
+                        type: text
+                      file:
+                        type: file
+                        value: c6d506c4-0be5-42b2-802f-13c643a829d6
+                      size:
+                        value: 2469563
+                        type: number
+                      title:
+                        type: text
+                        value: BB_Setting.png
+                      width:
+                        value: 1536
+                        type: number
+                      height:
+                        value: 1024
+                        type: number
+                      mediaType:
+                        value: image/png
+                        type: text
+                    _source: uniform-assets
+              height:
+                type: dex-segmented-control-parameter
+                value:
+                  mobile: screen
+                  tablet: screen
+                  desktop: screen
+              titleTag:
+                type: dex-segmented-control-parameter
+                value: h1
+              textColor:
+                type: dex-color-palette-parameter
+                value: text-secondary
+              titleText:
+                type: text
+                locales:
+                  en: Our Exclusive Beans Bundle, handpicked by Hans Anderson
+              displayName:
+                type: text
+                locales:
+                  en: Welcome Hero
+              contentAlignment:
+                type: dex-segmented-control-parameter
+                value: center
+              primaryButtonText:
+                type: text
+                locales:
+                  en: Order Now
+              enableOverlayAutoTint:
+                type: checkbox
+                value: true
+          - _id: a7fcdc88-e1ea-4799-b941-5b6f97948c02
+            type: container
+            slots:
+              containerContent:
+                - _id: 86184e4d-527f-49d1-bcd5-39ab80ac7866
+                  type: section
+                  slots:
+                    sectionCTA:
+                      - _id: 44d9a29d-f2f6-456b-92cb-96590d068768
+                        type: button
+                        _pattern: 646faee6-b476-43c6-a1a8-eebe85699889
+                        _overridability:
+                          variants: true
+                          parameters:
+                            link: 'yes'
+                            text: 'yes'
+                            fullWidth: 'yes'
+                            textColor: 'no'
+                          hideLockedParameters: true
+                    sectionMedia:
+                      - _id: fff1f182-7117-49d0-bcba-2f9cced570a4
+                        type: image
+                        parameters:
+                          fill:
+                            type: checkbox
+                            value: true
+                          image:
+                            type: asset
+                            value:
+                              - _id: ef486d16-a297-4144-a3a2-39097f9ab148
+                                type: image
+                                fields:
+                                  id:
+                                    type: text
+                                    value: ffd0191d-5789-4737-98b1-5803e9ff1d71
+                                  url:
+                                    value: >-
+                                      https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/izZjnt2SQM6hNBPIXnrNGg-BB_Statement.png
+                                    type: text
+                                  file:
+                                    type: file
+                                    value: 305413e4-77a8-453b-aef3-ea6031b5df82
+                                  size:
+                                    value: 1700484
+                                    type: number
+                                  title:
+                                    type: text
+                                    value: BB_Statement.png
+                                  width:
+                                    value: 1024
+                                    type: number
+                                  height:
+                                    value: 1024
+                                    type: number
+                                  mediaType:
+                                    value: image/png
+                                    type: text
+                                _source: uniform-assets
+                          objectFit:
+                            type: dex-segmented-control-parameter
+                            value: cover
+                        _overridability:
+                          parameters:
+                            image: 'yes'
+                          hideLockedParameters: true
+                    sectionContent:
+                      - _id: 31e74c0c-1f55-4a02-953b-baece150a8c3
+                        type: flex
+                        slots:
+                          flexItem:
+                            - _id: 94465b29-fc99-434f-a203-7d91bfbce037
+                              type: text
+                              parameters:
+                                tag:
+                                  type: dex-segmented-control-parameter
+                                  value: h2
+                                size:
+                                  type: dex-segmented-control-parameter
+                                  value:
+                                    mobile: 3xl
+                                    tablet: 4xl
+                                    desktop: 4xl
+                                text:
+                                  type: text
+                                  value: "Best Value for the Hobby Espresso\_Connoisseur"
+                                color:
+                                  type: dex-color-palette-parameter
+                                  value: text-secondary
+                                weight:
+                                  type: dex-segmented-control-parameter
+                                  value: bold
+                                alignment:
+                                  type: dex-segmented-control-parameter
+                                  value: left
+                              _overridability:
+                                parameters:
+                                  text: 'yes'
+                                hideLockedParameters: true
+                            - _id: b3a84c50-9223-41ff-8cb0-5830301abf6c
+                              type: richText
+                              parameters:
+                                font:
+                                  type: dex-token-selector-parameter
+                                  value: secondary
+                                text:
+                                  type: richText
+                                  locales:
+                                    en:
+                                      root:
+                                        type: root
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - type: quote
+                                            format: ''
+                                            indent: 0
+                                            version: 1
+                                            children:
+                                              - mode: normal
+                                                text: >-
+                                                  Elevate your espresso experience with
+                                                  the JavaDrip beans bundle, which
+                                                  features expertly chosen beans that
+                                                  unlock rich, complex flavors. Paired
+                                                  with a robust espresso maker, this
+                                                  package is perfect for hobbyists looking
+                                                  to refine their brewing skills and enjoy
+                                                  café-quality coffee at home.
+                                                type: text
+                                                style: ''
+                                                detail: 0
+                                                format: 0
+                                                version: 1
+                                            direction: ltr
+                                        direction: ltr
+                                color:
+                                  type: dex-color-palette-parameter
+                                  value: text-secondary
+                            - _id: 4450e9f5-273d-4622-be89-301a1bfed977
+                              type: text
+                              parameters:
+                                tag:
+                                  type: dex-segmented-control-parameter
+                                  value: span
+                                font:
+                                  type: dex-token-selector-parameter
+                                  value: secondary
+                                size:
+                                  type: dex-segmented-control-parameter
+                                  value:
+                                    mobile: sm
+                                    tablet: lg
+                                    desktop: xl
+                                text:
+                                  type: text
+                                  value: >-
+                                    Hans Anderson, Owner, Author and Barista @
+                                    The Perfect Grind
+                                color:
+                                  type: dex-color-palette-parameter
+                                  value: text-secondary
+                                weight:
+                                  type: dex-segmented-control-parameter
+                                  value: bold
+                                alignment:
+                                  type: dex-segmented-control-parameter
+                                  value: left
+                                letterSpacing:
+                                  type: dex-segmented-control-parameter
+                                  value: wide
+                        parameters:
+                          gap:
+                            type: dex-slider-control-parameter
+                            value:
+                              mobile: '4'
+                              tablet: '4'
+                              desktop: '4'
+                          spacing:
+                            type: dex-space-control-parameter
+                            value:
+                              mobile: {}
+                              tablet:
+                                marginLeft: container-large
+                              desktop:
+                                marginLeft: container-large
+                          direction:
+                            type: dex-segmented-control-parameter
+                            value:
+                              mobile: col
+                              tablet: col
+                              desktop: col
+                          alignItems:
+                            type: dex-segmented-control-parameter
+                            value: {}
+                          displayName:
+                            type: text
+                            value: Content
+                          justifyContent:
+                            type: dex-segmented-control-parameter
+                            value: {}
+                        _overridability:
+                          hideLockedParameters: true
+                  variant: columns
+                  parameters:
+                    spacing:
+                      type: dex-space-control-parameter
+                      value:
+                        paddingTop: container-medium
+                        paddingBottom: container-medium
+                    displayName:
+                      type: text
+                      value: |
+                        Four user profiles for full taste customization
+                    contentAlignment:
+                      type: dex-segmented-control-parameter
+                      value: center
+                  _overridability:
+                    parameters:
+                      spacing: 'yes'
+                      displayName: 'yes'
+                      fluidContent: 'yes'
+                    hideLockedParameters: true
+            parameters:
+              spacing:
+                type: dex-space-control-parameter
+                value:
+                  mobile: {}
+                  tablet: {}
+                  desktop: {}
+              displayName:
+                type: text
+                locales:
+                  en: Statement
+              fluidContent:
+                type: checkbox
+                value: true
+              backgroundColor:
+                type: dex-color-palette-parameter
+                value: general-color-3
+          - _id: 6d33d82e-6ba3-432d-ad9a-a0da2f3c733f
+            type: container
+            slots:
+              containerContent:
+                - _id: af290bcd-40c5-474b-a84d-7e9e00569079
+                  type: text
+                  parameters:
+                    tag:
+                      type: dex-segmented-control-parameter
+                      value: h2
+                    size:
+                      type: dex-segmented-control-parameter
+                      value:
+                        mobile: 3xl
+                        tablet: 4xl
+                        desktop: 4xl
+                    text:
+                      type: text
+                      value: What's inside the  Exclusive Beans Bundle
+                    color:
+                      type: dex-color-palette-parameter
+                      value: text-tertiary
+                    weight:
+                      type: dex-segmented-control-parameter
+                      value: bold
+                    alignment:
+                      type: dex-segmented-control-parameter
+                      value: center
+            parameters:
+              spacing:
+                type: dex-space-control-parameter
+                value:
+                  mobile: {}
+                  tablet: {}
+                  desktop:
+                    paddingTop: container-medium
+                    paddingBottom: container-medium
+              displayName:
+                type: text
+                locales:
+                  en: Bundle contents
+              fluidContent:
+                type: checkbox
+                value: true
+              backgroundColor:
+                type: dex-color-palette-parameter
+                value: general-color-11
+          - _id: bcc473b4-1d15-4b51-9754-55753b74c580
+            type: section
+            slots:
+              sectionMedia:
+                - _id: 3a6e6519-cef3-41b8-9b62-136662aa1619
+                  type: image
+                  parameters:
+                    fill:
+                      type: checkbox
+                      value: true
+                    image:
+                      type: asset
+                      value:
+                        - _id: efcff944-17ce-4ac5-8fac-128089a4685e
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: 91cf3613-ae51-4487-9b37-c798bbf918fb
+                            url:
+                              value: >-
+                                https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/3iY5mKi1S_mpeC_1StEhNA-BB_Machine.png
+                              type: text
+                            file:
+                              type: file
+                              value: f658c178-e5b6-4097-ac91-886df82f36c6
+                            size:
+                              value: 1489182
+                              type: number
+                            title:
+                              type: text
+                              value: BB_Machine.png
+                            width:
+                              value: 1024
+                              type: number
+                            height:
+                              value: 1024
+                              type: number
+                            mediaType:
+                              value: image/png
+                              type: text
+                          _source: uniform-assets
+                    objectFit:
+                      type: dex-segmented-control-parameter
+                      value: cover
+                  _overridability:
+                    parameters:
+                      image: 'yes'
+                    hideLockedParameters: true
+              sectionContent:
+                - _id: 25a5358c-d907-4816-b1b2-5d3ee61e676e
+                  type: flex
+                  slots:
+                    flexItem:
+                      - _id: 0f155c68-b011-47d0-828b-ac5bc18866a1
+                        type: text
+                        parameters:
+                          tag:
+                            type: dex-segmented-control-parameter
+                            value: h2
+                          size:
+                            type: dex-segmented-control-parameter
+                            value:
+                              mobile: 3xl
+                              tablet: 4xl
+                              desktop: 4xl
+                          text:
+                            type: text
+                            value: Royale IQ Espresso Machine
+                          color:
+                            type: dex-color-palette-parameter
+                            value: text-primary
+                          weight:
+                            type: dex-segmented-control-parameter
+                            value: bold
+                          alignment:
+                            type: dex-segmented-control-parameter
+                            value: center
+                        _overridability:
+                          parameters:
+                            text: 'yes'
+                          hideLockedParameters: true
+                      - _id: 3f6fe67b-27e8-468f-b8d3-8ac9376ae5c7
+                        type: text
+                        parameters:
+                          tag:
+                            type: dex-segmented-control-parameter
+                            value: span
+                          size:
+                            type: dex-segmented-control-parameter
+                            value:
+                              mobile: sm
+                              tablet: lg
+                              desktop: xl
+                          text:
+                            type: text
+                            value: >-
+                              The Royale IQ Espresso Machine represents the
+                              pinnacle of home barista technology, seamlessly
+                              blending cutting-edge innovation with elegant
+                              design. Crafted for both enthusiasts and seasoned
+                              coffee connoisseurs, this machine features a
+                              robust dual boiler system that ensures optimal
+                              brewing temperatures for espresso extraction and
+                              steam production, allowing users to effortlessly
+                              achieve rich, creamy microfoam. Its intuitive
+                              touchscreen interface simplifies the brewing
+                              process, offering personalized temperature and
+                              pressure settings, as well as customizable
+                              pre-infusion times to refine flavor profiles and
+                              enhance the overall espresso experience. The
+                              machine is built with high-quality materials,
+                              ensuring durability and aesthetic appeal, making
+                              it a striking addition to any kitchen or café
+                              setting.
+
+
+                              Equipped with a precision grinder that offers an
+                              array of grind settings, the Royale IQ delivers
+                              freshly ground coffee beans to elevate the
+                              espresso's flavor and aromatic qualities.
+                              Additionally, the machine offers a sophisticated
+                              app integration, enabling users to monitor brewing
+                              parameters and save their favorite recipes for
+                              consistency across every cup. With a self-cleaning
+                              function and minimal maintenance requirements, the
+                              Royale IQ Espresso Machine is as convenient as it
+                              is high-performing, ensuring that aspiring
+                              baristas can focus on perfecting their craft
+                              without the hassle of complicated upkeep. This
+                              machine embodies the essence of artisanal
+                              coffee-making, delivering exceptional performance
+                              that consistently satisfies the most discerning
+                              palates.
+                          weight:
+                            type: dex-segmented-control-parameter
+                            value: normal
+                  parameters:
+                    gap:
+                      type: dex-slider-control-parameter
+                      value:
+                        mobile: '4'
+                        tablet: '4'
+                        desktop: '8'
+                    spacing:
+                      type: dex-space-control-parameter
+                      value:
+                        mobile: {}
+                        tablet:
+                          marginLeft: container-large
+                        desktop:
+                          marginRight: container-large
+                    direction:
+                      type: dex-segmented-control-parameter
+                      value:
+                        mobile: col
+                        tablet: col
+                        desktop: col
+                    alignItems:
+                      type: dex-segmented-control-parameter
+                      value: {}
+                    displayName:
+                      type: text
+                      value: Content
+                    justifyContent:
+                      type: dex-segmented-control-parameter
+                      value: {}
+                  _overridability:
+                    hideLockedParameters: true
+            variant: columnsReverse
+            parameters:
+              spacing:
+                type: dex-space-control-parameter
+                value:
+                  mobile:
+                    paddingTop: container-medium
+                    paddingBottom: container-medium
+                  tablet:
+                    paddingTop: container-medium
+                    paddingBottom: container-medium
+                  desktop:
+                    paddingTop: container-medium
+                    paddingBottom: container-medium
+              displayName:
+                type: text
+                value: Royale IQ Espresso Machine
+              contentAlignment:
+                type: dex-segmented-control-parameter
+                value: center
+            _overridability:
+              parameters:
+                spacing: 'yes'
+                displayName: 'yes'
+                fluidContent: 'yes'
+              hideLockedParameters: true
+          - _id: 8e46fd4e-abf5-42ad-be95-652420b4e882
+            type: section
+            slots:
+              sectionMedia:
+                - _id: f3a7e3ba-4a18-4bad-a010-157980bd2da3
+                  type: image
+                  parameters:
+                    fill:
+                      type: checkbox
+                      value: true
+                    image:
+                      type: asset
+                      value:
+                        - _id: cf28e728-cd88-47f7-b5f3-b4fce87a81e7
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: f2c83a92-6062-4d4f-be1b-5acbc1f1d831
+                            url:
+                              value: >-
+                                https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/DFpYzBnMQaSBmrqxlh07sQ-BB_EthiopianBlend.png
+                              type: text
+                            file:
+                              type: file
+                              value: 9e5c957e-932b-4211-a099-6927b6e06fed
+                            size:
+                              value: 1655026
+                              type: number
+                            title:
+                              type: text
+                              value: BB_EthiopianBlend.png
+                            width:
+                              value: 1024
+                              type: number
+                            height:
+                              value: 1024
+                              type: number
+                            mediaType:
+                              value: image/png
+                              type: text
+                          _source: uniform-assets
+                    objectFit:
+                      type: dex-segmented-control-parameter
+                      value: cover
+                  _overridability:
+                    parameters:
+                      image: 'yes'
+                    hideLockedParameters: true
+              sectionContent:
+                - _id: 35230c90-af03-4a2a-8eae-48bf0f33d592
+                  type: flex
+                  slots:
+                    flexItem:
+                      - _id: 8f0a3cee-2a4e-4057-b12b-92b84a0c8939
+                        type: text
+                        parameters:
+                          tag:
+                            type: dex-segmented-control-parameter
+                            value: h2
+                          size:
+                            type: dex-segmented-control-parameter
+                            value:
+                              mobile: 3xl
+                              tablet: 4xl
+                              desktop: 4xl
+                          text:
+                            type: text
+                            value: Ethiopian Blend
+                          color:
+                            type: dex-color-palette-parameter
+                            value: text-primary
+                          weight:
+                            type: dex-segmented-control-parameter
+                            value: bold
+                          alignment:
+                            type: dex-segmented-control-parameter
+                            value: center
+                        _overridability:
+                          parameters:
+                            text: 'yes'
+                          hideLockedParameters: true
+                      - _id: 1bf84f3e-7911-42ec-b47a-e917db8ae24f
+                        type: text
+                        parameters:
+                          tag:
+                            type: dex-segmented-control-parameter
+                            value: span
+                          size:
+                            type: dex-segmented-control-parameter
+                            value:
+                              mobile: sm
+                              tablet: lg
+                              desktop: xl
+                          text:
+                            type: text
+                            value: >-
+                              JavaDrip Ethiopian Blend is a meticulously crafted
+                              dark roast espresso bean that has garnered
+                              outstanding reviews for its rich, complex flavor
+                              profile. Sourced from the lush highlands of
+                              Ethiopia, these beans are hand-selected for their
+                              unique attributes, offering a bold yet smooth
+                              taste with deep notes of dark chocolate, hints of
+                              berry, and a warm undertone of spices. The
+                              roasting process brings out their inherent
+                              sweetness while maintaining a full-bodied
+                              experience that lingers delightfully on the
+                              palate. Perfect for coffee enthusiasts who crave a
+                              robust cup, the JavaDrip Ethiopian Blend delivers
+                              an invigorating and satisfying espresso that
+                              stands out for its quality and depth.
+                          color:
+                            type: dex-color-palette-parameter
+                            value: text-primary
+                          weight:
+                            type: dex-segmented-control-parameter
+                            value: normal
+                          alignment:
+                            type: dex-segmented-control-parameter
+                            value: center
+                  parameters:
+                    gap:
+                      type: dex-slider-control-parameter
+                      value:
+                        mobile: '4'
+                        tablet: '4'
+                        desktop: '4'
+                    spacing:
+                      type: dex-space-control-parameter
+                      value:
+                        mobile: {}
+                        tablet:
+                          marginLeft: container-large
+                        desktop:
+                          marginLeft: container-large
+                    direction:
+                      type: dex-segmented-control-parameter
+                      value:
+                        mobile: col
+                        tablet: col
+                        desktop: col
+                    alignItems:
+                      type: dex-segmented-control-parameter
+                      value: {}
+                    displayName:
+                      type: text
+                      value: Content
+                    justifyContent:
+                      type: dex-segmented-control-parameter
+                      value: {}
+                  _overridability:
+                    hideLockedParameters: true
+            variant: columns
+            parameters:
+              spacing:
+                type: dex-space-control-parameter
+                value:
+                  paddingTop: container-medium
+                  paddingBottom: container-medium
+              displayName:
+                type: text
+                value: |
+                  Ethiopian Blend
+              contentAlignment:
+                type: dex-segmented-control-parameter
+                value: center
+            _overridability:
+              parameters:
+                spacing: 'yes'
+                displayName: 'yes'
+                fluidContent: 'yes'
+              hideLockedParameters: true
+          - _id: 182e578b-9f17-46fa-9098-04c38198e563
+            type: section
+            slots:
+              sectionMedia:
+                - _id: 48f66e2b-2c4b-42e2-bc18-d4e385207630
+                  type: image
+                  parameters:
+                    fill:
+                      type: checkbox
+                      value: true
+                    image:
+                      type: asset
+                      value:
+                        - _id: 90d519d2-5e71-4dea-828a-20ccee397f2d
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: 2f9f9f7a-f7e0-4182-9faa-f5747d06e3c4
+                            url:
+                              value: >-
+                                https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/Ul-qrUB-RF20r41ZiKrtCA-BB_IrishBlend.png
+                              type: text
+                            file:
+                              type: file
+                              value: 5ba76076-6d40-4fce-8f71-924216aef28b
+                            size:
+                              value: 1797830
+                              type: number
+                            title:
+                              type: text
+                              value: BB_IrishBlend.png
+                            width:
+                              value: 1024
+                              type: number
+                            height:
+                              value: 1024
+                              type: number
+                            mediaType:
+                              value: image/png
+                              type: text
+                          _source: uniform-assets
+                    objectFit:
+                      type: dex-segmented-control-parameter
+                      value: cover
+                  _overridability:
+                    parameters:
+                      image: 'yes'
+                    hideLockedParameters: true
+              sectionContent:
+                - _id: 0eabb54d-2855-484b-92cd-911e08f96a58
+                  type: flex
+                  slots:
+                    flexItem:
+                      - _id: f2ccb05f-a59e-470a-bb2d-dc234867364e
+                        type: text
+                        parameters:
+                          tag:
+                            type: dex-segmented-control-parameter
+                            value: span
+                          size:
+                            type: dex-segmented-control-parameter
+                            value:
+                              mobile: 3xl
+                              tablet: 4xl
+                              desktop: 4xl
+                          text:
+                            type: text
+                            value: Irish Blend
+                          color:
+                            type: dex-color-palette-parameter
+                            value: text-primary
+                          weight:
+                            type: dex-segmented-control-parameter
+                            value: bold
+                          alignment:
+                            type: dex-segmented-control-parameter
+                            value: center
+                        _overridability:
+                          parameters:
+                            text: 'yes'
+                          hideLockedParameters: true
+                      - _id: 8a5f47a3-dba0-4fe2-b8ac-b5089691c8c3
+                        type: text
+                        parameters:
+                          tag:
+                            type: dex-segmented-control-parameter
+                            value: span
+                          size:
+                            type: dex-segmented-control-parameter
+                            value:
+                              mobile: sm
+                              tablet: lg
+                              desktop: xl
+                          text:
+                            type: text
+                            value: >-
+                              JavaDrip Irish Blend is a captivating medium roast
+                              espresso that showcases the unique character of
+                              Irish coffee beans, celebrated for their vibrant
+                              acidity and complex flavor profile. This blend
+                              entices with notes of floral sweetness and hints
+                              of citrus, complemented by a rich, syrupy body
+                              that lingers beautifully on the palate. Baristas
+                              adore this blend for its versatility, seamlessly
+                              crafting espresso shots that are both robust and
+                              nuanced, making it ideal for everything from
+                              lattes to straight shots. With its well-balanced
+                              flavors and inviting aroma, JavaDrip Irish Blend
+                              has secured a cherished spot in coffee shops and
+                              home brewers' hearts alike.
+                          weight:
+                            type: dex-segmented-control-parameter
+                            value: normal
+                          alignment:
+                            type: dex-segmented-control-parameter
+                            value: center
+                  parameters:
+                    gap:
+                      type: dex-slider-control-parameter
+                      value:
+                        mobile: '4'
+                        tablet: '4'
+                        desktop: '8'
+                    spacing:
+                      type: dex-space-control-parameter
+                      value:
+                        mobile: {}
+                        tablet:
+                          marginLeft: container-large
+                        desktop:
+                          marginRight: container-large
+                    direction:
+                      type: dex-segmented-control-parameter
+                      value:
+                        mobile: col
+                        tablet: col
+                        desktop: col
+                    alignItems:
+                      type: dex-segmented-control-parameter
+                      value: {}
+                    displayName:
+                      type: text
+                      value: Content
+                    justifyContent:
+                      type: dex-segmented-control-parameter
+                      value: {}
+                  _overridability:
+                    hideLockedParameters: true
+            variant: columnsReverse
+            parameters:
+              spacing:
+                type: dex-space-control-parameter
+                value:
+                  paddingTop: container-medium
+                  paddingBottom: container-medium
+              displayName:
+                type: text
+                value: Irish Blend
+              contentAlignment:
+                type: dex-segmented-control-parameter
+                value: center
+            _overridability:
+              parameters:
+                spacing: 'yes'
+                displayName: 'yes'
+                fluidContent: 'yes'
+              hideLockedParameters: true
+          - _id: 7d3d0f63-8f7b-42ec-aa78-17ccadcb68c1
+            type: section
+            slots:
+              sectionMedia:
+                - _id: 96d0bb16-a3ce-492f-a266-3d8649bf1992
+                  type: image
+                  parameters:
+                    fill:
+                      type: checkbox
+                      value: true
+                    image:
+                      type: asset
+                      value:
+                        - _id: a8240b8d-df4f-4a66-8921-c54c90d39100
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: b6695c1f-3305-42b6-ad81-b2acbeb0506f
+                            url:
+                              value: >-
+                                https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/-RohxxOpQ_2Xp_ZzZE1M4Q-BB_OrganicBlend.png
+                              type: text
+                            file:
+                              type: file
+                              value: 3a2fed0e-f93b-4065-ba87-c4d6fefac903
+                            size:
+                              value: 1812194
+                              type: number
+                            title:
+                              type: text
+                              value: BB_OrganicBlend.png
+                            width:
+                              value: 1024
+                              type: number
+                            height:
+                              value: 1024
+                              type: number
+                            mediaType:
+                              value: image/png
+                              type: text
+                          _source: uniform-assets
+                    objectFit:
+                      type: dex-segmented-control-parameter
+                      value: cover
+                  _overridability:
+                    parameters:
+                      image: 'yes'
+                    hideLockedParameters: true
+              sectionContent:
+                - _id: 3146db27-e9cf-4377-830e-13432d36ad8d
+                  type: flex
+                  slots:
+                    flexItem:
+                      - _id: fba8b103-57bc-484a-a489-0ba7760cef9c
+                        type: text
+                        parameters:
+                          tag:
+                            type: dex-segmented-control-parameter
+                            value: span
+                          size:
+                            type: dex-segmented-control-parameter
+                            value:
+                              mobile: 3xl
+                              tablet: 4xl
+                              desktop: 4xl
+                          text:
+                            type: text
+                            value: Organic Blend
+                          color:
+                            type: dex-color-palette-parameter
+                            value: text-primary
+                          weight:
+                            type: dex-segmented-control-parameter
+                            value: bold
+                          alignment:
+                            type: dex-segmented-control-parameter
+                            value: center
+                        _overridability:
+                          parameters:
+                            text: 'yes'
+                          hideLockedParameters: true
+                      - _id: f2966234-9040-454a-9221-cda1658b03eb
+                        type: text
+                        parameters:
+                          tag:
+                            type: dex-segmented-control-parameter
+                            value: span
+                          size:
+                            type: dex-segmented-control-parameter
+                            value:
+                              mobile: sm
+                              tablet: lg
+                              desktop: xl
+                          text:
+                            type: text
+                            value: >-
+                              JavaDrip Organic Blend is a meticulously crafted
+                              light roast espresso that showcases the rich
+                              heritage of organic beans sourced from small-scale
+                              farmers. Each batch captures the vibrant notes of
+                              the region, offering a symphony of flavors that
+                              delight espresso connoisseurs who prioritize
+                              quality above all else. With its bright acidity
+                              and nuanced sweetness, this blend provides a
+                              refreshing yet complex profile, making it the
+                              perfect choice for those seeking an elevated
+                              coffee experience. The commitment to sustainable
+                              farming practices not only enhances the taste but
+                              also supports the livelihoods of dedicated
+                              farmers, ensuring that every cup of JavaDrip is a
+                              testament to quality and care.
+                          color:
+                            type: dex-color-palette-parameter
+                            value: text-primary
+                          weight:
+                            type: dex-segmented-control-parameter
+                            value: normal
+                          alignment:
+                            type: dex-segmented-control-parameter
+                            value: center
+                  parameters:
+                    gap:
+                      type: dex-slider-control-parameter
+                      value:
+                        mobile: '4'
+                        tablet: '4'
+                        desktop: '4'
+                    spacing:
+                      type: dex-space-control-parameter
+                      value:
+                        mobile: {}
+                        tablet:
+                          marginLeft: container-large
+                        desktop:
+                          marginLeft: container-large
+                    direction:
+                      type: dex-segmented-control-parameter
+                      value:
+                        mobile: col
+                        tablet: col
+                        desktop: col
+                    alignItems:
+                      type: dex-segmented-control-parameter
+                      value: {}
+                    displayName:
+                      type: text
+                      value: Content
+                    justifyContent:
+                      type: dex-segmented-control-parameter
+                      value: {}
+                  _overridability:
+                    hideLockedParameters: true
+            variant: columns
+            parameters:
+              spacing:
+                type: dex-space-control-parameter
+                value:
+                  paddingTop: container-medium
+                  paddingBottom: container-medium
+              displayName:
+                type: text
+                value: |
+                  Organic Blend
+              contentAlignment:
+                type: dex-segmented-control-parameter
+                value: center
+            _overridability:
+              parameters:
+                spacing: 'yes'
+                displayName: 'yes'
+                fluidContent: 'yes'
+              hideLockedParameters: true
+          - _id: 334faa98-2653-4fb4-aeb8-ad8ba26acef4
+            type: container
+            slots:
+              containerContent:
+                - _id: 979b3246-bd6e-45e6-af8f-e9c8dd540c86
+                  type: section
+                  slots:
+                    sectionCTA:
+                      - _id: a4dc3dd0-9598-4af7-ace8-0bfcf3423a6a
+                        type: button
+                        _pattern: 8060e691-b0b3-428c-92f1-278fc76baf47
+                        _overridability:
+                          variants: true
+                          parameters:
+                            link: 'yes'
+                            text: 'yes'
+                            textColor: 'yes'
+                            textWeight: 'yes'
+                            buttonColor: 'yes'
+                            textTransform: 'yes'
+                            hoverTextColor: 'yes'
+                            hoverButtonColor: 'yes'
+                          hideLockedParameters: true
+                    sectionMedia:
+                      - _id: dcfbe6cd-2d6c-4802-affd-fa74de9d5f93
+                        type: image
+                        parameters:
+                          fill:
+                            type: checkbox
+                            value: true
+                          image:
+                            type: asset
+                            value:
+                              - _id: 5fd0c030-0d29-41af-92fe-828082aaebd0
+                                type: image
+                                fields:
+                                  id:
+                                    type: text
+                                    value: 59c1b782-d08c-4d92-aa14-4ddc6420b77f
+                                  url:
+                                    value: >-
+                                      https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/VPSjz18XQDGS5KdY_CmgiA-BeansBundle.png
+                                    type: text
+                                  file:
+                                    type: file
+                                    value: 7143758d-a50b-4fe9-be16-0b5362d08bd2
+                                  size:
+                                    value: 2292607
+                                    type: number
+                                  title:
+                                    type: text
+                                    value: BeansBundle.png
+                                  width:
+                                    value: 1536
+                                    type: number
+                                  height:
+                                    value: 1024
+                                    type: number
+                                  mediaType:
+                                    value: image/png
+                                    type: text
+                                _source: uniform-assets
+                          objectFit:
+                            type: dex-segmented-control-parameter
+                            value: contain
+                        _overridability:
+                          parameters:
+                            image: 'yes'
+                          hideLockedParameters: true
+                    sectionContent:
+                      - _id: e4417119-5f99-471a-a230-80ccbcaeabbd
+                        type: flex
+                        slots:
+                          flexItem:
+                            - _id: 7706bad5-c120-496f-83f4-37d9d1f25da6
+                              type: text
+                              parameters:
+                                tag:
+                                  type: dex-segmented-control-parameter
+                                  value: span
+                                size:
+                                  type: dex-segmented-control-parameter
+                                  value:
+                                    mobile: 3xl
+                                    tablet: 4xl
+                                    desktop: 4xl
+                                text:
+                                  type: text
+                                  value: Order the Beans Bundle
+                                color:
+                                  type: dex-color-palette-parameter
+                                  value: text-primary
+                                weight:
+                                  type: dex-segmented-control-parameter
+                                  value: bold
+                                alignment:
+                                  type: dex-segmented-control-parameter
+                                  value: center
+                              _overridability:
+                                parameters:
+                                  text: 'yes'
+                                hideLockedParameters: true
+                            - _id: 826b5d3c-8b4c-4667-a69d-65f0cc5be6d4
+                              type: text
+                              parameters:
+                                tag:
+                                  type: dex-segmented-control-parameter
+                                  value: span
+                                size:
+                                  type: dex-segmented-control-parameter
+                                  value:
+                                    desktop: xl
+                                text:
+                                  type: text
+                                  locales:
+                                    en: Only $349.99
+                                weight:
+                                  type: dex-segmented-control-parameter
+                                  value: extrabold
+                            - _id: 6937a1b6-bb0a-4d82-9ecc-60dabb762ee3
+                              type: text
+                              parameters:
+                                tag:
+                                  type: dex-segmented-control-parameter
+                                  value: span
+                                size:
+                                  type: dex-segmented-control-parameter
+                                  value:
+                                    mobile: sm
+                                    tablet: lg
+                                    desktop: xl
+                                text:
+                                  type: text
+                                  value: >-
+                                    Indulge in the art of espresso with the
+                                    exclusive JavaDrip Beans Bundle, featuring a
+                                    premium espresso maker and three
+                                    hand-selected luxury espresso bean packages
+                                    curated by renowned barista Hans Anderson.
+                                    Elevate your coffee experience at home and
+                                    savor the rich, complex flavors that only
+                                    expertly chosen beans can deliver.
+                                weight:
+                                  type: dex-segmented-control-parameter
+                                  value: normal
+                        parameters:
+                          gap:
+                            type: dex-slider-control-parameter
+                            value:
+                              mobile: '4'
+                              tablet: '4'
+                              desktop: '8'
+                          spacing:
+                            type: dex-space-control-parameter
+                            value:
+                              mobile: {}
+                              tablet:
+                                marginLeft: container-large
+                              desktop:
+                                marginRight: container-large
+                          direction:
+                            type: dex-segmented-control-parameter
+                            value:
+                              mobile: col
+                              tablet: col
+                              desktop: col
+                          alignItems:
+                            type: dex-segmented-control-parameter
+                            value: {}
+                          displayName:
+                            type: text
+                            value: Content
+                          justifyContent:
+                            type: dex-segmented-control-parameter
+                            value: {}
+                        _overridability:
+                          hideLockedParameters: true
+                  variant: columnsReverse
+                  parameters:
+                    spacing:
+                      type: dex-space-control-parameter
+                      value:
+                        mobile:
+                          paddingTop: container-medium
+                          paddingBottom: container-medium
+                        tablet:
+                          paddingTop: container-medium
+                          paddingBottom: container-medium
+                        desktop:
+                          paddingTop: container-medium
+                          paddingBottom: container-medium
+                    displayName:
+                      type: text
+                      value: >-
+                        AI-optimized grinding and delivery ensures that every
+                        coffee is just how you like it
+                    contentAlignment:
+                      type: dex-segmented-control-parameter
+                      value: center
+                  _overridability:
+                    parameters:
+                      spacing: 'yes'
+                      displayName: 'yes'
+                      fluidContent: 'yes'
+                    hideLockedParameters: true
+            parameters:
+              anchor:
+                type: text
+                locales:
+                  en: OrderNow
+              spacing:
+                type: dex-space-control-parameter
+                value:
+                  mobile: {}
+                  tablet: {}
+                  desktop: {}
+              displayName:
+                type: text
+                locales:
+                  en: Order Now
+              fluidContent:
+                type: checkbox
+                value: true
+              backgroundColor:
+                type: dex-color-palette-parameter
+                value: general-color-12
+  _locales:
+    - en
+  _pattern: f9c058ea-c40d-4435-ac5a-53423cf654dc
+created: '2025-04-25T12:20:48.499781+00:00'
+modified: '2025-06-25T12:02:57.372218+00:00'
+pattern: false

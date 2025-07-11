@@ -1,0 +1,205 @@
+composition:
+  _name: Main Favorites
+  _id: d80bafe3-ac5f-4304-8ca5-b3d78f820ddb
+  type: favorites
+  parameters:
+    primaryTextColor:
+      type: dex-color-palette-parameter
+      value: text-primary
+    addToFavoritesIcon:
+      type: asset
+      locales:
+        en:
+          - _id: e06cb422-666c-419a-abe5-d5f79c42a46c
+            type: image
+            fields:
+              id:
+                type: text
+                value: 42f196a1-dff3-4f01-bc53-f57e05125c9a
+              url:
+                value: >-
+                  https://img.uniform.global/p/6MJ1ELg6RE6-E2mQbcKLjg/SBGhbIz7TwSeAJvorvh2Wg-favourite-icon.svg
+                type: text
+              file:
+                type: file
+                value: 5b6bbc81-cd4f-4e8e-9b96-5a3bb9aa68af
+              size:
+                value: 690
+                type: number
+              title:
+                type: text
+                value: favourite-icon.svg
+              width:
+                value: 24
+                type: number
+              height:
+                value: 24
+                type: number
+              mediaType:
+                value: image/svg+xml
+                type: text
+            _source: uniform-assets
+    removeFromFavoritesIcon:
+      type: asset
+      locales:
+        en:
+          - _id: 6e178fbd-5837-407f-85c6-ad3bce752fe3
+            type: image
+            fields:
+              id:
+                type: text
+                value: f118b73e-d427-4db0-960f-76b018aacc03
+              url:
+                value: >-
+                  https://img.uniform.global/p/6MJ1ELg6RE6-E2mQbcKLjg/--En1PAzSqCV61Pg92lHtw-favourite-icon-red.svg
+                type: text
+              file:
+                type: file
+                value: a8b111b7-62f0-4ae4-92ed-f8b6531e6df0
+              size:
+                value: 689
+                type: number
+              title:
+                type: text
+                value: favourite-icon-red.svg
+              width:
+                value: 24
+                type: number
+              height:
+                value: 24
+                type: number
+              mediaType:
+                value: image/svg+xml
+                type: text
+            _source: uniform-assets
+  slots:
+    emptyFavoritesContent:
+      - _id: 83217f2c-31ff-4c18-96fc-ff819e09cca5
+        type: flex
+        slots:
+          flexItem:
+            - _id: 1b51b968-ec35-430f-87ae-f0dd954abcdb
+              type: text
+              parameters:
+                tag:
+                  type: dex-segmented-control-parameter
+                  value: span
+                size:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: 3xl
+                    tablet: 3xl
+                    desktop: 3xl
+                text:
+                  type: text
+                  locales:
+                    en: Your favorites is empty
+                color:
+                  type: dex-color-palette-parameter
+                  value: text-primary
+                weight:
+                  type: dex-segmented-control-parameter
+                  value: bold
+            - _id: f9b8bb25-adbc-49ea-b64e-b757905c912d
+              type: image
+              parameters:
+                image:
+                  type: asset
+                  value:
+                    - _id: 746f88c4-d7b3-43a2-90fa-47e95e927354
+                      type: image
+                      fields:
+                        id:
+                          type: text
+                          value: 42f196a1-dff3-4f01-bc53-f57e05125c9a
+                        url:
+                          value: >-
+                            https://img.uniform.global/p/6MJ1ELg6RE6-E2mQbcKLjg/SBGhbIz7TwSeAJvorvh2Wg-favourite-icon.svg
+                          type: text
+                        file:
+                          type: file
+                          value: 5b6bbc81-cd4f-4e8e-9b96-5a3bb9aa68af
+                        size:
+                          value: 690
+                          type: number
+                        title:
+                          type: text
+                          value: favourite-icon.svg
+                        width:
+                          value: 24
+                          type: number
+                        height:
+                          value: 24
+                          type: number
+                        mediaType:
+                          value: image/svg+xml
+                          type: text
+                      _source: uniform-assets
+                width:
+                  type: number
+                  value: '110'
+                height:
+                  type: number
+                  value: '100'
+                objectFit:
+                  type: dex-segmented-control-parameter
+                  value: contain
+            - _id: 95527189-e1c7-4eae-9eab-07841287562d
+              type: text
+              parameters:
+                tag:
+                  type: dex-segmented-control-parameter
+                  value: span
+                size:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: lg
+                    tablet: lg
+                    desktop: xl
+                text:
+                  type: text
+                  locales:
+                    en: Your favorites is empty
+                color:
+                  type: dex-color-palette-parameter
+                  value: text-primary
+                weight:
+                  type: dex-segmented-control-parameter
+                  value: normal
+        parameters:
+          gap:
+            type: dex-slider-control-parameter
+            value:
+              mobile: '8'
+              tablet: '8'
+              desktop: '8'
+          direction:
+            type: dex-segmented-control-parameter
+            value:
+              mobile: col
+              tablet: col
+              desktop: col
+          alignItems:
+            type: dex-segmented-control-parameter
+            value:
+              mobile: center
+              tablet: center
+              desktop: center
+          displayName:
+            type: text
+            locales:
+              en: 'The favorites is empty '
+          justifyContent:
+            type: dex-segmented-control-parameter
+            value:
+              mobile: center
+              tablet: center
+              desktop: center
+  _locales:
+    - en
+created: '2025-05-20T11:53:44.754018+00:00'
+modified: '2025-05-22T11:38:48.217231+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/coffee-shop-template/preview-images/main_favorites.png
+categoryId: adaebea8-ba58-494b-9c3b-9f82906d9415

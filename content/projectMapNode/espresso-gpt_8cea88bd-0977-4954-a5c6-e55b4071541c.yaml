@@ -1,0 +1,9 @@
+id: 8cea88bd-0977-4954-a5c6-e55b4071541c
+name: EspressoGPT
+order: 600
+path: /:locale/products/espresso-gpt
+type: composition
+pathSegment: espresso-gpt
+data: {}
+compositionId: 593c6cc4-d400-4cdd-8ce1-8cffaef0814f
+projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9

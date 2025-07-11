@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 1da30c5b-9a4f-4c63-9fd0-9525ff979dd5
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: green-cup-of-coffee.svg
+    file:
+      type: file
+      value: c30d6c83-6a68-4c69-a1ef-e01d3c345a3a
+    mediaType:
+      value: image/svg+xml
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/N0QOqjXvSFeXY7i3yzY8ZQ/faKM9LtdTGyYTnIDYdQINA-green-cup-of-coffee.svg
+      type: text
+    size:
+      value: 5865
+      type: number
+    width:
+      value: 35
+      type: number
+    height:
+      value: 39
+      type: number
+    custom: {}
+created: '2025-01-29T11:08:51.770665+00:00'
+modified: '2025-01-29T11:08:51.770665+00:00'

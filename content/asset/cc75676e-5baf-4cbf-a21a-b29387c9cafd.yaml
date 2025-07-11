@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: cc75676e-5baf-4cbf-a21a-b29387c9cafd
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: error-image.jpeg
+    file:
+      type: file
+      value: df5c37e8-4faf-49c3-920a-370d66fe48a7
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/N0QOqjXvSFeXY7i3yzY8ZQ/xenHD2f5QEWW1rWO7OQdgA-error-image.jpeg
+      type: text
+    size:
+      value: 5333305
+      type: number
+    width:
+      value: 2576
+      type: number
+    height:
+      value: 3864
+      type: number
+    custom: {}
+created: '2025-01-29T11:08:58.764387+00:00'
+modified: '2025-01-29T11:08:58.764387+00:00'

@@ -1,0 +1,236 @@
+created: '2025-01-29T11:10:21.803252+00:00'
+modified: '2025-06-26T06:30:04.902626+00:00'
+pattern: false
+entry:
+  _id: 34c9ed02-ac16-456b-a6c1-60c46f679603
+  _name: Glass Carafe & Brew-Through Lid
+  _slug: glass-carafe-and-brew-through-lid
+  _thumbnail: >-
+    https://img.uniform.global/p/DCdo4LRJTZWl21CYeUJNPg/vyT6cYq7Qs2N9TvJW2MYrg-glass-carafe-brew-through-lid-1.png
+  type: product
+  fields:
+    body:
+      type: richText
+      locales:
+        en:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Enhance your specialty coffee experience with the Glass
+                      Carafe & Brew-Through Lid, crafted to complement your
+                      high-quality coffee maker. This carafe is designed with
+                      durable, heat-resistant glass to maintain the integrity of
+                      your brew, ensuring a pure and full-bodied flavor. The
+                      included brew-through lid allows for effortless brewing
+                      directly into the carafe and makes serving simple, while
+                      also helping to retain heat and aroma for a more enjoyable
+                      coffee experience.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Whether you're brewing a single cup or serving guests,
+                      this carafe provides an elegant and functional solution
+                      for any coffee setting. Its sleek design fits seamlessly
+                      into your kitchen while the sturdy construction ensures
+                      long-lasting use. Ideal for coffee lovers who value both
+                      aesthetics and function, the Glass Carafe & Brew-Through
+                      Lid is an essential addition to your specialty coffee
+                      maker setup.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+    name:
+      type: text
+      value: Glass Carafe & Brew-Through Lid
+    brand:
+      type: contentReference
+      value: ${#jptr:/ref-34c9ed02-ac16-456b-a6c1-60c46f679603-brand/entries/0}
+    title:
+      type: text
+      value: Glass Carafe & Brew-Through Lid
+    rating:
+      type: number
+      value: '3.7'
+    ogImage:
+      type: asset
+      value:
+        - _id: be8e82b0-31af-4f84-ab8f-9fc38a4650b3
+          type: image
+          fields:
+            id:
+              type: text
+              value: 1622156a-53b9-4bfe-a630-9010ee4892d8
+            url:
+              value: >-
+                https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/Zw39haVpTVOyDJASuJ-YxA-glass-carafe-brew-through-lid-1.png
+              type: text
+            file:
+              type: file
+              value: 51660e45-2758-4975-a3a5-b909a80aed8f
+            size:
+              value: 28194
+              type: number
+            title:
+              type: text
+              value: glass-carafe-brew-through-lid-1.png
+            width:
+              value: 570
+              type: number
+            height:
+              value: 467
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+    category:
+      type: contentReference
+      value: ${#jptr:/ref-34c9ed02-ac16-456b-a6c1-60c46f679603-category/entries/0}
+    variants:
+      type: $block
+      value:
+        - _id: 74ca92a6-3b9e-4328-b3a4-21c8d54d0829
+          type: variant
+          fields:
+            code:
+              type: text
+              value: '146'
+            price:
+              type: number
+              locales:
+                en: '24.95'
+            title:
+              type: text
+              locales:
+                en: Glass Carafe & Brew-Through Lid
+            currency:
+              type: text
+              locales:
+                en: USD
+            imageGallery:
+              type: asset
+              value:
+                - _id: 48f29b72-c624-4ef7-b36c-21e9be6f1652
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: 1622156a-53b9-4bfe-a630-9010ee4892d8
+                    url:
+                      value: >-
+                        https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/Zw39haVpTVOyDJASuJ-YxA-glass-carafe-brew-through-lid-1.png
+                      type: text
+                    file:
+                      type: file
+                      value: 51660e45-2758-4975-a3a5-b909a80aed8f
+                    size:
+                      value: 28194
+                      type: number
+                    title:
+                      type: text
+                      value: glass-carafe-brew-through-lid-1.png
+                    width:
+                      value: 570
+                      type: number
+                    height:
+                      value: 467
+                      type: number
+                    mediaType:
+                      value: image/png
+                      type: text
+                  _source: uniform-assets
+    metaTitle:
+      type: text
+      value: Glass Carafe & Brew-Through Lid
+    enrichments:
+      type: $enr
+      value:
+        - cat: brand
+          key: javadrip
+          str: 5
+    primaryImage:
+      type: asset
+      value:
+        - _id: be8e82b0-31af-4f84-ab8f-9fc38a4650b3
+          type: image
+          fields:
+            id:
+              type: text
+              value: 1622156a-53b9-4bfe-a630-9010ee4892d8
+            url:
+              value: >-
+                https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/Zw39haVpTVOyDJASuJ-YxA-glass-carafe-brew-through-lid-1.png
+              type: text
+            file:
+              type: file
+              value: 51660e45-2758-4975-a3a5-b909a80aed8f
+            size:
+              value: 28194
+              type: number
+            title:
+              type: text
+              value: glass-carafe-brew-through-lid-1.png
+            width:
+              value: 570
+              type: number
+            height:
+              value: 467
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+    metaDescription:
+      type: text
+      locales:
+        en: >-
+          Sleek Glass Carafe with Brew-Through Lid for perfect coffee brewing
+          and serving, enhancing flavor with its durable design.
+    shortDescription:
+      type: text
+      locales:
+        en: >-
+          The Glass Carafe & Brew-Through Lid is designed for specialty coffee
+          makers, offering seamless brewing and serving with a sleek, durable
+          glass construction and a convenient lid that locks in flavor.
+  _dataResources:
+    ref-34c9ed02-ac16-456b-a6c1-60c46f679603-brand:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 725d0924-c684-49f1-ba91-b0dfd695823d
+    ref-34c9ed02-ac16-456b-a6c1-60c46f679603-category:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 6b8b91ea-1922-4c2a-8233-4a4a20ab285b
+  _locales:
+    - en

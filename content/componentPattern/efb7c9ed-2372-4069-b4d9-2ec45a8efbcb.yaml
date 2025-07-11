@@ -1,0 +1,175 @@
+composition:
+  _name: Left Image Section
+  _id: efb7c9ed-2372-4069-b4d9-2ec45a8efbcb
+  type: section
+  variant: columns
+  parameters:
+    displayName:
+      type: text
+      value: Heavy coffee drinkers save $3 / day with subscription.
+    contentAlignment:
+      type: dex-segmented-control-parameter
+      value: center
+  slots:
+    sectionCTA:
+      - _id: fa933a66-ceec-4443-bf4b-2ea8ddd1aba2
+        type: button
+        _pattern: 646faee6-b476-43c6-a1a8-eebe85699889
+    sectionMedia:
+      - _id: 3cef9a4a-f0c8-4eeb-a855-a28fd1335351
+        type: image
+        parameters:
+          image:
+            type: asset
+            value:
+              - _id: 4a900a84-5384-4637-8dcb-52f6d7fca15d
+                type: image
+                fields:
+                  id:
+                    type: text
+                    value: dd0d9e74-01dd-40e4-a706-9c77a03c91ee
+                  url:
+                    value: >-
+                      https://img.uniform.global/p/9VlMgIbZQQKI2wzV-L0jow/cqeoBMZPQtuGvGowSL1qNg-coffee-beans-pack.jpg
+                    type: text
+                  file:
+                    type: file
+                    value: 46dbbed6-2c9b-4647-aef0-e3b82bf93768
+                  size:
+                    value: 1292702
+                    type: number
+                  title:
+                    type: text
+                    value: coffee-beans-pack.jpg
+                  width:
+                    value: 4896
+                    type: number
+                  height:
+                    value: 3264
+                    type: number
+                  mediaType:
+                    value: image/jpeg
+                    type: text
+                _source: uniform-assets
+          objectFit:
+            type: dex-segmented-control-parameter
+            value: cover
+        _overridability:
+          parameters:
+            image: 'yes'
+          hideLockedParameters: true
+    sectionContent:
+      - _id: 5af03d0f-f208-4370-a77e-86dc0c60c0e1
+        type: flex
+        slots:
+          flexItem:
+            - _id: 74170e2f-021f-4f8c-85dd-885af205a737
+              type: text
+              parameters:
+                tag:
+                  type: dex-segmented-control-parameter
+                  value: span
+                size:
+                  type: dex-segmented-control-parameter
+                  value:
+                    tablet: 4xl
+                    desktop: 4xl
+                text:
+                  type: text
+                  value: Heavy coffee drinkers save $3 / day with subscription.
+                color:
+                  type: dex-color-palette-parameter
+                  value: text-primary
+                weight:
+                  type: dex-segmented-control-parameter
+                  value: bold
+                alignment:
+                  type: dex-segmented-control-parameter
+                  value: left
+              _overridability:
+                parameters:
+                  text: 'yes'
+                hideLockedParameters: true
+            - _id: 5016ff87-24e4-4601-9352-ffc7bcacf197
+              type: text
+              parameters:
+                tag:
+                  type: dex-segmented-control-parameter
+                  value: span
+                size:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: base
+                    tablet: base
+                    desktop: base
+                text:
+                  type: text
+                  value: >-
+                    Our new subscription service is here. Subscribing to regular
+                    coffee delivery means that you never run out of the rocket
+                    fuel.
+                color:
+                  type: dex-color-palette-parameter
+                  value: text-primary
+                weight:
+                  type: dex-segmented-control-parameter
+                  value: normal
+                alignment:
+                  type: dex-segmented-control-parameter
+                  value: left
+              _overridability:
+                parameters:
+                  text: 'yes'
+                hideLockedParameters: true
+        parameters:
+          gap:
+            type: dex-slider-control-parameter
+            value:
+              mobile: '4'
+              tablet: '4'
+              desktop: '4'
+          spacing:
+            type: dex-space-control-parameter
+            value:
+              mobile: {}
+              tablet:
+                marginLeft: container-large
+              desktop:
+                marginLeft: container-large
+          direction:
+            type: dex-segmented-control-parameter
+            value:
+              mobile: col
+              tablet: col
+              desktop: col
+          alignItems:
+            type: dex-segmented-control-parameter
+            value: {}
+          displayName:
+            type: text
+            value: Content
+          justifyContent:
+            type: dex-segmented-control-parameter
+            value: {}
+        _overridability:
+          hideLockedParameters: true
+  _overrides:
+    fa933a66-ceec-4443-bf4b-2ea8ddd1aba2:
+      parameters:
+        text:
+          type: text
+          value: SUBSCRIBE NOW
+  _overridability:
+    parameters:
+      spacing: 'yes'
+      displayName: 'yes'
+      fluidContent: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en
+created: '2025-03-18T13:02:30.2527+00:00'
+modified: '2025-05-22T10:58:55.827023+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/coffee-shop-template/preview-images/left-image-section.jpg
+categoryId: f22b05f0-c4bf-4158-8ebc-4856e4d453af

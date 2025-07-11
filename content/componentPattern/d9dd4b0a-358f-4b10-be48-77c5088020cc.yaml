@@ -1,0 +1,103 @@
+composition:
+  _name: Page Title Section
+  _id: d9dd4b0a-358f-4b10-be48-77c5088020cc
+  type: container
+  parameters:
+    height:
+      type: dex-segmented-control-parameter
+      value: {}
+    spacing:
+      type: dex-space-control-parameter
+      value:
+        mobile:
+          paddingTop: container-medium
+          paddingBottom: container-medium
+        tablet:
+          paddingTop: container-medium
+          paddingBottom: container-large
+        desktop:
+          paddingTop: container-medium
+          paddingBottom: container-xlarge
+    displayName:
+      type: text
+      value: Articles
+  slots:
+    containerContent:
+      - _id: 5feefc71-05dd-4004-bfe9-3dd6876628b4
+        type: text
+        parameters:
+          tag:
+            type: dex-segmented-control-parameter
+            value: h1
+          size:
+            type: dex-segmented-control-parameter
+            value:
+              mobile: 3xl
+              tablet: 4xl
+              desktop: 4xl
+          text:
+            type: text
+            value: Articles
+          color:
+            type: dex-color-palette-parameter
+            value: text-primary
+          weight:
+            type: dex-segmented-control-parameter
+            value: bold
+        _overridability:
+          parameters:
+            text: 'yes'
+          hideLockedParameters: true
+      - _id: 8eb6b0f1-d2b3-48a3-9fe7-9197aaa550c6
+        type: container
+        slots:
+          containerContent:
+            - _id: edd3124e-b2ee-4b71-94ab-27004cc6eadc
+              type: divider
+              parameters:
+                color:
+                  type: dex-color-palette-parameter
+                  value: general-color-12
+                width:
+                  type: dex-slider-control-parameter
+                  value: 100%
+                alignment:
+                  type: dex-segmented-control-parameter
+                  value: center
+                thickness:
+                  type: dex-slider-control-parameter
+                  value: 1px
+        parameters:
+          spacing:
+            type: dex-space-control-parameter
+            value:
+              paddingTop: container-small
+              paddingBottom: container-small
+          displayName:
+            type: text
+            value: Divider
+          fluidContent:
+            type: checkbox
+            value: true
+        _overridability:
+          hideLockedParameters: true
+      - _id: 2058ad6d-25b3-4eea-a276-cb996b4188cc
+        type: $slotSection
+        parameters:
+          name:
+            type: text
+            value: Content
+        _overridability:
+          hideLockedParameters: true
+  _overridability:
+    parameters:
+      displayName: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en
+created: '2025-01-29T11:09:28.778505+00:00'
+modified: '2025-06-25T10:26:14.716779+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/coffee-shop-template/preview-images/page-title-section.jpg
+categoryId: ae15b0f6-4953-4ccb-9984-ad0525e77b01

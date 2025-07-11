@@ -1,0 +1,216 @@
+created: '2025-01-29T11:10:28.432357+00:00'
+modified: '2025-06-26T06:30:13.003217+00:00'
+pattern: false
+entry:
+  _id: efc7afec-03c4-4fd4-b478-a32708f5852e
+  _name: Water Reservoir with Flip-Top Lid
+  _slug: water-reservoir-with-flip-top-lid
+  _thumbnail: >-
+    https://img.uniform.global/p/DCdo4LRJTZWl21CYeUJNPg/hfQ08J56QmaGcVGMYvxOxA-water-reservoir-with-flip-top-lid-1.png
+  type: product
+  fields:
+    body:
+      type: richText
+      locales:
+        en:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Experience the ultimate in convenience with this Water
+                      Reservoir featuring a practical flip-top lid, perfect for
+                      specialty coffee makers. This thoughtfully designed
+                      reservoir makes refilling a breeze, with a secure,
+                      flip-top opening that helps prevent spills and minimizes
+                      mess. Crafted from high-quality, durable materials, this
+                      reservoir ensures a long-lasting and reliable water source
+                      for your coffee maker, maintaining a steady, optimal flow
+                      to bring out the best in your coffee. Whether you're
+                      brewing a single cup or a full carafe, this reservoir is
+                      built to keep up with your daily coffee rituals, providing
+                      the perfect blend of functionality and quality.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+    name:
+      type: text
+      value: Water Reservoir with Flip-Top Lid
+    brand:
+      type: contentReference
+      value: ${#jptr:/ref-efc7afec-03c4-4fd4-b478-a32708f5852e-brand/entries/0}
+    title:
+      type: text
+      value: Water Reservoir with Flip-Top Lid
+    rating:
+      type: number
+      value: '3.7'
+    ogImage:
+      type: asset
+      value:
+        - _id: 79de7fc6-b35b-49df-a194-265b90ba84ab
+          type: image
+          fields:
+            id:
+              type: text
+              value: aee0bd60-507b-4474-bd37-e44db7fcbe9c
+            url:
+              value: >-
+                https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/0AzF8kGuRKiK2gP_A2D07g-water-reservoir-with-flip-top-lid-1.png
+              type: text
+            file:
+              type: file
+              value: a499d8ed-a237-4135-9c03-e1b0fd6f0ae8
+            size:
+              value: 92391
+              type: number
+            title:
+              type: text
+              value: water-reservoir-with-flip-top-lid-1.png
+            width:
+              value: 506
+              type: number
+            height:
+              value: 506
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+    category:
+      type: contentReference
+      value: ${#jptr:/ref-efc7afec-03c4-4fd4-b478-a32708f5852e-category/entries/0}
+    variants:
+      type: $block
+      value:
+        - _id: b4dadf3b-f97f-4ad4-a9b8-808299364a20
+          type: variant
+          fields:
+            code:
+              type: text
+              value: '149'
+            price:
+              type: number
+              locales:
+                en: '24.95'
+            title:
+              type: text
+              locales:
+                en: Water Reservoir with Flip-Top Lid
+            currency:
+              type: text
+              locales:
+                en: USD
+            imageGallery:
+              type: asset
+              value:
+                - _id: f8d858d5-f134-480c-93c5-7168f0745f09
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: aee0bd60-507b-4474-bd37-e44db7fcbe9c
+                    url:
+                      value: >-
+                        https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/0AzF8kGuRKiK2gP_A2D07g-water-reservoir-with-flip-top-lid-1.png
+                      type: text
+                    file:
+                      type: file
+                      value: a499d8ed-a237-4135-9c03-e1b0fd6f0ae8
+                    size:
+                      value: 92391
+                      type: number
+                    title:
+                      type: text
+                      value: water-reservoir-with-flip-top-lid-1.png
+                    width:
+                      value: 506
+                      type: number
+                    height:
+                      value: 506
+                      type: number
+                    mediaType:
+                      value: image/png
+                      type: text
+                  _source: uniform-assets
+    metaTitle:
+      type: text
+      value: Water Reservoir with Flip-Top Lid
+    enrichments:
+      type: $enr
+      value:
+        - cat: brand
+          key: javadrip
+          str: 5
+    primaryImage:
+      type: asset
+      value:
+        - _id: 79de7fc6-b35b-49df-a194-265b90ba84ab
+          type: image
+          fields:
+            id:
+              type: text
+              value: aee0bd60-507b-4474-bd37-e44db7fcbe9c
+            url:
+              value: >-
+                https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/0AzF8kGuRKiK2gP_A2D07g-water-reservoir-with-flip-top-lid-1.png
+              type: text
+            file:
+              type: file
+              value: a499d8ed-a237-4135-9c03-e1b0fd6f0ae8
+            size:
+              value: 92391
+              type: number
+            title:
+              type: text
+              value: water-reservoir-with-flip-top-lid-1.png
+            width:
+              value: 506
+              type: number
+            height:
+              value: 506
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+    metaDescription:
+      type: text
+      locales:
+        en: >-
+          Quickly refill specialty coffee makers with our spill-free Water
+          Reservoir & Flip-Top Lid, enhancing your brewing experience.
+    shortDescription:
+      type: text
+      locales:
+        en: >-
+          Designed for ease and convenience, this Water Reservoir with a
+          Flip-Top Lid allows quick, spill-free refilling, specifically tailored
+          for specialty coffee makers to enhance your brewing experience.
+  _dataResources:
+    ref-efc7afec-03c4-4fd4-b478-a32708f5852e-brand:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 725d0924-c684-49f1-ba91-b0dfd695823d
+    ref-efc7afec-03c4-4fd4-b478-a32708f5852e-category:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 6b8b91ea-1922-4c2a-8233-4a4a20ab285b
+  _locales:
+    - en

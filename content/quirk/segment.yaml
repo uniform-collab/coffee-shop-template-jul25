@@ -1,0 +1,10 @@
+id: segment
+name: Segment
+description: coffee enthusiast level
+options:
+  - name: Aficionado
+    value: aficionado
+  - name: Occasional
+    value: occasional
+  - name: Newb
+    value: newb

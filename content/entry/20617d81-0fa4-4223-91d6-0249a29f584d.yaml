@@ -1,0 +1,1793 @@
+created: '2025-01-29T11:10:21.317441+00:00'
+modified: '2025-06-25T14:25:54.186747+00:00'
+pattern: false
+entry:
+  _id: 20617d81-0fa4-4223-91d6-0249a29f584d
+  _name: 'Grinding Beans: The Key to Perfect Coffee'
+  _slug: grinding-beans-the-key-to-perfect-coffee
+  _thumbnail: >-
+    https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/GN3afw41RnqvETFRD1uTxg-grinding-beans-the-key-to-perfect-coffee.jpg
+  type: article
+  fields:
+    title:
+      type: text
+      value: 'Grinding Beans: The Key to Perfect Coffee'
+    author:
+      type: contentReference
+      value: ${#jptr:/ref-20617d81-0fa4-4223-91d6-0249a29f584d-author/entries/0}
+    content:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    In the world of coffee, every step of the process affects
+                    the final taste, and one of the most crucial steps is
+                    grinding. The way you grind your beans can make the
+                    difference between a mediocre cup and a truly exceptional
+                    brew. So, with all the different ways to grind coffee, is
+                    one method better than another? Let’s dive into the science
+                    and hear what the experts have to say.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: quote
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    A great cup of coffee begins with the right grind.
+                    Consistency, size, and timing are everything.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Why Grinding Matters
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    When coffee beans are ground, they expose more surface area
+                    to water, allowing for better extraction of flavor, oils,
+                    and aromas. The grind size and consistency influence the
+                    rate at which coffee is extracted, which directly impacts
+                    the taste. Too fine a grind can lead to bitterness, while a
+                    coarse grind may result in a weak or sour taste. Finding the
+                    right grind for your brewing method is essential.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Types of Coffee Grinders
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Before we explore grind sizes, let’s take a quick look at
+                    the two main types of grinders:
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: blade grinders
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: ' and '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: burr grinders
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: .
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: asset
+              __asset:
+                _id: fd938757-33df-41bc-9924-37071938ede3
+                type: image
+                fields:
+                  id:
+                    type: text
+                    value: 723dbfa1-17a4-438a-bbb3-08af349de38b
+                  url:
+                    value: >-
+                      https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/DeSNQt-_QlaID6040AzN-w-types-of-coffee-grinders.jpg
+                    type: text
+                  file:
+                    type: file
+                    value: 9d4f8898-045f-4e99-9cba-3e93c2c4df82
+                  size:
+                    value: 3303657
+                    type: number
+                  title:
+                    type: text
+                    value: types-of-coffee-grinders.jpg
+                  width:
+                    value: 5184
+                    type: number
+                  height:
+                    value: 3456
+                    type: number
+                  mediaType:
+                    value: image/jpeg
+                    type: text
+                _source: uniform-assets
+              version: 1
+            - tag: h4
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Blade Grinders
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Blade grinders use a spinning blade to chop the beans. While
+                    they’re affordable and accessible, they tend to produce an
+                    inconsistent grind, which can lead to uneven extraction.
+                    Blade grinders are often favored by beginners but are not
+                    recommended for those seeking precision.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - tag: h4
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Burr Grinders
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Burr grinders, on the other hand, use two abrasive surfaces
+                    (or burrs) to grind the beans evenly.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: Flat burr grinders
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: ' and '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: conical burr grinders
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: ' are two popular types, both of which offer adjustable grind settings for precision. Burr grinders are the go-to choice for coffee aficionados and professionals due to their consistency and control.'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 'Grind Size Matters: Matching Grind to Brew Method'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Each brewing method requires a specific grind size to
+                    optimize flavor extraction. Here’s a guide to help you match
+                    grind size with your preferred brew method:
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: table
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: tablerow
+                  format: ''
+                  height: 40
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: tablecell
+                      width: 148
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Brew Method
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 202
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Grind Size
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 213
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Description
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                  direction: ltr
+                - type: tablerow
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: tablecell
+                      width: 148
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Espresso
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 202
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Extra Fine
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 213
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                Feels like powdered sugar; allows for short,
+                                intense extraction
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                  direction: ltr
+                - type: tablerow
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: tablecell
+                      width: 148
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Moka Pot
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 202
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Fine
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 213
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                Slightly coarser than espresso, for a strong,
+                                bold brew
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                  direction: ltr
+                - type: tablerow
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: tablecell
+                      width: 148
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Pour-Over
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 202
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Medium-Fine
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 213
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Sand-like texture, good for slower extraction
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                  direction: ltr
+                - type: tablerow
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: tablecell
+                      width: 148
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Drip Coffee
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 202
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Medium
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 213
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                Gritty texture, similar to sea salt; ideal for
+                                even extraction
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                  direction: ltr
+                - type: tablerow
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: tablecell
+                      width: 148
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: French Press
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 202
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Coarse
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 213
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                Chunky, similar to breadcrumbs; minimizes
+                                sediment in immersion brewing
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                  direction: ltr
+                - type: tablerow
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: tablecell
+                      width: 148
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Cold Brew
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 202
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Extra Coarse
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 213
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Large, chunky grind for slow, cold extraction
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                  direction: ltr
+              direction: ltr
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 'Expert Insights: Why Consistency is Key'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    According to coffee experts, grind consistency is just as
+                    important as grind size.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: Scott Rao
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: >-
+                    , a respected coffee consultant, notes that consistent grind
+                    size leads to a more uniform extraction, which prevents
+                    bitterness and sourness. Inconsistent grinds—where you have
+                    a mix of fine and coarse particles—can lead to
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: over-extraction
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: ' (bitter) and '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: under-extraction
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: ' (sour) in the same cup.'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: quote
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    A consistent grind is the foundation of a balanced,
+                    flavorful cup of coffee,”
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: ' says Rao. '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: “Without it, even the finest beans will taste off.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 'Choosing the Right Grinder: Blade vs. Burr'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: table
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: tablerow
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: tablecell
+                      width: 166
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Feature
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 179
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Blade Grinder
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 189
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Burr Grinder
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                  direction: ltr
+                - type: tablerow
+                  format: ''
+                  height: 33
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: tablecell
+                      width: 166
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Consistency
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 179
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Inconsistent
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 189
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Consistent
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                  direction: ltr
+                - type: tablerow
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: tablecell
+                      width: 166
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Control
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 179
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Limited
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 189
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Adjustable for precise grinds
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                  direction: ltr
+                - type: tablerow
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: tablecell
+                      width: 166
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Cost
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 179
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Affordable
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 189
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Higher investment
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                  direction: ltr
+                - type: tablerow
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: tablecell
+                      width: 166
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Recommended For
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 179
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Beginners, casual drinkers
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 189
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Enthusiasts, professionals
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                  direction: ltr
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    If you’re serious about coffee, investing in a burr grinder
+                    can make a world of difference. Many experts recommend
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: manual burr grinders
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: ' for those who want quality without a hefty price tag, while '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: electric burr grinders
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: ' are perfect for those seeking speed and convenience.'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - tag: h4
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Tips for Grinding Your Coffee Beans
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - tag: ol
+              type: list
+              start: 1
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: listitem
+                  value: 1
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Grind Just Before Brewing
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: >-
+                        : Freshly ground coffee retains more aroma and flavor,
+                        so grind your beans right before you brew.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 2
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Use the Right Grind Size
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: >-
+                        : Match the grind to your brewing method for the best
+                        results.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 3
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Clean Your Grinder Regularly
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: >-
+                        : Residual coffee oils and particles can affect taste.
+                        Clean your grinder at least once a month for optimal
+                        flavor.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+              listType: number
+              direction: ltr
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Final Thoughts
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    When it comes to grinding coffee beans, there isn’t
+                    necessarily a “best” method—rather, it’s about choosing the
+                    grind size and consistency that best suits your brewing
+                    method. Whether you’re a fan of rich espresso or smooth
+                    French press, a quality grind can elevate your coffee
+                    experience from average to outstanding.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: quote
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: The perfect grind is the unsung hero of a great coffee.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Experimenting with different grinders and grind sizes can be
+                    a fun and rewarding journey. So next time you’re preparing
+                    your morning coffee, take a moment to appreciate the small
+                    but powerful role that grinding plays in creating your
+                    perfect cup.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Happy grinding!
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 1
+          direction: ltr
+    ogImage:
+      type: asset
+      locales:
+        en:
+          - _id: 52bc55ad-3b28-490f-b8de-e8039a1bc169
+            type: image
+            fields:
+              id:
+                type: text
+                value: 1021bed7-3253-4963-a96a-73c485ca5121
+              url:
+                value: >-
+                  https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/GN3afw41RnqvETFRD1uTxg-grinding-beans-the-key-to-perfect-coffee.jpg
+                type: text
+              file:
+                type: file
+                value: 00802dce-12d4-4917-887b-521d32766e19
+              size:
+                value: 7363523
+                type: number
+              title:
+                type: text
+                value: grinding-beans-the-key-to-perfect-coffee.jpg
+              width:
+                value: 7360
+                type: number
+              height:
+                value: 4912
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+            _source: uniform-assets
+    category:
+      type: contentReference
+      value: ${#jptr:/ref-20617d81-0fa4-4223-91d6-0249a29f584d-category/entries/0}
+    metaTitle:
+      type: text
+      locales:
+        en: 'Grinding Beans: The Key to Perfect Coffee'
+    thumbnail:
+      type: asset
+      locales:
+        en:
+          - _id: 504bb5d8-eb81-45f7-a918-158f773482f7
+            type: image
+            fields:
+              id:
+                type: text
+                value: 1021bed7-3253-4963-a96a-73c485ca5121
+              url:
+                value: >-
+                  https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/GN3afw41RnqvETFRD1uTxg-grinding-beans-the-key-to-perfect-coffee.jpg
+                type: text
+              file:
+                type: file
+                value: 7bf0484e-439f-49d3-9c99-7c9bfe6d58a8
+              size:
+                value: 7363523
+                type: number
+              title:
+                type: text
+                value: grinding-beans-the-key-to-perfect-coffee.jpg
+              width:
+                value: 7360
+                type: number
+              height:
+                value: 4912
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+            _source: uniform-assets
+    enrichments:
+      type: $enr
+      value:
+        - cat: topic
+          key: ingredients-and-preparation
+          str: 5
+    publishDate:
+      type: date
+      value: '2025-03-15'
+    metaDescription:
+      type: text
+      locales:
+        en: >-
+          There are many ways to grind a coffee bean - is one way better than
+          another? Experts weigh in
+    shortDescription:
+      type: text
+      value: >-
+        There are many ways to grind a coffee bean - is one way better than
+        another? Experts weigh in
+  _dataResources:
+    ref-20617d81-0fa4-4223-91d6-0249a29f584d-author:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 3c1cdfc4-9e1f-40dc-bb27-b3d88492520d
+    ref-20617d81-0fa4-4223-91d6-0249a29f584d-category:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: fc7a50e2-9d37-47e8-89f2-46b1b453751a
+  _locales:
+    - en

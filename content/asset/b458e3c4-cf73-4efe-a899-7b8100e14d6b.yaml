@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: b458e3c4-cf73-4efe-a899-7b8100e14d6b
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: expert-tips-for-french-press-success.jpg
+    file:
+      type: file
+      value: c2c41737-044f-4914-8e83-14902ff4dcd0
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/N0QOqjXvSFeXY7i3yzY8ZQ/jUS94zJbSq2Nm9EdgnwubA-expert-tips-for-french-press-success.jpg
+      type: text
+    size:
+      value: 6384704
+      type: number
+    width:
+      value: 6000
+      type: number
+    height:
+      value: 4000
+      type: number
+    custom: {}
+created: '2025-01-29T11:08:56.813898+00:00'
+modified: '2025-01-29T11:08:56.813898+00:00'

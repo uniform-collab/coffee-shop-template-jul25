@@ -1,0 +1,15 @@
+composition:
+  _name: Shared Hero
+  _id: 8e2bc34a-eb79-4492-9eb2-139a351351c8
+  type: fixedHero
+  variant: columns
+  parameters:
+    titleTag:
+      type: dex-segmented-control-parameter
+      value: h2
+  _locales:
+    - en
+created: '2025-05-20T11:53:43.814395+00:00'
+modified: '2025-05-22T11:25:56.252225+00:00'
+pattern: true
+categoryId: f22b05f0-c4bf-4158-8ebc-4856e4d453af

@@ -1,0 +1,63 @@
+created: '2025-04-24T11:37:15.584182+00:00'
+modified: '2025-04-24T11:37:15.584182+00:00'
+pattern: false
+entry:
+  _id: 59c77aba-33d8-47da-a613-6d799d699f06
+  _name: Ember
+  _slug: ember
+  _thumbnail: >-
+    https://img.uniform.global/p/DCdo4LRJTZWl21CYeUJNPg/HeBX1VAFTx2y7Lf4i3Vidw-ember.png
+  type: brand
+  fields:
+    logo:
+      type: asset
+      value: []
+      locales:
+        en:
+          - _id: 60675c4c-7b20-4448-8a59-f417b7b974ba
+            type: image
+            fields:
+              id:
+                type: text
+                value: e76bf04b-18f6-43bb-8135-4eda70acabcc
+              url:
+                value: >-
+                  https://img.uniform.global/p/9VlMgIbZQQKI2wzV-L0jow/QitJUJgfQ-ubn5e2oQknAw-ember.png
+                type: text
+              file:
+                type: file
+                value: 4a2e59f1-26d8-4251-b5d6-2c52927ba14e
+              size:
+                value: 301691
+                type: number
+              title:
+                type: text
+                value: ember.png
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/png
+                type: text
+            _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en: Ember
+    description:
+      type: text
+      locales:
+        en: >-
+          Ember is revolutionizing the coffee experience with innovative coffee
+          makers and premium coffee products. Our vision is to ignite your
+          passion for coffee by combining cutting-edge technology with artisanal
+          craftsmanship. Whether you’re a coffee connoisseur or a casual
+          drinker, Ember offers the tools and flavors to elevate your coffee
+          moments. With a focus on quality and innovation, Ember is dedicated to
+          delivering a consistently exceptional brew that warms your soul and
+          sparks your day.
+  _locales:
+    - en

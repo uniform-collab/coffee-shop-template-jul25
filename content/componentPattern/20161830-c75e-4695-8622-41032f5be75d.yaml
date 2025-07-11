@@ -1,0 +1,57 @@
+composition:
+  _name: Add To Card Primary
+  _id: 20161830-c75e-4695-8622-41032f5be75d
+  type: addToCardButton
+  parameters:
+    size:
+      type: dex-token-selector-parameter
+      value: button-medium
+    text:
+      type: text
+      locales:
+        en: ADD TO CART
+    border:
+      type: dex-token-selector-parameter
+      value: border-button-secondary
+    textSize:
+      type: dex-segmented-control-parameter
+      value:
+        mobile: sm
+        tablet: sm
+        desktop: sm
+    fullWidth:
+      type: checkbox
+      value: true
+    textColor:
+      type: dex-color-palette-parameter
+      value: text-primary
+    textWeight:
+      type: dex-segmented-control-parameter
+      value: bold
+    buttonColor:
+      type: dex-color-palette-parameter
+      value: button-secondary
+    openMiniCart:
+      type: checkbox
+      value: true
+    textTransform:
+      type: dex-segmented-control-parameter
+      value: uppercase
+    hoverTextColor:
+      type: dex-color-palette-parameter
+      value: text-secondary
+    hoverButtonColor:
+      type: dex-color-palette-parameter
+      value: button-primary
+  _overridability:
+    parameters:
+      product: 'yes'
+      productSlug: 'yes'
+      openMiniCart: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en
+created: '2025-03-18T13:02:27.20022+00:00'
+modified: '2025-05-22T10:44:53.239128+00:00'
+pattern: true
+categoryId: 70d03350-bbf9-457d-abc0-cf7d7aa2a3a4

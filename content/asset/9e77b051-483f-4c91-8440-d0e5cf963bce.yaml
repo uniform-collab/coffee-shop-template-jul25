@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 9e77b051-483f-4c91-8440-d0e5cf963bce
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: beans.png
+    file:
+      type: file
+      value: c28a0a9d-2e0a-494e-a14c-7bcad7c9cc88
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/N0QOqjXvSFeXY7i3yzY8ZQ/ztC5M4RKSyylZw8uyI8T8Q-beans.png
+      type: text
+    size:
+      value: 891292
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-01-29T11:08:55.848703+00:00'
+modified: '2025-01-29T11:08:55.848703+00:00'

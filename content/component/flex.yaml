@@ -78,7 +78,7 @@ parameters:
         - key: Stretch
           value: stretch
       defaultValue: {}
-      withViewPort: false
+      withViewPort: true
   - id: 9f4a3823-8aad-4b30-a7bf-e5134643b0b3
     name: More Presentation Settings
     type: group
@@ -143,7 +143,7 @@ parameters:
     typeConfig: null
 categoryId: ae15b0f6-4953-4ccb-9984-ad0525e77b01
 previewImageUrl: >-
-  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/flex.jpg
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/coffee-shop-template/preview-images/flex.jpg
 useTeamPermissions: true
 slots:
   - id: flexItem

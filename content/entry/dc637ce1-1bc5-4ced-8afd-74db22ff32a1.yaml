@@ -1,0 +1,63 @@
+created: '2025-04-24T11:36:34.44937+00:00'
+modified: '2025-04-24T11:36:34.44937+00:00'
+pattern: false
+entry:
+  _id: dc637ce1-1bc5-4ced-8afd-74db22ff32a1
+  _name: Black Mountain
+  _slug: black-mountain
+  _thumbnail: >-
+    https://img.uniform.global/p/DCdo4LRJTZWl21CYeUJNPg/VShN9Yl3Qxqleco51TqhRw-black-mountain.png
+  type: brand
+  fields:
+    logo:
+      type: asset
+      value: []
+      locales:
+        en:
+          - _id: 9a6b8244-4963-41bb-ace4-62d099f8ac41
+            type: image
+            fields:
+              id:
+                type: text
+                value: b82a34c3-b8ed-466d-a9ec-81684749c91f
+              url:
+                value: >-
+                  https://img.uniform.global/p/9VlMgIbZQQKI2wzV-L0jow/T49L8XCrSiyxZMwxJK6nAQ-black-mountain.png
+                type: text
+              file:
+                type: file
+                value: 2e4338d8-09b0-4c6a-a932-b11c5b698b0c
+              size:
+                value: 425678
+                type: number
+              title:
+                type: text
+                value: black-mountain.png
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/png
+                type: text
+            _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en: Black Mountain
+    description:
+      type: text
+      locales:
+        en: >-
+          Black Mountain is dedicated to enhancing your coffee experience with
+          premium coffee makers and a wide range of coffee products. Our mission
+          is to blend modern technology with traditional coffee craftsmanship to
+          deliver exceptional taste and convenience. From state-of-the-art
+          espresso machines to meticulously crafted coffee beans, Black Mountain
+          is your partner in every step of your coffee journey. Discover the
+          perfect brew with our innovative and reliable coffee solutions,
+          designed for both enthusiasts and professionals.
+  _locales:
+    - en

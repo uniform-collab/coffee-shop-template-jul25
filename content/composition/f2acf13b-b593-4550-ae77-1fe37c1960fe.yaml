@@ -1,0 +1,337 @@
+composition:
+  _name: Contact Us
+  _id: f2acf13b-b593-4550-ae77-1fe37c1960fe
+  _slug: contact-us
+  type: page
+  _overrides:
+    31dd4967-d563-4714-a8b9-8115af6edf8c:
+      parameters:
+        text:
+          type: text
+          value: SUBMIT
+    6e3ab59f-ba1a-42b6-8a6c-8bd9c537cf8a:
+      parameters:
+        type:
+          type: select
+          value: Text
+        label:
+          type: text
+          value: Company
+    9baba470-7efd-4d07-a9c6-e140e7ea7d1d:
+      parameters:
+        label:
+          type: text
+          value: Tell us a little about why you are contacting us
+        rowsCount:
+          type: select
+          value: '10'
+    ac9863a8-2e99-47e7-b84d-f881457bbcc3:
+      parameters:
+        type:
+          type: select
+          value: email
+        label:
+          type: text
+          value: Email
+    c5c8f803-d7a7-456b-9eda-061cfc1bd65e:
+      parameters:
+        type:
+          type: select
+          value: Text
+    f2acf13b-b593-4550-ae77-1fe37c1960fe:
+      parameters:
+        pageTitle:
+          type: text
+          value: Contact Us - Java Drip
+        pageKeywords:
+          type: text
+          value: >-
+            contact coffee shop, coffee shop customer service, coffee shop
+            support, contact us, coffee shop help, order support, coffee shop
+            questions
+        openGraphType:
+          type: select
+          value: website
+        openGraphImage:
+          type: asset
+          value:
+            - _id: 9c6d93f4-03eb-4259-883a-73994a645bc5
+              type: image
+              fields:
+                id:
+                  type: text
+                  value: 331d82fe-c3dc-41bd-b558-7b19e4ee6bfe
+                url:
+                  value: >-
+                    https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/BxsNNo0jSwm9Zgl269UGWQ-contact-us-og-image.png
+                  type: text
+                file:
+                  type: file
+                  value: 42dc5616-024b-47f4-a8dc-1d46d223c9c9
+                size:
+                  value: 1576765
+                  type: number
+                title:
+                  type: text
+                  value: contact-us-og-image.png
+                width:
+                  value: 1808
+                  type: number
+                height:
+                  value: 908
+                  type: number
+                mediaType:
+                  value: image/png
+                  type: text
+              _source: uniform-assets
+        openGraphTitle:
+          type: text
+          value: Contact Us - Java Drip
+        pageDescription:
+          type: text
+          value: >-
+            Get in touch with us at Java Drip. We’d love to hear from you! Reach
+            out for any questions, feedback, or assistance with your orders.
+        openGraphDescription:
+          type: text
+          value: >-
+            Get in touch with us at Java Drip. We’d love to hear from you! Reach
+            out for any questions, feedback, or assistance with your orders.
+    f2acf13b-b593-4550-ae77-1fe37c1960fe|dc2e95be-21b5-4476-a309-f8a34922f528:
+      slots:
+        $slotSectionItems:
+          - _id: 4efa249f-bc6a-4c4c-8c8d-b9795780d484
+            type: container
+            slots:
+              containerContent:
+                - _id: 69597fd3-7163-41b0-9054-e787682fb3e5
+                  type: grid
+                  slots:
+                    gridInner:
+                      - _id: e150376b-344b-40fb-adff-98d904205dff
+                        type: gridItem
+                        slots:
+                          inner:
+                            - _id: 908c6060-b522-4362-92e3-c966c3665b0b
+                              type: flex
+                              slots:
+                                flexItem:
+                                  - _id: 2ae5b8b9-ae54-4ce4-a033-7e6fce0fe820
+                                    type: text
+                                    parameters:
+                                      tag:
+                                        type: dex-segmented-control-parameter
+                                        value: h2
+                                      size:
+                                        type: dex-segmented-control-parameter
+                                        value:
+                                          mobile: 3xl
+                                          tablet: 4xl
+                                          desktop: 4xl
+                                      text:
+                                        type: text
+                                        value: Let us know how you have bean
+                                      color:
+                                        type: dex-color-palette-parameter
+                                        value: text-primary
+                                      weight:
+                                        type: dex-segmented-control-parameter
+                                        value: bold
+                                  - _id: 658d0d70-aacd-4551-bd7e-42da619b3372
+                                    type: text
+                                    parameters:
+                                      tag:
+                                        type: dex-segmented-control-parameter
+                                        value: span
+                                      size:
+                                        type: dex-segmented-control-parameter
+                                        value:
+                                          mobile: sm
+                                          tablet: lg
+                                          desktop: xl
+                                      text:
+                                        type: text
+                                        value: >-
+                                          See what we did there? 😀 But seriously,
+                                          please let us know if you have any
+                                          questions and we will get back to you
+                                          shortly. Thank you.
+                                      weight:
+                                        type: dex-segmented-control-parameter
+                                        value: normal
+                              parameters:
+                                gap:
+                                  type: dex-slider-control-parameter
+                                  value:
+                                    mobile: '8'
+                                    tablet: '8'
+                                    desktop: '8'
+                                direction:
+                                  type: dex-segmented-control-parameter
+                                  value:
+                                    mobile: col
+                                    tablet: col
+                                    desktop: col
+                                alignItems:
+                                  type: dex-segmented-control-parameter
+                                  value: {}
+                                justifyContent:
+                                  type: dex-segmented-control-parameter
+                                  value: {}
+                        parameters:
+                          rowSpan:
+                            type: dex-slider-control-parameter
+                            value: {}
+                          rowStart:
+                            type: dex-slider-control-parameter
+                            value:
+                              mobile: '1'
+                              tablet: '1'
+                              desktop: '1'
+                          columnSpan:
+                            type: dex-slider-control-parameter
+                            value:
+                              desktop: span-5
+                          columnStart:
+                            type: dex-slider-control-parameter
+                            value:
+                              mobile: '1'
+                              tablet: '1'
+                              desktop: '1'
+                          displayName:
+                            type: text
+                            value: Left Section
+                      - _id: cf85614c-9ebd-4e61-8409-2d07be6f1e82
+                        type: gridItem
+                        slots:
+                          inner:
+                            - _id: 6c27f321-dccb-45f5-bd87-9b8067ab95ba
+                              type: flex
+                              slots:
+                                flexItem:
+                                  - _id: c5c8f803-d7a7-456b-9eda-061cfc1bd65e
+                                    type: input
+                                    _pattern: 500a64fc-09e7-44b5-b12b-089e232ebe88
+                                    _overridability:
+                                      parameters:
+                                        type: 'yes'
+                                        label: 'yes'
+                                        rowsCount: 'yes'
+                                      hideLockedParameters: true
+                                  - _id: ac9863a8-2e99-47e7-b84d-f881457bbcc3
+                                    type: input
+                                    _pattern: 500a64fc-09e7-44b5-b12b-089e232ebe88
+                                    _overridability:
+                                      parameters:
+                                        type: 'yes'
+                                        label: 'yes'
+                                        rowsCount: 'yes'
+                                      hideLockedParameters: true
+                                  - _id: 6e3ab59f-ba1a-42b6-8a6c-8bd9c537cf8a
+                                    type: input
+                                    _pattern: 500a64fc-09e7-44b5-b12b-089e232ebe88
+                                    _overridability:
+                                      parameters:
+                                        type: 'yes'
+                                        label: 'yes'
+                                        rowsCount: 'yes'
+                                      hideLockedParameters: true
+                                  - _id: 9baba470-7efd-4d07-a9c6-e140e7ea7d1d
+                                    type: input
+                                    _pattern: 500a64fc-09e7-44b5-b12b-089e232ebe88
+                                    _overridability:
+                                      parameters:
+                                        type: 'yes'
+                                        label: 'yes'
+                                        rowsCount: 'yes'
+                                      hideLockedParameters: true
+                                  - _id: 31dd4967-d563-4714-a8b9-8115af6edf8c
+                                    type: button
+                                    _pattern: 646faee6-b476-43c6-a1a8-eebe85699889
+                                    _overridability:
+                                      variants: true
+                                      parameters:
+                                        link: 'yes'
+                                        text: 'yes'
+                                        fullWidth: 'yes'
+                                        textColor: 'no'
+                                      hideLockedParameters: true
+                              parameters:
+                                gap:
+                                  type: dex-slider-control-parameter
+                                  value:
+                                    mobile: '4'
+                                    tablet: '4'
+                                    desktop: '4'
+                                direction:
+                                  type: dex-segmented-control-parameter
+                                  value:
+                                    mobile: col
+                                    tablet: col
+                                    desktop: col
+                                alignItems:
+                                  type: dex-segmented-control-parameter
+                                  value: {}
+                                displayName:
+                                  type: text
+                                  value: Form
+                                justifyContent:
+                                  type: dex-segmented-control-parameter
+                                  value: {}
+                        parameters:
+                          rowSpan:
+                            type: dex-slider-control-parameter
+                            value: {}
+                          rowStart:
+                            type: dex-slider-control-parameter
+                            value:
+                              mobile: '1'
+                              tablet: '1'
+                              desktop: '1'
+                          columnSpan:
+                            type: dex-slider-control-parameter
+                            value:
+                              desktop: span-7
+                          columnStart:
+                            type: dex-slider-control-parameter
+                            value:
+                              mobile: '1'
+                              tablet: '1'
+                              desktop: '6'
+                          displayName:
+                            type: text
+                            value: Right Content
+                  parameters:
+                    gapX:
+                      type: dex-slider-control-parameter
+                      value:
+                        mobile: '4'
+                        tablet: '8'
+                        desktop: '32'
+                    gapY:
+                      type: dex-slider-control-parameter
+                      value: {}
+                    displayName:
+                      type: text
+                      value: Contact Us
+                    columnsCount:
+                      type: dex-slider-control-parameter
+                      value:
+                        mobile: '1'
+                        tablet: '1'
+                        desktop: '12'
+            parameters:
+              spacing:
+                type: dex-space-control-parameter
+                value:
+                  paddingTop: container-large
+                  paddingBottom: container-large
+              displayName:
+                type: text
+                value: Content Container
+  _locales:
+    - en
+  _pattern: f9c058ea-c40d-4435-ac5a-53423cf654dc
+created: '2025-01-29T11:09:36.869233+00:00'
+modified: '2025-06-25T11:21:42.890948+00:00'
+pattern: false

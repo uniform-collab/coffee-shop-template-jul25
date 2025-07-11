@@ -19,7 +19,7 @@ parameters:
     typeConfig: null
 categoryId: 70d03350-bbf9-457d-abc0-cf7d7aa2a3a4
 previewImageUrl: >-
-  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/link-with-image.jpg
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/coffee-shop-template/preview-images/link-with-image.jpg
 useTeamPermissions: true
 slots:
   - id: linkContent

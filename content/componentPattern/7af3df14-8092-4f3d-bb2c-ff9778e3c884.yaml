@@ -1,0 +1,125 @@
+composition:
+  _name: Products Grid
+  _id: 7af3df14-8092-4f3d-bb2c-ff9778e3c884
+  type: grid
+  parameters:
+    gapX:
+      type: dex-slider-control-parameter
+      value:
+        mobile: '4'
+        tablet: '2'
+        desktop: '4'
+    gapY:
+      type: dex-slider-control-parameter
+      value:
+        mobile: '4'
+        tablet: '4'
+        desktop: '2'
+    spacing:
+      type: dex-space-control-parameter
+      value: {}
+    displayName:
+      type: text
+      value: Product with Categories
+    columnsCount:
+      type: dex-slider-control-parameter
+      value:
+        mobile: '1'
+        tablet: '2'
+        desktop: '3'
+  slots:
+    gridInner:
+      - _id: b4435a52-73c9-41ec-95bb-b06a2d2cc8e6
+        type: $loop
+        slots:
+          body:
+            - _id: bac871f9-5ac4-4743-931d-2c88bac89cac
+              type: link
+              _pattern: 1b9cb318-a532-4c1a-af19-c0ee1a66855f
+        _dataResources:
+          Product List Content entries Loop Item:
+            type: sys-reserved-loop
+            variables:
+              connectedData: '#jptr:/Product List Content/entries:fa=c'
+        _overridability:
+          hideLockedParameters: true
+  _dataResources:
+    Product List Content:
+      type: productList
+      variables:
+        limit: '6'
+        locale: ${locale}
+        search: ''
+        filters: >-
+          {"type[eq]":"product","fields.category[eq]":"2f6cc670-cdaa-4532-b70e-424206c8d0ba"}
+        contentTypes: product
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overrides:
+    bac871f9-5ac4-4743-931d-2c88bac89cac:
+      parameters:
+        link:
+          type: link
+          value:
+            path: >-
+              /${locale}/products/${#jptr:/Product List Content entries Loop
+              Item/entry/_slug}
+            type: projectMapNode
+            nodeId: 702b0e0b-3858-4b5d-99e4-bdb98097ca0f
+            projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+            dynamicInputValues:
+              locale: ${locale}
+              product-slug: ${#jptr:/Product List Content entries Loop Item/entry/_slug}
+        displayName:
+          type: text
+          locales:
+            en: >-
+              ${#jptr:/Product List Content entries Loop
+              Item/entry/fields/name/value}
+    bac871f9-5ac4-4743-931d-2c88bac89cac|1af937fb-40ae-4938-b1a8-110b8ff73fc4:
+      parameters:
+        displayName:
+          type: text
+          value: >-
+            ${#jptr:/Product List Content entries Loop
+            Item/entry/fields/name/value}
+    bac871f9-5ac4-4743-931d-2c88bac89cac|1af937fb-40ae-4938-b1a8-110b8ff73fc4|0952417a-061c-4634-91df-1341269e4054:
+      parameters:
+        image:
+          type: asset
+          value: >-
+            ${#jptr:/Product List Content entries Loop
+            Item/entry/fields/primaryImage/value}
+    bac871f9-5ac4-4743-931d-2c88bac89cac|1af937fb-40ae-4938-b1a8-110b8ff73fc4|41f41812-74a8-48f1-9e2a-920dfff8ea04:
+      parameters:
+        productSlug:
+          type: text
+          locales:
+            en: ${#jptr:/Product List Content entries Loop Item/entry/_slug}
+    bac871f9-5ac4-4743-931d-2c88bac89cac|1af937fb-40ae-4938-b1a8-110b8ff73fc4|8bad3ddd-add0-43d3-a314-5836bf0c7a93:
+      parameters:
+        text:
+          type: text
+          value: >-
+            ${#jptr:/Product List Content entries Loop
+            Item/entry/fields/variants/value/0/fields/price/value} $
+    bac871f9-5ac4-4743-931d-2c88bac89cac|1af937fb-40ae-4938-b1a8-110b8ff73fc4|988f7805-9e0e-4b30-acaf-f97d7dd5099f:
+      parameters:
+        text:
+          type: text
+          value: >-
+            ${#jptr:/Product List Content entries Loop
+            Item/entry/fields/name/value}
+  _overridability:
+    parameters:
+      spacing: 'yes'
+      displayName: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en
+created: '2025-03-18T13:02:29.225484+00:00'
+modified: '2025-05-22T11:10:30.208152+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/coffee-shop-template/preview-images/products-grid.jpg
+categoryId: adaebea8-ba58-494b-9c3b-9f82906d9415

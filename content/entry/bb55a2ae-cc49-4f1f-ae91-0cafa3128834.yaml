@@ -1,0 +1,61 @@
+created: '2025-04-24T11:38:11.703533+00:00'
+modified: '2025-04-24T11:38:11.703533+00:00'
+pattern: false
+entry:
+  _id: bb55a2ae-cc49-4f1f-ae91-0cafa3128834
+  _name: Impresso
+  _slug: impresso
+  _thumbnail: >-
+    https://img.uniform.global/p/DCdo4LRJTZWl21CYeUJNPg/7daJVPsATFq46mC1HpUQeQ-impresso.png
+  type: brand
+  fields:
+    logo:
+      type: asset
+      value: []
+      locales:
+        en:
+          - _id: 107e1310-6783-438c-afdf-71c8b1badea4
+            type: image
+            fields:
+              id:
+                type: text
+                value: e9fab707-c2df-4367-a070-827eb88c5931
+              url:
+                value: >-
+                  https://img.uniform.global/p/9VlMgIbZQQKI2wzV-L0jow/iW2GzFw9SfCRKG2B4tlTzw-impresso.png
+                type: text
+              file:
+                type: file
+                value: fcb151ca-189e-42fe-a95c-a45f86dcfb7d
+              size:
+                value: 1659780
+                type: number
+              title:
+                type: text
+                value: impresso.png
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/png
+                type: text
+            _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en: Impresso
+    description:
+      type: text
+      locales:
+        en: >-
+          Impresso is dedicated to delivering an extraordinary coffee experience
+          through its innovative coffee makers and premium coffee products. Our
+          goal is to blend tradition with technology, offering coffee
+          enthusiasts the perfect brew every time. From advanced espresso
+          machines to carefully selected coffee beans, Impresso stands for
+          quality, innovation, and passion in every cup.
+  _locales:
+    - en

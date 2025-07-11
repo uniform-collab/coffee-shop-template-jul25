@@ -1,5 +1,5 @@
 id: e7206bd2-8ac2-4e25-937d-8f57292f006b
-name: Home
+name: 🏠 Home
 order: 500
 path: /:locale
 type: composition

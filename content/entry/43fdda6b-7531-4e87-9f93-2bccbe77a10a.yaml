@@ -1,0 +1,50 @@
+created: '2025-04-24T11:38:42.75099+00:00'
+modified: '2025-04-24T11:38:42.75099+00:00'
+pattern: false
+entry:
+  _id: 43fdda6b-7531-4e87-9f93-2bccbe77a10a
+  _name: Jonathan Blake
+  _slug: jonathan-blake
+  _thumbnail: >-
+    https://img.uniform.global/p/DCdo4LRJTZWl21CYeUJNPg/HgbNauVSSwmjgk5kBpfDUA-author-logo-placeholder.png
+  type: author
+  fields:
+    name:
+      type: text
+      value: Jonathan Blake
+    thumbnail:
+      type: asset
+      value: []
+      locales:
+        en:
+          - _id: a985fd31-9e2e-4bcf-b98b-29afca641b21
+            type: image
+            fields:
+              id:
+                type: text
+                value: 49a5c28e-b131-4f7d-9bf1-a5582f4b4a77
+              url:
+                value: >-
+                  https://img.uniform.global/p/9VlMgIbZQQKI2wzV-L0jow/lldM63UYRbqCO2b1RYSoPQ-author-logo-placeholder.png
+                type: text
+              file:
+                type: file
+                value: 71a22ae6-7089-405e-b149-f137a174404c
+              size:
+                value: 23734
+                type: number
+              title:
+                type: text
+                value: author-logo-placeholder.png
+              width:
+                value: 1143
+                type: number
+              height:
+                value: 947
+                type: number
+              mediaType:
+                value: image/png
+                type: text
+            _source: uniform-assets
+  _locales:
+    - en

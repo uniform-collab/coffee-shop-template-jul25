@@ -1,0 +1,65 @@
+created: '2025-04-24T11:36:24.866251+00:00'
+modified: '2025-04-24T11:36:24.866251+00:00'
+pattern: false
+entry:
+  _id: 9853aed9-07d5-4d58-a45b-c23157e149fe
+  _name: Arabica
+  _slug: arabica
+  _thumbnail: >-
+    https://img.uniform.global/p/DCdo4LRJTZWl21CYeUJNPg/Igc60A3-RpGwxHhu80jyBg-arabica.png
+  type: productCategory
+  fields:
+    logo:
+      type: asset
+      value: []
+      locales:
+        en:
+          - _id: 56b48c40-4124-485f-b4c8-7eba74c9453a
+            type: image
+            fields:
+              id:
+                type: text
+                value: a0b71c82-b18b-4def-8884-1ef489e4450f
+              url:
+                value: >-
+                  https://img.uniform.global/p/9VlMgIbZQQKI2wzV-L0jow/fdjFdZdRRZatkEMUZJv9Cw-arabica.png
+                type: text
+              file:
+                type: file
+                value: d8afa0e3-8ea5-48a4-a874-590df12f0107
+              size:
+                value: 270380
+                type: number
+              title:
+                type: text
+                value: arabica.png
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/png
+                type: text
+            _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en: Arabica
+    description:
+      type: text
+      locales:
+        en: >-
+          Discover the exceptional quality and flavor of Arabica coffee beans,
+          renowned for their smooth and complex taste profiles. Arabica beans
+          are grown at higher altitudes and are known for their delicate balance
+          of sweetness, acidity, and aromatic notes. Our selection of Arabica
+          beans is sourced from the best coffee-growing regions, ensuring you
+          experience the full spectrum of flavors from floral and fruity to
+          nutty and chocolaty. Perfect for any brewing method, Arabica beans
+          deliver a refined and enjoyable coffee experience with every cup.
+          Explore our Arabica collection and savor the excellence of these
+          premium beans.
+  _locales:
+    - en

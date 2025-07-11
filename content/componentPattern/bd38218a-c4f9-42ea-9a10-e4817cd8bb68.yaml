@@ -1,0 +1,428 @@
+composition:
+  _name: Featured Footer
+  _id: bd38218a-c4f9-42ea-9a10-e4817cd8bb68
+  type: footer
+  parameters:
+    border:
+      type: dex-token-selector-parameter
+      value: border-footer
+    spacing:
+      type: dex-space-control-parameter
+      value:
+        marginTop: ''
+        marginLeft: ''
+        paddingTop: container-medium
+        marginRight: ''
+        paddingLeft: ''
+        marginBottom: ''
+        paddingRight: ''
+        paddingBottom: container-medium
+    displayName:
+      type: text
+      value: Footer
+    fluidContent:
+      type: checkbox
+      value: true
+    backgroundColor:
+      type: dex-color-palette-parameter
+      value: general-color-3
+  slots:
+    footerLogo:
+      - _id: ee663cd6-37e5-4b5e-b629-fdf9a4667eba
+        type: image
+        parameters:
+          image:
+            type: asset
+            value:
+              - _id: 6ddc02a6-2615-45de-885d-e81ae5da2f8b
+                type: image
+                fields:
+                  id:
+                    type: text
+                    value: dd702947-d211-49fe-80cd-93c23ca30bf8
+                  url:
+                    value: >-
+                      https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/HNUzM2LVQcaMvI9a-d8xkw-jd-logo-white.svg
+                    type: text
+                  file:
+                    type: file
+                    value: 141d102a-81f1-4ccb-8efd-45d4b08374c4
+                  size:
+                    value: 5252
+                    type: number
+                  title:
+                    type: text
+                    value: jd-logo-white.svg
+                  width:
+                    value: 408
+                    type: number
+                  height:
+                    value: 65
+                    type: number
+                  mediaType:
+                    value: image/svg+xml
+                    type: text
+                _source: uniform-assets
+          width:
+            type: number
+            value: '190'
+          height:
+            type: number
+            value: '45'
+          objectFit:
+            type: dex-segmented-control-parameter
+            value: contain
+    footerContent:
+      - _id: 757f8498-9331-4b59-9723-95cdd187b2f1
+        type: flex
+        slots:
+          flexItem:
+            - _id: ab74422a-d7df-4c41-80da-f37281333ed1
+              type: flex
+              slots:
+                flexItem:
+                  - _id: ea891105-3b48-41b4-8fa0-6c2ecca00a75
+                    type: navigationLink
+                    _pattern: 2f1ff1e9-e7c7-43a6-8576-da21a1e199e5
+                  - _id: 6db01010-cff2-458e-85d6-358dc75ca48c
+                    type: navigationLink
+                    _pattern: 2f1ff1e9-e7c7-43a6-8576-da21a1e199e5
+                  - _id: 44623ac6-5327-44e3-ab3e-b7455ff829e8
+                    type: navigationLink
+                    _pattern: 2f1ff1e9-e7c7-43a6-8576-da21a1e199e5
+                  - _id: 44d64138-618e-4c6a-b4cc-6ea9b9a22cba
+                    type: navigationLink
+                    _pattern: 2f1ff1e9-e7c7-43a6-8576-da21a1e199e5
+              parameters:
+                gap:
+                  type: dex-slider-control-parameter
+                  value:
+                    mobile: '2'
+                    tablet: '2'
+                    desktop: '2'
+                spacing:
+                  type: dex-space-control-parameter
+                  value: {}
+                direction:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: col
+                    tablet: col
+                    desktop: col
+                alignItems:
+                  type: dex-segmented-control-parameter
+                  value: {}
+                displayName:
+                  type: text
+                  value: Links
+                fluidContent:
+                  type: checkbox
+                  value: true
+                justifyContent:
+                  type: dex-segmented-control-parameter
+                  value: {}
+            - _id: 04a71df4-1cc7-4597-9a7e-fcf8ec1cd326
+              type: flex
+              slots:
+                flexItem:
+                  - _id: 261e0c54-fda9-4380-96a1-0dd3f8781371
+                    type: image
+                    parameters:
+                      image:
+                        type: asset
+                        value:
+                          - _id: ee057780-e4c6-4756-846a-d564073447ed
+                            type: image
+                            fields:
+                              id:
+                                type: text
+                                value: e69c04dc-5c4f-4951-8102-08d9a8df8913
+                              url:
+                                value: >-
+                                  https://img.uniform.global/p/N0QOqjXvSFeXY7i3yzY8ZQ/5BUvnLnZSe2KAye7_NFJ2g-github.svg
+                                type: text
+                              file:
+                                type: file
+                                value: 5dc97933-41b8-4b8c-8ad9-0da1ee098fa3
+                              size:
+                                value: 1326
+                                type: number
+                              title:
+                                type: text
+                                value: github.svg
+                              width:
+                                value: 35
+                                type: number
+                              height:
+                                value: 34
+                                type: number
+                              mediaType:
+                                value: image/svg+xml
+                                type: text
+                            _source: uniform-assets
+                      width:
+                        type: number
+                        value: '30'
+                      height:
+                        type: number
+                        value: '30'
+                      objectFit:
+                        type: dex-segmented-control-parameter
+                        value: ''
+              parameters:
+                gap:
+                  type: dex-slider-control-parameter
+                  value:
+                    mobile: '4'
+                    tablet: '4'
+                    desktop: '8'
+                spacing:
+                  type: dex-space-control-parameter
+                  value: {}
+                direction:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: row
+                    tablet: row
+                    desktop: row
+                alignItems:
+                  type: dex-segmented-control-parameter
+                  value: {}
+                displayName:
+                  type: text
+                  value: Icons
+                fluidContent:
+                  type: checkbox
+                  value: true
+                justifyContent:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: end
+        parameters:
+          gap:
+            type: dex-slider-control-parameter
+            value:
+              mobile: '16'
+              tablet: '16'
+              desktop: '32'
+          spacing:
+            type: dex-space-control-parameter
+            value: {}
+          direction:
+            type: dex-segmented-control-parameter
+            value:
+              mobile: row
+              tablet: row
+              desktop: row
+          alignItems:
+            type: dex-segmented-control-parameter
+            value: {}
+          displayName:
+            type: text
+            value: Content
+          fluidContent:
+            type: checkbox
+            value: true
+          justifyContent:
+            type: dex-segmented-control-parameter
+            value:
+              mobile: between
+    footerCopyright:
+      - _id: 6377c95c-1a69-4347-9296-f7a726f27baa
+        type: richText
+        parameters:
+          font:
+            type: dex-token-selector-parameter
+            value: ''
+          text:
+            type: richText
+            value:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: '2025 Uniform Systems, Inc. All rights reserved. '
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: "Built with 💙 by folks at\_"
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - link:
+                          path: https://unfrm.to/uniformdev
+                          type: url
+                        type: link
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Uniform
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - mode: normal
+                        text: >-
+                          , standing on the shoulders of these awesome open
+                          source projects:
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - link:
+                          path: https://tailwindcss.com/
+                          type: url
+                        type: link
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: TailwindCSS
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - mode: normal
+                        text: ",\_"
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - link:
+                          path: https://react.dev/
+                          type: url
+                        type: link
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: React
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - mode: normal
+                        text: ", and\_"
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - link:
+                          path: https://next.js.org/
+                          type: url
+                        type: link
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Next.js
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - mode: normal
+                        text: ' (app router).'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                direction: ltr
+          color:
+            type: dex-color-palette-parameter
+            value: text-secondary
+  _overrides:
+    44623ac6-5327-44e3-ab3e-b7455ff829e8:
+      parameters:
+        link:
+          type: link
+          locales:
+            en:
+              path: https://unfrm.to/csk-demo
+              type: url
+        text:
+          type: text
+          value: Demo
+    44d64138-618e-4c6a-b4cc-6ea9b9a22cba:
+      parameters:
+        link:
+          type: link
+          locales:
+            en:
+              path: https://unfrm.to/csk-demo-request
+              type: url
+        text:
+          type: text
+          value: Request a personal demo
+    6db01010-cff2-458e-85d6-358dc75ca48c:
+      parameters:
+        link:
+          type: link
+          locales:
+            en:
+              path: https://unfrm.to/csk-sb
+              type: url
+        text:
+          type: text
+          value: Storybook
+    ea891105-3b48-41b4-8fa0-6c2ecca00a75:
+      parameters:
+        link:
+          type: link
+          locales:
+            en:
+              path: https://unfrm.to/csk-docs
+              type: url
+        text:
+          type: text
+          value: Documentation
+  _overridability:
+    hideLockedParameters: true
+  _locales:
+    - en
+created: '2025-06-05T12:15:15.331936+00:00'
+modified: '2025-06-23T06:57:22.95882+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/coffee-shop-template/preview-images/featured_footer.png
+categoryId: b1163ce2-5ac7-4347-bc38-a42198180718

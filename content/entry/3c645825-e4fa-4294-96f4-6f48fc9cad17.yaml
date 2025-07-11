@@ -1,0 +1,372 @@
+created: '2025-04-25T12:21:37.72869+00:00'
+modified: '2025-06-25T14:24:24.570273+00:00'
+pattern: false
+entry:
+  _id: 3c645825-e4fa-4294-96f4-6f48fc9cad17
+  _name: Indulge in Luxury Espresso at Home
+  _slug: indulge-in-luxury-espresso-at-home
+  _thumbnail: >-
+    https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/mHXjUr5AQc-A_gbj_oe7vw-image.png
+  type: article
+  fields:
+    title:
+      type: text
+      value: Indulge in Luxury Espresso at Home
+    author:
+      type: contentReference
+      value: ${#jptr:/ref-3c645825-e4fa-4294-96f4-6f48fc9cad17-author/entries/0}
+    content:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Witnessing a master barista orchestrate behind a cafe's
+                    colossal espresso machine undoubtedly evokes admiration for
+                    their refined skills. But why should luxury espresso
+                    experiences be limited to the confines of a café? Cultivate
+                    your own at-home espresso journey tailored for the
+                    discerning aficionado.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - tag: ol
+              type: list
+              start: 1
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: listitem
+                  value: 1
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Effortless Elegance Each Morning
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: >-
+                        Bypass those long queues for your dose of opulent
+                        refreshment. The EspressoGPT with its avant-garde brew
+                        group technology perfectly integrates into your
+                        sophisticated morning routine, reflecting the essence of
+                        the Italian phrase for "swift."
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 2
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Traverse an Elite Coffee Universe
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: >-
+                        Capsules and pre-ground sachets limit your palette to
+                        mundane tastes. The world of coffee is vast and
+                        ever-evolving—across roasting techniques, seasons, and
+                        terrains. Your personal espresso machine is your
+                        passport to the pinnacle of global coffee artistry.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 3
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Nurture Your Coffee Connoisseurship
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: >-
+                        True coffee connoisseurs understand: every sip is an
+                        education. Dive into various blends, origins, and
+                        roasting nuances, enhancing your palate's discernment
+                        with each tasting. The vast array of premium online
+                        resources, including sessions with renowned experts like
+                        US Barista Champion Charles Babinski, only enriches your
+                        journey.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 4
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Master the Art of Precision
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: >-
+                        JavaDrip’s espresso machines epitomize elite
+                        craftsmanship, empowering you to craft your cup to
+                        perfection. Whether it's attuning the temperature to
+                        enhance a blend's subtlety or achieving the perfect
+                        velvety milk froth, these machines mirror the
+                        proficiency of the finest baristas.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 5
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Sustainably Elite
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: >-
+                        Why compromise on sustainability for convenience? While
+                        those capsule coffees amass at staggering costs, you
+                        could indulge in beans sourced from premier roasters.
+                        Prioritize both taste and eco-responsibility, turning
+                        away from non-recyclable capsules to a more
+                        planet-conscious choice.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 6
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Elevate Every Occasion
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: >-
+                        True elegance lies in the art of serving. From breakfast
+                        in bed for your partner to rejuvenating a soiree with
+                        freshly brewed Americanos, impress guests with your
+                        barista-grade creations. Become the envied host with
+                        your prowess in espresso artistry.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 7
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Possess an Italian Legacy
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: >-
+                        Each JavaDrip machine, from the EspressoGPT to the GS3,
+                        is meticulously crafted in the serene mountains of
+                        Scarperia, Florence. Founded in 1927, JavaDrip remains a
+                        beacon of espresso heritage, uniting decades of
+                        tradition with innovative breakthroughs. Your
+                        EspressoGPT or GS3 isn't just an appliance—it's a
+                        testament to Italian excellence and a cherished artifact
+                        that gracefully ages with time.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+              listType: number
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Indulge in this journey of luxury and taste. Elevate your
+                    mornings and every moment thereafter. Your home deserves the
+                    splendor of the finest espresso.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+          direction: ltr
+    ogImage:
+      type: asset
+      locales:
+        en:
+          - _id: eb16abca-e73e-4359-98d7-4a263d732475
+            type: image
+            fields:
+              id:
+                type: text
+                value: d3a8701d-e216-45a0-8def-381858fad958
+              url:
+                value: >-
+                  https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/mHXjUr5AQc-A_gbj_oe7vw-image.png
+                type: text
+              file:
+                type: file
+                value: bd1c84df-d205-4779-a145-d6d915f95282
+              size:
+                value: 1478877
+                type: number
+              title:
+                type: text
+                value: image.png
+              width:
+                value: 1440
+                type: number
+              height:
+                value: 960
+                type: number
+              mediaType:
+                value: image/png
+                type: text
+            _source: uniform-assets
+    category:
+      type: contentReference
+      value: ${#jptr:/ref-3c645825-e4fa-4294-96f4-6f48fc9cad17-category/entries/0}
+    metaTitle:
+      type: text
+      locales:
+        en: Indulge in Luxury Espresso at Home
+    thumbnail:
+      type: asset
+      locales:
+        en:
+          - _id: ee289b00-f3af-4fa8-8b6d-1e9eff06ece9
+            type: image
+            fields:
+              id:
+                type: text
+                value: d3a8701d-e216-45a0-8def-381858fad958
+              url:
+                value: >-
+                  https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/mHXjUr5AQc-A_gbj_oe7vw-image.png
+                type: text
+              file:
+                type: file
+                value: bd1c84df-d205-4779-a145-d6d915f95282
+              size:
+                value: 1478877
+                type: number
+              title:
+                type: text
+                value: image.png
+              width:
+                value: 1440
+                type: number
+              height:
+                value: 960
+                type: number
+              mediaType:
+                value: image/png
+                type: text
+            _source: uniform-assets
+    enrichments:
+      type: $enr
+      value:
+        - cat: topic
+          key: coffee
+          str: 5
+    publishDate:
+      type: date
+      value: '2025-03-06'
+    metaDescription:
+      type: text
+      locales:
+        en: >-
+          Watching a barista dance behind a cafe’s massive, steaming three-group
+          hotrod espresso machine is its own pleasure, sure—a moment of respect
+          and awe for these artisans and their seemingly arcane skills.
+    shortDescription:
+      type: text
+      value: >-
+        Watching a barista dance behind a cafe’s massive, steaming three-group
+        hotrod espresso machine is its own pleasure, sure—a moment of respect
+        and awe for these artisans and their seemingly arcane skills.
+  _dataResources:
+    ref-3c645825-e4fa-4294-96f4-6f48fc9cad17-author:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 43fdda6b-7531-4e87-9f93-2bccbe77a10a
+    ref-3c645825-e4fa-4294-96f4-6f48fc9cad17-category:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 8f126a53-19d3-46d9-a855-63be62ffca1d
+  _locales:
+    - en

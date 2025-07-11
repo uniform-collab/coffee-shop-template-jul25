@@ -1,0 +1,93 @@
+composition:
+  _name: Special Offer Hero
+  _id: a35a6942-14df-41e0-95ec-3b9ca3877f57
+  type: fixedHero
+  variant: columnsReverse
+  parameters:
+    image:
+      type: asset
+      value:
+        - _id: 4c76f302-f7c8-4e51-b7a1-90ad7fad3420
+          type: image
+          fields:
+            id:
+              type: text
+              value: e7805216-a37b-46b7-b032-cae1df18ae00
+            url:
+              value: >-
+                https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/SRB5XSgdS4CTNrxzEu36bQ-BB_WebCTA_NoCopy.png
+              type: text
+            file:
+              type: file
+              value: 29d63318-5291-437a-99c7-b800e63892e3
+            size:
+              value: 2472166
+              type: number
+            title:
+              type: text
+              value: BB_WebCTA_NoCopy.png
+            width:
+              value: 1536
+              type: number
+            height:
+              value: 1024
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+            focalPoint:
+              type: focalPoint
+              value:
+                x: 0.7
+                'y': 0.3
+          _source: uniform-assets
+          _overrides:
+            fields:
+              focalPoint:
+                type: focalPoint
+                value:
+                  x: 0.04
+                  'y': 0.67
+    titleTag:
+      type: dex-segmented-control-parameter
+      value: h1
+    titleText:
+      type: text
+      locales:
+        en: Our Exclusive Beans Bundle
+    displayName:
+      type: text
+      locales:
+        en: Main Home Hero
+    descriptionText:
+      type: text
+      locales:
+        en: Handpicked by Hans Anderson
+    contentAlignment:
+      type: dex-segmented-control-parameter
+      value: left
+    eyebrowTitleText:
+      type: text
+      locales:
+        en: Special offer
+    primaryButtonLink:
+      type: link
+      locales:
+        en:
+          path: /${locale}/beans-bundle
+          type: projectMapNode
+          nodeId: 77389775-4c2c-4114-b135-c66e53ccbda1
+          projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+          dynamicInputValues:
+            locale: ${locale}
+    primaryButtonText:
+      type: text
+      locales:
+        en: Explore the bundle
+  _locales:
+    - en
+created: '2025-06-06T09:07:02.447684+00:00'
+modified: '2025-06-06T09:07:02.447684+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/coffee-shop-template/preview-images/special_offer_hero.png

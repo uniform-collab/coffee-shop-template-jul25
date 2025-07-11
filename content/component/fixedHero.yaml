@@ -202,7 +202,7 @@ parameters:
     typeConfig: null
 categoryId: f22b05f0-c4bf-4158-8ebc-4856e4d453af
 previewImageUrl: >-
-  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/hero-fixed.jpg
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/coffee-shop-template/preview-images/hero-fixed.jpg
 useTeamPermissions: true
 slots: []
 titleParameter: displayName

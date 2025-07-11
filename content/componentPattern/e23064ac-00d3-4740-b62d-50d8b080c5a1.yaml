@@ -1,0 +1,224 @@
+composition:
+  _name: Error Hero
+  _id: e23064ac-00d3-4740-b62d-50d8b080c5a1
+  type: section
+  variant: columnsReverse
+  parameters:
+    spacing:
+      type: dex-space-control-parameter
+      value:
+        marginTop: container-large
+        marginBottom: container-large
+    displayName:
+      type: text
+      value: Opps
+    contentAlignment:
+      type: dex-segmented-control-parameter
+      value: center
+  slots:
+    sectionCTA:
+      - _id: >-
+          3547d19f-61ac-4c6a-b7eb-963372fcedaa|fa933a66-ceec-4443-bf4b-2ea8ddd1aba2
+        type: button
+        _pattern: 646faee6-b476-43c6-a1a8-eebe85699889
+    sectionMedia:
+      - _id: >-
+          3547d19f-61ac-4c6a-b7eb-963372fcedaa|3cef9a4a-f0c8-4eeb-a855-a28fd1335351
+        type: image
+        parameters:
+          image:
+            type: asset
+            value:
+              - _id: 1438c379-a752-469c-ae9c-4378a6069db4
+                type: image
+                fields:
+                  id:
+                    type: text
+                    value: cc75676e-5baf-4cbf-a21a-b29387c9cafd
+                  url:
+                    value: >-
+                      https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/-iawFA-fQYyfaWK539Lp-w-error-image.jpeg
+                    type: text
+                  file:
+                    type: file
+                    value: 6e332042-3ffa-4d3b-ab88-accdf8a8655e
+                  size:
+                    value: 5333305
+                    type: number
+                  title:
+                    type: text
+                    value: error-image.jpeg
+                  width:
+                    value: 2576
+                    type: number
+                  height:
+                    value: 3864
+                    type: number
+                  mediaType:
+                    value: image/jpeg
+                    type: text
+                _source: uniform-assets
+          objectFit:
+            type: dex-segmented-control-parameter
+            value: cover
+        _overridability:
+          parameters:
+            image: 'no'
+          hideLockedParameters: true
+    sectionContent:
+      - _id: >-
+          3547d19f-61ac-4c6a-b7eb-963372fcedaa|5af03d0f-f208-4370-a77e-86dc0c60c0e1
+        type: flex
+        slots:
+          flexItem:
+            - _id: >-
+                3547d19f-61ac-4c6a-b7eb-963372fcedaa|74170e2f-021f-4f8c-85dd-885af205a737
+              type: text
+              parameters:
+                tag:
+                  type: dex-segmented-control-parameter
+                  value: span
+                size:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: xs
+                    tablet: lg
+                    desktop: xl
+                text:
+                  type: text
+                  value: '404 ERROR  '
+                color:
+                  type: dex-color-palette-parameter
+                  value: text-primary
+                weight:
+                  type: dex-segmented-control-parameter
+                  value: bold
+                alignment:
+                  type: dex-segmented-control-parameter
+                  value: left
+                transform:
+                  type: dex-segmented-control-parameter
+                  value: uppercase
+              _overridability:
+                parameters:
+                  text: 'yes'
+                hideLockedParameters: true
+            - _id: e0294e21-1dba-4878-96b0-10864c8f10f6
+              type: text
+              parameters:
+                tag:
+                  type: dex-segmented-control-parameter
+                  value: h2
+                size:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: 3xl
+                    tablet: 4xl
+                    desktop: 4xl
+                text:
+                  type: text
+                  value: 'Sorry, we can’t find what you are looking for.  '
+                color:
+                  type: dex-color-palette-parameter
+                  value: text-primary
+                weight:
+                  type: dex-segmented-control-parameter
+                  value: bold
+                alignment:
+                  type: dex-segmented-control-parameter
+                  value: left
+              _overridability:
+                parameters:
+                  text: 'yes'
+                hideLockedParameters: true
+            - _id: >-
+                3547d19f-61ac-4c6a-b7eb-963372fcedaa|5016ff87-24e4-4601-9352-ffc7bcacf197
+              type: text
+              parameters:
+                tag:
+                  type: dex-segmented-control-parameter
+                  value: span
+                size:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: xs
+                    tablet: lg
+                    desktop: xl
+                text:
+                  type: text
+                  value: Use the navigation at the top to help you get back on track.
+                color:
+                  type: dex-color-palette-parameter
+                  value: text-primary
+                weight:
+                  type: dex-segmented-control-parameter
+                  value: normal
+                alignment:
+                  type: dex-segmented-control-parameter
+                  value: left
+              _overridability:
+                parameters:
+                  text: 'yes'
+                hideLockedParameters: true
+        parameters:
+          gap:
+            type: dex-slider-control-parameter
+            value:
+              mobile: '4'
+              tablet: '4'
+              desktop: '4'
+          spacing:
+            type: dex-space-control-parameter
+            value:
+              mobile: {}
+              tablet:
+                marginRight: container-large
+              desktop:
+                marginRight: container-large
+          direction:
+            type: dex-segmented-control-parameter
+            value:
+              mobile: col
+              tablet: col
+              desktop: col
+          alignItems:
+            type: dex-segmented-control-parameter
+            value: {}
+          displayName:
+            type: text
+            value: Content
+          justifyContent:
+            type: dex-segmented-control-parameter
+            value: {}
+        _overridability:
+          hideLockedParameters: true
+  _overrides:
+    3547d19f-61ac-4c6a-b7eb-963372fcedaa|fa933a66-ceec-4443-bf4b-2ea8ddd1aba2:
+      parameters:
+        link:
+          type: link
+          locales:
+            en:
+              path: /${locale}
+              type: projectMapNode
+              nodeId: e7206bd2-8ac2-4e25-937d-8f57292f006b
+              projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+              dynamicInputValues:
+                locale: ${locale}
+        text:
+          type: text
+          value: Go Home
+  _overridability:
+    parameters:
+      spacing: 'no'
+      displayName: 'yes'
+      fluidContent: 'no'
+    hideLockedParameters: true
+  _locales:
+    - en
+created: '2025-01-29T11:09:30.4787+00:00'
+modified: '2025-06-25T10:27:08.692423+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/coffee-shop-template/preview-images/error_hero.png
+categoryId: 096fd5ed-5e2a-4bfa-834b-fb805d1d1ce9

@@ -1,0 +1,9 @@
+id: 69512b23-7ea1-44f4-8b42-bfb77699f112
+name: Which Espresso Maker to Buy
+order: 200
+path: /:locale/which-espresso-maker-to-buy
+type: composition
+pathSegment: which-espresso-maker-to-buy
+data: {}
+compositionId: 8164beb0-b313-4461-9559-a85de2e41050
+projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9

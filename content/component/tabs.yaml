@@ -79,7 +79,7 @@ parameters:
     typeConfig: null
 categoryId: ae15b0f6-4953-4ccb-9984-ad0525e77b01
 previewImageUrl: >-
-  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/tabs-default.jpg
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/coffee-shop-template/preview-images/tabs-default.jpg
 useTeamPermissions: true
 slots:
   - id: tabItems

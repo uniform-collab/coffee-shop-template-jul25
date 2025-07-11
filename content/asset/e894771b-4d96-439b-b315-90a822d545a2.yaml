@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: e894771b-4d96-439b-b315-90a822d545a2
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: ideal-beans-for-slow-drip.jpg
+    file:
+      type: file
+      value: 3f3bbe8e-a5f9-4b89-9f72-1f0a2db82f03
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/N0QOqjXvSFeXY7i3yzY8ZQ/lhJUP0_8TL6iKAKxDdrwmg-ideal-beans-for-slow-drip.jpg
+      type: text
+    size:
+      value: 3885592
+      type: number
+    width:
+      value: 4928
+      type: number
+    height:
+      value: 3264
+      type: number
+    custom: {}
+created: '2025-01-29T11:09:00.800226+00:00'
+modified: '2025-01-29T11:09:00.800226+00:00'

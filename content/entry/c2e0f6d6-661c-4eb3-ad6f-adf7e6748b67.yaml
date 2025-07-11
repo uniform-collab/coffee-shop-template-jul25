@@ -1,0 +1,62 @@
+created: '2025-04-24T11:36:50.49699+00:00'
+modified: '2025-04-24T11:36:50.49699+00:00'
+pattern: false
+entry:
+  _id: c2e0f6d6-661c-4eb3-ad6f-adf7e6748b67
+  _name: Cervello di Caffe®
+  _slug: cervello-di-caffer
+  _thumbnail: >-
+    https://img.uniform.global/p/DCdo4LRJTZWl21CYeUJNPg/pptxCnD-T-q60vdw1M5yCA-cervello-di-caffer.png
+  type: brand
+  fields:
+    logo:
+      type: asset
+      value: []
+      locales:
+        en:
+          - _id: 66c16533-b3ed-4571-b7a1-cbcc50fb2a74
+            type: image
+            fields:
+              id:
+                type: text
+                value: 38c267a1-081c-40ac-b331-663147aa18b4
+              url:
+                value: >-
+                  https://img.uniform.global/p/9VlMgIbZQQKI2wzV-L0jow/hcQp9JH2SVS7HSKw2JDhug-cervello-di-caffer.png
+                type: text
+              file:
+                type: file
+                value: 2edc234c-1f43-4066-a2e9-d8791e17376c
+              size:
+                value: 681423
+                type: number
+              title:
+                type: text
+                value: cervello-di-caffer.png
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/png
+                type: text
+            _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en: Cervello di Caffe®
+    description:
+      type: text
+      locales:
+        en: >-
+          Cervello di Caffe® is at the forefront of the coffee industry,
+          blending intelligence and passion to create exceptional coffee
+          experiences. Our brand is dedicated to offering top-tier coffee makers
+          and premium coffee products that cater to both the casual drinker and
+          the connoisseur. With a focus on innovation and quality, Cervello di
+          Caffe® brings the art and science of coffee brewing to your home,
+          ensuring every cup is a masterpiece.
+  _locales:
+    - en

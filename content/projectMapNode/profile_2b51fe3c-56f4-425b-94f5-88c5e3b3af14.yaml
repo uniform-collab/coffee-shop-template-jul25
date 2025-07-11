@@ -1,0 +1,9 @@
+id: 2b51fe3c-56f4-425b-94f5-88c5e3b3af14
+name: Profile
+order: 1200
+path: /:locale/profile
+type: composition
+pathSegment: profile
+data: {}
+compositionId: fc327a1a-ef47-4793-b03b-adbb77a3ed27
+projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9

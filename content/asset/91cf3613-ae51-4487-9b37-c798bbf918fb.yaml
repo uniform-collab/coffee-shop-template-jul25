@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 91cf3613-ae51-4487-9b37-c798bbf918fb
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: BB_Machine.png
+    file:
+      type: file
+      value: f658c178-e5b6-4097-ac91-886df82f36c6
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/DCdo4LRJTZWl21CYeUJNPg/l6KlqN8qT2m5w0yOPQBV4A-BB_Machine.png
+      type: text
+    size:
+      value: 1489182
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-04-24T11:32:00.186273+00:00'
+modified: '2025-04-24T11:32:00.186273+00:00'

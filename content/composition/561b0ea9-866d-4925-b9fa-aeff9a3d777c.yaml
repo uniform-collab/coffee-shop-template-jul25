@@ -1,0 +1,271 @@
+composition:
+  _name: Cart
+  _id: 561b0ea9-866d-4925-b9fa-aeff9a3d777c
+  _slug: cart
+  type: page
+  _overrides:
+    561b0ea9-866d-4925-b9fa-aeff9a3d777c:
+      parameters:
+        pageTitle:
+          type: text
+          value: Your Cart - Java Drip
+        pageKeywords:
+          type: text
+          value: >-
+            Java Drip cart, coffee shop cart, coffee checkout, shopping cart,
+            coffee accessories, coffee makers, Java Drip order
+        openGraphType:
+          type: select
+          value: website
+        openGraphImage:
+          type: asset
+          value:
+            - _id: 360a67d7-bf87-404a-8c15-a957c512d42a
+              type: image
+              fields:
+                id:
+                  type: text
+                  value: e1cc78ae-ab27-4706-8ccd-644ca62bd2db
+                url:
+                  value: >-
+                    https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/W_CvSNuyQ66ArEgOEtto6w-cart-page-og-image.png
+                  type: text
+                file:
+                  type: file
+                  value: 83191658-b398-4582-8672-19571dd78767
+                size:
+                  value: 1909238
+                  type: number
+                title:
+                  type: text
+                  value: cart-page-og-image.png
+                width:
+                  value: 1808
+                  type: number
+                height:
+                  value: 908
+                  type: number
+                mediaType:
+                  value: image/png
+                  type: text
+              _source: uniform-assets
+        openGraphTitle:
+          type: text
+          value: Your Cart - Java Drip
+        pageDescription:
+          type: text
+          value: >-
+            Review your coffee selections and prepare for checkout on the Java
+            Drip Cart Page. Your favorite brews and accessories await!
+        openGraphDescription:
+          type: text
+          value: >-
+            Review your coffee selections and prepare for checkout on the Java
+            Drip Cart Page. Your favorite brews and accessories await!
+    d4d3e6e2-f611-4f99-9fd4-cd0a1e2b77fa:
+      parameters:
+        link:
+          type: link
+          locales:
+            en:
+              path: /${locale}/cart/checkout
+              type: projectMapNode
+              nodeId: 56d212ca-516a-42ee-86e6-2df10e284b60
+              projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+              dynamicInputValues:
+                locale: ${locale}
+        text:
+          type: text
+          value: Proceed to Checkout
+    561b0ea9-866d-4925-b9fa-aeff9a3d777c|dc2e95be-21b5-4476-a309-f8a34922f528:
+      slots:
+        $slotSectionItems:
+          - _id: 75036136-9299-41af-93e7-8c4eef15b1ee
+            type: flex
+            slots:
+              flexItem:
+                - _id: a4be99cc-5d3e-4f6a-8f58-10378b0d5186
+                  type: shoppingCart
+                  slots:
+                    checkoutButton:
+                      - _id: d4d3e6e2-f611-4f99-9fd4-cd0a1e2b77fa
+                        type: button
+                        _pattern: 646faee6-b476-43c6-a1a8-eebe85699889
+                        _overridability:
+                          variants: true
+                          parameters:
+                            link: 'yes'
+                            text: 'yes'
+                            fullWidth: 'yes'
+                            textColor: 'no'
+                          hideLockedParameters: true
+                    emptyCartContent:
+                      - _id: eee68ffb-8877-4a0d-914f-23507f06cb0f
+                        type: flex
+                        slots:
+                          flexItem:
+                            - _id: f7e47db0-8c90-4aed-895f-03c25c3b4d1e
+                              type: text
+                              parameters:
+                                tag:
+                                  type: dex-segmented-control-parameter
+                                  value: span
+                                size:
+                                  type: dex-segmented-control-parameter
+                                  value:
+                                    mobile: 3xl
+                                    tablet: 4xl
+                                    desktop: 4xl
+                                text:
+                                  type: text
+                                  locales:
+                                    en: Your shopping cart is empty
+                                color:
+                                  type: dex-color-palette-parameter
+                                  value: text-primary
+                                weight:
+                                  type: dex-segmented-control-parameter
+                                  value: bold
+                            - _id: 3ff5c08e-a565-417d-b0e2-3268904074eb
+                              type: image
+                              parameters:
+                                image:
+                                  type: asset
+                                  value:
+                                    - _id: 9d34fc65-5359-4543-bdaa-f496a697133c
+                                      type: image
+                                      fields:
+                                        id:
+                                          type: text
+                                          value: b207e5e2-a19f-4bda-a9c2-e96a64e1d62c
+                                        url:
+                                          value: >-
+                                            https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/pLJKsoQASJaaqe21_4doow-icon-cart.svg
+                                          type: text
+                                        file:
+                                          type: file
+                                          value: d23b35bb-c04d-4bde-bf7d-15435850034e
+                                        size:
+                                          value: 872
+                                          type: number
+                                        title:
+                                          type: text
+                                          value: icon-cart.svg
+                                        width:
+                                          value: 24
+                                          type: number
+                                        height:
+                                          value: 24
+                                          type: number
+                                        mediaType:
+                                          value: image/svg+xml
+                                          type: text
+                                      _source: uniform-assets
+                                width:
+                                  type: number
+                                  value: '100'
+                                height:
+                                  type: number
+                                  value: '100'
+                                objectFit:
+                                  type: dex-segmented-control-parameter
+                                  value: cover
+                            - _id: 80e192fa-7bd5-4006-8e48-1a7e0d28effd
+                              type: text
+                              parameters:
+                                tag:
+                                  type: dex-segmented-control-parameter
+                                  value: span
+                                size:
+                                  type: dex-segmented-control-parameter
+                                  value:
+                                    mobile: sm
+                                    tablet: lg
+                                    desktop: xl
+                                text:
+                                  type: text
+                                  locales:
+                                    en: Your shopping cart is empty
+                                color:
+                                  type: dex-color-palette-parameter
+                                  value: text-primary
+                                weight:
+                                  type: dex-segmented-control-parameter
+                                  value: normal
+                        parameters:
+                          gap:
+                            type: dex-slider-control-parameter
+                            value:
+                              mobile: '8'
+                              tablet: '8'
+                              desktop: '8'
+                          direction:
+                            type: dex-segmented-control-parameter
+                            value:
+                              mobile: col
+                              tablet: col
+                              desktop: col
+                          alignItems:
+                            type: dex-segmented-control-parameter
+                            value:
+                              mobile: center
+                              tablet: center
+                              desktop: center
+                          displayName:
+                            type: text
+                            locales:
+                              en: 'The shopping cart is empty '
+                          justifyContent:
+                            type: dex-segmented-control-parameter
+                            value:
+                              mobile: center
+                              tablet: center
+                              desktop: center
+                  parameters:
+                    primaryTextColor:
+                      type: dex-color-palette-parameter
+                      value: text-primary
+                    secondaryTextColor:
+                      type: dex-color-palette-parameter
+                      value: text-link
+            parameters:
+              gap:
+                type: dex-slider-control-parameter
+                value:
+                  mobile: '4'
+                  tablet: '4'
+                  desktop: '4'
+              spacing:
+                type: dex-space-control-parameter
+                value:
+                  mobile:
+                    paddingTop: container-medium
+                    paddingBottom: container-medium
+                  tablet:
+                    paddingTop: container-medium
+                    paddingBottom: container-medium
+                  desktop:
+                    paddingTop: container-medium
+                    paddingBottom: container-medium
+              direction:
+                type: dex-segmented-control-parameter
+                value:
+                  mobile: col
+                  tablet: col
+                  desktop: col
+              alignItems:
+                type: dex-segmented-control-parameter
+                value: {}
+              displayName:
+                type: text
+                locales:
+                  en: Cart Content
+              justifyContent:
+                type: dex-segmented-control-parameter
+                value: {}
+  _locales:
+    - en
+  _pattern: f9c058ea-c40d-4435-ac5a-53423cf654dc
+created: '2025-01-29T11:09:35.80566+00:00'
+modified: '2025-06-25T11:57:13.978534+00:00'
+pattern: false

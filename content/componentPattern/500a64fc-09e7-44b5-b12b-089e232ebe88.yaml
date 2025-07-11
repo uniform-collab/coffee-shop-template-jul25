@@ -1,0 +1,37 @@
+composition:
+  _name: Input Large
+  _id: 500a64fc-09e7-44b5-b12b-089e232ebe88
+  type: input
+  parameters:
+    size:
+      type: dex-token-selector-parameter
+      value: input-large
+    label:
+      type: text
+      value: Name
+    border:
+      type: dex-token-selector-parameter
+      value: border-product-card
+    textSize:
+      type: dex-segmented-control-parameter
+      value: lg
+    labelSize:
+      type: dex-segmented-control-parameter
+      value: base
+    labelColor:
+      type: dex-color-palette-parameter
+      value: text-primary
+  _overridability:
+    parameters:
+      type: 'yes'
+      label: 'yes'
+      rowsCount: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en
+created: '2025-03-18T13:02:28.220679+00:00'
+modified: '2025-05-22T10:58:04.203075+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/coffee-shop-template/preview-images/input-large.jpg
+categoryId: 70d03350-bbf9-457d-abc0-cf7d7aa2a3a4

@@ -6,6 +6,12 @@ composition:
     size:
       type: dex-token-selector-parameter
       value: button-medium
+    text:
+      type: text
+      value: Learn more
+    border:
+      type: dex-token-selector-parameter
+      value: border-button-secondary
     textSize:
       type: dex-segmented-control-parameter
       value:
@@ -14,16 +20,22 @@ composition:
         desktop: sm
     textColor:
       type: dex-color-palette-parameter
-      value: text-light
+      value: text-primary
     textWeight:
       type: dex-segmented-control-parameter
-      value: normal
+      value: bold
     buttonColor:
       type: dex-color-palette-parameter
       value: button-secondary
     iconPosition:
       type: dex-segmented-control-parameter
       value: right
+    textTransform:
+      type: dex-segmented-control-parameter
+      value: uppercase
+    hoverTextColor:
+      type: dex-color-palette-parameter
+      value: text-primary
     hoverButtonColor:
       type: dex-color-palette-parameter
       value: button-secondary-hover
@@ -32,12 +44,14 @@ composition:
     parameters:
       link: 'yes'
       text: 'yes'
+      fullWidth: 'yes'
+      textColor: 'no'
     hideLockedParameters: true
   _locales:
     - en
-created: '2025-02-17T15:34:20.528264+00:00'
-modified: '2025-02-17T15:34:20.528264+00:00'
+created: '2025-02-27T10:44:59.993774+00:00'
+modified: '2025-05-23T13:02:29.686495+00:00'
 pattern: true
 previewImageUrl: >-
-  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/button-secondary.jpg
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/jd-template/secondary-button_jakvxw.jpg
 categoryId: 70d03350-bbf9-457d-abc0-cf7d7aa2a3a4

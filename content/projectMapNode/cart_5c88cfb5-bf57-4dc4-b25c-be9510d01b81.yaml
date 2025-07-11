@@ -1,0 +1,9 @@
+id: 5c88cfb5-bf57-4dc4-b25c-be9510d01b81
+name: Cart
+order: 1150
+path: /:locale/cart
+type: composition
+pathSegment: cart
+data: {}
+compositionId: 561b0ea9-866d-4925-b9fa-aeff9a3d777c
+projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9

@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: e8436f83-e4aa-4815-aeb6-5b32fad589d4
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: terra-kaffee.png
+    file:
+      type: file
+      value: d3f48099-4edf-47cd-b58d-b0a8c3541df9
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/N0QOqjXvSFeXY7i3yzY8ZQ/juJ5t6IQShiBw5_ulzWqcA-terra-kaffee.png
+      type: text
+    size:
+      value: 1738386
+      type: number
+    width:
+      value: 2880
+      type: number
+    height:
+      value: 1178
+      type: number
+    custom: {}
+created: '2025-01-29T11:09:01.798491+00:00'
+modified: '2025-01-29T11:09:01.798491+00:00'

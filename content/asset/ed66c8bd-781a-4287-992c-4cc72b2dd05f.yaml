@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: ed66c8bd-781a-4287-992c-4cc72b2dd05f
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: a-proper-cuppa-how-to-brew-tea-right.jpg
+    file:
+      type: file
+      value: aa13ba9e-d1eb-4ae3-9e31-b5c921d2f883
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/N0QOqjXvSFeXY7i3yzY8ZQ/uLfDVjtETQWO9ExL5u9OPw-a-proper-cuppa-how-to-brew-tea-right.jpg
+      type: text
+    size:
+      value: 3906323
+      type: number
+    width:
+      value: 7008
+      type: number
+    height:
+      value: 4672
+      type: number
+    custom: {}
+created: '2025-01-29T11:09:00.827425+00:00'
+modified: '2025-01-29T11:09:00.827425+00:00'

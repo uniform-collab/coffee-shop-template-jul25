@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 35e2d591-7826-484c-8373-621d11f23b76
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: royale-coffee-pour-over-vintage-drip-coffeemaker-3.png
+    file:
+      type: file
+      value: 4d59153e-5b10-4fa5-9469-42bfed3fa181
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/N0QOqjXvSFeXY7i3yzY8ZQ/7VvdMIGyS3-A1xE01kGS_Q-royale-coffee-pour-over-vintage-drip-coffeemaker-3.png
+      type: text
+    size:
+      value: 656164
+      type: number
+    width:
+      value: 1280
+      type: number
+    height:
+      value: 1280
+      type: number
+    custom: {}
+created: '2025-01-29T11:08:51.218483+00:00'
+modified: '2025-01-29T11:08:51.218483+00:00'

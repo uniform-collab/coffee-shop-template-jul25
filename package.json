@@ -30,15 +30,30 @@
     "push:content:dev": "uniform sync push --config ./uniform.config.dev.ts",
     "uniform:pull": "run-s pull:dex pull:content",
     "uniform:push": "run-s push:dex push:content",
-    "uniform:publish": "uniform context manifest publish"
+    "uniform:publish": "uniform context manifest publish",
+    "recipes": "csk-recipes init"
   },
   "dependencies": {
+    "@next/third-parties": "^15.3.2",
+    "@radix-ui/react-slider": "^1.3.2",
+    "@radix-ui/react-slot": "^1.1.1",
     "@uniformdev/canvas-next-rsc": "^20.20.3",
+    "@uniformdev/context-gtag": "^20.20.3",
     "@uniformdev/csk-components": "^6.0.104",
     "@uniformdev/design-extensions-tools": "^6.0.104",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "date-fns": "^3.6.0",
+    "lucide-react": "^0.474.0",
     "next": "^15.3.2",
+    "next-intl": "^3.26.3",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-day-picker": "^9.6.7",
+    "react-dom": "^19.1.0",
+    "tailwind-merge": "^2.5.2",
+    "tailwindcss-animate": "^1.0.7",
+    "ua-parser-js": "^2.0.3",
+    "use-debounce": "^10.0.4"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.2.0",
@@ -48,6 +63,7 @@
     "@types/react-dom": "^19.1.0",
     "@uniformdev/cli": "^20.20.3",
     "@uniformdev/csk-cli": "^6.0.104",
+    "@uniformdev/csk-recipes": "*",
     "cross-env": "^7.0.3",
     "eslint": "^9.19.0",
     "eslint-config-next": "^15.3.2",

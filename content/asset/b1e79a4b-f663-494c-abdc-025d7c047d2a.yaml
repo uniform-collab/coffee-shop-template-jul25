@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: b1e79a4b-f663-494c-abdc-025d7c047d2a
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: milk-carafe-1.png
+    file:
+      type: file
+      value: a969623a-1746-47e1-acd2-95159b03ac99
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/N0QOqjXvSFeXY7i3yzY8ZQ/m8YvZZ-ATQOavd2bKc40bw-milk-carafe-1.png
+      type: text
+    size:
+      value: 6598
+      type: number
+    width:
+      value: 386
+      type: number
+    height:
+      value: 386
+      type: number
+    custom: {}
+created: '2025-01-29T11:08:56.793464+00:00'
+modified: '2025-01-29T11:08:56.793464+00:00'

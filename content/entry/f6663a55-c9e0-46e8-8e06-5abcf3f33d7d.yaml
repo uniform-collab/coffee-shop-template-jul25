@@ -1,0 +1,302 @@
+created: '2025-04-25T12:22:02.741867+00:00'
+modified: '2025-06-25T14:14:38.698089+00:00'
+pattern: false
+entry:
+  _id: f6663a55-c9e0-46e8-8e06-5abcf3f33d7d
+  _name: 'Exploring Coffee: Summer Beans and Brewing'
+  _slug: exploring-coffee-summer-beans-and-brewing
+  _thumbnail: >-
+    https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/gvEk0AviTY6_bqTaeL4exQ-Summer-2025-Watching-a-race.png
+  type: article
+  fields:
+    title:
+      type: text
+      value: 'Exploring Coffee: Summer Beans and Brewing'
+    author:
+      type: contentReference
+      value: ${#jptr:/ref-f6663a55-c9e0-46e8-8e06-5abcf3f33d7d-author/entries/0}
+    content:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Best Coffee Beans for Summertime
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    When the sun is shining and temperatures rise, your coffee
+                    preferences might shift from the traditional hot brew to
+                    more refreshing options. Selecting the best coffee beans for
+                    summertime can transform your coffee experience. Look for
+                    beans that exhibit citrusy, fruity, or floral notes,
+                    typically found in Ethiopian or Kenyan varieties. These
+                    beans can make your cold brews and iced coffees vibrantly
+                    refreshing, offering layers of flavor that are perfect for
+                    sipping under a sunny sky.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: New Cold Coffee Brewing Techniques
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    As coffee culture evolves, so do brewing techniques, and
+                    cold coffee is no exception. New methods like snap chilling,
+                    where hot coffee is rapidly cooled over ice to lock in
+                    flavors, or nitro cold brew, which infuses nitrogen for a
+                    creamy texture, are changing the way we experience cold
+                    coffee. Experimenting with these techniques at home can
+                    elevate your summer coffee escapades, ensuring every cup is
+                    as exciting as the last.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Arabica or Liberica Beans - What to Choose?
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Choosing between Arabica and Liberica beans depends on your
+                    palate preferences. Arabica beans are esteemed for their
+                    smooth, mild flavors with hints of chocolate and sugar,
+                    favored by many for their balanced acidity and complex
+                    aroma. On the other hand, Liberica beans, rarer in the
+                    coffee market, offer bold, unique flavors with a smoky,
+                    floral finish. Consider what experience you're
+                    seeking—comfort and subtlety from Arabica or adventure and
+                    distinction from Liberica.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Japanese Ice Coffee Making Tips from an Expert Barista
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Japanese iced coffee is a beloved technique among baristas,
+                    renowned for maximizing flavor integrity by brewing coffee
+                    directly onto ice. Here are expert tips to perfect your
+                    brew: use a precise coffee-to-water ratio, typically 1:15,
+                    for clarity and strength. Utilize high-quality ice, as it
+                    impacts flavor and dilution rates. Lastly, grind your coffee
+                    to a medium-fine consistency to ensure optimal extraction
+                    and a seamless, refreshing finish. Discover the crisp
+                    intensity this method offers by trying these tips yourself.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+          direction: null
+    ogImage:
+      type: asset
+      locales:
+        en:
+          - _id: 1542a436-6ef3-42da-ba0b-dc0c69e65dba
+            type: image
+            fields:
+              id:
+                type: text
+                value: 343e6e3f-f884-4d64-b0b1-002adacbea91
+              url:
+                value: >-
+                  https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/rrF3KAvWTimcW-VpQK4KFw-Summer-2025-Fields-of-Beans.png
+                type: text
+              file:
+                type: file
+                value: 76703096-5e35-429f-a2ea-e7879ae274cb
+              size:
+                value: 2676410
+                type: number
+              title:
+                type: text
+                value: Summer-2025-Fields-of-Beans.png
+              width:
+                value: 1536
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/png
+                type: text
+            _source: uniform-assets
+    category:
+      type: contentReference
+      value: ${#jptr:/ref-f6663a55-c9e0-46e8-8e06-5abcf3f33d7d-category/entries/0}
+    metaTitle:
+      type: text
+      locales:
+        en: Best Summer Coffee Beans and Brewing Tips
+    thumbnail:
+      type: asset
+      locales:
+        en:
+          - _id: 4d7a4e23-6159-45a8-86e3-16704a8b111e
+            type: image
+            fields:
+              id:
+                type: text
+                value: 7e2d6341-389a-4bc5-b32b-e1ff671c5747
+              url:
+                value: >-
+                  https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/gvEk0AviTY6_bqTaeL4exQ-Summer-2025-Watching-a-race.png
+                type: text
+              file:
+                type: file
+                value: c9b8a5be-c46a-473c-9cc6-6df281ab9cd8
+              size:
+                value: 2147107
+                type: number
+              title:
+                type: text
+                value: Summer-2025-Watching-a-race.png
+              width:
+                value: 1536
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/png
+                type: text
+            _source: uniform-assets
+    enrichments:
+      type: $enr
+      value:
+        - cat: int
+          key: beans
+          str: 50
+        - cat: subCategory
+          key: arabica
+          str: 30
+        - cat: subCategory
+          key: liberica
+          str: 30
+        - cat: topic
+          key: brewing
+          str: 70
+        - cat: topic
+          key: tips
+          str: 50
+    publishDate:
+      type: date
+      value: '2025-04-10'
+    metaDescription:
+      type: text
+      locales:
+        en: >-
+          Unearth the finest coffee beans for summertime, master new cold brew
+          techniques, and decide between Arabica and Liberica beans with expert
+          insights.
+    shortDescription:
+      type: text
+      value: >-
+        Discover the best coffee beans for the summer, explore new cold brewing
+        techniques, and learn expert tips for Japanese iced coffee. Plus, find
+        out which beans suit your palate best—Arabica or Liberica.
+  _dataResources:
+    ref-f6663a55-c9e0-46e8-8e06-5abcf3f33d7d-author:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 4741fead-d17b-4cbe-afd3-9f3d0ae46b1d
+    ref-f6663a55-c9e0-46e8-8e06-5abcf3f33d7d-category:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 8f126a53-19d3-46d9-a855-63be62ffca1d
+  _locales:
+    - en

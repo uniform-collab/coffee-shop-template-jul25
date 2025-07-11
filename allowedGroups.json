@@ -1,0 +1,10 @@
+{
+  "dimension": [
+    "badge",
+    "button",
+    "container",
+    "spacer",
+    "table",
+    "input"
+  ]
+}

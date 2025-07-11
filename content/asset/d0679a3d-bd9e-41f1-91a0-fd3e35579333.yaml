@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: d0679a3d-bd9e-41f1-91a0-fd3e35579333
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: black-mountain-pour-over-filtered-coffee-maker-1.png
+    file:
+      type: file
+      value: b9bc201a-7474-46a8-9afa-9f381d0b220d
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/N0QOqjXvSFeXY7i3yzY8ZQ/OwY5yqwgRFKRavf9y-iH6w-black-mountain-pour-over-filtered-coffee-maker-1.png
+      type: text
+    size:
+      value: 25326
+      type: number
+    width:
+      value: 386
+      type: number
+    height:
+      value: 386
+      type: number
+    custom: {}
+created: '2025-01-29T11:08:59.052204+00:00'
+modified: '2025-01-29T11:08:59.052204+00:00'

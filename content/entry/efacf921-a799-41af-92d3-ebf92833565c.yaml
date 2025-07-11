@@ -1,0 +1,1346 @@
+created: '2025-01-29T11:10:31.169085+00:00'
+modified: '2025-06-25T14:15:19.508445+00:00'
+pattern: false
+entry:
+  _id: efacf921-a799-41af-92d3-ebf92833565c
+  _name: What’s Up with the Slow Drip?
+  _slug: whats-up-with-the-slow-drip
+  _thumbnail: >-
+    https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/Mt843rKPTL6nh0jh5fwYCw-whats-up-with-the-slow-drip.jpg
+  type: article
+  fields:
+    title:
+      type: text
+      value: What’s Up with the Slow Drip?
+    author:
+      type: contentReference
+      value: ${#jptr:/ref-efacf921-a799-41af-92d3-ebf92833565c-author/entries/0}
+    content:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    With the rise of specialty coffee shops and artisanal
+                    brewing methods, you’ve likely encountered the “slow drip”
+                    coffee technique. You may wonder: is this method genuinely
+                    enhancing the coffee’s quality, or is it simply part of a
+                    coffee trend? In this article, we’ll break down the slow
+                    drip process and examine whether it truly delivers a
+                    superior cup of coffee.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: quote
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Good coffee takes time, but is the slow drip method worth
+                    the wait?
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: What is Slow Drip Coffee?
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    The slow drip coffee method, also known as “cold drip” or
+                    “Dutch coffee,” involves allowing water to gradually drip
+                    over coffee grounds at a controlled pace. This process can
+                    take anywhere from 3 to 24 hours, depending on the technique
+                    and desired flavor profile. Often done with cold water, it
+                    is a popular method for cold brew but can also be used with
+                    hot water in certain devices like pour-over setups.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Why Go Slow? The Science of Extraction
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 'The concept behind the slow drip method is centered on '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: extraction
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: >-
+                    —the process by which water absorbs coffee’s flavors, oils,
+                    and aromas. When water drips slowly through coffee grounds,
+                    it has more contact time, allowing for a more thorough
+                    extraction of flavors. This results in a smoother, often
+                    more nuanced taste that minimizes bitterness.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - tag: h4
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 'Key Benefits of Slow Drip Extraction:'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - tag: ul
+              type: list
+              start: 1
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: listitem
+                  value: 1
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Smoother Flavor
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: >-
+                        : The extended extraction time reduces bitterness,
+                        creating a smoother, well-rounded flavor.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 2
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Lower Acidity
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: >-
+                        : Slow drip coffee, especially cold drip, is often less
+                        acidic than traditional hot-brewed coffee.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 3
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Concentrated Taste
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: >-
+                        : The method can yield a more concentrated flavor, which
+                        can be enjoyed on its own or diluted with milk or water.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+              listType: bullet
+              direction: ltr
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Is Slow Drip Better? Comparing to Other Methods
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: table
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: tablerow
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Brew Method
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 222
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Time Commitment
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Acidity
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 251
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Flavor Profile
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                  direction: ltr
+                - type: tablerow
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Slow Drip
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 222
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Long (3–24 hours)
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Low
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 251
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Smooth, complex, often concentrated
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                  direction: ltr
+                - type: tablerow
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Pour-Over
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 222
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Moderate (2–5 min)
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Moderate
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 251
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Balanced, highlights bean origins
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                  direction: ltr
+                - type: tablerow
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: French Press
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 222
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Short (4 min)
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Moderate
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 251
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Bold, full-bodied
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                  direction: ltr
+                - type: tablerow
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Espresso
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 222
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Very Short (25–30 sec)
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: High
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      width: 251
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Intense, rich, crema-topped
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      headerState: 0
+                      backgroundColor: null
+                  direction: ltr
+              direction: ltr
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Debunking the “Hipster” Myth
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: asset
+              __asset:
+                _id: 4fb34bb0-fe96-4c80-a091-db11442247f1
+                type: image
+                fields:
+                  id:
+                    type: text
+                    value: 18cc9822-20fe-4913-9e54-abe68e4ae7ff
+                  url:
+                    value: >-
+                      https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/Kl3-N9b_TtSfY5eBhB8u9Q-debunking-the-hipster-myth.jpg
+                    type: text
+                  file:
+                    type: file
+                    value: 9d6dd61f-bdd6-48d1-b118-5342e0a4a64a
+                  size:
+                    value: 4189576
+                    type: number
+                  title:
+                    type: text
+                    value: debunking-the-hipster-myth.jpg
+                  width:
+                    value: 6000
+                    type: number
+                  height:
+                    value: 4000
+                    type: number
+                  mediaType:
+                    value: image/jpeg
+                    type: text
+                _source: uniform-assets
+              version: 1
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    While slow drip coffee may seem like a recent trend, its
+                    roots go back centuries.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: Dutch traders
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: ' in the 17th century are believed to have used slow drip methods to make coffee concentrate for long voyages. This technique eventually spread to Japan, where it became a refined brewing method. The perception that slow drip is merely a “hipster fad” overlooks its long history and the science that supports its benefits.'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Ideal Beans for Slow Drip
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: asset
+              __asset:
+                _id: 05289c45-c57f-49c8-964e-4c3fd14ab315
+                type: image
+                fields:
+                  id:
+                    type: text
+                    value: e894771b-4d96-439b-b315-90a822d545a2
+                  url:
+                    value: >-
+                      https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/LL_D_XJUTFakZk07-Qj3Jg-ideal-beans-for-slow-drip.jpg
+                    type: text
+                  file:
+                    type: file
+                    value: 76ec3c37-eed5-4053-ab57-e3c3d101abe0
+                  size:
+                    value: 3885592
+                    type: number
+                  title:
+                    type: text
+                    value: ideal-beans-for-slow-drip.jpg
+                  width:
+                    value: 4928
+                    type: number
+                  height:
+                    value: 3264
+                    type: number
+                  mediaType:
+                    value: image/jpeg
+                    type: text
+                _source: uniform-assets
+              version: 1
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Because slow drip brewing brings out subtle flavors, it
+                    pairs well with
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: light to medium roast
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: ' beans. Here are some ideal choices:'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - tag: ul
+              type: list
+              start: 1
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: listitem
+                  value: 1
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Ethiopian Yirgacheffe
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ': Offers fruity, floral notes that shine in slow drip.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 2
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Colombian Supremo
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: >-
+                        : Known for its balanced body and slight nuttiness, it
+                        creates a smooth, complex flavor.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 3
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Costa Rican Beans
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: >-
+                        : Highlighted for their acidity and citrus notes, which
+                        mellow beautifully with slow extraction.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+              listType: bullet
+              direction: ltr
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Is It Right for You?
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - tag: h4
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Ask yourself these questions
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: ':'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - tag: ul
+              type: list
+              start: 1
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: listitem
+                  value: 1
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Do you prefer a smoother, less acidic coffee experience?
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 2
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Are you a fan of cold brew or iced coffee?
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 3
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: >-
+                        Do you enjoy experimenting with coffee and have the
+                        patience to try longer brew times?
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+              listType: bullet
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    If the answer is “yes,” then slow drip might be perfect for
+                    you. However, if you’re looking for a quick fix, you may
+                    find that other methods like pour-over or espresso suit your
+                    needs better.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Final Thoughts
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    The slow drip coffee method isn’t just a trendy way to make
+                    coffee; it’s a
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: time-tested technique
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: ' that offers a unique, high-quality brew. If you’re open to the time commitment, the slow drip can unlock complex flavors, especially in beans known for their nuanced profiles. While it might not replace your morning espresso shot, it’s a fantastic option for anyone looking to enjoy a smoother, less acidic coffee experience.'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: quote
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Slow down, savor, and enjoy the rich experience of a slow
+                    drip coffee.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Whether you’re an experienced coffee enthusiast or just
+                    curious about new brewing techniques, the slow drip can be a
+                    fascinating addition to your coffee routine. So, next time
+                    you see a slow drip setup in a coffee shop, you’ll know that
+                    it’s not just for show—it’s an art form with a rich history
+                    and a delicious result.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Happy Brewing!
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 1
+          direction: ltr
+    ogImage:
+      type: asset
+      locales:
+        en:
+          - _id: c09e9832-3ce2-4809-bd54-3d5a52a31042
+            type: image
+            fields:
+              id:
+                type: text
+                value: ef86aab9-3329-4fd0-b67e-3e5964e1bf13
+              url:
+                value: >-
+                  https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/Mt843rKPTL6nh0jh5fwYCw-whats-up-with-the-slow-drip.jpg
+                type: text
+              file:
+                type: file
+                value: c4906294-fe1a-4b94-a000-00bace128d4c
+              size:
+                value: 1558105
+                type: number
+              title:
+                type: text
+                value: whats-up-with-the-slow-drip.jpg
+              width:
+                value: 4928
+                type: number
+              height:
+                value: 3264
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+            _source: uniform-assets
+    category:
+      type: contentReference
+      value: ${#jptr:/ref-efacf921-a799-41af-92d3-ebf92833565c-category/entries/0}
+    metaTitle:
+      type: text
+      locales:
+        en: What’s Up with the Slow Drip?
+    thumbnail:
+      type: asset
+      locales:
+        en:
+          - _id: 9ebb0fed-72f5-480f-bb58-12bb770da330
+            type: image
+            fields:
+              id:
+                type: text
+                value: ef86aab9-3329-4fd0-b67e-3e5964e1bf13
+              url:
+                value: >-
+                  https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/Mt843rKPTL6nh0jh5fwYCw-whats-up-with-the-slow-drip.jpg
+                type: text
+              file:
+                type: file
+                value: 8e8a6919-2d7d-4373-8bfd-21b17b3c050e
+              size:
+                value: 1558105
+                type: number
+              title:
+                type: text
+                value: whats-up-with-the-slow-drip.jpg
+              width:
+                value: 4928
+                type: number
+              height:
+                value: 3264
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+            _source: uniform-assets
+            _overrides:
+              fields:
+                focalPoint:
+                  type: focalPoint
+                  value:
+                    x: 0.73
+                    'y': 0.65
+    enrichments:
+      type: $enr
+      value:
+        - cat: topic
+          key: coffee
+          str: 5
+    publishDate:
+      type: date
+      value: '2025-03-24'
+    metaDescription:
+      type: text
+      locales:
+        en: >-
+          Is the slow drip actually making better coffee? Or is it just some
+          hipster thing that doesn’t really matter?
+    shortDescription:
+      type: text
+      value: >-
+        Is the slow drip actually making better coffee? Or is it just some
+        hipster thing that doesn’t really matter?
+  _dataResources:
+    ref-efacf921-a799-41af-92d3-ebf92833565c-author:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 2563e21e-3b39-439c-9eac-3294ce456a55
+    ref-efacf921-a799-41af-92d3-ebf92833565c-category:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 8f126a53-19d3-46d9-a855-63be62ffca1d
+  _locales:
+    - en

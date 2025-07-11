@@ -1,0 +1,38 @@
+id: brand
+name: Brand
+created: '2025-01-29T11:09:43.825466+00:00'
+updated: '2025-04-22T08:46:52.307222+00:00'
+slugSettings:
+  required: 'no'
+useTeamPermissions: true
+fields:
+  - id: title
+    name: Title
+    type: text
+    typeConfig: null
+    localizable: true
+  - id: description
+    name: Description
+    type: text
+    typeConfig: null
+    localizable: true
+  - id: logo
+    name: Logo
+    type: asset
+    typeConfig:
+      max: 1
+    localizable: true
+  - id: displayPriority
+    name: Display Priority
+    type: checkbox
+    helpText: >-
+      Check to mark this filter as a high-priority. Filters with the
+      high-priority will appear at the top of the list in filter box
+    typeConfig: null
+entryName: title
+thumbnailField: logo
+description: ''
+icon: terrain
+type: contentType
+permissions: []
+previewConfigurations: []

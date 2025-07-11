@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: addb7ddf-53c8-459c-8e5d-2b12a1ae093e
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: ember-hammered-copper-pot-2.png
+    file:
+      type: file
+      value: 0cb56a9b-ec17-434e-aca3-9b8f520e9017
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/N0QOqjXvSFeXY7i3yzY8ZQ/vEwqUK3kQ3iCCAlk_Gs8YQ-ember-hammered-copper-pot-2.png
+      type: text
+    size:
+      value: 788410
+      type: number
+    width:
+      value: 1280
+      type: number
+    height:
+      value: 1280
+      type: number
+    custom: {}
+created: '2025-01-29T11:08:59.771218+00:00'
+modified: '2025-01-29T11:08:59.771218+00:00'

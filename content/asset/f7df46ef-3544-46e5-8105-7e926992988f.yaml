@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: f7df46ef-3544-46e5-8105-7e926992988f
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: arabica-vs-robusta.jpg
+    file:
+      type: file
+      value: c4eb98ee-46b6-4a00-a2bf-0644c09c89a3
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/N0QOqjXvSFeXY7i3yzY8ZQ/Ib8LMdACR76zeP0CLH3q3g-arabica-vs-robusta.jpg
+      type: text
+    size:
+      value: 1166906
+      type: number
+    width:
+      value: 2400
+      type: number
+    height:
+      value: 1600
+      type: number
+    custom: {}
+created: '2025-01-29T11:09:01.84529+00:00'
+modified: '2025-01-29T11:09:01.84529+00:00'

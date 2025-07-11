@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 0ae43122-7c7d-417c-8036-e0df2013f3a8
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: coffee-makers-og-image.png
+    file:
+      type: file
+      value: 3819e9c0-728b-4894-ade0-0f5aefcea333
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/N0QOqjXvSFeXY7i3yzY8ZQ/3xFO8NyjQO-Gsb-FNqWY-A-coffee-makers-og-image.png
+      type: text
+    size:
+      value: 853064
+      type: number
+    width:
+      value: 1600
+      type: number
+    height:
+      value: 900
+      type: number
+    custom: {}
+created: '2025-01-29T11:08:48.996655+00:00'
+modified: '2025-01-29T11:08:48.996655+00:00'

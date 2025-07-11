@@ -1,0 +1,234 @@
+created: '2025-01-29T11:10:23.697006+00:00'
+modified: '2025-06-26T06:30:07.689126+00:00'
+pattern: false
+entry:
+  _id: 51741b67-f9bb-41d2-8602-26e9f9d9d8ae
+  _name: Frother Whisk
+  _slug: frother-whisk
+  _thumbnail: >-
+    https://img.uniform.global/p/DCdo4LRJTZWl21CYeUJNPg/wixourzHTUqToj0IJ1K7dA-frother-whisk-1.png
+  type: product
+  fields:
+    body:
+      type: richText
+      locales:
+        en:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Elevate your coffee creations with the Frother Whisk, a
+                      must-have accessory for your specialty coffee maker. This
+                      high-quality whisk is crafted to deliver barista-level
+                      milk frothing, perfect for enhancing your lattes,
+                      cappuccinos, macchiatos, and more. Its design ensures
+                      smooth and consistent aeration, producing rich, velvety
+                      foam with ease.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Whether you're a coffee enthusiast who loves experimenting
+                      with latte art or simply enjoy the creamy texture of
+                      well-frothed milk, the Frother Whisk helps you achieve
+                      that café-style finish at home. Compatible with specialty
+                      coffee makers, this whisk is easy to use and clean, making
+                      your coffee-making experience even more enjoyable. Indulge
+                      in perfectly textured milk every time and add a touch of
+                      luxury to your morning routine with the Frother Whisk.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+    name:
+      type: text
+      value: Frother Whisk
+    brand:
+      type: contentReference
+      value: ${#jptr:/ref-51741b67-f9bb-41d2-8602-26e9f9d9d8ae-brand/entries/0}
+    title:
+      type: text
+      value: Frother Whisk
+    rating:
+      type: number
+      value: '4.0'
+    ogImage:
+      type: asset
+      value:
+        - _id: 3f785774-9905-4d3a-85a4-596916d8eaf3
+          type: image
+          fields:
+            id:
+              type: text
+              value: d66e581a-f8e3-41fb-a554-ae3dea6ba2b7
+            url:
+              value: >-
+                https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/yTk28iDCTP6Qr7yZjylf3w-frother-whisk-1.png
+              type: text
+            file:
+              type: file
+              value: 7cd8ad8b-7193-4841-948d-a725cae15c5e
+            size:
+              value: 7402
+              type: number
+            title:
+              type: text
+              value: frother-whisk-1.png
+            width:
+              value: 250
+              type: number
+            height:
+              value: 250
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+    category:
+      type: contentReference
+      value: ${#jptr:/ref-51741b67-f9bb-41d2-8602-26e9f9d9d8ae-category/entries/0}
+    variants:
+      type: $block
+      value:
+        - _id: 7e3f512b-d331-4917-80b9-f71490bd3519
+          type: variant
+          fields:
+            code:
+              type: text
+              value: '150'
+            price:
+              type: number
+              locales:
+                en: '9.95'
+            title:
+              type: text
+              locales:
+                en: Frother Whisk
+            currency:
+              type: text
+              locales:
+                en: USD
+            imageGallery:
+              type: asset
+              value:
+                - _id: ac6395de-314d-4807-8c0a-816257cf3ec9
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: d66e581a-f8e3-41fb-a554-ae3dea6ba2b7
+                    url:
+                      value: >-
+                        https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/yTk28iDCTP6Qr7yZjylf3w-frother-whisk-1.png
+                      type: text
+                    file:
+                      type: file
+                      value: 7cd8ad8b-7193-4841-948d-a725cae15c5e
+                    size:
+                      value: 7402
+                      type: number
+                    title:
+                      type: text
+                      value: frother-whisk-1.png
+                    width:
+                      value: 250
+                      type: number
+                    height:
+                      value: 250
+                      type: number
+                    mediaType:
+                      value: image/png
+                      type: text
+                  _source: uniform-assets
+    metaTitle:
+      type: text
+      value: Frother Whisk
+    enrichments:
+      type: $enr
+      value:
+        - cat: brand
+          key: javadrip
+          str: 5
+    primaryImage:
+      type: asset
+      value:
+        - _id: 3f785774-9905-4d3a-85a4-596916d8eaf3
+          type: image
+          fields:
+            id:
+              type: text
+              value: d66e581a-f8e3-41fb-a554-ae3dea6ba2b7
+            url:
+              value: >-
+                https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/yTk28iDCTP6Qr7yZjylf3w-frother-whisk-1.png
+              type: text
+            file:
+              type: file
+              value: 7cd8ad8b-7193-4841-948d-a725cae15c5e
+            size:
+              value: 7402
+              type: number
+            title:
+              type: text
+              value: frother-whisk-1.png
+            width:
+              value: 250
+              type: number
+            height:
+              value: 250
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+    metaDescription:
+      type: text
+      locales:
+        en: >-
+          Create café-quality frothed milk at home with the Frother
+          Whisk—perfect for lattes and cappuccinos.
+    shortDescription:
+      type: text
+      locales:
+        en: >-
+          The Frother Whisk is designed for specialty coffee makers, enabling
+          you to create perfectly frothed milk for lattes, cappuccinos, and
+          other café-style beverages at home.
+  _dataResources:
+    ref-51741b67-f9bb-41d2-8602-26e9f9d9d8ae-brand:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 725d0924-c684-49f1-ba91-b0dfd695823d
+    ref-51741b67-f9bb-41d2-8602-26e9f9d9d8ae-category:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 6b8b91ea-1922-4c2a-8233-4a4a20ab285b
+  _locales:
+    - en

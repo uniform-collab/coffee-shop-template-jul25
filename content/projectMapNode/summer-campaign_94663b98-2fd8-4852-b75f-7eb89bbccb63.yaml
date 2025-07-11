@@ -1,0 +1,9 @@
+id: 94663b98-2fd8-4852-b75f-7eb89bbccb63
+name: Summer Campaign
+order: 0
+path: /:locale/summer-campaign
+type: composition
+pathSegment: summer-campaign
+data: {}
+compositionId: 9d15012b-dabe-4ed9-a459-05abbdb80e1f
+projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9

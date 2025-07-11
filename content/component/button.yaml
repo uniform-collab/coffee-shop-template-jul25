@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
 $schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: button
 name: Button
@@ -17,24 +17,74 @@ parameters:
     helpText: Select type and target link to set the button's link.
     typeConfig: null
     localizable: true
-  - id: 2c0fb9ff-9fbe-456b-90e7-48e768e43211
-    name: Text
+  - id: dabcd8b5-e637-436b-a481-07566abd6181
+    name: Colors
     type: group
     typeConfig:
       collapsed: true
       childrenParams:
+        - buttonColor
         - textColor
-        - textSize
-        - textWeight
-        - textFont
-        - textTransform
+        - hoverButtonColor
+        - hoverTextColor
+  - id: buttonColor
+    name: Button Color
+    type: dex-color-palette-parameter
+    helpText: Choose a pair of button colors for light and dark mode.
+    typeConfig:
+      allowColors:
+        - button-primary
+        - button-secondary
+        - button-tertiary
+        - button-secondary-hover
+        - button-tertiary-hover
+        - button-featured
+      selectedGroup: button
   - id: textColor
     name: Text Color
     type: dex-color-palette-parameter
     helpText: Choose a pair of text colors for light and dark mode.
     typeConfig:
-      allowColors: []
+      allowColors:
+        - text-primary
+        - text-secondary
+        - text-tertiary
+        - text-dark
+        - text-active
       selectedGroup: text
+  - id: hoverButtonColor
+    name: 'Button Color : Hover'
+    type: dex-color-palette-parameter
+    typeConfig:
+      allowColors:
+        - button-primary
+        - button-secondary
+        - button-tertiary
+        - button-secondary-hover
+        - button-tertiary-hover
+        - button-primary-hover
+      selectedGroup: button
+  - id: hoverTextColor
+    name: 'Text Color : Hover'
+    type: dex-color-palette-parameter
+    typeConfig:
+      allowColors:
+        - text-primary
+        - text-secondary
+        - text-tertiary
+        - text-dark
+        - text-active
+      selectedGroup: text
+  - id: 2c0fb9ff-9fbe-456b-90e7-48e768e43211
+    name: Text Styling
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - textSize
+        - textWeight
+        - textFont
+        - textTransform
   - id: textSize
     name: Text Size
     type: dex-segmented-control-parameter
@@ -95,6 +145,32 @@ parameters:
           value: lowercase
         - key: Capitalize
           value: capitalize
+  - id: daea4af1-5dea-489f-b73c-9ca882aa6e6d
+    name: Button Styling
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - size
+        - border
+        - fullWidth
+  - id: size
+    name: Size
+    type: dex-token-selector-parameter
+    typeConfig:
+      defaultValue: button-small
+      selectedGroup: button
+      allowDimensions: []
+      selectedTokenType: dimension
+  - id: border
+    name: Border
+    type: dex-token-selector-parameter
+    typeConfig:
+      selectedTokenType: border
+  - id: fullWidth
+    name: Full Width
+    type: checkbox
+    typeConfig: null
   - id: c1ac7b24-7039-4ec4-93c7-be45b3bfe0a8
     name: Icon
     type: group
@@ -120,65 +196,16 @@ parameters:
         - key: Right
           value: right
       defaultValue: left
-  - id: dabcd8b5-e637-436b-a481-07566abd6181
-    name: Presentation Settings
-    type: group
-    typeConfig:
-      collapsed: true
-      childrenParams:
-        - buttonColor
-        - border
-        - size
-  - id: buttonColor
-    name: Button Color
-    type: dex-color-palette-parameter
-    helpText: Choose a pair of button colors for light and dark mode.
-    typeConfig:
-      allowColors: []
-      selectedGroup: button
-  - id: border
-    name: Border
-    type: dex-token-selector-parameter
-    typeConfig:
-      selectedTokenType: border
-  - id: size
-    name: Size
-    type: dex-token-selector-parameter
-    typeConfig:
-      defaultValue: button-small
-      selectedGroup: button
-      allowDimensions: []
-      selectedTokenType: dimension
-  - id: daea4af1-5dea-489f-b73c-9ca882aa6e6d
-    name: Hover
-    type: group
-    typeConfig:
-      collapsed: true
-      childrenParams:
-        - hoverButtonColor
-        - hoverTextColor
-  - id: hoverButtonColor
-    name: Button Color
-    type: dex-color-palette-parameter
-    typeConfig:
-      allowColors: []
-      selectedGroup: button
-  - id: hoverTextColor
-    name: Text Color
-    type: dex-color-palette-parameter
-    typeConfig:
-      allowColors: []
-      selectedGroup: text
 categoryId: 70d03350-bbf9-457d-abc0-cf7d7aa2a3a4
 previewImageUrl: >-
-  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/button.jpg
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/coffee-shop-template/preview-images/button.jpg
 useTeamPermissions: true
 slots: []
 titleParameter: text
 thumbnailParameter: icon
 canBeComposition: false
-created: '2025-02-17T15:34:15.396123+00:00'
-updated: '2025-02-17T15:34:15.396123+00:00'
+created: '2025-02-27T10:44:57.143358+00:00'
+updated: '2025-05-23T12:11:13.2681+00:00'
 variants:
   - id: link
     name: Link

@@ -1,0 +1,9 @@
+id: 77389775-4c2c-4114-b135-c66e53ccbda1
+name: 🎒 Beans Bundle
+order: 100
+path: /:locale/beans-bundle
+type: composition
+pathSegment: beans-bundle
+data: {}
+compositionId: 15c079be-bf28-4e23-8bf9-97ca175ceea7
+projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9

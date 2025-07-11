@@ -1,0 +1,274 @@
+composition:
+  _name: Secondary Product Recommendations
+  _id: 4d4c13c6-f486-42cf-aab8-afd10687a37a
+  type: container
+  parameters:
+    height:
+      type: dex-segmented-control-parameter
+      value: {}
+    spacing:
+      type: dex-space-control-parameter
+      value:
+        mobile:
+          paddingTop: container-large
+          paddingBottom: container-large
+        tablet:
+          paddingTop: container-large
+          paddingBottom: container-large
+        desktop:
+          paddingTop: container-large
+          paddingBottom: container-large
+    displayName:
+      type: text
+      value: Making coffee
+    fluidContent:
+      type: checkbox
+      value: true
+    backgroundColor:
+      type: dex-color-palette-parameter
+      value: general-color-11
+  slots:
+    containerContent:
+      - _id: bb18931f-9ae0-4561-86ab-a9a1cc6ccab3
+        type: flex
+        slots:
+          flexItem:
+            - _id: 7d3bcde2-ae14-45a7-bb5c-2eb8954edcbf
+              type: flex
+              slots:
+                flexItem:
+                  - _id: 46da22a2-ba9a-4d15-b626-d893fe0fc748
+                    type: text
+                    parameters:
+                      tag:
+                        type: dex-segmented-control-parameter
+                        value: h2
+                      size:
+                        type: dex-segmented-control-parameter
+                        value:
+                          mobile: 3xl
+                          tablet: 4xl
+                          desktop: 4xl
+                      text:
+                        type: text
+                        value: Explore related products
+                      color:
+                        type: dex-color-palette-parameter
+                        value: text-primary
+                      weight:
+                        type: dex-segmented-control-parameter
+                        value: bold
+                    _overridability:
+                      parameters:
+                        text: 'yes'
+                        color: 'yes'
+                      hideLockedParameters: true
+                  - _id: 7cdbaa0f-0ecd-47a1-869f-a519700b9b92
+                    type: text
+                    parameters:
+                      tag:
+                        type: dex-segmented-control-parameter
+                        value: span
+                      size:
+                        type: dex-segmented-control-parameter
+                        value:
+                          mobile: 4xl
+                          tablet: 4xl
+                          desktop: base
+                      color:
+                        type: dex-color-palette-parameter
+                        value: text-primary
+                      weight:
+                        type: dex-segmented-control-parameter
+                        value: normal
+                    _overridability:
+                      parameters:
+                        text: 'yes'
+                        color: 'yes'
+                      hideLockedParameters: true
+              parameters:
+                gap:
+                  type: dex-slider-control-parameter
+                  value: {}
+                spacing:
+                  type: dex-space-control-parameter
+                  value: {}
+                direction:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: col
+                    tablet: col
+                    desktop: col
+                alignItems:
+                  type: dex-segmented-control-parameter
+                  value: {}
+                displayName:
+                  type: text
+                  value: Title Container
+                fluidContent:
+                  type: checkbox
+                  value: true
+                justifyContent:
+                  type: dex-segmented-control-parameter
+                  value: {}
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          gap:
+            type: dex-slider-control-parameter
+            value: {}
+          spacing:
+            type: dex-space-control-parameter
+            value:
+              mobile: {}
+              tablet: {}
+              desktop: {}
+          direction:
+            type: dex-segmented-control-parameter
+            value:
+              mobile: row
+              tablet: row
+              desktop: row
+          alignItems:
+            type: dex-segmented-control-parameter
+            value: {}
+          displayName:
+            type: text
+            value: Header Content
+          justifyContent:
+            type: dex-segmented-control-parameter
+            value:
+              mobile: between
+              tablet: between
+              desktop: between
+      - _id: d7d75af3-b9ba-401d-a556-534cb606d397
+        type: grid
+        slots:
+          gridInner:
+            - _id: >-
+                d7d75af3-b9ba-401d-a556-534cb606d397|ad381040-9f02-4ccb-bd83-bf8ea6081f16
+              type: $loop
+              slots:
+                body:
+                  - _id: 0aa69f66-910a-48d1-9d17-a660190681a0
+                    type: link
+                    _pattern: 1b9cb318-a532-4c1a-af19-c0ee1a66855f
+              _dataResources:
+                Product List Content entries Loop Item:
+                  type: sys-reserved-loop
+                  variables:
+                    limit: '3'
+                    connectedData: >-
+                      #jptr:/Product
+                      Content/entry/fields/recommendations/value:fa=c
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          gapX:
+            type: dex-slider-control-parameter
+            value:
+              mobile: '4'
+              tablet: '4'
+              desktop: '4'
+          gapY:
+            type: dex-slider-control-parameter
+            value:
+              mobile: '4'
+              tablet: '4'
+          spacing:
+            type: dex-space-control-parameter
+            value:
+              mobile:
+                marginTop: container-small
+                marginBottom: container-small
+              tablet:
+                marginTop: container-small
+                marginBottom: container-small
+              desktop:
+                marginTop: container-small
+                marginBottom: container-small
+          displayName:
+            type: text
+            value: Products Container
+          columnsCount:
+            type: dex-slider-control-parameter
+            value:
+              mobile: '1'
+              tablet: '2'
+              desktop: '3'
+  _dataResources:
+    Product Content:
+      type: product
+      variables:
+        slug: impresso-pump-espresso
+        locale: ${locale}
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overrides:
+    0aa69f66-910a-48d1-9d17-a660190681a0:
+      parameters:
+        link:
+          type: link
+          value:
+            path: >-
+              /${locale}/products/${#jptr:/Product List Content entries Loop
+              Item/entry/_slug}
+            type: projectMapNode
+            nodeId: 702b0e0b-3858-4b5d-99e4-bdb98097ca0f
+            projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+            dynamicInputValues:
+              locale: ${locale}
+              product-slug: ${#jptr:/Product List Content entries Loop Item/entry/_slug}
+        displayName:
+          type: text
+          locales:
+            en: >-
+              ${#jptr:/Product List Content entries Loop
+              Item/entry/fields/name/value}
+    0aa69f66-910a-48d1-9d17-a660190681a0|1af937fb-40ae-4938-b1a8-110b8ff73fc4:
+      parameters:
+        displayName:
+          type: text
+          value: >-
+            ${#jptr:/Product List Content entries Loop
+            Item/entry/fields/name/value}
+    0aa69f66-910a-48d1-9d17-a660190681a0|1af937fb-40ae-4938-b1a8-110b8ff73fc4|0952417a-061c-4634-91df-1341269e4054:
+      parameters:
+        image:
+          type: asset
+          value: >-
+            ${#jptr:/Product List Content entries Loop
+            Item/entry/fields/primaryImage/value}
+    0aa69f66-910a-48d1-9d17-a660190681a0|1af937fb-40ae-4938-b1a8-110b8ff73fc4|41f41812-74a8-48f1-9e2a-920dfff8ea04:
+      parameters:
+        productSlug:
+          type: text
+          locales:
+            en: ${#jptr:/Product List Content entries Loop Item/entry/_slug}
+    0aa69f66-910a-48d1-9d17-a660190681a0|1af937fb-40ae-4938-b1a8-110b8ff73fc4|8bad3ddd-add0-43d3-a314-5836bf0c7a93:
+      parameters:
+        text:
+          type: text
+          value: >-
+            $${#jptr:/Product List Content entries Loop
+            Item/entry/fields/variants/value/0/fields/price/value}
+    0aa69f66-910a-48d1-9d17-a660190681a0|1af937fb-40ae-4938-b1a8-110b8ff73fc4|988f7805-9e0e-4b30-acaf-f97d7dd5099f:
+      parameters:
+        text:
+          type: text
+          value: >-
+            ${#jptr:/Product List Content entries Loop
+            Item/entry/fields/name/value}
+  _overridability:
+    parameters:
+      displayName: 'yes'
+      backgroundColor: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en
+created: '2025-01-29T11:09:27.514166+00:00'
+modified: '2025-06-25T09:12:34.579947+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/coffee-shop-template/preview-images/secondary-product-recommendations.jpg
+categoryId: adaebea8-ba58-494b-9c3b-9f82906d9415

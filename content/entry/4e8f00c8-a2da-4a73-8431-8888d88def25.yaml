@@ -1,0 +1,64 @@
+created: '2025-04-24T11:39:05.332628+00:00'
+modified: '2025-04-24T11:39:05.332628+00:00'
+pattern: false
+entry:
+  _id: 4e8f00c8-a2da-4a73-8431-8888d88def25
+  _name: Liberica
+  _slug: liberica
+  _thumbnail: >-
+    https://img.uniform.global/p/DCdo4LRJTZWl21CYeUJNPg/RyV_i2SRTpOHwWusIQAvyg-liberica.png
+  type: productCategory
+  fields:
+    logo:
+      type: asset
+      value: []
+      locales:
+        en:
+          - _id: 3f8f58b9-79e5-4561-8fff-7494d5f02da3
+            type: image
+            fields:
+              id:
+                type: text
+                value: 7ee91995-8c14-4c8e-a7ee-9e2147090d9c
+              url:
+                value: >-
+                  https://img.uniform.global/p/9VlMgIbZQQKI2wzV-L0jow/q4deWVihQSKycyzbNrtpsQ-liberica.png
+                type: text
+              file:
+                type: file
+                value: 8b5ecef7-46df-4b17-a021-12faec011cf1
+              size:
+                value: 953385
+                type: number
+              title:
+                type: text
+                value: liberica.png
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/png
+                type: text
+            _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en: Liberica
+    description:
+      type: text
+      locales:
+        en: >-
+          Discover the rare and exotic flavors of Liberica coffee beans, known
+          for their bold, smoky, and fruity notes. Liberica beans are larger and
+          more asymmetrical than other coffee beans, offering a unique taste
+          experience cherished by coffee connoisseurs. Our selection of Liberica
+          beans is sourced from the best coffee-growing regions, ensuring high
+          quality and exceptional flavor. Whether you’re looking to try
+          something new or indulge in a distinctive coffee experience, Liberica
+          beans provide a rich and memorable cup. Explore our Liberica
+          collection and savor the unique character of these exceptional beans.
+  _locales:
+    - en

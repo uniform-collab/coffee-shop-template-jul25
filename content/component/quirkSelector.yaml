@@ -1,0 +1,36 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: quirkSelector
+name: Quirk Selector
+icon: rectangle-rounded
+parameters:
+  - id: quirkId
+    name: Quirk Id
+    type: text
+    typeConfig: null
+    localizable: true
+  - id: variants
+    name: Variants
+    type: text
+    helpText: Use ‘,’ as a separator.
+    typeConfig: null
+    localizable: true
+categoryId: 70d03350-bbf9-457d-abc0-cf7d7aa2a3a4
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/coffee-shop-template/preview-images/quirk_selector.png
+useTeamPermissions: true
+slots:
+  - id: quirkSelectorSaveButton
+    name: Save Button
+    allowedComponents:
+      - button
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+thumbnailParameter: icon
+canBeComposition: false
+created: '2025-03-11T09:22:08.465328+00:00'
+updated: '2025-06-24T13:06:56.423722+00:00'
+variants:
+  - id: link
+    name: Link

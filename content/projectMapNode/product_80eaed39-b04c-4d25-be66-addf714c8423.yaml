@@ -1,0 +1,8 @@
+id: 80eaed39-b04c-4d25-be66-addf714c8423
+name: Product
+order: 500
+path: /:locale/previews/product
+type: placeholder
+pathSegment: product
+data: {}
+projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9

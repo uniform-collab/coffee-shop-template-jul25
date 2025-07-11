@@ -1,0 +1,165 @@
+composition:
+  _name: Article Highlight
+  _id: f184bdb0-45ce-4b52-9984-8130e23f9dc5
+  type: section
+  variant: columnsReverse
+  parameters:
+    spacing:
+      type: dex-space-control-parameter
+      value:
+        paddingTop: container-medium
+        paddingBottom: container-medium
+    displayName:
+      type: text
+      value: ${#jptr:/Article single Content/entry/fields/title/value}
+    contentAlignment:
+      type: dex-segmented-control-parameter
+      value: center
+  slots:
+    sectionCTA:
+      - _id: 95686385-e59c-43ff-b0f4-13d73550ca5b
+        type: button
+        _pattern: 53b59aed-e378-4fcb-9135-20247d92074e
+    sectionMedia:
+      - _id: 60659221-16ca-4cf7-a932-f5a2ca96e554
+        type: image
+        parameters:
+          fill:
+            type: checkbox
+            value: true
+          image:
+            type: asset
+            value: ${#jptr:/Article single Content/entry/fields/thumbnail/value}
+          objectFit:
+            type: dex-segmented-control-parameter
+            value: contain
+        _overridability:
+          parameters:
+            image: 'no'
+          hideLockedParameters: true
+    sectionContent:
+      - _id: abbeb9d9-c662-42d7-b707-f7d81ca70a86
+        type: flex
+        slots:
+          flexItem:
+            - _id: ccc99f4b-ab3e-4574-9d69-1ee2309edd1b
+              type: text
+              parameters:
+                tag:
+                  type: dex-segmented-control-parameter
+                  value: h2
+                size:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: 3xl
+                    tablet: 4xl
+                    desktop: 4xl
+                text:
+                  type: text
+                  value: |
+                    ${#jptr:/Article single Content/entry/fields/title/value}
+                color:
+                  type: dex-color-palette-parameter
+                  value: text-primary
+                weight:
+                  type: dex-segmented-control-parameter
+                  value: bold
+                alignment:
+                  type: dex-segmented-control-parameter
+                  value: center
+              _overridability:
+                parameters:
+                  text: 'no'
+                hideLockedParameters: true
+            - _id: 0372fcaf-5fd6-406a-9a6d-79cf035bafb6
+              type: text
+              parameters:
+                tag:
+                  type: dex-segmented-control-parameter
+                  value: span
+                size:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: sm
+                    tablet: lg
+                    desktop: xl
+                text:
+                  type: text
+                  value: >-
+                    ${#jptr:/Article single
+                    Content/entry/fields/shortDescription/value}
+                weight:
+                  type: dex-segmented-control-parameter
+                  value: normal
+        parameters:
+          gap:
+            type: dex-slider-control-parameter
+            value:
+              mobile: '4'
+              tablet: '4'
+              desktop: '8'
+          spacing:
+            type: dex-space-control-parameter
+            value:
+              mobile: {}
+              tablet:
+                marginLeft: container-large
+              desktop:
+                marginRight: container-large
+          direction:
+            type: dex-segmented-control-parameter
+            value:
+              mobile: col
+              tablet: col
+              desktop: col
+          alignItems:
+            type: dex-segmented-control-parameter
+            value: {}
+          displayName:
+            type: text
+            value: Content
+          justifyContent:
+            type: dex-segmented-control-parameter
+            value: {}
+        _overridability:
+          hideLockedParameters: true
+  _dataResources:
+    Article single Content:
+      type: articleSingle
+      variables:
+        locale: ${locale}
+        entryId: 60b293e4-56e9-4e99-8b0f-113113f9ae0a
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overrides:
+    95686385-e59c-43ff-b0f4-13d73550ca5b:
+      parameters:
+        link:
+          type: link
+          locales:
+            en:
+              path: /${locale}/articles/${#jptr:/Article single Content/entry/_slug}
+              type: projectMapNode
+              nodeId: 0b2a6284-3d74-4ef6-a3de-b2617058c861
+              projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+              dynamicInputValues:
+                locale: ${locale}
+                article-slug: ${#jptr:/Article single Content/entry/_slug}
+        text:
+          type: text
+          value: Learn more
+  _overridability:
+    variants: true
+    parameters:
+      spacing: 'no'
+      displayName: 'no'
+      fluidContent: 'no'
+    hideLockedParameters: true
+  _locales:
+    - en
+created: '2025-04-25T12:20:45.934076+00:00'
+modified: '2025-06-25T11:10:01.073934+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/coffee-shop-template/preview-images/article_highlight.png
+categoryId: 096fd5ed-5e2a-4bfa-834b-fb805d1d1ce9

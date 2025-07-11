@@ -1,0 +1,63 @@
+created: '2025-04-24T11:40:13.324653+00:00'
+modified: '2025-04-24T11:40:13.324653+00:00'
+pattern: false
+entry:
+  _id: ba6763eb-aa88-4bec-bbcb-20613499cfad
+  _name: Turkish
+  _slug: turkish
+  _thumbnail: >-
+    https://img.uniform.global/p/DCdo4LRJTZWl21CYeUJNPg/KHed-RAnShunD-vWdfm9Lw-turkish.png
+  type: productCategory
+  fields:
+    logo:
+      type: asset
+      value: []
+      locales:
+        en:
+          - _id: 910e5519-3c0a-4e2c-9bad-6b64a64fc1f0
+            type: image
+            fields:
+              id:
+                type: text
+                value: 93d6a4fb-9226-46be-855e-57adc6d6ccbe
+              url:
+                value: >-
+                  https://img.uniform.global/p/9VlMgIbZQQKI2wzV-L0jow/i89ZjCJ6Tx-7GUJIknAW_A-turkish.png
+                type: text
+              file:
+                type: file
+                value: 7ff835f6-0e1a-4aa2-b352-2cf88e5ac015
+              size:
+                value: 865119
+                type: number
+              title:
+                type: text
+                value: turkish.png
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/png
+                type: text
+            _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en: Turkish
+    description:
+      type: text
+      locales:
+        en: >-
+          Indulge in the rich, aromatic experience of traditional Turkish
+          coffee. Our collection includes high-quality Turkish coffee beans and
+          finely crafted cezves (Turkish coffee pots) that bring out the
+          authentic flavors and textures of this ancient brewing method. Turkish
+          coffee is known for its unique preparation process and bold, robust
+          flavor, creating a truly distinctive coffee experience. Explore our
+          selection and enjoy the cultural richness and deep, satisfying taste
+          of Turkish coffee in your own home.
+  _locales:
+    - en

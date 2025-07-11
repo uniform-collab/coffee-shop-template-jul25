@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: entriesSearchSorting
+name: Entries Search Sorting
+icon: sort-az
+parameters:
+  - id: border
+    name: Border
+    type: dex-token-selector-parameter
+    typeConfig:
+      selectedTokenType: border
+  - id: size
+    name: Size
+    type: dex-token-selector-parameter
+    typeConfig:
+      selectedGroup: input
+      allowDimensions: []
+      selectedTokenType: dimension
+categoryId: 624b55ca-4671-46e2-8fd5-4a9b34b4c121
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/coffee-shop-template/preview-images/entries_search_sorting.png
+useTeamPermissions: true
+slots: []
+canBeComposition: false
+created: '2025-04-24T11:34:20.512127+00:00'
+updated: '2025-04-24T11:34:20.512127+00:00'

@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 6fcaebdd-fc1e-4d95-b6b8-6baae692dd8f
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: espresso.png
+    file:
+      type: file
+      value: 9adac961-8578-4fee-86d5-09ccef54ff25
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/N0QOqjXvSFeXY7i3yzY8ZQ/MKMzIYfsRAqQUuXNAtV4fg-espresso.png
+      type: text
+    size:
+      value: 1044174
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-01-29T11:08:55.810664+00:00'
+modified: '2025-01-29T11:08:55.810664+00:00'

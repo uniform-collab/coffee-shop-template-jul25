@@ -1,0 +1,77 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: addToFavorites
+name: 'Add To Favorites '
+icon: screen
+parameters:
+  - id: addIcon
+    name: Add Icon
+    type: asset
+    typeConfig:
+      max: 1
+  - id: removeIcon
+    name: Remove Icon
+    type: asset
+    typeConfig:
+      max: 1
+  - id: productSlug
+    name: Product Slug
+    type: text
+    typeConfig: null
+    localizable: true
+  - id: 1518dd0c-bb6f-4987-9cf8-d0cbd68dd87c
+    name: Presentation Settings
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - spacing
+        - backgroundColor
+        - size
+        - position
+  - id: spacing
+    name: Spacing
+    type: dex-space-control-parameter
+    typeConfig:
+      selectedGroup: container
+  - id: backgroundColor
+    name: Background Color
+    type: dex-color-palette-parameter
+    typeConfig: null
+  - id: size
+    name: Size
+    type: dex-segmented-control-parameter
+    typeConfig:
+      options:
+        - key: Base
+          value: base
+        - key: XL
+          value: xl
+        - key: 2XL
+          value: 2xl
+        - key: 4XL
+          value: 4xl
+        - key: 5XL
+          value: 5xl
+        - key: 7XL
+          value: 7xl
+      defaultValue: base
+  - id: position
+    name: Position
+    type: dex-segmented-control-parameter
+    typeConfig:
+      options:
+        - key: Block
+          value: block
+        - key: Top Right
+          value: top-right
+      defaultValue: block
+categoryId: adaebea8-ba58-494b-9c3b-9f82906d9415
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/coffee-shop-template/preview-images/add-to-favorites.jpg
+useTeamPermissions: true
+slots: []
+thumbnailParameter: addIcon
+canBeComposition: false
+created: '2025-03-18T13:02:22.875325+00:00'
+updated: '2025-05-22T11:35:29.326924+00:00'

@@ -1,0 +1,177 @@
+composition:
+  _name: 🛬 Landing Page Template
+  _id: cb6c094d-ce9a-44ac-9a2d-54aafa3f39ff
+  type: page
+  parameters:
+    favicon:
+      type: asset
+      value:
+        - _id: 456db545-aeb4-4d97-b176-b05f5ef8a690
+          type: image
+          fields:
+            id:
+              type: text
+              value: b7f0d22c-986d-4f57-9176-bf61f13eefc8
+            url:
+              value: >-
+                https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/lvEPATFZQLG1ggZzncSw4w-image.png
+              type: text
+            file:
+              type: file
+              value: b208cf41-8c7d-4096-b188-4352e8f775d5
+            size:
+              value: 1505
+              type: number
+            title:
+              type: text
+              value: image.png
+            width:
+              value: 48
+              type: number
+            height:
+              value: 48
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+    pageTitle:
+      type: text
+      value: Java Drip
+    backgroundColor:
+      type: dex-color-palette-parameter
+      value: page-background-primary
+  slots:
+    pageFooter:
+      - _id: bbf196c6-4821-414c-9b14-b08fb1c7fede
+        type: footer
+        _pattern: 68136a90-0d34-4dbb-a34e-6e324179998a
+    pageHeader:
+      - _id: 38f88562-6b70-411b-a550-ada8514eef22
+        type: header
+        _pattern: 021762f3-8a06-41b4-a4fb-08a837c74415
+    pageContent:
+      - _id: be3fb453-fb93-41ab-88e0-6d23e3dfa15d
+        type: featuredSection
+        _pattern: d7181e81-f3d1-4e21-af6f-1e73c8dfa6b5
+      - _id: f337867c-c9cc-4c9d-85bf-feea84f24656
+        type: container
+        slots:
+          containerContent:
+            - _id: 80cc25f1-b7be-4969-9294-211a2ad7141f
+              type: breadcrumbs
+              parameters:
+                separator:
+                  type: dex-segmented-control-parameter
+                  value: chevron
+                displayName:
+                  type: text
+                  locales:
+                    en: Breadcrumbs
+                autoGenerate:
+                  type: checkbox
+                  value: true
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          height:
+            type: dex-segmented-control-parameter
+            value: {}
+          spacing:
+            type: dex-space-control-parameter
+            value:
+              mobile:
+                paddingTop: container-small
+                paddingBottom: container-small
+              tablet: {}
+              desktop: {}
+          displayName:
+            type: text
+            locales:
+              en: Breadcrumbs
+        _overridability:
+          parameters:
+            backgroundColor: 'yes'
+          hideLockedParameters: true
+      - _id: dc2e95be-21b5-4476-a309-f8a34922f528
+        type: $slotSection
+        parameters:
+          name:
+            type: text
+            value: Page Content
+          specific:
+            type: array
+            value:
+              - fixedHero
+              - $p:75d65dd3-32ce-40ac-aa3d-59b171811d6e
+              - $p:f184bdb0-45ce-4b52-9984-8130e23f9dc5
+              - $p:9de9d5d6-88b3-4ec9-9d6f-79a33f1af368
+              - $p:2d67f242-443a-4518-b00a-c6795f0d0864
+          groupType:
+            type: text
+            value: specific
+        _overridability:
+          hideLockedParameters: true
+  _overrides:
+    be3fb453-fb93-41ab-88e0-6d23e3dfa15d|c50e99a6-1d91-4d6e-9a22-3154d4e4a8b7:
+      parameters:
+        text:
+          type: text
+          value: Landing page title
+    be3fb453-fb93-41ab-88e0-6d23e3dfa15d|fcac6346-1864-4284-8715-a0e4fb4854f4:
+      parameters:
+        image:
+          type: asset
+          value:
+            - _id: 83aff66e-365d-4cd7-8041-d573ad9efc05
+              type: image
+              fields:
+                id:
+                  type: text
+                  value: 75ebf11f-2f1d-4a4e-9062-cca926fe65c1
+                url:
+                  value: >-
+                    https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/sOAxssUvS-Onko8YWWGp8Q-Beans_BG.png
+                  type: text
+                file:
+                  type: file
+                  value: b76064f7-04ff-4299-bdc1-65cc1d9f67b9
+                size:
+                  value: 3551148
+                  type: number
+                title:
+                  type: text
+                  value: Beans_BG.png
+                width:
+                  value: 1536
+                  type: number
+                height:
+                  value: 1024
+                  type: number
+                mediaType:
+                  value: image/png
+                  type: text
+              _source: uniform-assets
+  _overridability:
+    parameters:
+      $viz: 'yes'
+      pageTitle: 'yes'
+      twitterCard: 'yes'
+      pageKeywords: 'yes'
+      twitterImage: 'yes'
+      twitterTitle: 'yes'
+      openGraphType: 'yes'
+      openGraphImage: 'yes'
+      openGraphTitle: 'yes'
+      pageDescription: 'yes'
+      twitterDescription: 'yes'
+      openGraphDescription: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en
+created: '2025-05-20T11:53:46.428022+00:00'
+modified: '2025-06-24T07:42:15.181592+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/coffee-shop-template/preview-images/landing_page_template.png
+categoryId: c7a1d1d9-cc3f-431c-b55e-6c4af1285108

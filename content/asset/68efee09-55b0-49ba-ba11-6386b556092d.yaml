@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 68efee09-55b0-49ba-ba11-6386b556092d
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: why-brewing-temperature-and-time-matter.jpg
+    file:
+      type: file
+      value: 56cadf21-bbe4-40c6-bea0-69c410c6314f
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/N0QOqjXvSFeXY7i3yzY8ZQ/kEM8Yw8WSVKt1AjOACRRYQ-why-brewing-temperature-and-time-matter.jpg
+      type: text
+    size:
+      value: 1268619
+      type: number
+    width:
+      value: 4017
+      type: number
+    height:
+      value: 2661
+      type: number
+    custom: {}
+created: '2025-01-29T11:08:52.792002+00:00'
+modified: '2025-01-29T11:08:52.792002+00:00'

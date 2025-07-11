@@ -1,0 +1,99 @@
+composition:
+  _name: Products Details
+  _id: d3883501-b8b2-4922-907f-b2cef3817b77
+  _slug: ':product-slug'
+  type: page
+  _dataResources:
+    Product Content:
+      type: product
+      variables:
+        slug: ${product-slug}
+        locale: ${locale}
+  _overrides:
+    54c60ba7-8974-4630-9f2c-5fd7e71ced12:
+      parameters:
+        $tstVrnt:
+          type: $tstVrnt
+          value:
+            id: Variant A
+    d3883501-b8b2-4922-907f-b2cef3817b77:
+      parameters:
+        $enr:
+          type: $enr
+          value: ${#jptr:/Product Content/entry/fields/enrichments/value}
+        pageTitle:
+          type: text
+          value: ${#jptr:/Product Content/entry/fields/name/value}
+        pageKeywords:
+          type: text
+          value: product, uniform, component starter kit, add to cart
+        openGraphType:
+          type: select
+          value: website
+        openGraphImage:
+          type: asset
+          value: ${#jptr:/Product Content/entry/fields/ogImage/value}
+        openGraphTitle:
+          type: text
+          value: ${#jptr:/Product Content/entry/fields/metaTitle/value}
+        pageDescription:
+          type: text
+          value: ${#jptr:/Product Content/entry/fields/shortDescription/value}
+        openGraphDescription:
+          type: text
+          value: ${#jptr:/Product Content/entry/fields/metaDescription/value}
+    54c60ba7-8974-4630-9f2c-5fd7e71ced12|3e88bc6a-0588-4b36-aa7d-ede679a7c3c6:
+      parameters:
+        product:
+          type: json
+          value: null
+        productSlug:
+          type: text
+          locales:
+            en: ${product-slug}
+    d3883501-b8b2-4922-907f-b2cef3817b77|dc2e95be-21b5-4476-a309-f8a34922f528:
+      slots:
+        $slotSectionItems:
+          - _id: 54c60ba7-8974-4630-9f2c-5fd7e71ced12
+            type: container
+            _pattern: 438c8041-7889-45a5-8304-8c98f0291b6c
+            _dataResources:
+              Product Content:
+                type: product
+                variables:
+                  slug: ${product-slug}
+                  locale: ${locale}
+            _overridability:
+              hideLockedParameters: true
+          - _id: 163d071a-6969-492b-9c39-bbf0f9e13c95
+            type: container
+            _pattern: 4d4c13c6-f486-42cf-aab8-afd10687a37a
+            _dataResources:
+              Product Content:
+                type: product
+                variables:
+                  slug: ${product-slug}
+                  locale: ${locale}
+            _overridability:
+              parameters:
+                displayName: 'yes'
+                backgroundColor: 'yes'
+              hideLockedParameters: true
+          - _id: 1a36ad83-1407-42d2-a213-7c9583da886d
+            type: flex
+            _pattern: bc7c73d1-3a48-4290-b898-396eac1c398d
+            _overridability:
+              parameters:
+                fluidContent: 'yes'
+              hideLockedParameters: true
+    1a36ad83-1407-42d2-a213-7c9583da886d|1e087f1b-771f-4143-a3d8-f4c235224ffc|807f2939-e3cd-476d-9e3e-a2a9df6b0f63:
+      parameters:
+        fluidContent:
+          type: checkbox
+          value: true
+  _locales:
+    - en
+  _pattern: f9c058ea-c40d-4435-ac5a-53423cf654dc
+created: '2025-01-29T11:09:35.833246+00:00'
+modified: '2025-06-26T06:37:48.028504+00:00'
+pattern: false

@@ -144,16 +144,16 @@ parameters:
         - key: Underline
           value: underline
         - key: Brightness
-          value: opacity-75
+          value: contrast-[.1]
         - key: Scale
           value: scale-105
 categoryId: b1163ce2-5ac7-4347-bc38-a42198180718
 previewImageUrl: >-
-  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/navigation-link.jpg
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/coffee-shop-template/preview-images/navigation-link.jpg
 useTeamPermissions: true
 slots: []
 titleParameter: text
 thumbnailParameter: icon
 canBeComposition: false
-created: '2025-01-29T10:47:03.327349+00:00'
-updated: '2025-05-20T09:38:16.865694+00:00'
+created: '2025-02-27T10:44:57.599465+00:00'
+updated: '2025-06-05T13:23:54.548582+00:00'

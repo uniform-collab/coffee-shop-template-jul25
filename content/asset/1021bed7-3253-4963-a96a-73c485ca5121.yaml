@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 1021bed7-3253-4963-a96a-73c485ca5121
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: grinding-beans-the-key-to-perfect-coffee.jpg
+    file:
+      type: file
+      value: 00802dce-12d4-4917-887b-521d32766e19
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/N0QOqjXvSFeXY7i3yzY8ZQ/CU38Bb-AQ1O11v7mWYAQMA-grinding-beans-the-key-to-perfect-coffee.jpg
+      type: text
+    size:
+      value: 7363523
+      type: number
+    width:
+      value: 7360
+      type: number
+    height:
+      value: 4912
+      type: number
+    custom: {}
+created: '2025-01-29T11:08:51.282903+00:00'
+modified: '2025-01-29T11:08:51.282903+00:00'
