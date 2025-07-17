@@ -1,6 +1,6 @@
 /**
  * Reusable sitemap utility for Next.js with configurable resolvers for dynamic routes.
- * 
+ *
  * Usage:
  * ```typescript
  * export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
@@ -15,8 +15,8 @@
  * ```
  */
 import type { MetadataRoute } from 'next';
-import { ProjectMapClient, getNodeActiveCompositionEdition } from '@uniformdev/project-map';
 import { ContentClient } from '@uniformdev/canvas';
+import { ProjectMapClient, getNodeActiveCompositionEdition, type ProjectMapNode } from '@uniformdev/project-map';
 
 export interface SitemapResolver {
   (contentClient: ContentClient, locale?: string): Promise<string[]>;
@@ -37,6 +37,10 @@ export interface SitemapEntry {
   lastModified?: string | Date;
   changeFrequency?: 'always' | 'hourly' | 'daily' | 'weekly' | 'monthly' | 'yearly' | 'never';
   priority?: number;
+}
+
+interface CompositionEdition {
+  modified?: string | Date;
 }
 
 export async function generateSitemap(config: SitemapConfig = {}): Promise<MetadataRoute.Sitemap> {
@@ -70,7 +74,16 @@ export async function generateSitemap(config: SitemapConfig = {}): Promise<Metad
         targetLocale: undefined,
       });
 
-      return await processNode(node, undefined, edition, baseUrl, resolvers, contentClient, defaultChangeFrequency, defaultPriority);
+      return await processNode(
+        node,
+        undefined,
+        edition,
+        baseUrl,
+        resolvers,
+        contentClient,
+        defaultChangeFrequency,
+        defaultPriority
+      );
     }
 
     const localePromises = locales.map(async locale => {
@@ -79,7 +92,16 @@ export async function generateSitemap(config: SitemapConfig = {}): Promise<Metad
         targetLocale: locale,
       });
 
-      return await processNode(node, locale, edition, baseUrl, resolvers, contentClient, defaultChangeFrequency, defaultPriority);
+      return await processNode(
+        node,
+        locale,
+        edition,
+        baseUrl,
+        resolvers,
+        contentClient,
+        defaultChangeFrequency,
+        defaultPriority
+      );
     });
 
     const resolvedLocales = await Promise.all(localePromises);
@@ -91,9 +113,9 @@ export async function generateSitemap(config: SitemapConfig = {}): Promise<Metad
 }
 
 async function processNode(
-  node: any,
+  node: ProjectMapNode,
   locale: string | undefined,
-  edition: any,
+  edition: CompositionEdition | undefined,
   baseUrl: string,
   resolvers: Record<string, SitemapResolver>,
   contentClient: ContentClient,
@@ -102,15 +124,16 @@ async function processNode(
 ): Promise<SitemapEntry[]> {
   if (!node.path) return [];
 
-  const url = locale && node.path.includes(':locale') 
-    ? `${baseUrl}${node.path.replace(':locale', locale)}`
-    : `${baseUrl}${node.path}`;
+  const url =
+    locale && node.path.includes(':locale')
+      ? `${baseUrl}${node.path.replace(':locale', locale)}`
+      : `${baseUrl}${node.path}`;
 
   const isDynamicNode = node?.pathSegment?.startsWith(':');
-  
+
   if (isDynamicNode && node.pathSegment) {
     const resolver = resolvers[node.pathSegment];
-    
+
     if (resolver) {
       try {
         const slugs = await resolver(contentClient, locale);
@@ -129,27 +152,27 @@ async function processNode(
       return [];
     }
   } else {
-    return [{
-      url,
-      lastModified: edition?.modified,
-      changeFrequency: defaultChangeFrequency!,
-      priority: defaultPriority,
-    }];
+    return [
+      {
+        url,
+        lastModified: edition?.modified,
+        changeFrequency: defaultChangeFrequency!,
+        priority: defaultPriority,
+      },
+    ];
   }
 }
 
 // Built-in resolvers for common content types
 export const createContentTypeResolver = (contentType: string): SitemapResolver => {
-  return async (contentClient: ContentClient, locale?: string) => {
+  return async (contentClient: ContentClient, _locale?: string) => {
     const { entries } = await contentClient.getEntries({
       filters: {
         'type[eq]': contentType,
       },
     });
 
-    return entries
-      .map((e) => e.entry._slug)
-      .filter((slug): slug is string => Boolean(slug));
+    return entries.map(e => e.entry._slug).filter((slug): slug is string => Boolean(slug));
   };
 };
 
@@ -158,4 +181,4 @@ export const resolvers = {
   article: createContentTypeResolver('article'),
   product: createContentTypeResolver('product'),
   blogPost: createContentTypeResolver('blogPost'),
-}; 
+};
